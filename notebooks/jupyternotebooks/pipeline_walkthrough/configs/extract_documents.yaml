@@ -1,0 +1,21 @@
+Pipeline:
+  Config:
+    experiment_name: dummy_experiment
+  Components:
+    - name: JSONLStore
+      component_config:
+        mode: read
+        batch_size: 10
+        infile: /Users/shahrukh/Downloads/pipeline_overview/configs/corpus/eu_taxonomy_toy_corpus.jsonl
+        document_class: Document
+    - name: DocumentProcessor
+    - name: RelevancyFilter
+    - name: LanguageFilter
+    - name: DateFilter
+    - name: HeuristicsDocumentClassifier
+    - name: OpenSearchStore
+      component_config:
+        mode: write
+        index: gcp-nb-documents-dev-v1
+        document_class: Document
+        index_mapping: DOCUMENTS_MAPPING
