@@ -1,0 +1,69 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      # Identify invalid files
+      - id: check-ast
+      - id: check-yaml
+        args: ['--allow-multiple-documents']
+        exclude: template\.yaml$
+      - id: check-json
+        exclude: local_infra/
+      - id: check-toml
+      # git checks
+      - id: check-merge-conflict
+      - id: check-added-large-files
+        args: ['--maxkb=600']
+      - id: detect-private-key
+      - id: check-case-conflict
+      # Python checks
+      - id: debug-statements
+      - id: requirements-txt-fixer
+      - id: fix-byte-order-marker
+      # General quality checks
+      - id: mixed-line-ending
+      - id: trailing-whitespace
+        args: [--markdown-linebreak-ext=md]
+      - id: check-executables-have-shebangs
+      - id: end-of-file-fixer
+
+  # Opinionated code formatter
+  - repo: https://github.com/psf/black
+    rev: 23.11.0
+    hooks:
+      - id: black
+        language_version: python3.10.9
+
+  # Python style maintainer
+  - repo: https://github.com/PyCQA/flake8
+    rev: 6.1.0
+    hooks:
+      - id: flake8
+        exclude: migrations|tests
+        additional_dependencies: [flake8-isort, flake8-black]
+
+  # Datatype maintainer
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.7.0
+    hooks:
+      - id: mypy
+        args: [--show-traceback] # Uncomment for testing if something fails
+        additional_dependencies: # Stubs needed for these tests to not fail
+          - types-redis
+          - types-requests
+          - pydantic
+
+  # Import cleaner
+  - repo: https://github.com/PyCQA/isort
+    rev: 5.12.0
+    hooks:
+      - id: isort
+#  # Run all tests
+#  - repo: local
+#    hooks:
+#      - id: pytest-check
+#        name: Run tests
+#        entry: pytest
+#        language: system
+#        pass_filenames: false
+#        always_run: true
