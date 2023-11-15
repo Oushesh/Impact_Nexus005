@@ -1,0 +1,30 @@
+Pipeline:
+  Config:
+    experiment_name: insight_classifier_annotation_task
+  Components:
+    - name: OpenSearchStore
+      component_config:
+        mode: read
+        batch_size: 10
+        index: insights-dev
+        query:
+          query:
+            nested:
+              path: annotations
+              query:
+                bool:
+                  must:
+                    - term:
+                        annotations.created_by: related_concept_classifier_annotation_task
+        document_class: AnnotatedInsight
+        index_mapping: INSIGHTS_MAPPING
+    - name: InsightClassifier
+      component_config:
+        model_name_or_path: "models/insights_classifier_v1/"
+    - name: OpenSearchStore
+      component_config:
+        mode: write
+        batch_size: 10
+        index: insights-dev
+        document_class: AnnotatedInsight
+        index_mapping: INSIGHTS_MAPPING

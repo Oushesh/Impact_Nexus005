@@ -1,0 +1,62 @@
+version: "3"
+services:
+  smart-evidence-api:
+    build:
+      context: .
+      dockerfile: Dockerfile.gpu
+    container_name: smart-evidence-container
+    # in recent docker-compose version you can enable GPU resources. Make sure to fulfill the prerequisites listed here: https://docs.docker.com/compose/gpu-support/
+    ulimits:
+      memlock: -1
+      stack: 67108864
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [ gpu ]
+    volumes:
+      - .:/code
+    ports:
+      - 8000:8000
+    restart: always
+    env_file:
+      - .env
+    environment:
+      - PORT=8000
+    command: "/bin/bash -c 'sleep 10 && gunicorn rest_api.application:app -b 0.0.0.0 -k uvicorn.workers.UvicornWorker --workers 1 --timeout 180'"
+
+  smart-evidence-api-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile.gpu
+    ulimits:
+      memlock: -1
+      stack: 67108864
+    container_name: smart-evidence-dev-container
+    # in recent docker-compose version you can enable GPU resources. Make sure to fulfill the prerequisites listed here: https://docs.docker.com/compose/gpu-support/
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [ gpu ]
+    volumes:
+      - .:/code
+    ports:
+      - 8008:8008
+    restart: always
+    env_file:
+      - .env
+    environment:
+      - PORT=8008
+      - AWS_ACCESS_KEY_ID=AKIA5GMAAO24KANOAHJJ
+      - AWS_SECRET_ACCESS_KEY=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
+      - AWS_DEFAULT_REGION=eu-central-1
+      # See rest_api/pipelines.yaml for configurations of Search & Indexing Pipeline.
+      - DOCUMENTSTORE_PARAMS_HOST=elasticsearch
+      - PIPELINE_YAML_PATH=/code/rest_api/pipeline/simple_pipeline.haystack-pipeline.yml
+      - CONCURRENT_REQUEST_PER_WORKER
+    command: rest_api/start-reload.sh

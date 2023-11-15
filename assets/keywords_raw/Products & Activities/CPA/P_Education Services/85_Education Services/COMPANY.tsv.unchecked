@@ -1,0 +1,339 @@
+# 85.10_Pre-Primary Education Services > 85.10.1_Pre-Primary Education Services
+# Pre-primary education services	NACE	85.10.10
+#This subcategory includes:
+#- education services usually provided by nursery schools, kindergartens, pre-schools, centres for early childhood education, centres for infant education or special sections attached to primary schools. 
+#
+#Pre-primary education (ISCED Level 0) is defined as the initial stage of organised instruction designed primarily to introduce very young children to a school-type environment, that is, to provide a bridge between the home and a school-based atmosphere.
+#
+#This subcategory also includes:
+#- services related to the provision of special education programmes at this educational level
+pre
+primary education service
+nursery school
+kindergarten
+centre
+early childhood education
+infant education
+special section
+primary school
+the initial stage
+organise instruction
+very young child
+type
+a bridge
+the home
+special education programme
+# 85.20_Primary Education Services > 85.20.1_Primary Education Services
+# On-line primary education services	NACE	85.20.11
+lining
+primary education service
+# 85.20_Primary Education Services > 85.20.1_Primary Education Services
+# Other primary education services	NACE	85.20.12
+other primary education service
+# 85.31_General Secondary Education Services > 85.31.1_General Lower Secondary Education Services
+# On-line general lower secondary education services	NACE	85.31.11
+lining
+general low secondary education service
+# 85.31_General Secondary Education Services > 85.31.1_General Lower Secondary Education Services
+# Other general lower secondary education services	NACE	85.31.12
+other general low secondary education service
+# 85.31_General Secondary Education Services > 85.31.2_General Upper Secondary Education Services
+# On-line general upper secondary education services	NACE	85.31.21
+lining
+general upper secondary education service
+# 85.31_General Secondary Education Services > 85.31.2_General Upper Secondary Education Services
+# Other general upper secondary education services	NACE	85.31.22
+other general upper secondary education service
+# 85.32_Technical and Vocational Secondary Education Services > 85.32.1_Technical and Vocational Lower Secondary Education Services
+# On-line technical and vocational lower secondary education services	NACE	85.32.11
+lining
+technical and vocational low secondary education service
+# 85.32_Technical and Vocational Secondary Education Services > 85.32.1_Technical and Vocational Lower Secondary Education Services
+# Other technical and vocational lower secondary education services	NACE	85.32.12
+other technical and vocational low secondary education service
+# 85.32_Technical and Vocational Secondary Education Services > 85.32.2_Technical and Vocational Upper Secondary Education Services
+# On-line technical and vocational upper secondary education services	NACE	85.32.21
+lining
+technical and vocational upper secondary education service
+# 85.32_Technical and Vocational Secondary Education Services > 85.32.2_Technical and Vocational Upper Secondary Education Services
+# Other technical and vocational upper secondary education services	NACE	85.32.22
+other technical and vocational upper secondary education service
+# 85.41_Post-Secondary Non-Tertiary Education Services > 85.41.1_Post-Secondary Non-Tertiary Education Services
+# On-line post-secondary non-tertiary general education services	NACE	85.41.11
+#This subcategory includes:
+#- on-line educational services for programmes (ISCED Level 4) which, while happening after students finish upper secondary education, they cannot be considered tertiary education because content-wise these programmes are not significantly more advanced than those from upper secondary. They are either short vocational programmes that lead students to the labour market or programmes with substantial theoretical background instruction specifically designed to prepare students for entry to tertiary education in cases where they had previously followed a curriculum (in Level 3 above) that lacked elements needed to entitle them to enter tertiary education programmes. 
+#
+#Services in this subcategory cover education which is not designed explicitly to prepare participants for a specific class of occupations or trades or for entry into further vocational or technical education programmes.
+lining
+
+upper secondary education
+can
+tertiary education
+content
+these programme
+upper
+either short vocational programme
+the labour market
+instruction
+a curriculum
+lack
+need
+cover education
+a specific class
+further vocational or technical education programme
+# 85.41_Post-Secondary Non-Tertiary Education Services > 85.41.1_Post-Secondary Non-Tertiary Education Services
+# Other post-secondary non-tertiary general education services	NACE	85.41.12
+#This subcategory includes:
+#- other educational services for programmes (ISCED Level 4) which, while happening after students finish upper secondary education, they cannot be considered tertiary education because content-wise these programmes are not significantly more advanced than those from upper secondary. They are either short vocational programmes that lead students to the labour market or programmes with substantial theoretical background instruction specifically designed to prepare students for entry to tertiary education in cases where they had previously followed a curriculum (in Level 3 above) that lacked elements needed to entitle them to enter tertiary education programmes. 
+#
+#Services in this subcategory cover education which is not designed explicitly to prepare participants for a specific class of occupations or trades or for entry into further vocational or technical education programmes.
+other educational service
+upper secondary education
+can
+tertiary education
+content
+these programme
+upper
+either short vocational programme
+the labour market
+instruction
+a curriculum
+
+lack
+need
+cover education
+a specific class
+further vocational or technical education programme
+# 85.41_Post-Secondary Non-Tertiary Education Services > 85.41.1_Post-Secondary Non-Tertiary Education Services
+# On-line post-secondary non-tertiary technical and vocational education services	NACE	85.41.13
+#This subcategory includes:
+#- on-line educational services for programmes (ISCED Level 4) which, while happening after students finish upper secondary education, they cannot be considered tertiary education because content-wise these programmes are not significantly more advanced than those from upper secondary. They are either short vocational programmes that lead students to the labour market or programmes with substantial theoretical background instruction specifically designed to prepare students for entry to tertiary education in cases where they had previously followed a curriculum (in Level 3 above) that lacked elements needed to entitle them to enter tertiary education programmes. 
+#
+#Services in this subcategory cover education that prepares participants for direct entry, without further training, into specific occupations. Successful completion of such programmes leads to a labour-market relevant vocational qualification.
+lining
+vocational education service
+
+upper secondary education
+can
+tertiary education
+content
+these programme
+upper
+either short vocational programme
+the labour market
+instruction
+a curriculum
+lack
+need
+cover education
+direct entry
+further training
+successful completion
+such programme
+labour
+market
+# 85.41_Post-Secondary Non-Tertiary Education Services > 85.41.1_Post-Secondary Non-Tertiary Education Services
+# Other post-secondary non-tertiary technical and vocational education services	NACE	85.41.14
+#This subcategory includes:
+#- other educational services for programmes (ISCED Level 4) which, while happening after students finish upper secondary education, they cannot be considered tertiary education because content-wise these programmes are not significantly more advanced than those from upper secondary. They are either short vocational programmes that lead students to the labour market or programmes with substantial theoretical background instruction specifically designed to prepare students for entry to tertiary education in cases where they had previously followed a curriculum (in Level 3 above) that lacked elements needed to entitle them to enter tertiary education programmes. 
+#
+#Services in this subcategory cover education that prepares participants for direct entry, without further training, into specific occupations. Successful completion of such programmes leads to a labour-market relevant vocational qualification.
+vocational education service
+other educational service
+upper secondary education
+can
+tertiary education
+content
+these programme
+upper
+either short vocational programme
+the labour market
+instruction
+a curriculum
+
+lack
+need
+cover education
+direct entry
+further training
+successful completion
+such programme
+labour
+market
+# 85.42_Tertiary Education Services > 85.42.1_Short-Cycle Tertiary Education Services
+# On-line short-cycle tertiary education services	NACE	85.42.11
+lining
+short
+cycle
+tertiary education service
+# 85.42_Tertiary Education Services > 85.42.1_Short-Cycle Tertiary Education Services
+# Other short-cycle tertiary education services	NACE	85.42.12
+short
+cycle
+tertiary education service
+# 85.42_Tertiary Education Services > 85.42.2_Bachelor's or Equivalent Level Tertiary Education Services
+# On-line bachelor's or equivalent level tertiary education services	NACE	85.42.21
+lining
+equivalent level
+tertiary education service
+# 85.42_Tertiary Education Services > 85.42.2_Bachelor's or Equivalent Level Tertiary Education Services
+# Other Bachelor's or equivalent level tertiary education services	NACE	85.42.22
+
+equivalent level
+tertiary education service
+# 85.42_Tertiary Education Services > 85.42.3_Master's or Equivalent Level Tertiary Education Services
+# On-line master's or equivalent level tertiary education services	NACE	85.42.31
+lining
+master
+equivalent level
+tertiary education service
+# 85.42_Tertiary Education Services > 85.42.3_Master's or Equivalent Level Tertiary Education Services
+# Other Master's or equivalent level tertiary education services	NACE	85.42.32
+
+equivalent level
+tertiary education service
+# 85.42_Tertiary Education Services > 85.42.4_Doctoral or Equivalent Level Tertiary Education Services
+# On-line doctoral or equivalent level tertiary education services	NACE	85.42.41
+lining
+doctoral or equivalent level tertiary education service
+# 85.42_Tertiary Education Services > 85.42.4_Doctoral or Equivalent Level Tertiary Education Services
+# Other Doctoral or equivalent level tertiary education services	NACE	85.42.42
+other doctoral or equivalent level tertiary education service
+# 85.51_Sports and Recreation Education Services > 85.51.1_Sports and Recreation Education Services
+# Sports and recreation education services	NACE	85.51.10
+#This subcategory includes sports instruction services by sports camps and schools or by professional sports instructors, teachers or coaches to groups of individuals. It does not include the provision of such services by academic schools, colleges and universities.
+#This subcategory includes:
+#- sports instruction (baseball, basketball, cricket, football, hockey, tennis, figure skating, etc.)
+#- camps, sports instruction
+#- gymnastics instruction
+#- riding instruction
+#- swimming instruction
+#- martial arts instruction
+#- card game instruction (such as bridge)
+#- yoga instruction
+sport and recreation education service
+sport instruction service
+sport camp
+professional sport instructor
+coach
+academic school
+college
+university
+sport instruction
+baseball
+basketball
+cricket
+football
+hockey
+tennis
+figure skating
+camp
+gymnastics instruction
+riding instruction
+swimming instruction
+martial art instruction
+card game instruction
+yoga instruction
+# 85.52_Cultural Education Services > 85.52.1_Cultural Education Services
+# Dancing schools and dance instructors services	NACE	85.52.11
+#This subcategory includes:
+#- services provided by dance instructors and dance studios
+dancing school
+dance instructor service
+dance instructor
+dance studio
+# 85.52_Cultural Education Services > 85.52.1_Cultural Education Services
+# Music schools and music instructors services	NACE	85.52.12
+#This subcategory includes:
+#- piano and other music instruction services
+music school
+music instructor service
+piano
+other music instruction
+# 85.52_Cultural Education Services > 85.52.1_Cultural Education Services
+# Fine arts schools and arts instruction services	NACE	85.52.13
+fine art school
+art instruction service
+# 85.52_Cultural Education Services > 85.52.1_Cultural Education Services
+# Other cultural education services	NACE	85.52.19
+#This subcategory includes:
+#- drama instruction services (except academic)
+#- photography instruction services (except commercial)
+other cultural education service
+drama instruction service
+photography instruction service
+# 85.53_Driving School Services > 85.53.1_Driving School Services
+# Car driving school services	NACE	85.53.11
+#This subcategory includes:
+#- tuition services for car, bus, lorry and motorcycle driving licences
+car driving school service
+tuition service
+lorry and motorcycle driving licence
+# 85.53_Driving School Services > 85.53.1_Driving School Services
+# Flying and sailing school services	NACE	85.53.12
+#This subcategory includes:
+#- tuition services for non-commercial flying and shipmaster certificates
+flying and sailing school service
+tuition service
+# 85.59_Other Education Services n.e.c. > 85.59.1_Other Education Services n.e.c.
+# Language school services	NACE	85.59.11
+#This subcategory includes:
+#- language and conversational skills instruction services
+language school service
+language and conversational skill instruction service
+# 85.59_Other Education Services n.e.c. > 85.59.1_Other Education Services n.e.c.
+# IT school services	NACE	85.59.12
+#This subcategory includes:
+#- computer training services
+school service
+computer training service
+# 85.59_Other Education Services n.e.c. > 85.59.1_Other Education Services n.e.c.
+# Vocational education services n.e.c.	NACE	85.59.13
+#This subcategory includes:
+#- continuous adult vocational education services that are not definable by level
+vocational education service
+continuous adult vocational education service
+# 85.59_Other Education Services n.e.c. > 85.59.1_Other Education Services n.e.c.
+# Home school support courses	NACE	85.59.14
+#This subcategory includes:
+#- school support courses provided at home by organisations or independent teachers
+home school support course
+school support course
+independent teacher
+# 85.59_Other Education Services n.e.c. > 85.59.1_Other Education Services n.e.c.
+# Education services n.e.c.	NACE	85.59.19
+#This subcategory includes:
+#- academic tutoring services
+#- remedial courses offered by learning centres
+#- professional examination review courses
+#- speed reading instruction services
+#- religious instruction services
+#- lifeguard training services
+#- survival training services
+#- public speaker training services
+#- education services that are not definable by level
+academic tutoring service
+remedial course
+learning centre
+professional examination review course
+speed reading instruction service
+religious instruction service
+lifeguard training service
+survival training service
+public speaker training service
+# 85.60_Educational Support Services > 85.60.1_Educational Support Services
+# Educational support services	NACE	85.60.10
+#This subcategory includes the provision of non-instructional services that support educational processes or systems, such as:
+#- educational consulting
+#- educational guidance counselling services
+#- educational testing evaluation services
+#- educational testing services
+#- organisation of student exchange programmes
+educational support service
+support
+educational process
+educational consulting
+educational guidance counselling service
+educational testing evaluation service
+educational testing service
+student exchange programme

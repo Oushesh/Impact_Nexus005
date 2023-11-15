@@ -1,0 +1,25 @@
+Pipeline:
+  experiment_name: dummy
+  Components:
+    - name: OpenSearchStore
+      component_config:
+        mode: read
+        query:
+          query:
+            term:
+              scraper: csr
+        index: scrapes-dev
+        document_class: ScrapeItem
+        batch_size: 10
+        index_mapping: SCRAPE_MAPPING
+    - name: TextExtractor
+      component_config:
+        extractors:
+          pdf: ExtractPDF
+          html: ExtractHTML
+    - name: OpenSearchStore
+      component_config:
+        mode: write
+        index: documents-dev
+        document_class: Document
+        index_mapping: DOCUMENTS_MAPPING

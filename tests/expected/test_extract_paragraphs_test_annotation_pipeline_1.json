@@ -1,0 +1,5297 @@
+[
+  {
+    "content": "The European Environment Agency (EEA) is supporting the European Commission in the monitoring of the CO 2 performance of passenger cars, in accordance with the Regulation (EC) 443/2009. This Regulation sets an emission target for new passenger cars for the year 2015 (130 g CO 2 /km) -phased in from 2012 -and for the year 2020 (95 g CO 2 /km). Starting from 2012, a specific binding CO 2 target is calculated for each manufacturer every year based on the average mass of its fleet (Annex 1). In July 2012, the Commission proposed to amend the regulation with a view to defining the modalities for reaching the 2020 target to reduce CO 2 emissions from new passenger cars.",
+    "content_type": "text",
+    "embedding": null,
+    "id": "13868ee26cc23149bb56dd0b5b91c99f",
+    "meta": {
+      "concept_counts": {
+        "CO2": 5,
+        "Cars": 3,
+        "GHG emissions": 2,
+        "Regulation": 1
+      },
+      "concepts": [
+        "CO2",
+        "Cars",
+        "GHG emissions",
+        "Regulation"
+      ],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "end": 31,
+          "label": "ORG",
+          "sent_ind": 0,
+          "start": 0,
+          "text": "The European Environment Agency"
+        },
+        {
+          "end": 36,
+          "label": "ORG",
+          "sent_ind": 0,
+          "start": 33,
+          "text": "EEA"
+        },
+        {
+          "end": 75,
+          "label": "ORG",
+          "sent_ind": 0,
+          "start": 52,
+          "text": "the European Commission"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 105,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 101,
+          "text": "CO 2"
+        },
+        {
+          "concept_label": "Cars",
+          "end": 135,
+          "id": "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY;Cars",
+          "label": "COMPANY",
+          "sent_ind": 0,
+          "start": 131,
+          "text": "cars"
+        },
+        {
+          "end": 184,
+          "label": "LAW",
+          "sent_ind": 0,
+          "start": 156,
+          "text": "the Regulation (EC) 443/2009"
+        },
+        {
+          "end": 201,
+          "label": "LAW",
+          "sent_ind": 1,
+          "start": 186,
+          "text": "This Regulation"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 218,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 1,
+          "start": 210,
+          "text": "emission"
+        },
+        {
+          "concept_label": "Cars",
+          "end": 248,
+          "id": "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY;Cars",
+          "label": "COMPANY",
+          "sent_ind": 1,
+          "start": 244,
+          "text": "cars"
+        },
+        {
+          "end": 266,
+          "label": "DATE",
+          "sent_ind": 1,
+          "start": 253,
+          "text": "the year 2015"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 278,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 1,
+          "start": 274,
+          "text": "CO 2"
+        },
+        {
+          "end": 304,
+          "label": "DATE",
+          "sent_ind": 1,
+          "start": 300,
+          "text": "2012"
+        },
+        {
+          "end": 327,
+          "label": "DATE",
+          "sent_ind": 1,
+          "start": 314,
+          "text": "the year 2020"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 338,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 1,
+          "start": 334,
+          "text": "CO 2"
+        },
+        {
+          "end": 363,
+          "label": "DATE",
+          "sent_ind": 2,
+          "start": 359,
+          "text": "2012"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 388,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 2,
+          "start": 384,
+          "text": "CO 2"
+        },
+        {
+          "end": 505,
+          "label": "DATE",
+          "sent_ind": 3,
+          "start": 496,
+          "text": "July 2012"
+        },
+        {
+          "end": 521,
+          "label": "ORG",
+          "sent_ind": 3,
+          "start": 511,
+          "text": "Commission"
+        },
+        {
+          "concept_label": "Regulation",
+          "end": 554,
+          "id": "Banlists/Policy/BANLIST;Regulation",
+          "label": "BANLIST",
+          "sent_ind": 3,
+          "start": 544,
+          "text": "regulation"
+        },
+        {
+          "end": 615,
+          "label": "DATE",
+          "sent_ind": 3,
+          "start": 611,
+          "text": "2020"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 637,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 3,
+          "start": 633,
+          "text": "CO 2"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 647,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 3,
+          "start": 638,
+          "text": "emissions"
+        },
+        {
+          "concept_label": "Cars",
+          "end": 671,
+          "id": "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY;Cars",
+          "label": "COMPANY",
+          "sent_ind": 3,
+          "start": 667,
+          "text": "cars"
+        }
+      ],
+      "entity_id_counts": {
+        "Banlists": 1,
+        "Banlists/Policy": 1,
+        "Banlists/Policy/BANLIST": 1,
+        "Impact": 7,
+        "Impact/IRIS": 7,
+        "Impact/IRIS/Climate": 7,
+        "Impact/IRIS/Climate/IMPACT": 7,
+        "Products & Activities": 3,
+        "Products & Activities/CPA": 3,
+        "Products & Activities/CPA/H_Transportation and Storage Services": 3,
+        "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY": 3
+      },
+      "entity_id_parts": [
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Activities",
+        "COMPANY",
+        "CPA",
+        "H",
+        "Products",
+        "Storage Services",
+        "Transportation",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Activities",
+        "COMPANY",
+        "CPA",
+        "H",
+        "Products",
+        "Storage Services",
+        "Transportation",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "BANLIST",
+        "Banlists",
+        "Policy",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Activities",
+        "COMPANY",
+        "CPA",
+        "H",
+        "Products",
+        "Storage Services",
+        "Transportation"
+      ],
+      "entity_ids": [
+        "Impact",
+        "Impact/IRIS",
+        "Impact/IRIS/Climate",
+        "Impact/IRIS/Climate/IMPACT",
+        "Products & Activities",
+        "Products & Activities/CPA",
+        "Products & Activities/CPA/H_Transportation and Storage Services",
+        "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY",
+        "Banlists",
+        "Banlists/Policy",
+        "Banlists/Policy/BANLIST"
+      ],
+      "entity_label_counts": {
+        "BANLIST": 1,
+        "COMPANY": 3,
+        "DATE": 6,
+        "IMPACT": 7,
+        "LAW": 2,
+        "ORG": 4
+      },
+      "entity_labels": [
+        "ORG",
+        "IMPACT",
+        "COMPANY",
+        "LAW",
+        "DATE",
+        "BANLIST"
+      ],
+      "n_keywords": 10,
+      "n_sent_tokens": [
+        34,
+        38,
+        30,
+        33
+      ],
+      "n_sentences": 4,
+      "n_tokens": 135,
+      "par_index": 1,
+      "scraper": "eea",
+      "sentences": [
+        "The European Environment Agency (EEA) is supporting the European Commission in the monitoring of the CO 2 performance of passenger cars, in accordance with the Regulation (EC) 443/2009.",
+        "This Regulation sets an emission target for new passenger cars for the year 2015 (130 g CO 2 /km) -phased in from 2012 -and for the year 2020 (95 g CO 2 /km).",
+        "Starting from 2012, a specific binding CO 2 target is calculated for each manufacturer every year based on the average mass of its fleet (Annex 1).",
+        "In July 2012, the Commission proposed to amend the regulation with a view to defining the modalities for reaching the 2020 target to reduce CO 2 emissions from new passenger cars."
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "For evaluating the progress of manufacturers towards their targets, the EEA is collecting and quality checking data on CO 2 emissions from passenger cars registered in all Member States of the European Union since 2010. Using the Member State data, this note provides an overview of the performance of cars manufacturers in meeting their CO 2 emissions targets.",
+    "content_type": "text",
+    "embedding": null,
+    "id": "32154a48f7134e56e62fa448cd65ee38",
+    "meta": {
+      "concept_counts": {
+        "CO2": 2,
+        "Cars": 2,
+        "GHG emissions": 2
+      },
+      "concepts": [
+        "CO2",
+        "GHG emissions",
+        "Cars"
+      ],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "end": 75,
+          "label": "ORG",
+          "sent_ind": 0,
+          "start": 72,
+          "text": "EEA"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 123,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 119,
+          "text": "CO 2"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 133,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 124,
+          "text": "emissions"
+        },
+        {
+          "concept_label": "Cars",
+          "end": 153,
+          "id": "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY;Cars",
+          "label": "COMPANY",
+          "sent_ind": 0,
+          "start": 149,
+          "text": "cars"
+        },
+        {
+          "end": 185,
+          "label": "ORG",
+          "sent_ind": 0,
+          "start": 172,
+          "text": "Member States"
+        },
+        {
+          "end": 207,
+          "label": "ORG",
+          "sent_ind": 0,
+          "start": 189,
+          "text": "the European Union"
+        },
+        {
+          "end": 218,
+          "label": "DATE",
+          "sent_ind": 0,
+          "start": 214,
+          "text": "2010"
+        },
+        {
+          "concept_label": "Cars",
+          "end": 306,
+          "id": "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY;Cars",
+          "label": "COMPANY",
+          "sent_ind": 1,
+          "start": 302,
+          "text": "cars"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 342,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 1,
+          "start": 338,
+          "text": "CO 2"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 352,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 1,
+          "start": 343,
+          "text": "emissions"
+        }
+      ],
+      "entity_id_counts": {
+        "Impact": 4,
+        "Impact/IRIS": 4,
+        "Impact/IRIS/Climate": 4,
+        "Impact/IRIS/Climate/IMPACT": 4,
+        "Products & Activities": 2,
+        "Products & Activities/CPA": 2,
+        "Products & Activities/CPA/H_Transportation and Storage Services": 2,
+        "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY": 2
+      },
+      "entity_id_parts": [
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Activities",
+        "COMPANY",
+        "CPA",
+        "H",
+        "Products",
+        "Storage Services",
+        "Transportation",
+        "Activities",
+        "COMPANY",
+        "CPA",
+        "H",
+        "Products",
+        "Storage Services",
+        "Transportation",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact"
+      ],
+      "entity_ids": [
+        "Impact",
+        "Impact/IRIS",
+        "Impact/IRIS/Climate",
+        "Impact/IRIS/Climate/IMPACT",
+        "Products & Activities",
+        "Products & Activities/CPA",
+        "Products & Activities/CPA/H_Transportation and Storage Services",
+        "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY"
+      ],
+      "entity_label_counts": {
+        "COMPANY": 2,
+        "DATE": 1,
+        "IMPACT": 4,
+        "ORG": 3
+      },
+      "entity_labels": [
+        "ORG",
+        "IMPACT",
+        "COMPANY",
+        "DATE"
+      ],
+      "n_keywords": 6,
+      "n_sent_tokens": [
+        37,
+        25
+      ],
+      "n_sentences": 2,
+      "n_tokens": 62,
+      "par_index": 2,
+      "scraper": "eea",
+      "sentences": [
+        "For evaluating the progress of manufacturers towards their targets, the EEA is collecting and quality checking data on CO 2 emissions from passenger cars registered in all Member States of the European Union since 2010.",
+        "Using the Member State data, this note provides an overview of the performance of cars manufacturers in meeting their CO 2 emissions targets."
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "Data collected reveal that in 2011 the majority of the car manufacturers are already well on track to achieve the CO 2 emission target set for 2012.",
+    "content_type": "text",
+    "embedding": null,
+    "id": "900207e487f050c54926c22d71f758d4",
+    "meta": {
+      "concept_counts": {
+        "CO2": 1,
+        "Cars": 1,
+        "GHG emissions": 1
+      },
+      "concepts": [
+        "Cars",
+        "CO2",
+        "GHG emissions"
+      ],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "end": 34,
+          "label": "DATE",
+          "sent_ind": 0,
+          "start": 30,
+          "text": "2011"
+        },
+        {
+          "concept_label": "Cars",
+          "end": 58,
+          "id": "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY;Cars",
+          "label": "COMPANY",
+          "sent_ind": 0,
+          "start": 55,
+          "text": "car"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 118,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 114,
+          "text": "CO 2"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 127,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 119,
+          "text": "emission"
+        },
+        {
+          "end": 147,
+          "label": "DATE",
+          "sent_ind": 0,
+          "start": 143,
+          "text": "2012"
+        }
+      ],
+      "entity_id_counts": {
+        "Impact": 2,
+        "Impact/IRIS": 2,
+        "Impact/IRIS/Climate": 2,
+        "Impact/IRIS/Climate/IMPACT": 2,
+        "Products & Activities": 1,
+        "Products & Activities/CPA": 1,
+        "Products & Activities/CPA/H_Transportation and Storage Services": 1,
+        "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY": 1
+      },
+      "entity_id_parts": [
+        "Activities",
+        "COMPANY",
+        "CPA",
+        "H",
+        "Products",
+        "Storage Services",
+        "Transportation",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact"
+      ],
+      "entity_ids": [
+        "Products & Activities",
+        "Products & Activities/CPA",
+        "Products & Activities/CPA/H_Transportation and Storage Services",
+        "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY",
+        "Impact",
+        "Impact/IRIS",
+        "Impact/IRIS/Climate",
+        "Impact/IRIS/Climate/IMPACT"
+      ],
+      "entity_label_counts": {
+        "COMPANY": 1,
+        "DATE": 2,
+        "IMPACT": 2
+      },
+      "entity_labels": [
+        "DATE",
+        "COMPANY",
+        "IMPACT"
+      ],
+      "n_keywords": 3,
+      "n_sent_tokens": [
+        28
+      ],
+      "n_sentences": 1,
+      "n_tokens": 28,
+      "par_index": 3,
+      "scraper": "eea",
+      "sentences": [
+        "Data collected reveal that in 2011 the majority of the car manufacturers are already well on track to achieve the CO 2 emission target set for 2012."
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "To reduce CO 2 emissions in the road transport sector, the European Parliament and the Council adopted Regulation (EC) No 443/2009 introducing mandatory CO 2 emission performance standards for new passenger cars.",
+    "content_type": "text",
+    "embedding": null,
+    "id": "03f0bc4220fac17947bac02ba934cdfe",
+    "meta": {
+      "concept_counts": {
+        "CO2": 2,
+        "Cars": 1,
+        "GHG emissions": 2
+      },
+      "concepts": [
+        "CO2",
+        "GHG emissions",
+        "Cars"
+      ],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "concept_label": "CO2",
+          "end": 14,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 10,
+          "text": "CO 2"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 24,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 15,
+          "text": "emissions"
+        },
+        {
+          "end": 78,
+          "label": "ORG",
+          "sent_ind": 0,
+          "start": 55,
+          "text": "the European Parliament"
+        },
+        {
+          "end": 94,
+          "label": "ORG",
+          "sent_ind": 0,
+          "start": 87,
+          "text": "Council"
+        },
+        {
+          "end": 130,
+          "label": "LAW",
+          "sent_ind": 0,
+          "start": 103,
+          "text": "Regulation (EC) No 443/2009"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 157,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 153,
+          "text": "CO 2"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 166,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 158,
+          "text": "emission"
+        },
+        {
+          "concept_label": "Cars",
+          "end": 211,
+          "id": "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY;Cars",
+          "label": "COMPANY",
+          "sent_ind": 0,
+          "start": 207,
+          "text": "cars"
+        }
+      ],
+      "entity_id_counts": {
+        "Impact": 4,
+        "Impact/IRIS": 4,
+        "Impact/IRIS/Climate": 4,
+        "Impact/IRIS/Climate/IMPACT": 4,
+        "Products & Activities": 1,
+        "Products & Activities/CPA": 1,
+        "Products & Activities/CPA/H_Transportation and Storage Services": 1,
+        "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY": 1
+      },
+      "entity_id_parts": [
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Activities",
+        "COMPANY",
+        "CPA",
+        "H",
+        "Products",
+        "Storage Services",
+        "Transportation"
+      ],
+      "entity_ids": [
+        "Impact",
+        "Impact/IRIS",
+        "Impact/IRIS/Climate",
+        "Impact/IRIS/Climate/IMPACT",
+        "Products & Activities",
+        "Products & Activities/CPA",
+        "Products & Activities/CPA/H_Transportation and Storage Services",
+        "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY"
+      ],
+      "entity_label_counts": {
+        "COMPANY": 1,
+        "IMPACT": 4,
+        "LAW": 1,
+        "ORG": 2
+      },
+      "entity_labels": [
+        "IMPACT",
+        "ORG",
+        "LAW",
+        "COMPANY"
+      ],
+      "n_keywords": 5,
+      "n_sent_tokens": [
+        36
+      ],
+      "n_sentences": 1,
+      "n_tokens": 36,
+      "par_index": 7,
+      "scraper": "eea",
+      "sentences": [
+        "To reduce CO 2 emissions in the road transport sector, the European Parliament and the Council adopted Regulation (EC) No 443/2009 introducing mandatory CO 2 emission performance standards for new passenger cars."
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "The regulation sets a CO 2 specific emission ( 1 ) target of 130 g CO 2 /km by 2015, defined as the average value for the fleet of newly registered passenger cars in the EU. For the period until 2015, the modalities of compliance with the targets have been established and are presented in this chapter. A long-term target of 95 g CO 2 /km is set for 2020. The modalities for compliance with that target will be determined by the legislators in the on-going review of the regulation.",
+    "content_type": "text",
+    "embedding": null,
+    "id": "38c143474aab5b6d9a0bf35d82417f33",
+    "meta": {
+      "concept_counts": {
+        "CO2": 3,
+        "Cars": 1,
+        "GHG emissions": 1,
+        "Regulation": 2
+      },
+      "concepts": [
+        "Regulation",
+        "CO2",
+        "GHG emissions",
+        "Cars"
+      ],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "concept_label": "Regulation",
+          "end": 14,
+          "id": "Banlists/Policy/BANLIST;Regulation",
+          "label": "BANLIST",
+          "sent_ind": 0,
+          "start": 4,
+          "text": "regulation"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 26,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 22,
+          "text": "CO 2"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 44,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 36,
+          "text": "emission"
+        },
+        {
+          "end": 48,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 0,
+          "start": 47,
+          "text": "1"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 71,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 67,
+          "text": "CO 2"
+        },
+        {
+          "end": 83,
+          "label": "DATE",
+          "sent_ind": 0,
+          "start": 79,
+          "text": "2015"
+        },
+        {
+          "concept_label": "Cars",
+          "end": 162,
+          "id": "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY;Cars",
+          "label": "COMPANY",
+          "sent_ind": 0,
+          "start": 158,
+          "text": "cars"
+        },
+        {
+          "end": 172,
+          "label": "GPE",
+          "sent_ind": 0,
+          "start": 170,
+          "text": "EU"
+        },
+        {
+          "end": 199,
+          "label": "DATE",
+          "sent_ind": 1,
+          "start": 178,
+          "text": "the period until 2015"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 335,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 2,
+          "start": 331,
+          "text": "CO 2"
+        },
+        {
+          "end": 355,
+          "label": "DATE",
+          "sent_ind": 2,
+          "start": 351,
+          "text": "2020"
+        },
+        {
+          "concept_label": "Regulation",
+          "end": 482,
+          "id": "Banlists/Policy/BANLIST;Regulation",
+          "label": "BANLIST",
+          "sent_ind": 3,
+          "start": 472,
+          "text": "regulation"
+        }
+      ],
+      "entity_id_counts": {
+        "Banlists": 2,
+        "Banlists/Policy": 2,
+        "Banlists/Policy/BANLIST": 2,
+        "Impact": 4,
+        "Impact/IRIS": 4,
+        "Impact/IRIS/Climate": 4,
+        "Impact/IRIS/Climate/IMPACT": 4,
+        "Products & Activities": 1,
+        "Products & Activities/CPA": 1,
+        "Products & Activities/CPA/H_Transportation and Storage Services": 1,
+        "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY": 1
+      },
+      "entity_id_parts": [
+        "BANLIST",
+        "Banlists",
+        "Policy",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Activities",
+        "COMPANY",
+        "CPA",
+        "H",
+        "Products",
+        "Storage Services",
+        "Transportation",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "BANLIST",
+        "Banlists",
+        "Policy"
+      ],
+      "entity_ids": [
+        "Banlists",
+        "Banlists/Policy",
+        "Banlists/Policy/BANLIST",
+        "Impact",
+        "Impact/IRIS",
+        "Impact/IRIS/Climate",
+        "Impact/IRIS/Climate/IMPACT",
+        "Products & Activities",
+        "Products & Activities/CPA",
+        "Products & Activities/CPA/H_Transportation and Storage Services",
+        "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY"
+      ],
+      "entity_label_counts": {
+        "BANLIST": 2,
+        "COMPANY": 1,
+        "DATE": 3,
+        "GPE": 1,
+        "IMPACT": 4,
+        "REFERENCE_VALUE": 1
+      },
+      "entity_labels": [
+        "BANLIST",
+        "IMPACT",
+        "REFERENCE_VALUE",
+        "DATE",
+        "COMPANY",
+        "GPE"
+      ],
+      "n_keywords": 5,
+      "n_sent_tokens": [
+        38,
+        23,
+        16,
+        23
+      ],
+      "n_sentences": 4,
+      "n_tokens": 100,
+      "par_index": 8,
+      "scraper": "eea",
+      "sentences": [
+        "The regulation sets a CO 2 specific emission ( 1 ) target of 130 g CO 2 /km by 2015, defined as the average value for the fleet of newly registered passenger cars in the EU.",
+        "For the period until 2015, the modalities of compliance with the targets have been established and are presented in this chapter.",
+        "A long-term target of 95 g CO 2 /km is set for 2020.",
+        "The modalities for compliance with that target will be determined by the legislators in the on-going review of the regulation."
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "The data used for the calculations of these parameters are collected each year by Member States, based on registrations of new passenger cars.",
+    "content_type": "text",
+    "embedding": null,
+    "id": "e39c7beda4bab8ab6a250e1236aa9b75",
+    "meta": {
+      "concept_counts": {
+        "Cars": 1
+      },
+      "concepts": [
+        "Cars"
+      ],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "end": 78,
+          "label": "DATE",
+          "sent_ind": 0,
+          "start": 69,
+          "text": "each year"
+        },
+        {
+          "concept_label": "Cars",
+          "end": 141,
+          "id": "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY;Cars",
+          "label": "COMPANY",
+          "sent_ind": 0,
+          "start": 137,
+          "text": "cars"
+        }
+      ],
+      "entity_id_counts": {
+        "Products & Activities": 1,
+        "Products & Activities/CPA": 1,
+        "Products & Activities/CPA/H_Transportation and Storage Services": 1,
+        "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY": 1
+      },
+      "entity_id_parts": [
+        "Activities",
+        "COMPANY",
+        "CPA",
+        "H",
+        "Products",
+        "Storage Services",
+        "Transportation"
+      ],
+      "entity_ids": [
+        "Products & Activities",
+        "Products & Activities/CPA",
+        "Products & Activities/CPA/H_Transportation and Storage Services",
+        "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY"
+      ],
+      "entity_label_counts": {
+        "COMPANY": 1,
+        "DATE": 1
+      },
+      "entity_labels": [
+        "DATE",
+        "COMPANY"
+      ],
+      "n_keywords": 1,
+      "n_sent_tokens": [
+        25
+      ],
+      "n_sentences": 1,
+      "n_tokens": 25,
+      "par_index": 14,
+      "scraper": "eea",
+      "sentences": [
+        "The data used for the calculations of these parameters are collected each year by Member States, based on registrations of new passenger cars."
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "Once transmitted to the European Commission and the EEA, the data were communicated to manufacturers for verification. Manufactures had three months' time, after notification, for informing the European Commission of any errors in the data. As notifications are voluntary, only 38 manufacturers submitted notifications of errors within the three month deadline. The European Commission considered the manufacturers' corrections and decided whether these would be accepted for the calculation of their average CO 2 emissions and specific emission targets. This note presents the final data for the year 2011, after manufacturers' notifications and the Commission decision concerning their validity.",
+    "content_type": "text",
+    "embedding": null,
+    "id": "2c17c688cd62ef963f9e4535296328ba",
+    "meta": {
+      "concept_counts": {
+        "CO2": 1,
+        "GHG emissions": 2
+      },
+      "concepts": [
+        "CO2",
+        "GHG emissions"
+      ],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "end": 43,
+          "label": "ORG",
+          "sent_ind": 0,
+          "start": 20,
+          "text": "the European Commission"
+        },
+        {
+          "end": 55,
+          "label": "ORG",
+          "sent_ind": 0,
+          "start": 52,
+          "text": "EEA"
+        },
+        {
+          "end": 149,
+          "label": "DATE",
+          "sent_ind": 1,
+          "start": 136,
+          "text": "three months'"
+        },
+        {
+          "end": 213,
+          "label": "ORG",
+          "sent_ind": 1,
+          "start": 190,
+          "text": "the European Commission"
+        },
+        {
+          "end": 294,
+          "id": "quantity",
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 2,
+          "start": 278,
+          "text": "38 manufacturers"
+        },
+        {
+          "end": 351,
+          "label": "DATE",
+          "sent_ind": 2,
+          "start": 340,
+          "text": "three month"
+        },
+        {
+          "end": 385,
+          "label": "ORG",
+          "sent_ind": 3,
+          "start": 362,
+          "text": "The European Commission"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 513,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 3,
+          "start": 509,
+          "text": "CO 2"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 523,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 3,
+          "start": 514,
+          "text": "emissions"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 545,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 3,
+          "start": 537,
+          "text": "emission"
+        },
+        {
+          "end": 606,
+          "label": "DATE",
+          "sent_ind": 4,
+          "start": 593,
+          "text": "the year 2011"
+        },
+        {
+          "end": 661,
+          "label": "ORG",
+          "sent_ind": 4,
+          "start": 651,
+          "text": "Commission"
+        }
+      ],
+      "entity_id_counts": {
+        "Impact": 3,
+        "Impact/IRIS": 3,
+        "Impact/IRIS/Climate": 3,
+        "Impact/IRIS/Climate/IMPACT": 3,
+        "quantity": 1
+      },
+      "entity_id_parts": [
+        "quantity",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact"
+      ],
+      "entity_ids": [
+        "quantity",
+        "Impact",
+        "Impact/IRIS",
+        "Impact/IRIS/Climate",
+        "Impact/IRIS/Climate/IMPACT"
+      ],
+      "entity_label_counts": {
+        "DATE": 3,
+        "IMPACT": 3,
+        "ORG": 5,
+        "REFERENCE_VALUE": 1
+      },
+      "entity_labels": [
+        "ORG",
+        "DATE",
+        "REFERENCE_VALUE",
+        "IMPACT"
+      ],
+      "n_keywords": 3,
+      "n_sent_tokens": [
+        19,
+        22,
+        18,
+        29,
+        23
+      ],
+      "n_sentences": 5,
+      "n_tokens": 111,
+      "par_index": 15,
+      "scraper": "eea",
+      "sentences": [
+        "Once transmitted to the European Commission and the EEA, the data were communicated to manufacturers for verification.",
+        "Manufactures had three months' time, after notification, for informing the European Commission of any errors in the data.",
+        "As notifications are voluntary, only 38 manufacturers submitted notifications of errors within the three month deadline.",
+        "The European Commission considered the manufacturers' corrections and decided whether these would be accepted for the calculation of their average CO 2 emissions and specific emission targets.",
+        "This note presents the final data for the year 2011, after manufacturers' notifications and the Commission decision concerning their validity."
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "Average specific emissions of CO 2 are calculated as a weighted average of the manufacturer's fleet. Several adjustments must also be considered, according to the regulation (Table 1 .1):",
+    "content_type": "text",
+    "embedding": null,
+    "id": "b359b46f89c8e29af7fafa788d526836",
+    "meta": {
+      "concept_counts": {
+        "CO2": 1,
+        "GHG emissions": 1,
+        "Regulation": 1
+      },
+      "concepts": [
+        "GHG emissions",
+        "CO2",
+        "Regulation"
+      ],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "concept_label": "GHG emissions",
+          "end": 26,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 17,
+          "text": "emissions"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 34,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 30,
+          "text": "CO 2"
+        },
+        {
+          "concept_label": "Regulation",
+          "end": 173,
+          "id": "Banlists/Policy/BANLIST;Regulation",
+          "label": "BANLIST",
+          "sent_ind": 1,
+          "start": 163,
+          "text": "regulation"
+        }
+      ],
+      "entity_id_counts": {
+        "Banlists": 1,
+        "Banlists/Policy": 1,
+        "Banlists/Policy/BANLIST": 1,
+        "Impact": 2,
+        "Impact/IRIS": 2,
+        "Impact/IRIS/Climate": 2,
+        "Impact/IRIS/Climate/IMPACT": 2
+      },
+      "entity_id_parts": [
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "BANLIST",
+        "Banlists",
+        "Policy"
+      ],
+      "entity_ids": [
+        "Impact",
+        "Impact/IRIS",
+        "Impact/IRIS/Climate",
+        "Impact/IRIS/Climate/IMPACT",
+        "Banlists",
+        "Banlists/Policy",
+        "Banlists/Policy/BANLIST"
+      ],
+      "entity_label_counts": {
+        "BANLIST": 1,
+        "IMPACT": 2
+      },
+      "entity_labels": [
+        "IMPACT",
+        "BANLIST"
+      ],
+      "n_keywords": 2,
+      "n_sent_tokens": [
+        18,
+        16
+      ],
+      "n_sentences": 2,
+      "n_tokens": 34,
+      "par_index": 17,
+      "scraper": "eea",
+      "sentences": [
+        "Average specific emissions of CO 2 are calculated as a weighted average of the manufacturer's fleet.",
+        "Several adjustments must also be considered, according to the regulation (Table 1 .1):"
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "A phase-in schedule applies for calculating average specific emissions. During the period 2012-2014, only a certain percentage (65 % in 2012, 75 % in 2013, 80 % in 2014) of the best performing registered cars will be taken into account in determining the performance of manufacturers. From 2015 onwards, 100 % of the new cars of each manufacturer will be taken into account.",
+    "content_type": "text",
+    "embedding": null,
+    "id": "0cf960400670f259a28293dacb781ac8",
+    "meta": {
+      "concept_counts": {
+        "Cars": 2,
+        "GHG emissions": 1
+      },
+      "concepts": [
+        "GHG emissions",
+        "Cars"
+      ],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "concept_label": "GHG emissions",
+          "end": 70,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 61,
+          "text": "emissions"
+        },
+        {
+          "end": 99,
+          "label": "DATE",
+          "sent_ind": 1,
+          "start": 79,
+          "text": "the period 2012-2014"
+        },
+        {
+          "end": 132,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 1,
+          "start": 128,
+          "text": "65 %"
+        },
+        {
+          "end": 140,
+          "label": "DATE",
+          "sent_ind": 1,
+          "start": 136,
+          "text": "2012"
+        },
+        {
+          "end": 146,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 1,
+          "start": 142,
+          "text": "75 %"
+        },
+        {
+          "end": 154,
+          "label": "DATE",
+          "sent_ind": 1,
+          "start": 150,
+          "text": "2013"
+        },
+        {
+          "end": 160,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 1,
+          "start": 156,
+          "text": "80 %"
+        },
+        {
+          "end": 168,
+          "label": "DATE",
+          "sent_ind": 1,
+          "start": 164,
+          "text": "2014"
+        },
+        {
+          "concept_label": "Cars",
+          "end": 208,
+          "id": "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY;Cars",
+          "label": "COMPANY",
+          "sent_ind": 1,
+          "start": 204,
+          "text": "cars"
+        },
+        {
+          "end": 294,
+          "label": "DATE",
+          "sent_ind": 2,
+          "start": 290,
+          "text": "2015"
+        },
+        {
+          "end": 309,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 2,
+          "start": 304,
+          "text": "100 %"
+        },
+        {
+          "concept_label": "Cars",
+          "end": 325,
+          "id": "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY;Cars",
+          "label": "COMPANY",
+          "sent_ind": 2,
+          "start": 321,
+          "text": "cars"
+        }
+      ],
+      "entity_id_counts": {
+        "Impact": 1,
+        "Impact/IRIS": 1,
+        "Impact/IRIS/Climate": 1,
+        "Impact/IRIS/Climate/IMPACT": 1,
+        "Products & Activities": 2,
+        "Products & Activities/CPA": 2,
+        "Products & Activities/CPA/H_Transportation and Storage Services": 2,
+        "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY": 2
+      },
+      "entity_id_parts": [
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Activities",
+        "COMPANY",
+        "CPA",
+        "H",
+        "Products",
+        "Storage Services",
+        "Transportation",
+        "Activities",
+        "COMPANY",
+        "CPA",
+        "H",
+        "Products",
+        "Storage Services",
+        "Transportation"
+      ],
+      "entity_ids": [
+        "Impact",
+        "Impact/IRIS",
+        "Impact/IRIS/Climate",
+        "Impact/IRIS/Climate/IMPACT",
+        "Products & Activities",
+        "Products & Activities/CPA",
+        "Products & Activities/CPA/H_Transportation and Storage Services",
+        "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY"
+      ],
+      "entity_label_counts": {
+        "COMPANY": 2,
+        "DATE": 5,
+        "IMPACT": 1,
+        "REFERENCE_VALUE": 4
+      },
+      "entity_labels": [
+        "IMPACT",
+        "DATE",
+        "REFERENCE_VALUE",
+        "COMPANY"
+      ],
+      "n_keywords": 3,
+      "n_sent_tokens": [
+        12,
+        45,
+        19
+      ],
+      "n_sentences": 3,
+      "n_tokens": 76,
+      "par_index": 23,
+      "scraper": "eea",
+      "sentences": [
+        "A phase-in schedule applies for calculating average specific emissions.",
+        "During the period 2012-2014, only a certain percentage (65 % in 2012, 75 % in 2013, 80 % in 2014) of the best performing registered cars will be taken into account in determining the performance of manufacturers.",
+        "From 2015 onwards, 100 % of the new cars of each manufacturer will be taken into account."
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "The Regulation foresees the allocation of super-credits for new passenger cars with CO 2 emissions lower than 50 g CO 2 /km. These vehicles are given a higher weight in calculating CO 2 -specific emissions as they are considered equivalent to 3.5 cars in 2012 and 2013, 2.5 cars in 2014, 1.5 cars in 2015, 1 car from 2016 onwards.",
+    "content_type": "text",
+    "embedding": null,
+    "id": "5066f0ca85d976536075dd2b4925ff70",
+    "meta": {
+      "concept_counts": {
+        "CO2": 3,
+        "Cars": 5,
+        "GHG emissions": 2,
+        "Regulation": 1
+      },
+      "concepts": [
+        "Regulation",
+        "Cars",
+        "CO2",
+        "GHG emissions"
+      ],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "concept_label": "Regulation",
+          "end": 14,
+          "id": "Banlists/Policy/BANLIST;Regulation",
+          "label": "BANLIST",
+          "sent_ind": 0,
+          "start": 4,
+          "text": "Regulation"
+        },
+        {
+          "concept_label": "Cars",
+          "end": 78,
+          "id": "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY;Cars",
+          "label": "COMPANY",
+          "sent_ind": 0,
+          "start": 74,
+          "text": "cars"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 88,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 84,
+          "text": "CO 2"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 98,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 89,
+          "text": "emissions"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 119,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 115,
+          "text": "CO 2"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 185,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 1,
+          "start": 181,
+          "text": "CO 2"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 205,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 1,
+          "start": 196,
+          "text": "emissions"
+        },
+        {
+          "end": 246,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 1,
+          "start": 243,
+          "text": "3.5"
+        },
+        {
+          "concept_label": "Cars",
+          "end": 251,
+          "id": "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY;Cars",
+          "label": "COMPANY",
+          "sent_ind": 1,
+          "start": 247,
+          "text": "cars"
+        },
+        {
+          "end": 259,
+          "label": "DATE",
+          "sent_ind": 1,
+          "start": 255,
+          "text": "2012"
+        },
+        {
+          "end": 268,
+          "label": "DATE",
+          "sent_ind": 1,
+          "start": 264,
+          "text": "2013"
+        },
+        {
+          "end": 273,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 1,
+          "start": 270,
+          "text": "2.5"
+        },
+        {
+          "concept_label": "Cars",
+          "end": 278,
+          "id": "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY;Cars",
+          "label": "COMPANY",
+          "sent_ind": 1,
+          "start": 274,
+          "text": "cars"
+        },
+        {
+          "end": 286,
+          "label": "DATE",
+          "sent_ind": 1,
+          "start": 282,
+          "text": "2014"
+        },
+        {
+          "end": 291,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 1,
+          "start": 288,
+          "text": "1.5"
+        },
+        {
+          "concept_label": "Cars",
+          "end": 296,
+          "id": "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY;Cars",
+          "label": "COMPANY",
+          "sent_ind": 1,
+          "start": 292,
+          "text": "cars"
+        },
+        {
+          "end": 304,
+          "label": "DATE",
+          "sent_ind": 1,
+          "start": 300,
+          "text": "2015"
+        },
+        {
+          "end": 307,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 1,
+          "start": 306,
+          "text": "1"
+        },
+        {
+          "concept_label": "Cars",
+          "end": 311,
+          "id": "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY;Cars",
+          "label": "COMPANY",
+          "sent_ind": 1,
+          "start": 308,
+          "text": "car"
+        },
+        {
+          "end": 321,
+          "label": "DATE",
+          "sent_ind": 1,
+          "start": 317,
+          "text": "2016"
+        }
+      ],
+      "entity_id_counts": {
+        "Banlists": 1,
+        "Banlists/Policy": 1,
+        "Banlists/Policy/BANLIST": 1,
+        "Impact": 5,
+        "Impact/IRIS": 5,
+        "Impact/IRIS/Climate": 5,
+        "Impact/IRIS/Climate/IMPACT": 5,
+        "Products & Activities": 5,
+        "Products & Activities/CPA": 5,
+        "Products & Activities/CPA/H_Transportation and Storage Services": 5,
+        "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY": 5
+      },
+      "entity_id_parts": [
+        "BANLIST",
+        "Banlists",
+        "Policy",
+        "Activities",
+        "COMPANY",
+        "CPA",
+        "H",
+        "Products",
+        "Storage Services",
+        "Transportation",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Activities",
+        "COMPANY",
+        "CPA",
+        "H",
+        "Products",
+        "Storage Services",
+        "Transportation",
+        "Activities",
+        "COMPANY",
+        "CPA",
+        "H",
+        "Products",
+        "Storage Services",
+        "Transportation",
+        "Activities",
+        "COMPANY",
+        "CPA",
+        "H",
+        "Products",
+        "Storage Services",
+        "Transportation",
+        "Activities",
+        "COMPANY",
+        "CPA",
+        "H",
+        "Products",
+        "Storage Services",
+        "Transportation"
+      ],
+      "entity_ids": [
+        "Banlists",
+        "Banlists/Policy",
+        "Banlists/Policy/BANLIST",
+        "Products & Activities",
+        "Products & Activities/CPA",
+        "Products & Activities/CPA/H_Transportation and Storage Services",
+        "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY",
+        "Impact",
+        "Impact/IRIS",
+        "Impact/IRIS/Climate",
+        "Impact/IRIS/Climate/IMPACT"
+      ],
+      "entity_label_counts": {
+        "BANLIST": 1,
+        "COMPANY": 5,
+        "DATE": 5,
+        "IMPACT": 5,
+        "REFERENCE_VALUE": 4
+      },
+      "entity_labels": [
+        "BANLIST",
+        "COMPANY",
+        "IMPACT",
+        "REFERENCE_VALUE",
+        "DATE"
+      ],
+      "n_keywords": 10,
+      "n_sent_tokens": [
+        25,
+        42
+      ],
+      "n_sentences": 2,
+      "n_tokens": 67,
+      "par_index": 25,
+      "scraper": "eea",
+      "sentences": [
+        "The Regulation foresees the allocation of super-credits for new passenger cars with CO 2 emissions lower than 50 g CO 2 /km.",
+        "These vehicles are given a higher weight in calculating CO 2 -specific emissions as they are considered equivalent to 3.5 cars in 2012 and 2013, 2.5 cars in 2014, 1.5 cars in 2015, 1 car from 2016 onwards."
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "Additional reductions of average specific emissions are assigned for vehicles capable of running on a mixture of petrol with 85 % ethanol ('E85'). Their emissions will be reduced by 5 % until 2015 in recognition of their ability to reduce emissions when running on biofuels. This reduction can be applied only where at least 30 % of the filling stations in the Member State in which the vehicle is registered provide this type of alternative fuel.",
+    "content_type": "text",
+    "embedding": null,
+    "id": "c5953a102fb4df7146242f61c518cba8",
+    "meta": {
+      "concept_counts": {
+        "GHG emissions": 3
+      },
+      "concepts": [
+        "GHG emissions"
+      ],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "concept_label": "GHG emissions",
+          "end": 51,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 42,
+          "text": "emissions"
+        },
+        {
+          "end": 143,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 0,
+          "start": 113,
+          "text": "petrol with 85 % ethanol ('E85"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 162,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 1,
+          "start": 153,
+          "text": "emissions"
+        },
+        {
+          "end": 185,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 1,
+          "start": 182,
+          "text": "5 %"
+        },
+        {
+          "end": 196,
+          "label": "DATE",
+          "sent_ind": 1,
+          "start": 192,
+          "text": "2015"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 248,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 1,
+          "start": 239,
+          "text": "emissions"
+        },
+        {
+          "end": 408,
+          "id": "quantity",
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 2,
+          "start": 319,
+          "text": "least 30 % of the filling stations in the Member State in which the vehicle is registered"
+        }
+      ],
+      "entity_id_counts": {
+        "Impact": 3,
+        "Impact/IRIS": 3,
+        "Impact/IRIS/Climate": 3,
+        "Impact/IRIS/Climate/IMPACT": 3,
+        "quantity": 1
+      },
+      "entity_id_parts": [
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "quantity"
+      ],
+      "entity_ids": [
+        "Impact",
+        "Impact/IRIS",
+        "Impact/IRIS/Climate",
+        "Impact/IRIS/Climate/IMPACT",
+        "quantity"
+      ],
+      "entity_label_counts": {
+        "DATE": 1,
+        "IMPACT": 3,
+        "REFERENCE_VALUE": 3
+      },
+      "entity_labels": [
+        "IMPACT",
+        "REFERENCE_VALUE",
+        "DATE"
+      ],
+      "n_keywords": 3,
+      "n_sent_tokens": [
+        28,
+        23,
+        32
+      ],
+      "n_sentences": 3,
+      "n_tokens": 83,
+      "par_index": 27,
+      "scraper": "eea",
+      "sentences": [
+        "Additional reductions of average specific emissions are assigned for vehicles capable of running on a mixture of petrol with 85 % ethanol ('E85').",
+        "Their emissions will be reduced by 5 % until 2015 in recognition of their ability to reduce emissions when running on biofuels.",
+        "This reduction can be applied only where at least 30 % of the filling stations in the Member State in which the vehicle is registered provide this type of alternative fuel."
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "( 2 ) According to Regulation 443/2009 mass means the weight of a standard vehicle, including coolant, lubricants, fuel, spare wheel if mounted by the manufacturer, tools, driver. For determining the mass, the fuel tank must be filled to 90 % and the weight of the driver is put at 75 kg.",
+    "content_type": "text",
+    "embedding": null,
+    "id": "64b4da1871da0162d620c6adf662c8d8",
+    "meta": {
+      "concept_counts": {
+        "Regulation": 1
+      },
+      "concepts": [
+        "Regulation"
+      ],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "end": 3,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 0,
+          "start": 2,
+          "text": "2"
+        },
+        {
+          "concept_label": "Regulation",
+          "end": 29,
+          "id": "Banlists/Policy/BANLIST;Regulation",
+          "label": "BANLIST",
+          "sent_ind": 1,
+          "start": 19,
+          "text": "Regulation"
+        },
+        {
+          "end": 242,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 2,
+          "start": 238,
+          "text": "90 %"
+        },
+        {
+          "end": 287,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 2,
+          "start": 282,
+          "text": "75 kg"
+        }
+      ],
+      "entity_id_counts": {
+        "Banlists": 1,
+        "Banlists/Policy": 1,
+        "Banlists/Policy/BANLIST": 1
+      },
+      "entity_id_parts": [
+        "BANLIST",
+        "Banlists",
+        "Policy"
+      ],
+      "entity_ids": [
+        "Banlists",
+        "Banlists/Policy",
+        "Banlists/Policy/BANLIST"
+      ],
+      "entity_label_counts": {
+        "BANLIST": 1,
+        "REFERENCE_VALUE": 3
+      },
+      "entity_labels": [
+        "REFERENCE_VALUE",
+        "BANLIST"
+      ],
+      "n_keywords": 0,
+      "n_sent_tokens": [
+        3,
+        32,
+        26
+      ],
+      "n_sentences": 3,
+      "n_tokens": 61,
+      "par_index": 28,
+      "scraper": "eea",
+      "sentences": [
+        "( 2 )",
+        "According to Regulation 443/2009 mass means the weight of a standard vehicle, including coolant, lubricants, fuel, spare wheel if mounted by the manufacturer, tools, driver.",
+        "For determining the mass, the fuel tank must be filled to 90 % and the weight of the driver is put at 75 kg."
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "Certain innovative technologies cannot demonstrate their CO 2 -reducing effects under the current type approval test procedure. In order to support technical development, a manufacturer or supplier can apply to the Commission for the approval of such innovative technologies. The approval conditions are set out in Commission Regulation (EU) 725/2011. If a manufacturer fits its car fleet with an approved eco-innovation the average emissions may be reduced by a maximum of 7 g CO 2 /km. One application is currently being assessed.",
+    "content_type": "text",
+    "embedding": null,
+    "id": "23aace287905fdb81df89bf2d4266af2",
+    "meta": {
+      "concept_counts": {
+        "CO2": 2,
+        "Cars": 1,
+        "GHG emissions": 1
+      },
+      "concepts": [
+        "CO2",
+        "Cars",
+        "GHG emissions"
+      ],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "concept_label": "CO2",
+          "end": 61,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 57,
+          "text": "CO 2"
+        },
+        {
+          "end": 225,
+          "label": "ORG",
+          "sent_ind": 1,
+          "start": 215,
+          "text": "Commission"
+        },
+        {
+          "end": 341,
+          "label": "LAW",
+          "sent_ind": 2,
+          "start": 315,
+          "text": "Commission Regulation (EU)"
+        },
+        {
+          "concept_label": "Cars",
+          "end": 382,
+          "id": "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY;Cars",
+          "label": "COMPANY",
+          "sent_ind": 3,
+          "start": 379,
+          "text": "car"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 442,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 3,
+          "start": 433,
+          "text": "emissions"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 482,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 3,
+          "start": 478,
+          "text": "CO 2"
+        },
+        {
+          "end": 491,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 4,
+          "start": 488,
+          "text": "One"
+        }
+      ],
+      "entity_id_counts": {
+        "Impact": 3,
+        "Impact/IRIS": 3,
+        "Impact/IRIS/Climate": 3,
+        "Impact/IRIS/Climate/IMPACT": 3,
+        "Products & Activities": 1,
+        "Products & Activities/CPA": 1,
+        "Products & Activities/CPA/H_Transportation and Storage Services": 1,
+        "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY": 1
+      },
+      "entity_id_parts": [
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Activities",
+        "COMPANY",
+        "CPA",
+        "H",
+        "Products",
+        "Storage Services",
+        "Transportation",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact"
+      ],
+      "entity_ids": [
+        "Impact",
+        "Impact/IRIS",
+        "Impact/IRIS/Climate",
+        "Impact/IRIS/Climate/IMPACT",
+        "Products & Activities",
+        "Products & Activities/CPA",
+        "Products & Activities/CPA/H_Transportation and Storage Services",
+        "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY"
+      ],
+      "entity_label_counts": {
+        "COMPANY": 1,
+        "IMPACT": 3,
+        "LAW": 1,
+        "ORG": 1,
+        "REFERENCE_VALUE": 1
+      },
+      "entity_labels": [
+        "IMPACT",
+        "ORG",
+        "LAW",
+        "COMPANY",
+        "REFERENCE_VALUE"
+      ],
+      "n_keywords": 4,
+      "n_sent_tokens": [
+        19,
+        24,
+        14,
+        29,
+        7
+      ],
+      "n_sentences": 5,
+      "n_tokens": 93,
+      "par_index": 30,
+      "scraper": "eea",
+      "sentences": [
+        "Certain innovative technologies cannot demonstrate their CO 2 -reducing effects under the current type approval test procedure.",
+        "In order to support technical development, a manufacturer or supplier can apply to the Commission for the approval of such innovative technologies.",
+        "The approval conditions are set out in Commission Regulation (EU) 725/2011.",
+        "If a manufacturer fits its car fleet with an approved eco-innovation the average emissions may be reduced by a maximum of 7 g CO 2 /km.",
+        "One application is currently being assessed."
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "Each manufacturer has its individual annual target, calculated on the basis of the mass ( 2 ) of the registered cars. The following formula applies:",
+    "content_type": "text",
+    "embedding": null,
+    "id": "ad4910328a78a5bdc53540102323f35d",
+    "meta": {
+      "concept_counts": {
+        "Cars": 1
+      },
+      "concepts": [
+        "Cars"
+      ],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "end": 43,
+          "label": "DATE",
+          "sent_ind": 0,
+          "start": 37,
+          "text": "annual"
+        },
+        {
+          "end": 91,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 0,
+          "start": 90,
+          "text": "2"
+        },
+        {
+          "concept_label": "Cars",
+          "end": 116,
+          "id": "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY;Cars",
+          "label": "COMPANY",
+          "sent_ind": 0,
+          "start": 112,
+          "text": "cars"
+        }
+      ],
+      "entity_id_counts": {
+        "Products & Activities": 1,
+        "Products & Activities/CPA": 1,
+        "Products & Activities/CPA/H_Transportation and Storage Services": 1,
+        "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY": 1
+      },
+      "entity_id_parts": [
+        "Activities",
+        "COMPANY",
+        "CPA",
+        "H",
+        "Products",
+        "Storage Services",
+        "Transportation"
+      ],
+      "entity_ids": [
+        "Products & Activities",
+        "Products & Activities/CPA",
+        "Products & Activities/CPA/H_Transportation and Storage Services",
+        "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY"
+      ],
+      "entity_label_counts": {
+        "COMPANY": 1,
+        "DATE": 1,
+        "REFERENCE_VALUE": 1
+      },
+      "entity_labels": [
+        "DATE",
+        "REFERENCE_VALUE",
+        "COMPANY"
+      ],
+      "n_keywords": 1,
+      "n_sent_tokens": [
+        23,
+        5
+      ],
+      "n_sentences": 2,
+      "n_tokens": 28,
+      "par_index": 32,
+      "scraper": "eea",
+      "sentences": [
+        "Each manufacturer has its individual annual target, calculated on the basis of the mass ( 2 ) of the registered cars.",
+        "The following formula applies:"
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "Where: M is the average mass of the manufacturer's fleet in kilograms (kg) M 0 is the reference mass (1 372.0 kg) a is 0.0457 This means that if the average mass of a manufacturer's cars in a given year is 1 472 kg, the target for that manufacturer is 134.57 g CO 2 /km. If the average mass of the cars is 1 272 kg, the target will be 125.43 g CO 2 /km.",
+    "content_type": "text",
+    "embedding": null,
+    "id": "be54ccd722136673bed9625be989f5ae",
+    "meta": {
+      "concept_counts": {
+        "CO2": 2,
+        "Cars": 2
+      },
+      "concepts": [
+        "Cars",
+        "CO2"
+      ],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "end": 78,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 0,
+          "start": 77,
+          "text": "0"
+        },
+        {
+          "end": 112,
+          "id": "quantity",
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 0,
+          "start": 102,
+          "text": "1 372.0 kg"
+        },
+        {
+          "end": 125,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 0,
+          "start": 119,
+          "text": "0.0457"
+        },
+        {
+          "concept_label": "Cars",
+          "end": 186,
+          "id": "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY;Cars",
+          "label": "COMPANY",
+          "sent_ind": 0,
+          "start": 182,
+          "text": "cars"
+        },
+        {
+          "end": 202,
+          "label": "DATE",
+          "sent_ind": 0,
+          "start": 190,
+          "text": "a given year"
+        },
+        {
+          "end": 214,
+          "id": "quantity",
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 0,
+          "start": 206,
+          "text": "1 472 kg"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 265,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 261,
+          "text": "CO 2"
+        },
+        {
+          "concept_label": "Cars",
+          "end": 302,
+          "id": "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY;Cars",
+          "label": "COMPANY",
+          "sent_ind": 1,
+          "start": 298,
+          "text": "cars"
+        },
+        {
+          "end": 314,
+          "id": "quantity",
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 1,
+          "start": 306,
+          "text": "1 272 kg"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 348,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 1,
+          "start": 344,
+          "text": "CO 2"
+        }
+      ],
+      "entity_id_counts": {
+        "Impact": 2,
+        "Impact/IRIS": 2,
+        "Impact/IRIS/Climate": 2,
+        "Impact/IRIS/Climate/IMPACT": 2,
+        "Products & Activities": 2,
+        "Products & Activities/CPA": 2,
+        "Products & Activities/CPA/H_Transportation and Storage Services": 2,
+        "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY": 2,
+        "quantity": 3
+      },
+      "entity_id_parts": [
+        "quantity",
+        "Activities",
+        "COMPANY",
+        "CPA",
+        "H",
+        "Products",
+        "Storage Services",
+        "Transportation",
+        "quantity",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Activities",
+        "COMPANY",
+        "CPA",
+        "H",
+        "Products",
+        "Storage Services",
+        "Transportation",
+        "quantity",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact"
+      ],
+      "entity_ids": [
+        "quantity",
+        "Products & Activities",
+        "Products & Activities/CPA",
+        "Products & Activities/CPA/H_Transportation and Storage Services",
+        "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY",
+        "Impact",
+        "Impact/IRIS",
+        "Impact/IRIS/Climate",
+        "Impact/IRIS/Climate/IMPACT"
+      ],
+      "entity_label_counts": {
+        "COMPANY": 2,
+        "DATE": 1,
+        "IMPACT": 2,
+        "REFERENCE_VALUE": 5
+      },
+      "entity_labels": [
+        "REFERENCE_VALUE",
+        "COMPANY",
+        "DATE",
+        "IMPACT"
+      ],
+      "n_keywords": 4,
+      "n_sent_tokens": [
+        64,
+        22
+      ],
+      "n_sentences": 2,
+      "n_tokens": 86,
+      "par_index": 33,
+      "scraper": "eea",
+      "sentences": [
+        "Where: M is the average mass of the manufacturer's fleet in kilograms (kg) M 0 is the reference mass (1 372.0 kg) a is 0.0457 This means that if the average mass of a manufacturer's cars in a given year is 1 472 kg, the target for that manufacturer is 134.57 g CO 2 /km.",
+        "If the average mass of the cars is 1 272 kg, the target will be 125.43 g CO 2 /km."
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "This formula aims to guarantee undistorted competition between manufacturers while taking into account their differences. On the basis of the Regulation 443/2209, the M 0 in the formula should if necessary be updated by 2014, in order to reflect changes in vehicles' weight over the previous three calendar years.",
+    "content_type": "text",
+    "embedding": null,
+    "id": "280f4fd0a3e30f2a6bd2ed3efd3ff9cb",
+    "meta": {
+      "concept_counts": {},
+      "concepts": [],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "end": 161,
+          "label": "LAW",
+          "sent_ind": 1,
+          "start": 138,
+          "text": "the Regulation 443/2209"
+        },
+        {
+          "end": 170,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 1,
+          "start": 169,
+          "text": "0"
+        },
+        {
+          "end": 224,
+          "label": "DATE",
+          "sent_ind": 1,
+          "start": 220,
+          "text": "2014"
+        },
+        {
+          "end": 312,
+          "label": "DATE",
+          "sent_ind": 1,
+          "start": 279,
+          "text": "the previous three calendar years"
+        }
+      ],
+      "entity_id_counts": {},
+      "entity_id_parts": [],
+      "entity_ids": [],
+      "entity_label_counts": {
+        "DATE": 2,
+        "LAW": 1,
+        "REFERENCE_VALUE": 1
+      },
+      "entity_labels": [
+        "LAW",
+        "REFERENCE_VALUE",
+        "DATE"
+      ],
+      "n_keywords": 0,
+      "n_sent_tokens": [
+        16,
+        38
+      ],
+      "n_sentences": 2,
+      "n_tokens": 54,
+      "par_index": 34,
+      "scraper": "eea",
+      "sentences": [
+        "This formula aims to guarantee undistorted competition between manufacturers while taking into account their differences.",
+        "On the basis of the Regulation 443/2209, the M 0 in the formula should if necessary be updated by 2014, in order to reflect changes in vehicles' weight over the previous three calendar years."
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "Manufacturers have the right to form a pool with other manufacturers in order to be monitored as one entity for the purpose of having one common target.",
+    "content_type": "text",
+    "embedding": null,
+    "id": "387f7307c10f20f66cee03f6db005be2",
+    "meta": {
+      "concept_counts": {},
+      "concepts": [],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "end": 100,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 0,
+          "start": 97,
+          "text": "one"
+        }
+      ],
+      "entity_id_counts": {},
+      "entity_id_parts": [],
+      "entity_ids": [],
+      "entity_label_counts": {
+        "REFERENCE_VALUE": 1
+      },
+      "entity_labels": [
+        "REFERENCE_VALUE"
+      ],
+      "n_keywords": 0,
+      "n_sent_tokens": [
+        28
+      ],
+      "n_sentences": 1,
+      "n_tokens": 28,
+      "par_index": 35,
+      "scraper": "eea",
+      "sentences": [
+        "Manufacturers have the right to form a pool with other manufacturers in order to be monitored as one entity for the purpose of having one common target."
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "In this case, the binding target will be the pool target (calculated on the basis of the whole fleet of the pool). At the moment eight pools have been declared and accepted by the Commission (Table 1 .2).",
+    "content_type": "text",
+    "embedding": null,
+    "id": "36a59ae26ea9082cff3263a0e8a90dbe",
+    "meta": {
+      "concept_counts": {},
+      "concepts": [],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "end": 134,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 1,
+          "start": 129,
+          "text": "eight"
+        },
+        {
+          "end": 190,
+          "label": "ORG",
+          "sent_ind": 1,
+          "start": 180,
+          "text": "Commission"
+        }
+      ],
+      "entity_id_counts": {},
+      "entity_id_parts": [],
+      "entity_ids": [],
+      "entity_label_counts": {
+        "ORG": 1,
+        "REFERENCE_VALUE": 1
+      },
+      "entity_labels": [
+        "REFERENCE_VALUE",
+        "ORG"
+      ],
+      "n_keywords": 0,
+      "n_sent_tokens": [
+        26,
+        19
+      ],
+      "n_sentences": 2,
+      "n_tokens": 45,
+      "par_index": 36,
+      "scraper": "eea",
+      "sentences": [
+        "In this case, the binding target will be the pool target (calculated on the basis of the whole fleet of the pool).",
+        "At the moment eight pools have been declared and accepted by the Commission (Table 1 .2)."
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "Manufacturers selling less than 10 000 vehicles per year can apply for derogation. A specific emissions target consistent with the manufacturer's economic and technological potential to reduce specific CO 2 emissions can be granted under such derogation. For the year 2012, the Commission has granted eighteen derogations applications (Table 1 .3).",
+    "content_type": "text",
+    "embedding": null,
+    "id": "d2bdb57b198a9f9b144d25bb403f0d4f",
+    "meta": {
+      "concept_counts": {
+        "CO2": 1,
+        "GHG emissions": 2
+      },
+      "concepts": [
+        "GHG emissions",
+        "CO2"
+      ],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "end": 34,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 0,
+          "start": 22,
+          "text": "less than 10"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 103,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 1,
+          "start": 94,
+          "text": "emissions"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 206,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 1,
+          "start": 202,
+          "text": "CO 2"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 216,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 1,
+          "start": 207,
+          "text": "emissions"
+        },
+        {
+          "end": 272,
+          "label": "DATE",
+          "sent_ind": 2,
+          "start": 259,
+          "text": "the year 2012"
+        },
+        {
+          "end": 288,
+          "label": "ORG",
+          "sent_ind": 2,
+          "start": 278,
+          "text": "Commission"
+        },
+        {
+          "end": 309,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 2,
+          "start": 301,
+          "text": "eighteen"
+        }
+      ],
+      "entity_id_counts": {
+        "Impact": 3,
+        "Impact/IRIS": 3,
+        "Impact/IRIS/Climate": 3,
+        "Impact/IRIS/Climate/IMPACT": 3
+      },
+      "entity_id_parts": [
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact"
+      ],
+      "entity_ids": [
+        "Impact",
+        "Impact/IRIS",
+        "Impact/IRIS/Climate",
+        "Impact/IRIS/Climate/IMPACT"
+      ],
+      "entity_label_counts": {
+        "DATE": 1,
+        "IMPACT": 3,
+        "ORG": 1,
+        "REFERENCE_VALUE": 2
+      },
+      "entity_labels": [
+        "REFERENCE_VALUE",
+        "IMPACT",
+        "DATE",
+        "ORG"
+      ],
+      "n_keywords": 3,
+      "n_sent_tokens": [
+        14,
+        26,
+        18
+      ],
+      "n_sentences": 3,
+      "n_tokens": 58,
+      "par_index": 37,
+      "scraper": "eea",
+      "sentences": [
+        "Manufacturers selling less than 10 000 vehicles per year can apply for derogation.",
+        "A specific emissions target consistent with the manufacturer's economic and technological potential to reduce specific CO 2 emissions can be granted under such derogation.",
+        "For the year 2012, the Commission has granted eighteen derogations applications (Table 1 .3)."
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "Special niche derogations are foreseen for manufacturers responsible for 10 000-300 000 new vehicle registrations. In this case a special target is established, corresponding to a 25 % reduction compared to the average specific emission in 2007.",
+    "content_type": "text",
+    "embedding": null,
+    "id": "9a0d6f33cf5e8b77b86350864c030b91",
+    "meta": {
+      "concept_counts": {
+        "GHG emissions": 1
+      },
+      "concepts": [
+        "GHG emissions"
+      ],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "end": 113,
+          "id": "quantity",
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 0,
+          "start": 84,
+          "text": "000 new vehicle registrations"
+        },
+        {
+          "end": 194,
+          "id": "quantity",
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 1,
+          "start": 180,
+          "text": "25 % reduction"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 236,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 1,
+          "start": 228,
+          "text": "emission"
+        },
+        {
+          "end": 244,
+          "label": "DATE",
+          "sent_ind": 1,
+          "start": 240,
+          "text": "2007"
+        }
+      ],
+      "entity_id_counts": {
+        "Impact": 1,
+        "Impact/IRIS": 1,
+        "Impact/IRIS/Climate": 1,
+        "Impact/IRIS/Climate/IMPACT": 1,
+        "quantity": 2
+      },
+      "entity_id_parts": [
+        "quantity",
+        "quantity",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact"
+      ],
+      "entity_ids": [
+        "quantity",
+        "Impact",
+        "Impact/IRIS",
+        "Impact/IRIS/Climate",
+        "Impact/IRIS/Climate/IMPACT"
+      ],
+      "entity_label_counts": {
+        "DATE": 1,
+        "IMPACT": 1,
+        "REFERENCE_VALUE": 2
+      },
+      "entity_labels": [
+        "REFERENCE_VALUE",
+        "IMPACT",
+        "DATE"
+      ],
+      "n_keywords": 1,
+      "n_sent_tokens": [
+        18,
+        24
+      ],
+      "n_sentences": 2,
+      "n_tokens": 42,
+      "par_index": 38,
+      "scraper": "eea",
+      "sentences": [
+        "Special niche derogations are foreseen for manufacturers responsible for 10 000-300 000 new vehicle registrations.",
+        "In this case a special target is established, corresponding to a 25 % reduction compared to the average specific emission in 2007."
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "In 2012 two niche derogations have been granted. ( 3 ) Diesel vehicles generally emit more of air pollutants per kilometre than their gasoline equivalents, particularly black carbon which has impacts on health and the climate, but also PM and NO X . Toyota has the highest percentage of vehicles with emissions below 100 g CO 2 /km (14 % of its fleet), along with Seat. As in the previous two years, Toyota recorded an average emission of 3 g CO 2 /km lower compared to the preceding year's fleet.",
+    "content_type": "text",
+    "embedding": null,
+    "id": "33368bc26bcd9bceb0a712442a4026b4",
+    "meta": {
+      "concept_counts": {
+        "Air pollution": 1,
+        "CO2": 2,
+        "Diesel": 1,
+        "GHG emissions": 2,
+        "Health": 1,
+        "Petrol": 1
+      },
+      "concepts": [
+        "Diesel",
+        "Air pollution",
+        "Petrol",
+        "Health",
+        "GHG emissions",
+        "CO2"
+      ],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "end": 7,
+          "label": "DATE",
+          "sent_ind": 0,
+          "start": 3,
+          "text": "2012"
+        },
+        {
+          "end": 11,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 0,
+          "start": 8,
+          "text": "two"
+        },
+        {
+          "end": 52,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 1,
+          "start": 51,
+          "text": "3"
+        },
+        {
+          "concept_label": "Diesel",
+          "end": 61,
+          "id": "Products & Activities/CPA/D_Electricity, Gas, Steam and Air Conditioning/35_Electricity, Gas, Steam and Air Conditioning/COMPANY;Diesel",
+          "label": "COMPANY",
+          "sent_ind": 2,
+          "start": 55,
+          "text": "Diesel"
+        },
+        {
+          "concept_label": "Air pollution",
+          "end": 108,
+          "id": "Impact/IRIS/Air/IMPACT;Impact/IRIS/Pollution/IMPACT;Impact/IRIS/Transportation/IMPACT;Air pollution",
+          "label": "IMPACT",
+          "sent_ind": 2,
+          "start": 94,
+          "text": "air pollutants"
+        },
+        {
+          "concept_label": "Petrol",
+          "end": 142,
+          "id": "Products & Activities/CPA/D_Electricity, Gas, Steam and Air Conditioning/35_Electricity, Gas, Steam and Air Conditioning/COMPANY;Petrol",
+          "label": "COMPANY",
+          "sent_ind": 2,
+          "start": 134,
+          "text": "gasoline"
+        },
+        {
+          "concept_label": "Health",
+          "end": 209,
+          "id": "Impact/IRIS/Health/IMPACT;Health",
+          "label": "IMPACT",
+          "sent_ind": 2,
+          "start": 203,
+          "text": "health"
+        },
+        {
+          "end": 256,
+          "label": "ORG",
+          "sent_ind": 3,
+          "start": 250,
+          "text": "Toyota"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 310,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 3,
+          "start": 301,
+          "text": "emissions"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 327,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 3,
+          "start": 323,
+          "text": "CO 2"
+        },
+        {
+          "end": 337,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 3,
+          "start": 333,
+          "text": "14 %"
+        },
+        {
+          "end": 368,
+          "label": "ORG",
+          "sent_ind": 3,
+          "start": 364,
+          "text": "Seat"
+        },
+        {
+          "end": 398,
+          "label": "DATE",
+          "sent_ind": 4,
+          "start": 376,
+          "text": "the previous two years"
+        },
+        {
+          "end": 406,
+          "label": "ORG",
+          "sent_ind": 4,
+          "start": 400,
+          "text": "Toyota"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 435,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 4,
+          "start": 427,
+          "text": "emission"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 447,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 4,
+          "start": 443,
+          "text": "CO 2"
+        },
+        {
+          "end": 490,
+          "label": "DATE",
+          "sent_ind": 4,
+          "start": 470,
+          "text": "the preceding year's"
+        }
+      ],
+      "entity_id_counts": {
+        "Impact": 6,
+        "Impact/IRIS": 6,
+        "Impact/IRIS/Air": 1,
+        "Impact/IRIS/Air/IMPACT": 1,
+        "Impact/IRIS/Climate": 4,
+        "Impact/IRIS/Climate/IMPACT": 4,
+        "Impact/IRIS/Health": 1,
+        "Impact/IRIS/Health/IMPACT": 1,
+        "Products & Activities": 2,
+        "Products & Activities/CPA": 2,
+        "Products & Activities/CPA/D_Electricity, Gas, Steam and Air Conditioning": 2,
+        "Products & Activities/CPA/D_Electricity, Gas, Steam and Air Conditioning/35_Electricity, Gas, Steam and Air Conditioning": 2,
+        "Products & Activities/CPA/D_Electricity, Gas, Steam and Air Conditioning/35_Electricity, Gas, Steam and Air Conditioning/COMPANY": 2
+      },
+      "entity_id_parts": [
+        "35",
+        "Activities",
+        "Air Conditioning",
+        "COMPANY",
+        "CPA",
+        "D",
+        "Electricity, Gas, Steam",
+        "Products",
+        "Air",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "35",
+        "Activities",
+        "Air Conditioning",
+        "COMPANY",
+        "CPA",
+        "D",
+        "Electricity, Gas, Steam",
+        "Products",
+        "Health",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact"
+      ],
+      "entity_ids": [
+        "Products & Activities",
+        "Products & Activities/CPA",
+        "Products & Activities/CPA/D_Electricity, Gas, Steam and Air Conditioning",
+        "Products & Activities/CPA/D_Electricity, Gas, Steam and Air Conditioning/35_Electricity, Gas, Steam and Air Conditioning",
+        "Products & Activities/CPA/D_Electricity, Gas, Steam and Air Conditioning/35_Electricity, Gas, Steam and Air Conditioning/COMPANY",
+        "Impact",
+        "Impact/IRIS",
+        "Impact/IRIS/Air",
+        "Impact/IRIS/Air/IMPACT",
+        "Impact/IRIS/Health",
+        "Impact/IRIS/Health/IMPACT",
+        "Impact/IRIS/Climate",
+        "Impact/IRIS/Climate/IMPACT"
+      ],
+      "entity_label_counts": {
+        "COMPANY": 2,
+        "DATE": 3,
+        "IMPACT": 6,
+        "ORG": 3,
+        "REFERENCE_VALUE": 3
+      },
+      "entity_labels": [
+        "DATE",
+        "REFERENCE_VALUE",
+        "COMPANY",
+        "IMPACT",
+        "ORG"
+      ],
+      "n_keywords": 8,
+      "n_sent_tokens": [
+        9,
+        3,
+        34,
+        27,
+        27
+      ],
+      "n_sentences": 5,
+      "n_tokens": 100,
+      "par_index": 39,
+      "scraper": "eea",
+      "sentences": [
+        "In 2012 two niche derogations have been granted.",
+        "( 3 )",
+        "Diesel vehicles generally emit more of air pollutants per kilometre than their gasoline equivalents, particularly black carbon which has impacts on health and the climate, but also PM and NO X .",
+        "Toyota has the highest percentage of vehicles with emissions below 100 g CO 2 /km (14 % of its fleet), along with Seat.",
+        "As in the previous two years, Toyota recorded an average emission of 3 g CO 2 /km lower compared to the preceding year's fleet."
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "All manufacturers of this group decreased their average emissions level compared to last year. Compared to 2010, the largest reductions of emissions were achieved by Daimler AG (7.4 g CO 2 /km) and by the Fiat group (6.7 g CO 2 /km).",
+    "content_type": "text",
+    "embedding": null,
+    "id": "f4e92b51609d39d97b4a13f051b9070f",
+    "meta": {
+      "concept_counts": {
+        "CO2": 2,
+        "GHG emissions": 2,
+        "Levelling": 1
+      },
+      "concepts": [
+        "GHG emissions",
+        "Levelling",
+        "CO2"
+      ],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "concept_label": "GHG emissions",
+          "end": 65,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 56,
+          "text": "emissions"
+        },
+        {
+          "concept_label": "Levelling",
+          "end": 71,
+          "id": "Products & Activities/CPA/C_Manufactured Products/25_Fabricated Metal Products, Except Machinery and Equipment/COMPANY;Products & Activities/CPA/F_Constructions and Construction Works/COMPANY;Levelling",
+          "label": "COMPANY",
+          "sent_ind": 0,
+          "start": 66,
+          "text": "level"
+        },
+        {
+          "end": 93,
+          "label": "DATE",
+          "sent_ind": 0,
+          "start": 84,
+          "text": "last year"
+        },
+        {
+          "end": 111,
+          "label": "DATE",
+          "sent_ind": 1,
+          "start": 107,
+          "text": "2010"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 148,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 1,
+          "start": 139,
+          "text": "emissions"
+        },
+        {
+          "end": 176,
+          "label": "ORG",
+          "sent_ind": 1,
+          "start": 166,
+          "text": "Daimler AG"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 188,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 1,
+          "start": 184,
+          "text": "CO 2"
+        },
+        {
+          "end": 209,
+          "label": "ORG",
+          "sent_ind": 1,
+          "start": 205,
+          "text": "Fiat"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 227,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 1,
+          "start": 223,
+          "text": "CO 2"
+        }
+      ],
+      "entity_id_counts": {
+        "Impact": 4,
+        "Impact/IRIS": 4,
+        "Impact/IRIS/Climate": 4,
+        "Impact/IRIS/Climate/IMPACT": 4,
+        "Products & Activities": 1,
+        "Products & Activities/CPA": 1,
+        "Products & Activities/CPA/C_Manufactured Products": 1,
+        "Products & Activities/CPA/C_Manufactured Products/25_Fabricated Metal Products, Except Machinery and Equipment": 1,
+        "Products & Activities/CPA/C_Manufactured Products/25_Fabricated Metal Products, Except Machinery and Equipment/COMPANY": 1
+      },
+      "entity_id_parts": [
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "25",
+        "Activities",
+        "C",
+        "COMPANY",
+        "CPA",
+        "Equipment",
+        "Fabricated Metal Products, Except Machinery",
+        "Manufactured Products",
+        "Products",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact"
+      ],
+      "entity_ids": [
+        "Impact",
+        "Impact/IRIS",
+        "Impact/IRIS/Climate",
+        "Impact/IRIS/Climate/IMPACT",
+        "Products & Activities",
+        "Products & Activities/CPA",
+        "Products & Activities/CPA/C_Manufactured Products",
+        "Products & Activities/CPA/C_Manufactured Products/25_Fabricated Metal Products, Except Machinery and Equipment",
+        "Products & Activities/CPA/C_Manufactured Products/25_Fabricated Metal Products, Except Machinery and Equipment/COMPANY"
+      ],
+      "entity_label_counts": {
+        "COMPANY": 1,
+        "DATE": 2,
+        "IMPACT": 4,
+        "ORG": 2
+      },
+      "entity_labels": [
+        "IMPACT",
+        "COMPANY",
+        "DATE",
+        "ORG"
+      ],
+      "n_keywords": 5,
+      "n_sent_tokens": [
+        15,
+        34
+      ],
+      "n_sentences": 2,
+      "n_tokens": 49,
+      "par_index": 40,
+      "scraper": "eea",
+      "sentences": [
+        "All manufacturers of this group decreased their average emissions level compared to last year.",
+        "Compared to 2010, the largest reductions of emissions were achieved by Daimler AG (7.4 g CO 2 /km) and by the Fiat group (6.7 g CO 2 /km)."
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "As a general observation, dieselisation ( 3 ), i.e. the introduction of more diesel vehicles, is one of the main drivers for the emissions reductions of the major manufacturers (Figure 2 .1). Diesel vehicles registrations have increased consistently over the years, but for some manufacturers the share of diesel cars has stabilised over the last couple of years. Despite the increasing trend, the share of alternative fuelled vehicles remains low and hence has not contributed significantly to the observed emissions reductions. For some manufacturers a shift to smaller vehicles (downsizing -a reduced engine capacity) is also observed, for example for BMW, Fiat and Volkswagen. Table 2 .2 presents data by manufacturer pool. The majority of the pools were already in place in 2011, while Toyota-Daihatsu Group, VW Group PC and Tata Motors Ltd, Jaguar Cars Ltd, Land Rover (TJL) will pool as from 2012. These pools are reported here because data registered in 2011 are compared with the 2012 target. For some pools, the difference between the average emissions of the pool members is quite high. The smallest range is found in the Ford-Werke pool, where the average emission of the individual manufacturers varies between 114 g CO 2 /km and 132 g CO 2 /km -a difference of 18 g CO 2 /km. By contrast, the difference between the manufacturers in the Volkswagen pool is more than 265 g CO 2 /km. The distance of manufacturers to their specific emissions targets is calculated by taking into account the adjustments listed in chapter 1 (phase in, super-credits, E85 reductions and eco-innovations).",
+    "content_type": "text",
+    "embedding": null,
+    "id": "da853b465aad41bf9627f70da4319435",
+    "meta": {
+      "concept_counts": {
+        "CO2": 4,
+        "Cars": 1,
+        "Diesel": 3,
+        "GHG emissions": 5
+      },
+      "concepts": [
+        "Diesel",
+        "GHG emissions",
+        "Cars",
+        "CO2"
+      ],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "end": 43,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 0,
+          "start": 42,
+          "text": "3"
+        },
+        {
+          "concept_label": "Diesel",
+          "end": 83,
+          "id": "Products & Activities/CPA/D_Electricity, Gas, Steam and Air Conditioning/35_Electricity, Gas, Steam and Air Conditioning/COMPANY;Diesel",
+          "label": "COMPANY",
+          "sent_ind": 0,
+          "start": 77,
+          "text": "diesel"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 138,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 129,
+          "text": "emissions"
+        },
+        {
+          "concept_label": "Diesel",
+          "end": 198,
+          "id": "Products & Activities/CPA/D_Electricity, Gas, Steam and Air Conditioning/35_Electricity, Gas, Steam and Air Conditioning/COMPANY;Diesel",
+          "label": "COMPANY",
+          "sent_ind": 1,
+          "start": 192,
+          "text": "Diesel"
+        },
+        {
+          "end": 264,
+          "label": "DATE",
+          "sent_ind": 1,
+          "start": 255,
+          "text": "the years"
+        },
+        {
+          "concept_label": "Diesel",
+          "end": 312,
+          "id": "Products & Activities/CPA/D_Electricity, Gas, Steam and Air Conditioning/35_Electricity, Gas, Steam and Air Conditioning/COMPANY;Diesel",
+          "label": "COMPANY",
+          "sent_ind": 1,
+          "start": 306,
+          "text": "diesel"
+        },
+        {
+          "concept_label": "Cars",
+          "end": 317,
+          "id": "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY;Cars",
+          "label": "COMPANY",
+          "sent_ind": 1,
+          "start": 313,
+          "text": "cars"
+        },
+        {
+          "end": 362,
+          "label": "DATE",
+          "sent_ind": 1,
+          "start": 338,
+          "text": "the last couple of years"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 517,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 2,
+          "start": 508,
+          "text": "emissions"
+        },
+        {
+          "end": 658,
+          "label": "ORG",
+          "sent_ind": 3,
+          "start": 655,
+          "text": "BMW"
+        },
+        {
+          "end": 664,
+          "label": "ORG",
+          "sent_ind": 3,
+          "start": 660,
+          "text": "Fiat"
+        },
+        {
+          "end": 679,
+          "label": "ORG",
+          "sent_ind": 3,
+          "start": 669,
+          "text": "Volkswagen"
+        },
+        {
+          "end": 783,
+          "label": "DATE",
+          "sent_ind": 5,
+          "start": 779,
+          "text": "2011"
+        },
+        {
+          "end": 812,
+          "label": "ORG",
+          "sent_ind": 5,
+          "start": 791,
+          "text": "Toyota-Daihatsu Group"
+        },
+        {
+          "end": 825,
+          "label": "ORG",
+          "sent_ind": 5,
+          "start": 814,
+          "text": "VW Group PC"
+        },
+        {
+          "end": 845,
+          "label": "ORG",
+          "sent_ind": 5,
+          "start": 830,
+          "text": "Tata Motors Ltd"
+        },
+        {
+          "end": 862,
+          "label": "ORG",
+          "sent_ind": 5,
+          "start": 847,
+          "text": "Jaguar Cars Ltd"
+        },
+        {
+          "end": 874,
+          "label": "ORG",
+          "sent_ind": 5,
+          "start": 864,
+          "text": "Land Rover"
+        },
+        {
+          "end": 879,
+          "label": "ORG",
+          "sent_ind": 5,
+          "start": 876,
+          "text": "TJL"
+        },
+        {
+          "end": 903,
+          "label": "DATE",
+          "sent_ind": 5,
+          "start": 899,
+          "text": "2012"
+        },
+        {
+          "end": 966,
+          "label": "DATE",
+          "sent_ind": 6,
+          "start": 962,
+          "text": "2011"
+        },
+        {
+          "end": 993,
+          "label": "DATE",
+          "sent_ind": 6,
+          "start": 989,
+          "text": "2012"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 1062,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 7,
+          "start": 1053,
+          "text": "emissions"
+        },
+        {
+          "end": 1143,
+          "label": "ORG",
+          "sent_ind": 8,
+          "start": 1133,
+          "text": "Ford-Werke"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 1176,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 8,
+          "start": 1168,
+          "text": "emission"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 1234,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 8,
+          "start": 1230,
+          "text": "CO 2"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 1253,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 8,
+          "start": 1249,
+          "text": "CO 2"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 1284,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 8,
+          "start": 1280,
+          "text": "CO 2"
+        },
+        {
+          "end": 1361,
+          "label": "ORG",
+          "sent_ind": 9,
+          "start": 1351,
+          "text": "Volkswagen"
+        },
+        {
+          "end": 1383,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 9,
+          "start": 1370,
+          "text": "more than 265"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 1390,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 9,
+          "start": 1386,
+          "text": "CO 2"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 1453,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 10,
+          "start": 1444,
+          "text": "emissions"
+        },
+        {
+          "end": 1534,
+          "label": "LAW",
+          "sent_ind": 10,
+          "start": 1525,
+          "text": "chapter 1"
+        },
+        {
+          "end": 1564,
+          "label": "LAW",
+          "sent_ind": 10,
+          "start": 1561,
+          "text": "E85"
+        }
+      ],
+      "entity_id_counts": {
+        "Impact": 9,
+        "Impact/IRIS": 9,
+        "Impact/IRIS/Climate": 9,
+        "Impact/IRIS/Climate/IMPACT": 9,
+        "Products & Activities": 4,
+        "Products & Activities/CPA": 4,
+        "Products & Activities/CPA/D_Electricity, Gas, Steam and Air Conditioning": 3,
+        "Products & Activities/CPA/D_Electricity, Gas, Steam and Air Conditioning/35_Electricity, Gas, Steam and Air Conditioning": 3,
+        "Products & Activities/CPA/D_Electricity, Gas, Steam and Air Conditioning/35_Electricity, Gas, Steam and Air Conditioning/COMPANY": 3,
+        "Products & Activities/CPA/H_Transportation and Storage Services": 1,
+        "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY": 1
+      },
+      "entity_id_parts": [
+        "35",
+        "Activities",
+        "Air Conditioning",
+        "COMPANY",
+        "CPA",
+        "D",
+        "Electricity, Gas, Steam",
+        "Products",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "35",
+        "Activities",
+        "Air Conditioning",
+        "COMPANY",
+        "CPA",
+        "D",
+        "Electricity, Gas, Steam",
+        "Products",
+        "35",
+        "Activities",
+        "Air Conditioning",
+        "COMPANY",
+        "CPA",
+        "D",
+        "Electricity, Gas, Steam",
+        "Products",
+        "Activities",
+        "COMPANY",
+        "CPA",
+        "H",
+        "Products",
+        "Storage Services",
+        "Transportation",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact"
+      ],
+      "entity_ids": [
+        "Products & Activities",
+        "Products & Activities/CPA",
+        "Products & Activities/CPA/D_Electricity, Gas, Steam and Air Conditioning",
+        "Products & Activities/CPA/D_Electricity, Gas, Steam and Air Conditioning/35_Electricity, Gas, Steam and Air Conditioning",
+        "Products & Activities/CPA/D_Electricity, Gas, Steam and Air Conditioning/35_Electricity, Gas, Steam and Air Conditioning/COMPANY",
+        "Impact",
+        "Impact/IRIS",
+        "Impact/IRIS/Climate",
+        "Impact/IRIS/Climate/IMPACT",
+        "Products & Activities/CPA/H_Transportation and Storage Services",
+        "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY"
+      ],
+      "entity_label_counts": {
+        "COMPANY": 4,
+        "DATE": 6,
+        "IMPACT": 9,
+        "LAW": 2,
+        "ORG": 11,
+        "REFERENCE_VALUE": 2
+      },
+      "entity_labels": [
+        "REFERENCE_VALUE",
+        "COMPANY",
+        "IMPACT",
+        "DATE",
+        "ORG",
+        "LAW"
+      ],
+      "n_keywords": 13,
+      "n_sent_tokens": [
+        38,
+        28,
+        25,
+        28,
+        9,
+        41,
+        17,
+        18,
+        42,
+        21,
+        37
+      ],
+      "n_sentences": 11,
+      "n_tokens": 304,
+      "par_index": 41,
+      "scraper": "eea",
+      "sentences": [
+        "As a general observation, dieselisation ( 3 ), i.e. the introduction of more diesel vehicles, is one of the main drivers for the emissions reductions of the major manufacturers (Figure 2 .1).",
+        "Diesel vehicles registrations have increased consistently over the years, but for some manufacturers the share of diesel cars has stabilised over the last couple of years.",
+        "Despite the increasing trend, the share of alternative fuelled vehicles remains low and hence has not contributed significantly to the observed emissions reductions.",
+        "For some manufacturers a shift to smaller vehicles (downsizing -a reduced engine capacity) is also observed, for example for BMW, Fiat and Volkswagen.",
+        "Table 2 .2 presents data by manufacturer pool.",
+        "The majority of the pools were already in place in 2011, while Toyota-Daihatsu Group, VW Group PC and Tata Motors Ltd, Jaguar Cars Ltd, Land Rover (TJL) will pool as from 2012.",
+        "These pools are reported here because data registered in 2011 are compared with the 2012 target.",
+        "For some pools, the difference between the average emissions of the pool members is quite high.",
+        "The smallest range is found in the Ford-Werke pool, where the average emission of the individual manufacturers varies between 114 g CO 2 /km and 132 g CO 2 /km -a difference of 18 g CO 2 /km.",
+        "By contrast, the difference between the manufacturers in the Volkswagen pool is more than 265 g CO 2 /km.",
+        "The distance of manufacturers to their specific emissions targets is calculated by taking into account the adjustments listed in chapter 1 (phase in, super-credits, E85 reductions and eco-innovations)."
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "There are no binding targets for 2011 but an indicative target is provided for this year giving manufacturers an indication of the effort required to meet the binding target in 2012.",
+    "content_type": "text",
+    "embedding": null,
+    "id": "567ae6434ed1f3a6353dea2f76e68916",
+    "meta": {
+      "concept_counts": {},
+      "concepts": [],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "end": 37,
+          "label": "DATE",
+          "sent_ind": 0,
+          "start": 33,
+          "text": "2011"
+        },
+        {
+          "end": 88,
+          "label": "DATE",
+          "sent_ind": 0,
+          "start": 79,
+          "text": "this year"
+        },
+        {
+          "end": 181,
+          "label": "DATE",
+          "sent_ind": 0,
+          "start": 177,
+          "text": "2012"
+        }
+      ],
+      "entity_id_counts": {},
+      "entity_id_parts": [],
+      "entity_ids": [],
+      "entity_label_counts": {
+        "DATE": 3
+      },
+      "entity_labels": [
+        "DATE"
+      ],
+      "n_keywords": 0,
+      "n_sent_tokens": [
+        32
+      ],
+      "n_sentences": 1,
+      "n_tokens": 32,
+      "par_index": 42,
+      "scraper": "eea",
+      "sentences": [
+        "There are no binding targets for 2011 but an indicative target is provided for this year giving manufacturers an indication of the effort required to meet the binding target in 2012."
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "Based on their average CO 2 emissions in 2011, 47 manufacturers, representing 95 % of the registrations in the EU, already achieve their specific emissions targets for the year 2012 (including derogations). Compared to 2010, 15 additional manufacturers were able to reduce their average emissions level below their target. As explained in Chapter 1, the limit value curve implies that heavier cars are allowed higher emissions than lighter cars. As a result, the specific CO 2 emission limits of this group range from 119 to 145 g CO 2 /km.",
+    "content_type": "text",
+    "embedding": null,
+    "id": "89a39dcc02c1e3ac00925753aef93b52",
+    "meta": {
+      "concept_counts": {
+        "CO2": 3,
+        "Cars": 2,
+        "GHG emissions": 5,
+        "Levelling": 1
+      },
+      "concepts": [
+        "CO2",
+        "GHG emissions",
+        "Levelling",
+        "Cars"
+      ],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "concept_label": "CO2",
+          "end": 27,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 23,
+          "text": "CO 2"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 37,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 28,
+          "text": "emissions"
+        },
+        {
+          "end": 45,
+          "label": "DATE",
+          "sent_ind": 0,
+          "start": 41,
+          "text": "2011"
+        },
+        {
+          "end": 49,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 0,
+          "start": 47,
+          "text": "47"
+        },
+        {
+          "end": 82,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 0,
+          "start": 78,
+          "text": "95 %"
+        },
+        {
+          "end": 113,
+          "label": "ORG",
+          "sent_ind": 0,
+          "start": 111,
+          "text": "EU"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 155,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 146,
+          "text": "emissions"
+        },
+        {
+          "end": 181,
+          "label": "DATE",
+          "sent_ind": 0,
+          "start": 168,
+          "text": "the year 2012"
+        },
+        {
+          "end": 223,
+          "label": "DATE",
+          "sent_ind": 1,
+          "start": 219,
+          "text": "2010"
+        },
+        {
+          "end": 252,
+          "id": "quantity",
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 1,
+          "start": 225,
+          "text": "15 additional manufacturers"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 296,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 1,
+          "start": 287,
+          "text": "emissions"
+        },
+        {
+          "concept_label": "Levelling",
+          "end": 302,
+          "id": "Products & Activities/CPA/C_Manufactured Products/25_Fabricated Metal Products, Except Machinery and Equipment/COMPANY;Products & Activities/CPA/F_Constructions and Construction Works/COMPANY;Levelling",
+          "label": "COMPANY",
+          "sent_ind": 1,
+          "start": 297,
+          "text": "level"
+        },
+        {
+          "end": 348,
+          "label": "LAW",
+          "sent_ind": 2,
+          "start": 339,
+          "text": "Chapter 1"
+        },
+        {
+          "concept_label": "Cars",
+          "end": 397,
+          "id": "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY;Cars",
+          "label": "COMPANY",
+          "sent_ind": 2,
+          "start": 393,
+          "text": "cars"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 426,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 2,
+          "start": 417,
+          "text": "emissions"
+        },
+        {
+          "concept_label": "Cars",
+          "end": 444,
+          "id": "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY;Cars",
+          "label": "COMPANY",
+          "sent_ind": 2,
+          "start": 440,
+          "text": "cars"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 476,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 3,
+          "start": 472,
+          "text": "CO 2"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 485,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 3,
+          "start": 477,
+          "text": "emission"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 535,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 3,
+          "start": 531,
+          "text": "CO 2"
+        }
+      ],
+      "entity_id_counts": {
+        "Impact": 8,
+        "Impact/IRIS": 8,
+        "Impact/IRIS/Climate": 8,
+        "Impact/IRIS/Climate/IMPACT": 8,
+        "Products & Activities": 3,
+        "Products & Activities/CPA": 3,
+        "Products & Activities/CPA/C_Manufactured Products": 1,
+        "Products & Activities/CPA/C_Manufactured Products/25_Fabricated Metal Products, Except Machinery and Equipment": 1,
+        "Products & Activities/CPA/C_Manufactured Products/25_Fabricated Metal Products, Except Machinery and Equipment/COMPANY": 1,
+        "Products & Activities/CPA/H_Transportation and Storage Services": 2,
+        "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY": 2,
+        "quantity": 1
+      },
+      "entity_id_parts": [
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "quantity",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "25",
+        "Activities",
+        "C",
+        "COMPANY",
+        "CPA",
+        "Equipment",
+        "Fabricated Metal Products, Except Machinery",
+        "Manufactured Products",
+        "Products",
+        "Activities",
+        "COMPANY",
+        "CPA",
+        "H",
+        "Products",
+        "Storage Services",
+        "Transportation",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Activities",
+        "COMPANY",
+        "CPA",
+        "H",
+        "Products",
+        "Storage Services",
+        "Transportation",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact"
+      ],
+      "entity_ids": [
+        "Impact",
+        "Impact/IRIS",
+        "Impact/IRIS/Climate",
+        "Impact/IRIS/Climate/IMPACT",
+        "quantity",
+        "Products & Activities",
+        "Products & Activities/CPA",
+        "Products & Activities/CPA/C_Manufactured Products",
+        "Products & Activities/CPA/C_Manufactured Products/25_Fabricated Metal Products, Except Machinery and Equipment",
+        "Products & Activities/CPA/C_Manufactured Products/25_Fabricated Metal Products, Except Machinery and Equipment/COMPANY",
+        "Products & Activities/CPA/H_Transportation and Storage Services",
+        "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY"
+      ],
+      "entity_label_counts": {
+        "COMPANY": 3,
+        "DATE": 3,
+        "IMPACT": 8,
+        "LAW": 1,
+        "ORG": 1,
+        "REFERENCE_VALUE": 3
+      },
+      "entity_labels": [
+        "IMPACT",
+        "DATE",
+        "REFERENCE_VALUE",
+        "ORG",
+        "COMPANY",
+        "LAW"
+      ],
+      "n_keywords": 11,
+      "n_sent_tokens": [
+        38,
+        19,
+        22,
+        23
+      ],
+      "n_sentences": 4,
+      "n_tokens": 102,
+      "par_index": 43,
+      "scraper": "eea",
+      "sentences": [
+        "Based on their average CO 2 emissions in 2011, 47 manufacturers, representing 95 % of the registrations in the EU, already achieve their specific emissions targets for the year 2012 (including derogations).",
+        "Compared to 2010, 15 additional manufacturers were able to reduce their average emissions level below their target.",
+        "As explained in Chapter 1, the limit value curve implies that heavier cars are allowed higher emissions than lighter cars.",
+        "As a result, the specific CO 2 emission limits of this group range from 119 to 145 g CO 2 /km."
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "The majority of the manufacturers above the target curves are very close to meeting their targets. Dacia, for example, exceeds its target by 5.7 g CO 2 /km; while Mazda exceeds by less than 1 g CO 2 /km. Compared to 2010, Nissan, Skoda, Daimler AG and GM Korea (last year named GM Daewoo) were able to improve their performance and decreased their emissions levels below their targets. The data presented in Figure 3 .1 are set out in Annex 1.",
+    "content_type": "text",
+    "embedding": null,
+    "id": "ae0d43dad0f30c4871ed975d69d85df3",
+    "meta": {
+      "concept_counts": {
+        "CO2": 2,
+        "GHG emissions": 1,
+        "Levelling": 1
+      },
+      "concepts": [
+        "CO2",
+        "GHG emissions",
+        "Levelling"
+      ],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "end": 104,
+          "label": "ORG",
+          "sent_ind": 1,
+          "start": 99,
+          "text": "Dacia"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 151,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 1,
+          "start": 147,
+          "text": "CO 2"
+        },
+        {
+          "end": 168,
+          "label": "ORG",
+          "sent_ind": 1,
+          "start": 163,
+          "text": "Mazda"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 198,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 1,
+          "start": 194,
+          "text": "CO 2"
+        },
+        {
+          "end": 220,
+          "label": "DATE",
+          "sent_ind": 2,
+          "start": 216,
+          "text": "2010"
+        },
+        {
+          "end": 228,
+          "label": "ORG",
+          "sent_ind": 2,
+          "start": 222,
+          "text": "Nissan"
+        },
+        {
+          "end": 235,
+          "label": "ORG",
+          "sent_ind": 2,
+          "start": 230,
+          "text": "Skoda"
+        },
+        {
+          "end": 247,
+          "label": "ORG",
+          "sent_ind": 2,
+          "start": 237,
+          "text": "Daimler AG"
+        },
+        {
+          "end": 260,
+          "label": "ORG",
+          "sent_ind": 2,
+          "start": 252,
+          "text": "GM Korea"
+        },
+        {
+          "end": 271,
+          "label": "DATE",
+          "sent_ind": 2,
+          "start": 262,
+          "text": "last year"
+        },
+        {
+          "end": 287,
+          "label": "ORG",
+          "sent_ind": 2,
+          "start": 278,
+          "text": "GM Daewoo"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 357,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 2,
+          "start": 348,
+          "text": "emissions"
+        },
+        {
+          "concept_label": "Levelling",
+          "end": 364,
+          "id": "Products & Activities/CPA/C_Manufactured Products/25_Fabricated Metal Products, Except Machinery and Equipment/COMPANY;Products & Activities/CPA/F_Constructions and Construction Works/COMPANY;Levelling",
+          "label": "COMPANY",
+          "sent_ind": 2,
+          "start": 358,
+          "text": "levels"
+        }
+      ],
+      "entity_id_counts": {
+        "Impact": 3,
+        "Impact/IRIS": 3,
+        "Impact/IRIS/Climate": 3,
+        "Impact/IRIS/Climate/IMPACT": 3,
+        "Products & Activities": 1,
+        "Products & Activities/CPA": 1,
+        "Products & Activities/CPA/C_Manufactured Products": 1,
+        "Products & Activities/CPA/C_Manufactured Products/25_Fabricated Metal Products, Except Machinery and Equipment": 1,
+        "Products & Activities/CPA/C_Manufactured Products/25_Fabricated Metal Products, Except Machinery and Equipment/COMPANY": 1
+      },
+      "entity_id_parts": [
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "25",
+        "Activities",
+        "C",
+        "COMPANY",
+        "CPA",
+        "Equipment",
+        "Fabricated Metal Products, Except Machinery",
+        "Manufactured Products",
+        "Products"
+      ],
+      "entity_ids": [
+        "Impact",
+        "Impact/IRIS",
+        "Impact/IRIS/Climate",
+        "Impact/IRIS/Climate/IMPACT",
+        "Products & Activities",
+        "Products & Activities/CPA",
+        "Products & Activities/CPA/C_Manufactured Products",
+        "Products & Activities/CPA/C_Manufactured Products/25_Fabricated Metal Products, Except Machinery and Equipment",
+        "Products & Activities/CPA/C_Manufactured Products/25_Fabricated Metal Products, Except Machinery and Equipment/COMPANY"
+      ],
+      "entity_label_counts": {
+        "COMPANY": 1,
+        "DATE": 2,
+        "IMPACT": 3,
+        "ORG": 7
+      },
+      "entity_labels": [
+        "ORG",
+        "IMPACT",
+        "DATE",
+        "COMPANY"
+      ],
+      "n_keywords": 4,
+      "n_sent_tokens": [
+        17,
+        27,
+        35,
+        14
+      ],
+      "n_sentences": 4,
+      "n_tokens": 93,
+      "par_index": 44,
+      "scraper": "eea",
+      "sentences": [
+        "The majority of the manufacturers above the target curves are very close to meeting their targets.",
+        "Dacia, for example, exceeds its target by 5.7 g CO 2 /km; while Mazda exceeds by less than 1 g CO 2 /km.",
+        "Compared to 2010, Nissan, Skoda, Daimler AG and GM Korea (last year named GM Daewoo) were able to improve their performance and decreased their emissions levels below their targets.",
+        "The data presented in Figure 3 .1 are set out in Annex 1."
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "The distance to target for pools of manufacturers is presented in Table 3 .1. In 2011, all the pools are respecting their 2012 specific emissions' targets. The size of the bubble is proportional to the number of vehicles registered in Europe.",
+    "content_type": "text",
+    "embedding": null,
+    "id": "eb436fe5a79d227e7327a6d753940fe8",
+    "meta": {
+      "concept_counts": {
+        "GHG emissions": 1
+      },
+      "concepts": [
+        "GHG emissions"
+      ],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "end": 85,
+          "label": "DATE",
+          "sent_ind": 1,
+          "start": 81,
+          "text": "2011"
+        },
+        {
+          "end": 126,
+          "label": "DATE",
+          "sent_ind": 1,
+          "start": 122,
+          "text": "2012"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 145,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 1,
+          "start": 136,
+          "text": "emissions"
+        },
+        {
+          "end": 241,
+          "label": "LOC",
+          "sent_ind": 2,
+          "start": 235,
+          "text": "Europe"
+        }
+      ],
+      "entity_id_counts": {
+        "Impact": 1,
+        "Impact/IRIS": 1,
+        "Impact/IRIS/Climate": 1,
+        "Impact/IRIS/Climate/IMPACT": 1
+      },
+      "entity_id_parts": [
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact"
+      ],
+      "entity_ids": [
+        "Impact",
+        "Impact/IRIS",
+        "Impact/IRIS/Climate",
+        "Impact/IRIS/Climate/IMPACT"
+      ],
+      "entity_label_counts": {
+        "DATE": 2,
+        "IMPACT": 1,
+        "LOC": 1
+      },
+      "entity_labels": [
+        "DATE",
+        "IMPACT",
+        "LOC"
+      ],
+      "n_keywords": 1,
+      "n_sent_tokens": [
+        15,
+        15,
+        16
+      ],
+      "n_sentences": 3,
+      "n_tokens": 46,
+      "par_index": 45,
+      "scraper": "eea",
+      "sentences": [
+        "The distance to target for pools of manufacturers is presented in Table 3 .1.",
+        "In 2011, all the pools are respecting their 2012 specific emissions' targets.",
+        "The size of the bubble is proportional to the number of vehicles registered in Europe."
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "Average CO 2 emissions (g CO 2 /km) The distance of the largest manufacturers to their targets is calculated based on the 2011 CO 2 emission data.",
+    "content_type": "text",
+    "embedding": null,
+    "id": "c2582ef6698ed376010fdb1440c30f77",
+    "meta": {
+      "concept_counts": {
+        "CO2": 3,
+        "GHG emissions": 2
+      },
+      "concepts": [
+        "CO2",
+        "GHG emissions"
+      ],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "concept_label": "CO2",
+          "end": 12,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 8,
+          "text": "CO 2"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 22,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 13,
+          "text": "emissions"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 30,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 26,
+          "text": "CO 2"
+        },
+        {
+          "end": 126,
+          "label": "DATE",
+          "sent_ind": 0,
+          "start": 122,
+          "text": "2011"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 131,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 127,
+          "text": "CO 2"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 140,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 132,
+          "text": "emission"
+        }
+      ],
+      "entity_id_counts": {
+        "Impact": 5,
+        "Impact/IRIS": 5,
+        "Impact/IRIS/Climate": 5,
+        "Impact/IRIS/Climate/IMPACT": 5
+      },
+      "entity_id_parts": [
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact"
+      ],
+      "entity_ids": [
+        "Impact",
+        "Impact/IRIS",
+        "Impact/IRIS/Climate",
+        "Impact/IRIS/Climate/IMPACT"
+      ],
+      "entity_label_counts": {
+        "DATE": 1,
+        "IMPACT": 5
+      },
+      "entity_labels": [
+        "IMPACT",
+        "DATE"
+      ],
+      "n_keywords": 5,
+      "n_sent_tokens": [
+        30
+      ],
+      "n_sentences": 1,
+      "n_tokens": 30,
+      "par_index": 46,
+      "scraper": "eea",
+      "sentences": [
+        "Average CO 2 emissions (g CO 2 /km) The distance of the largest manufacturers to their targets is calculated based on the 2011 CO 2 emission data."
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "The 2012-2015 progression towards the target is calculated on the basis of the adjustments reported in Table 1 .1. A different set of adjustments is applied in every years of this period. For example, for the year 2015, the calculation includes 100 % of the vehicle fleet and manufacturers receive super-credits in the order of 1.5 cars for vehicles emitting less than 50 g CO 2 /km (Figure 4 .1). Manufacturers have three more years to further reduce CO 2 emissions and ensure compliance with their targets in 2015. If car manufacturers continue to reduce emissions as in past years they will meet the 2015 targets.",
+    "content_type": "text",
+    "embedding": null,
+    "id": "86f9c53f56537c9f38ffcd65f1d177b5",
+    "meta": {
+      "concept_counts": {
+        "CO2": 2,
+        "Cars": 2,
+        "GHG emissions": 2
+      },
+      "concepts": [
+        "Cars",
+        "CO2",
+        "GHG emissions"
+      ],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "end": 13,
+          "label": "DATE",
+          "sent_ind": 0,
+          "start": 4,
+          "text": "2012-2015"
+        },
+        {
+          "end": 171,
+          "label": "DATE",
+          "sent_ind": 1,
+          "start": 160,
+          "text": "every years"
+        },
+        {
+          "end": 218,
+          "label": "DATE",
+          "sent_ind": 2,
+          "start": 205,
+          "text": "the year 2015"
+        },
+        {
+          "end": 271,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 2,
+          "start": 245,
+          "text": "100 % of the vehicle fleet"
+        },
+        {
+          "end": 331,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 2,
+          "start": 328,
+          "text": "1.5"
+        },
+        {
+          "concept_label": "Cars",
+          "end": 336,
+          "id": "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY;Cars",
+          "label": "COMPANY",
+          "sent_ind": 2,
+          "start": 332,
+          "text": "cars"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 378,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 2,
+          "start": 374,
+          "text": "CO 2"
+        },
+        {
+          "end": 433,
+          "label": "DATE",
+          "sent_ind": 3,
+          "start": 417,
+          "text": "three more years"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 456,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 3,
+          "start": 452,
+          "text": "CO 2"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 466,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 3,
+          "start": 457,
+          "text": "emissions"
+        },
+        {
+          "end": 515,
+          "label": "DATE",
+          "sent_ind": 3,
+          "start": 511,
+          "text": "2015"
+        },
+        {
+          "concept_label": "Cars",
+          "end": 523,
+          "id": "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY;Cars",
+          "label": "COMPANY",
+          "sent_ind": 4,
+          "start": 520,
+          "text": "car"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 566,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 4,
+          "start": 557,
+          "text": "emissions"
+        },
+        {
+          "end": 583,
+          "label": "DATE",
+          "sent_ind": 4,
+          "start": 573,
+          "text": "past years"
+        },
+        {
+          "end": 607,
+          "label": "DATE",
+          "sent_ind": 4,
+          "start": 603,
+          "text": "2015"
+        }
+      ],
+      "entity_id_counts": {
+        "Impact": 4,
+        "Impact/IRIS": 4,
+        "Impact/IRIS/Climate": 4,
+        "Impact/IRIS/Climate/IMPACT": 4,
+        "Products & Activities": 2,
+        "Products & Activities/CPA": 2,
+        "Products & Activities/CPA/H_Transportation and Storage Services": 2,
+        "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY": 2
+      },
+      "entity_id_parts": [
+        "Activities",
+        "COMPANY",
+        "CPA",
+        "H",
+        "Products",
+        "Storage Services",
+        "Transportation",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Activities",
+        "COMPANY",
+        "CPA",
+        "H",
+        "Products",
+        "Storage Services",
+        "Transportation",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact"
+      ],
+      "entity_ids": [
+        "Products & Activities",
+        "Products & Activities/CPA",
+        "Products & Activities/CPA/H_Transportation and Storage Services",
+        "Products & Activities/CPA/H_Transportation and Storage Services/COMPANY",
+        "Impact",
+        "Impact/IRIS",
+        "Impact/IRIS/Climate",
+        "Impact/IRIS/Climate/IMPACT"
+      ],
+      "entity_label_counts": {
+        "COMPANY": 2,
+        "DATE": 7,
+        "IMPACT": 4,
+        "REFERENCE_VALUE": 2
+      },
+      "entity_labels": [
+        "DATE",
+        "REFERENCE_VALUE",
+        "COMPANY",
+        "IMPACT"
+      ],
+      "n_keywords": 6,
+      "n_sent_tokens": [
+        22,
+        14,
+        45,
+        20,
+        18
+      ],
+      "n_sentences": 5,
+      "n_tokens": 119,
+      "par_index": 47,
+      "scraper": "eea",
+      "sentences": [
+        "The 2012-2015 progression towards the target is calculated on the basis of the adjustments reported in Table 1 .1.",
+        "A different set of adjustments is applied in every years of this period.",
+        "For example, for the year 2015, the calculation includes 100 % of the vehicle fleet and manufacturers receive super-credits in the order of 1.5 cars for vehicles emitting less than 50 g CO 2 /km (Figure 4 .1).",
+        "Manufacturers have three more years to further reduce CO 2 emissions and ensure compliance with their targets in 2015.",
+        "If car manufacturers continue to reduce emissions as in past years they will meet the 2015 targets."
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "In order to be compliant with the 2015 targets, four manufacturers have to reduce the average emissions of their fleets by less than 5 g CO 2 /km over the next five years. Only five manufacturers have to reduce the average emissions by more than 10 g CO 2 /km over the same period.",
+    "content_type": "text",
+    "embedding": null,
+    "id": "d02f96f3dcd67aee47d0c178a7d9f8de",
+    "meta": {
+      "concept_counts": {
+        "CO2": 2,
+        "GHG emissions": 2
+      },
+      "concepts": [
+        "GHG emissions",
+        "CO2"
+      ],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "end": 38,
+          "label": "DATE",
+          "sent_ind": 0,
+          "start": 34,
+          "text": "2015"
+        },
+        {
+          "end": 52,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 0,
+          "start": 48,
+          "text": "four"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 103,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 94,
+          "text": "emissions"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 141,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 137,
+          "text": "CO 2"
+        },
+        {
+          "end": 170,
+          "label": "DATE",
+          "sent_ind": 0,
+          "start": 151,
+          "text": "the next five years"
+        },
+        {
+          "end": 195,
+          "id": "quantity",
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 1,
+          "start": 177,
+          "text": "five manufacturers"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 232,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 1,
+          "start": 223,
+          "text": "emissions"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 255,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 1,
+          "start": 251,
+          "text": "CO 2"
+        }
+      ],
+      "entity_id_counts": {
+        "Impact": 4,
+        "Impact/IRIS": 4,
+        "Impact/IRIS/Climate": 4,
+        "Impact/IRIS/Climate/IMPACT": 4,
+        "quantity": 1
+      },
+      "entity_id_parts": [
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "quantity",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact"
+      ],
+      "entity_ids": [
+        "Impact",
+        "Impact/IRIS",
+        "Impact/IRIS/Climate",
+        "Impact/IRIS/Climate/IMPACT",
+        "quantity"
+      ],
+      "entity_label_counts": {
+        "DATE": 2,
+        "IMPACT": 4,
+        "REFERENCE_VALUE": 2
+      },
+      "entity_labels": [
+        "DATE",
+        "REFERENCE_VALUE",
+        "IMPACT"
+      ],
+      "n_keywords": 4,
+      "n_sent_tokens": [
+        35,
+        22
+      ],
+      "n_sentences": 2,
+      "n_tokens": 57,
+      "par_index": 52,
+      "scraper": "eea",
+      "sentences": [
+        "In order to be compliant with the 2015 targets, four manufacturers have to reduce the average emissions of their fleets by less than 5 g CO 2 /km over the next five years.",
+        "Only five manufacturers have to reduce the average emissions by more than 10 g CO 2 /km over the same period."
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "It should be noted that further pooling agreements between manufacturers exceeding their targets and those with a positive distance to target can also be expected which may change these estimates further.",
+    "content_type": "text",
+    "embedding": null,
+    "id": "36087a60aec49790e7ec8e0d255936aa",
+    "meta": {
+      "concept_counts": {},
+      "concepts": [],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [],
+      "entity_id_counts": {},
+      "entity_id_parts": [],
+      "entity_ids": [],
+      "entity_label_counts": {},
+      "entity_labels": [],
+      "n_keywords": 0,
+      "n_sent_tokens": [
+        32
+      ],
+      "n_sentences": 1,
+      "n_tokens": 32,
+      "par_index": 53,
+      "scraper": "eea",
+      "sentences": [
+        "It should be noted that further pooling agreements between manufacturers exceeding their targets and those with a positive distance to target can also be expected which may change these estimates further."
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "The complete data presented in Figure 4 .1 (by manufacturers and by pools) are set out in Annex 1. \u2022 the distance to the emissions target in a given year (in g CO 2 /km);",
+    "content_type": "text",
+    "embedding": null,
+    "id": "75da9fe3353b5fe04a651ef09a527e39",
+    "meta": {
+      "concept_counts": {
+        "CO2": 1,
+        "GHG emissions": 1
+      },
+      "concepts": [
+        "GHG emissions",
+        "CO2"
+      ],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "concept_label": "GHG emissions",
+          "end": 130,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 121,
+          "text": "emissions"
+        },
+        {
+          "end": 153,
+          "label": "DATE",
+          "sent_ind": 0,
+          "start": 141,
+          "text": "a given year"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 164,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 160,
+          "text": "CO 2"
+        }
+      ],
+      "entity_id_counts": {
+        "Impact": 2,
+        "Impact/IRIS": 2,
+        "Impact/IRIS/Climate": 2,
+        "Impact/IRIS/Climate/IMPACT": 2
+      },
+      "entity_id_parts": [
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact"
+      ],
+      "entity_ids": [
+        "Impact",
+        "Impact/IRIS",
+        "Impact/IRIS/Climate",
+        "Impact/IRIS/Climate/IMPACT"
+      ],
+      "entity_label_counts": {
+        "DATE": 1,
+        "IMPACT": 2
+      },
+      "entity_labels": [
+        "IMPACT",
+        "DATE"
+      ],
+      "n_keywords": 2,
+      "n_sent_tokens": [
+        41
+      ],
+      "n_sentences": 1,
+      "n_tokens": 41,
+      "par_index": 54,
+      "scraper": "eea",
+      "sentences": [
+        "The complete data presented in Figure 4 .1 (by manufacturers and by pools) are set out in Annex 1. \u2022 the distance to the emissions target in a given year (in g CO 2 /km);"
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "The premium amounts to EUR 5 for the first g CO 2 /km of exceedance, EUR 15 for the second g CO 2 /km, EUR 25 for the third g CO 2 /km, and EUR 95 for each subsequent g CO 2 /km. A higher distance to the target therefore implies a higher excess premium per g CO 2 /km emitted (Table 5 .1).",
+    "content_type": "text",
+    "embedding": null,
+    "id": "58d6dd5765b4ef09fb6c6ec181511ca5",
+    "meta": {
+      "concept_counts": {
+        "CO2": 5
+      },
+      "concepts": [
+        "CO2"
+      ],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "end": 28,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 0,
+          "start": 23,
+          "text": "EUR 5"
+        },
+        {
+          "end": 42,
+          "label": "ORDINAL",
+          "sent_ind": 0,
+          "start": 37,
+          "text": "first"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 49,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 45,
+          "text": "CO 2"
+        },
+        {
+          "end": 75,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 0,
+          "start": 69,
+          "text": "EUR 15"
+        },
+        {
+          "end": 90,
+          "label": "ORDINAL",
+          "sent_ind": 0,
+          "start": 84,
+          "text": "second"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 97,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 93,
+          "text": "CO 2"
+        },
+        {
+          "end": 109,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 0,
+          "start": 103,
+          "text": "EUR 25"
+        },
+        {
+          "end": 123,
+          "label": "ORDINAL",
+          "sent_ind": 0,
+          "start": 118,
+          "text": "third"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 130,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 126,
+          "text": "CO 2"
+        },
+        {
+          "end": 146,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 0,
+          "start": 140,
+          "text": "EUR 95"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 173,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 169,
+          "text": "CO 2"
+        },
+        {
+          "concept_label": "CO2",
+          "end": 263,
+          "id": "Impact/IRIS/Climate/IMPACT;CO2",
+          "label": "IMPACT",
+          "sent_ind": 1,
+          "start": 259,
+          "text": "CO 2"
+        },
+        {
+          "end": 287,
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 1,
+          "start": 283,
+          "text": "5 .1"
+        }
+      ],
+      "entity_id_counts": {
+        "Impact": 5,
+        "Impact/IRIS": 5,
+        "Impact/IRIS/Climate": 5,
+        "Impact/IRIS/Climate/IMPACT": 5
+      },
+      "entity_id_parts": [
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact"
+      ],
+      "entity_ids": [
+        "Impact",
+        "Impact/IRIS",
+        "Impact/IRIS/Climate",
+        "Impact/IRIS/Climate/IMPACT"
+      ],
+      "entity_label_counts": {
+        "IMPACT": 5,
+        "ORDINAL": 3,
+        "REFERENCE_VALUE": 5
+      },
+      "entity_labels": [
+        "REFERENCE_VALUE",
+        "ORDINAL",
+        "IMPACT"
+      ],
+      "n_keywords": 5,
+      "n_sent_tokens": [
+        47,
+        24
+      ],
+      "n_sentences": 2,
+      "n_tokens": 71,
+      "par_index": 57,
+      "scraper": "eea",
+      "sentences": [
+        "The premium amounts to EUR 5 for the first g CO 2 /km of exceedance, EUR 15 for the second g CO 2 /km, EUR 25 for the third g CO 2 /km, and EUR 95 for each subsequent g CO 2 /km.",
+        "A higher distance to the target therefore implies a higher excess premium per g CO 2 /km emitted (Table 5 .1)."
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  },
+  {
+    "content": "For example, if a manufacturer registers 100 000 vehicles in the EU, the formula to be used for calculating the excess emissions premium varies depending on the distance to the target as follows:",
+    "content_type": "text",
+    "embedding": null,
+    "id": "754fa846e22f4bc16b7595db9ff50e5e",
+    "meta": {
+      "concept_counts": {
+        "GHG emissions": 1
+      },
+      "concepts": [
+        "GHG emissions"
+      ],
+      "document_id": "b8aa98e21f8eaf209e5920bef2099f63",
+      "entities": [
+        {
+          "end": 57,
+          "id": "quantity",
+          "label": "REFERENCE_VALUE",
+          "sent_ind": 0,
+          "start": 41,
+          "text": "100 000 vehicles"
+        },
+        {
+          "end": 67,
+          "label": "GPE",
+          "sent_ind": 0,
+          "start": 65,
+          "text": "EU"
+        },
+        {
+          "concept_label": "GHG emissions",
+          "end": 128,
+          "id": "Impact/IRIS/Climate/IMPACT;GHG emissions",
+          "label": "IMPACT",
+          "sent_ind": 0,
+          "start": 119,
+          "text": "emissions"
+        }
+      ],
+      "entity_id_counts": {
+        "Impact": 1,
+        "Impact/IRIS": 1,
+        "Impact/IRIS/Climate": 1,
+        "Impact/IRIS/Climate/IMPACT": 1,
+        "quantity": 1
+      },
+      "entity_id_parts": [
+        "quantity",
+        "Climate",
+        "IMPACT",
+        "IRIS",
+        "Impact"
+      ],
+      "entity_ids": [
+        "quantity",
+        "Impact",
+        "Impact/IRIS",
+        "Impact/IRIS/Climate",
+        "Impact/IRIS/Climate/IMPACT"
+      ],
+      "entity_label_counts": {
+        "GPE": 1,
+        "IMPACT": 1,
+        "REFERENCE_VALUE": 1
+      },
+      "entity_labels": [
+        "REFERENCE_VALUE",
+        "GPE",
+        "IMPACT"
+      ],
+      "n_keywords": 1,
+      "n_sent_tokens": [
+        36
+      ],
+      "n_sentences": 1,
+      "n_tokens": 36,
+      "par_index": 58,
+      "scraper": "eea",
+      "sentences": [
+        "For example, if a manufacturer registers 100 000 vehicles in the EU, the formula to be used for calculating the excess emissions premium varies depending on the distance to the target as follows:"
+      ],
+      "title": "CO2 emissions performance of car manufacturers in 2011",
+      "type": "pdf",
+      "url": "https://www.eea.europa.eu/publications/co2-emissions-performance-of-car/download"
+    },
+    "score": null
+  }
+]

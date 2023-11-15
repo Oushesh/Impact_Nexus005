@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "postgres-330510",
+  "private_key_id": "458530c3ac03c98aacf6e924987a1921f573b7f2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC/sZyt0BWD6f+M\nq6Ha2PI84QOGmO8iXJLe46lP6AfHIV5D8fBGqRInSZv5gMKOM8KXOivVpOTF0ZLA\nzhGSMdrA6HxZTFoTIXI8v0F2YFSvPVsTqvfZsgBEGRLoovtBI4w7Bch08/R2Lbu2\nCuHrbkj7Pt9R4mz1pV8hatJfzDKYJS/xHgCcl5kNG87MZ4zAKq4Q5j8d5fKLiyfB\nZqq2DwtyCtX+qjZ7vRQBsNJe5QRPepRQ8Ad7jt92xx9HNX12lq9dbeYrcGgDbRJr\n5a6BqJeFYeC5s7lzaCN5WYZ2qS4gXqoBcXLb3LaKEoNUKsO9P6cbcj4XQeoBBej+\nQIReYHX7AgMBAAECggEAB1C63vMy7v7ODss5+QUQcXxQyyEo9xG7VSAxBOig61t9\nonAoMDohhDhN6H6ebhjRkz3YEGYjiN0PkaYLi521cGku3aWJRnOfTWwrDl5svOdF\ng4GhxcACPJcMXq5hkkHOBy6YUMZCjQP/xtmxd2+U/2mN0i0m5VTzRW4zKw662412\n06dA0KYCmTyyFL9/L+mDRdb106ZPty5vyGUcy8isstn8dGt83dfIiHikIVz0OFu5\nKLR4Q+JbiqcTaw0a7TtlADl1uMhjYwtV+Elb5v0lsu1Jki+p+BUVMcnloYbgkeS6\nEgICgrnCYSCz+OeLjEnvXj4V2RGRfrdaK8J6+n0t+QKBgQDnEP75CA75ayVQdhXZ\nu38xYD1XvRXWnXJgeQsS1CCFipr0IHKZ1P07bKlBQtYCHuG5OTfxh3D8dFlvH6dT\nvct/Ui1Vp8iQ1mI/jk1iQcOc7kU8LqhRprrs3TfTfDrZXWU8r0lbM6mYkWP0Dj6W\nGE1dRgelVZftnMfvvJW4CSLO1QKBgQDUYPuq9JB63EcEfAfNfMSLzZqBXbpfISiL\nn+KwDMWh5YZEgCe3ibcbZYRiIFldJ7KY7MQqzHCm0kGqnTb0kB/QlPr3Qgg+0kc2\nzoO0UCoaapZL9D7gTVYuBl74ISxMst+i4cIW97R8+ODOxqMmZNH6YoXq1SwGzZXP\nLOyKHBu5jwKBgHPrVN6+KjT6ibe55fBbXc35iAyyMXh/eFfpoaKKhN450M7UUGnY\nLkpXkvnIe/CIaZkwmV40InykKhHTgXBDcQmowlGMYNQ4mQVlcHDwqR/bcSRmC88a\npAAcYttYIXXWouk0zspQOq7tkYVoeAF4o6c9cKyDKjrsQmmE5F91Rd8ZAoGBALkm\nv+Ffi2IBDkzjkK3du0AihDOKMgPjVYS8ZBWVXOryviaUD4wcHK1eyJX/m8jx5esa\nZz7kssVNAoCqxRFbYNEoQM81Gxkhm4I1cm7NgJc9G0Cmc/Z6lcpUNZFe4k8PlpZa\n+Smq1AgrtVmvpObA+KqwIA4FwHdB3fwbLzCMpsMTAoGBAIiyn0BmZzn+OJY7W34q\nE2LQtTtZdK57GLJUJ/iNnzN+/Kwz1hw9dnbpw1AjejyKppdEQRKp03R6x1gKPGx3\nNtiAMmUYc+IheYLIu+seZxEzDcZmWuDAbLJNRYAHuFrFCwnaey92Y/UH2PRzUHhG\nCK8jQZptiCJPjF+5IuVZfJJI\n-----END PRIVATE KEY-----\n",
+  "client_email": "prodigy@postgres-330510.iam.gserviceaccount.com",
+  "client_id": "110528226797266201042",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/prodigy%40postgres-330510.iam.gserviceaccount.com"
+}

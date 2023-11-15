@@ -1,0 +1,48 @@
+Pipeline:
+  Config:
+    experiment_name: eu_taxonomy_classifier_annotation_task_dense
+  Components:
+    - name: OpenSearchStore
+      component_config:
+        mode: read
+        batch_size: 5
+        index: eu-taxonomy-insights-dev-v6
+        document_class: AnnotatedInsight
+        index_mapping: INSIGHTS_MAPPING
+    - name: SentenceTransformerRetriever
+      component_config:
+        model_name_or_path: "sentence-transformers/all-MiniLM-L6-v2"
+        content_field: text
+        batch_size: 32
+        show_progress_bar: True
+    - name: InsightClassifier
+      component_config:
+        model_name_or_path: "models/insights_classifier_v1/"
+    - name: EUTaxonomyClassifier
+      component_config:
+        model_name_or_path: facebook/bart-large-mnli
+        argmax_prediction: true
+        #classification_threshold: 0.1
+        eu_taxonomy_file_url: https://ec.europa.eu/sustainable-finance-taxonomy/assets/documents/taxonomy.xlsx
+        concept_filter_type: dense_concept_retriever
+        top_k: 5
+        concept_datastore:
+          Pipeline:
+            Components:
+              - name: OpenSearchStore
+                component_config:
+                  mode: read
+                  index: concepts-dev
+                  filters:
+                    # short notation, e.g. taxonomy.label doesn't work
+                    taxonomy:
+                      label: "EU Taxonomy"
+                  document_class: SimpleConcept
+                  index_mapping: CONCEPTS_MAPPING
+    - name: OpenSearchStore
+      component_config:
+        mode: write
+        batch_size: 5
+        index: eu-taxonomy-insights-dev-v6
+        document_class: AnnotatedInsight
+        index_mapping: INSIGHTS_MAPPING

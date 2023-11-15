@@ -1,0 +1,21 @@
+Pipeline:
+  Config:
+    experiment_name: eu_taxonomy_classifier_user_feedback
+    write_index: insights-eu-taxonomy-feedback
+    graphql_query: |-
+      { 
+        getImpactGoals {
+            id
+            ventureId
+            activityUrls
+            businessActivities {
+              id
+              label
+            }
+          } 
+      }
+  Components:
+    - name: ExtractScraperHTML
+    - name: ParagraphProcessor
+      component_config:
+        paragraph_marker: double_break

@@ -1,0 +1,98 @@
+# 87.10_Residential Nursing Care Services > 87.10.1_Residential Nursing Care Services
+# Residential nursing care services	NACE	87.10.10
+#This subcategory includes: 
+#- combined accommodation and medical services provided without the supervision of a medical doctor located on the premises, e.g. nursing homes, homes for the elderly with nursing care, convalescent homes, rest homes with nursing care
+residential nursing care service
+combine accommodation
+medical service
+the supervision
+a medical doctor
+the premise
+nursing home
+nursing care
+convalescent home
+rest home
+# 87.20_Residential Care Services for Mental Retardation, Mental Health and Substance Abuse > 87.20.1_Residential Care Services for Mental Retardation, Mental Health and Substance Abuse
+# Residential care services for children suffering from mental retardation, mental health illnesses and substance abuse	NACE	87.20.11
+#This subcategory includes:
+#- services for children provided by facilities for alcoholism or drug addiction treatment, psychiatric convalescent homes for the emotionally disturbed, mental retardation facilities, mental health halfway houses
+care
+health
+psychiatric convalescent home
+# 87.20_Residential Care Services for Mental Retardation, Mental Health and Substance Abuse > 87.20.1_Residential Care Services for Mental Retardation, Mental Health and Substance Abuse
+# Residential care services for adults suffering from mental retardation, mental health illnesses and substance abuse	NACE	87.20.12
+#This subcategory includes:
+#- services for adults provided by facilities for alcoholism or drug addiction treatment, psychiatric convalescent homes for the emotionally disturbed, mental retardation facilities, mental health halfway houses
+care
+health
+psychiatric convalescent home
+# 87.30_Residential Care Services for the Elderly and Disabled > 87.30.1_Residential Care Services for the Elderly and Disabled
+# Welfare services delivered through residential institutions to elderly persons	NACE	87.30.11
+#This subcategory includes: 
+#- social assistance services involving round-the-clock care services by residential institutions for elderly persons, including services provided by continuing care retirement communities, homes for the elderly with minimal nursing care
+welfare service
+residential institution
+elderly person
+social assistance service
+care
+community
+minimal nursing care
+# 87.30_Residential Care Services for the Elderly and Disabled > 87.30.1_Residential Care Services for the Elderly and Disabled
+# Welfare services delivered through residential institutions to disabled children and young people	NACE	87.30.12
+#This subcategory includes:
+#- social assistance services involving round-the-clock care services by residential institutions for children and young persons with physical or intellectual disabilities, including those having disabilities in seeing, hearing or speaking
+welfare service
+residential institution
+disabled child
+young people
+social assistance service
+care
+young person
+physical or intellectual disability
+saw
+# 87.30_Residential Care Services for the Elderly and Disabled > 87.30.1_Residential Care Services for the Elderly and Disabled
+# Welfare services delivered through residential institutions to disabled adults	NACE	87.30.13
+#This subcategory includes:
+#- social assistance services involving round-the-clock care services by residential institutions for adults with physical or intellectual disabilities, including those having disabilities in seeing, hearing or speaking
+welfare service
+residential institution
+disabled adult
+social assistance service
+care
+physical or intellectual disability
+saw
+# 87.90_Other Residential Care Services > 87.90.1_Other Residential Care Services
+# Other social work services with accommodation for children and young people	NACE	87.90.11
+#This subcategory includes: 
+#- residential social assistance services involving round-the-clock care services to children and youths, e.g., social services for orphanages, homes for children in need of protection, juvenile correction homes etc.
+other social work service
+young people
+residential social assistance service
+care
+youth
+orphanage
+need
+# 87.90_Other Residential Care Services > 87.90.1_Other Residential Care Services
+# Social work services with accommodation for mistreated women	NACE	87.90.12
+social work service
+# 87.90_Other Residential Care Services > 87.90.1_Other Residential Care Services
+# Other social work services with accommodation for adults	NACE	87.90.13
+#This subcategory includes: 
+#- residential social assistance services involving round-the-clock care services to adults, e.g.: 
+#  . homes for single mothers and their children
+#  . temporary homeless shelters
+#  . halfway group homes for persons with social or personal problems
+#  . halfway homes for delinquents and offenders
+#  . other social rehabilitation services
+other social work service
+residential social assistance service
+care
+single mother
+their child
+temporary homeless shelter
+halfway group home
+social or personal problem
+halfway home
+delinquent
+offender
+other social rehabilitation service

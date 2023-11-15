@@ -1,0 +1,5 @@
+Pipeline:
+  Config:
+    experiment_name: test
+  Components:
+    - name: ParagraphProcessor

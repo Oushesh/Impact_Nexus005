@@ -1,0 +1,36 @@
+Pipeline:
+  Config:
+    experiment_name: related_concept_classifier_annotation_task
+  Components:
+    - name: OpenSearchStore
+      component_config:
+        mode: read
+        batch_size: 5
+        index: insights-dev
+        document_class: AnnotatedInsight
+        index_mapping: DOCUMENTS_MAPPING
+    - name: ESGRelatedConceptsClassifier
+      component_config:
+        # for dev using smaller model, actual model is: facebook/bart-large-mnli
+        model_name_or_path: facebook/bart-large-mnli
+        prompt: The organization is {}
+        nli_threshold: 0.3
+        top_k: 10
+        concept_datastore:
+          Pipeline:
+            Components:
+              - name: OpenSearchStore
+                component_config:
+                  mode: read
+                  index: company-dev
+                  filters:
+                    taxonomy.label: "EU Taxonomy"
+                  document_class: SimpleConcept
+                  index_mapping: CONCEPTS_MAPPING
+    - name: OpenSearchStore
+      component_config:
+        mode: write
+        batch_size: 10
+        index: insights-dev
+        document_class: AnnotatedInsight
+        index_mapping: INSIGHTS_MAPPING

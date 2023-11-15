@@ -1,0 +1,22 @@
+Pipeline:
+  Config:
+    experiment_name: dummy_experiment
+  Components:
+    - name: OpenSearchStore
+      component_config:
+        mode: read
+        index: insights-dev
+        document_class: Insight
+        index_mapping: INSIGHTS_MAPPING
+    - name: InsightClassifier
+      component_config:
+        model_name_or_path: "models/insights_classifier_v1/"
+    - name: EntityExtractor
+    - name: EntityLinker
+    - name: CompanyImpactClassifier
+    - name: OpenSearchStore
+      component_config:
+        mode: write
+        index: insights-dev
+        document_class: Insight
+        index_mapping: INSIGHTS_MAPPING
