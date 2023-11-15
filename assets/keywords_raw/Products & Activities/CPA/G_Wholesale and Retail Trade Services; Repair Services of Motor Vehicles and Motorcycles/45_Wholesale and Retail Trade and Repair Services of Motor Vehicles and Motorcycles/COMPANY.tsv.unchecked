@@ -1,0 +1,223 @@
+# 45.11_Trade Services of Cars and Light Motor Vehicles > 45.11.1_Wholesale Trade Services of Cars and Light Motor Vehicles
+# Wholesale trade services of passenger motor vehicles	NACE	45.11.11
+#This subcategory includes:
+#- wholesale trade services of both new and second-hand cars and light motor vehicles, except on a fee or contract basis
+passenger motor vehicle
+hand
+light
+motor
+a fee
+# 45.11_Trade Services of Cars and Light Motor Vehicles > 45.11.1_Wholesale Trade Services of Cars and Light Motor Vehicles
+# Wholesale trade services of specialised passenger motor vehicles such as ambulances and minibuses etc. and off road motor vehicles (with a weight ≤ 3,5 tons)	NACE	45.11.12
+#This subcategory includes:
+#- wholesale trade services of both new and second-hand cars and light motor vehicles, except on a fee or contract basis
+specialised passenger motor vehicle
+ambulance
+minibus
+motor
+a weight
+
+hand
+light
+a fee
+# 45.11_Trade Services of Cars and Light Motor Vehicles > 45.11.2_Specialised Store Retail Trade Services of Cars and Light Motor Vehicles
+# Specialised store retail trade services of new passenger motor vehicles	NACE	45.11.21
+specialised store
+retail trade
+new passenger motor vehicle
+# 45.11_Trade Services of Cars and Light Motor Vehicles > 45.11.2_Specialised Store Retail Trade Services of Cars and Light Motor Vehicles
+# Specialised store retail trade services of used passenger motor vehicles	NACE	45.11.22
+specialised store
+retail trade
+use passenger motor vehicle
+# 45.11_Trade Services of Cars and Light Motor Vehicles > 45.11.2_Specialised Store Retail Trade Services of Cars and Light Motor Vehicles
+# Specialised store retail trade services of new specialised passenger motor vehicles such as ambulances and minibuses etc. and off-road motor vehicles (with a weight ≤ 3,5 tons)	NACE	45.11.23
+specialised store
+retail trade
+new specialised passenger motor vehicle
+ambulance
+minibus
+motor
+a weight
+
+# 45.11_Trade Services of Cars and Light Motor Vehicles > 45.11.2_Specialised Store Retail Trade Services of Cars and Light Motor Vehicles
+# Specialised store retail trade services of used specialised passenger motor vehicles such as ambulances and minibuses etc. and off-road motor vehicles (with a weight ≤ 3,5 tons)	NACE	45.11.24
+specialised store
+retail trade
+use specialised passenger motor vehicle
+ambulance
+minibus
+motor
+a weight
+
+# 45.11_Trade Services of Cars and Light Motor Vehicles > 45.11.3_Other Retail Trade Services of Cars and Light Motor Vehicles
+# Internet retail trade services of cars and light motor vehicles	NACE	45.11.31
+internet retail trade service
+light
+motor
+# 45.11_Trade Services of Cars and Light Motor Vehicles > 45.11.3_Other Retail Trade Services of Cars and Light Motor Vehicles
+# Other retail trade services of cars and light motor vehicles n.e.c.	NACE	45.11.39
+retail trade
+light
+motor
+# 45.11_Trade Services of Cars and Light Motor Vehicles > 45.11.4_Wholesale Trade Services on a Fee or Contract Basis of Cars and Light Motor Vehicles
+# Internet wholesale trade services on a fee or contract basis of cars and light motor vehicles	NACE	45.11.41
+internet wholesale trade service
+a fee
+light
+motor
+# 45.11_Trade Services of Cars and Light Motor Vehicles > 45.11.4_Wholesale Trade Services on a Fee or Contract Basis of Cars and Light Motor Vehicles
+# Other wholesale trade services on a fee or contract basis of cars and light motor vehicles	NACE	45.11.49
+other wholesale trade service
+a fee
+light
+motor
+# 45.19_Trade Services of Other Motor Vehicles > 45.19.1_Wholesale Trade Services of Other Motor Vehicles
+# Wholesale trade services of lorries, trucks, trailers, semi-trailers and buses	NACE	45.19.11
+#This subcategory includes:
+#- wholesale trade services of both new and second-hand lorries, trucks, buses and other heavy motor vehicles except on a fee or contract basis
+lorry
+hand
+other heavy motor vehicle
+a fee
+# 45.19_Trade Services of Other Motor Vehicles > 45.19.1_Wholesale Trade Services of Other Motor Vehicles
+# Wholesale trade services of camping vehicles such as caravans and motor homes	NACE	45.19.12
+#This subcategory includes:
+#- wholesale trade services of both new and second-hand camping vehicles, except on a fee or contract basis
+camping vehicle
+caravan
+motor home
+hand
+a fee
+# 45.19_Trade Services of Other Motor Vehicles > 45.19.2_Specialised Store Retail Trade Services of Other Motor Vehicles
+# Specialised store retail trade services of lorries, trucks, trailers, semi-trailers and buses	NACE	45.19.21
+specialised store
+retail trade
+lorry
+# 45.19_Trade Services of Other Motor Vehicles > 45.19.2_Specialised Store Retail Trade Services of Other Motor Vehicles
+# Specialised store retail trade services of camping vehicles such as caravans and motor homes	NACE	45.19.22
+specialised store
+retail trade
+camping vehicle
+caravan
+motor home
+# 45.19_Trade Services of Other Motor Vehicles > 45.19.3_Other Retail Trade Services of Other Motor Vehicles
+# Internet retail trade services of other motor vehicles	NACE	45.19.31
+internet retail trade service
+motor
+# 45.19_Trade Services of Other Motor Vehicles > 45.19.3_Other Retail Trade Services of Other Motor Vehicles
+# Other retail trade services of motor vehicles n.e.c.	NACE	45.19.39
+retail trade
+motor
+# 45.19_Trade Services of Other Motor Vehicles > 45.19.4_Wholesale Trade Services on a Fee or Contract Basis of Other Motor Vehicles
+# Internet wholesale trade services on a fee or contract basis of other motor vehicles	NACE	45.19.41
+internet wholesale trade service
+a fee
+motor
+# 45.19_Trade Services of Other Motor Vehicles > 45.19.4_Wholesale Trade Services on a Fee or Contract Basis of Other Motor Vehicles
+# Other wholesale trade services on a fee or contract basis of other motor vehicles	NACE	45.19.49
+other wholesale trade service
+a fee
+motor
+# 45.20_Maintenance and Repair Services of Motor Vehicles > 45.20.1_Maintenance and Repair Services of Cars and Light Goods Motor Vehicles
+# Ordinary maintenance and repair services (except electrical system, tyre and body repair services) of cars and light goods motor vehicles	NACE	45.20.11
+ordinary maintenance and repair service
+electrical system
+tyre and body repair service
+light good motor vehicle
+# 45.20_Maintenance and Repair Services of Motor Vehicles > 45.20.1_Maintenance and Repair Services of Cars and Light Goods Motor Vehicles
+# Electrical system repair services of cars and light goods motor vehicles	NACE	45.20.12
+electrical system repair service
+light good motor vehicle
+# 45.20_Maintenance and Repair Services of Motor Vehicles > 45.20.1_Maintenance and Repair Services of Cars and Light Goods Motor Vehicles
+# Tyre repair services, including wheel adjustment and balancing of cars and light goods motor vehicles	NACE	45.20.13
+#This subcategory also includes:
+#- wheel adjustment and balancing of cars and light goods motor vehicles
+tyre repair service
+wheel
+balancing
+light good motor vehicle
+# 45.20_Maintenance and Repair Services of Motor Vehicles > 45.20.1_Maintenance and Repair Services of Cars and Light Goods Motor Vehicles
+# Body repair and similar services (door, lock, window, repainting, collision repair) of cars and light goods motor vehicles	NACE	45.20.14
+body repair
+collision repair
+light good motor vehicle
+# 45.20_Maintenance and Repair Services of Motor Vehicles > 45.20.2_Maintenance and Repair Services of Other Motor Vehicles
+# Ordinary maintenance and repair services (except electrical system and body repair services) of other motor vehicles	NACE	45.20.21
+ordinary maintenance and repair service
+electrical system and body repair service
+motor
+# 45.20_Maintenance and Repair Services of Motor Vehicles > 45.20.2_Maintenance and Repair Services of Other Motor Vehicles
+# Electrical system repair services of other motor vehicles	NACE	45.20.22
+electrical system repair service
+motor
+# 45.20_Maintenance and Repair Services of Motor Vehicles > 45.20.2_Maintenance and Repair Services of Other Motor Vehicles
+# Body repair and similar services (door, lock, window, repainting, collision repair) of other motor vehicles	NACE	45.20.23
+body repair
+collision repair
+motor
+# 45.20_Maintenance and Repair Services of Motor Vehicles > 45.20.3_Car-Washing, Polishing and Similar Services
+# Car-washing, polishing and similar services	NACE	45.20.30
+polishing
+# 45.31_Wholesale Trade Services of Motor Vehicle Parts and Accessories > 45.31.1_Wholesale Trade Services of Motor Vehicle Parts and Accessories
+# Wholesale trade services of rubber tyres and inner tubes for tyres	NACE	45.31.11
+#This subcategory includes:
+#- wholesale trade services of rubber tyres and inner tubes for tyres, except on a fee or contract basis
+rubber tyre
+inner tube
+tyre
+a fee
+# 45.31_Wholesale Trade Services of Motor Vehicle Parts and Accessories > 45.31.1_Wholesale Trade Services of Motor Vehicle Parts and Accessories
+# Wholesale trade services of other motor vehicle parts and accessories	NACE	45.31.12
+#This subcategory includes:
+#- wholesale trade services of other motor vehicle parts and accessories, except on a fee or contract basis
+motor
+a fee
+# 45.31_Wholesale Trade Services of Motor Vehicle Parts and Accessories > 45.31.2_Wholesale Trade Services on a Fee or Contract Basis of Motor Vehicle Parts and Accessories
+# Wholesale trade services on a fee or contract basis of motor vehicle parts and accessories	NACE	45.31.20
+a fee
+motor
+# 45.32_Retail Trade Services of Motor Vehicle Parts and Accessories > 45.32.1_Specialised Store Retail Trade Services of Motor Vehicle Parts and Accessories
+# Specialised store retail trade services of tyres	NACE	45.32.11
+specialised store
+retail trade
+tyre
+# 45.32_Retail Trade Services of Motor Vehicle Parts and Accessories > 45.32.1_Specialised Store Retail Trade Services of Motor Vehicle Parts and Accessories
+# Specialised store retail trade services of other motor vehicle parts and accessories	NACE	45.32.12
+specialised store
+retail trade
+motor
+# 45.32_Retail Trade Services of Motor Vehicle Parts and Accessories > 45.32.2_Other Retail Trade Services of Parts and Accessories of Motor Vehicles
+# Internet retail trade services of parts and accessories of motor vehicles	NACE	45.32.21
+internet retail trade service
+motor
+# 45.32_Retail Trade Services of Motor Vehicle Parts and Accessories > 45.32.2_Other Retail Trade Services of Parts and Accessories of Motor Vehicles
+# Mail order retail trade services of parts and accessories of motor vehicles	NACE	45.32.22
+mail order retail trade service
+motor
+# 45.32_Retail Trade Services of Motor Vehicle Parts and Accessories > 45.32.2_Other Retail Trade Services of Parts and Accessories of Motor Vehicles
+# Other retail trade services of parts and accessories of motor vehicles n.e.c.	NACE	45.32.29
+#This subcategory includes:
+#- retail trade of parts and accessories of motor vehicles in:
+#  . non-specialised stores
+#  . stalls and markets
+#  . other n.e.c.
+retail trade
+motor
+specialised store
+market
+other n.e.c
+# 45.40_Trade, Maintenance and Repair Services of Motorcycles and Related Parts and Accessories > 45.40.1_Wholesale Trade Services of Motorcycles and Related Parts and Accessories
+# Wholesale trade services of motorcycles and related parts and accessories	NACE	45.40.10
+# 45.40_Trade, Maintenance and Repair Services of Motorcycles and Related Parts and Accessories > 45.40.2_Specialised Store Retail Trade Services of Motorcycles and Related Parts and Accessories
+# Specialised store retail trade services of motorcycles and related parts and accessories	NACE	45.40.20
+specialised store
+retail trade
+# 45.40_Trade, Maintenance and Repair Services of Motorcycles and Related Parts and Accessories > 45.40.3_Other Retail Trade Services of Motorcycles and Related Parts and Accessories
+# Other retail trade services of motorcycles and related parts and accessories	NACE	45.40.30
+retail trade
+# 45.40_Trade, Maintenance and Repair Services of Motorcycles and Related Parts and Accessories > 45.40.4_Wholesale Trade Services on a Fee or Contract Basis of Motorcycles and Related Parts and Accessories
+# Wholesale trade services on a fee or contract basis of motorcycles and related parts and accessories	NACE	45.40.40
+a fee
+# 45.40_Trade, Maintenance and Repair Services of Motorcycles and Related Parts and Accessories > 45.40.5_Maintenance and Repair Services of Motorcycles
+# Maintenance and repair services of motorcycles	NACE	45.40.50

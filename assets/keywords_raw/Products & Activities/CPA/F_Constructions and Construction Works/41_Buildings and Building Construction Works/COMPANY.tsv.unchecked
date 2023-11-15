@@ -1,0 +1,606 @@
+# 41.00_Buildings and Building Construction Works > 41.00.1_Residential Buildings
+# One-dwelling buildings	NACE	41.00.11
+#This subcategory includes:
+#-	 detached houses such as bungalows, villas, chalets, forest lodges, farmhouses, country houses, summer houses, weekend houses etc.
+#
+#This subcategory also includes:
+#- semi-detached or terraced houses, with each dwelling having its own roof and its own entrance directly from ground surface
+
+detached house
+bungalow
+villa
+chalet
+forest lodge
+farmhouse
+country house
+summer house
+weekend house
+its own roof
+its own entrance
+ground surface
+# 41.00_Buildings and Building Construction Works > 41.00.1_Residential Buildings
+# Two-dwelling buildings	NACE	41.00.12
+#This subcategory includes:
+#- detached houses, semi-detached or terraced houses, with two dwellings
+
+detach house
+two dwelling
+# 41.00_Buildings and Building Construction Works > 41.00.1_Residential Buildings
+# Three and more dwelling buildings	NACE	41.00.13
+#This subcategory includes:
+#- other residential buildings such as flat blocks, apartment houses, with three or more dwellings
+three and more dwelling building
+other residential building
+flat block
+three or more dwelling
+# 41.00_Buildings and Building Construction Works > 41.00.1_Residential Buildings
+# Residences for communities	NACE	41.00.14
+#This subcategory includes:
+#- residential buildings for communities, including residences and service residences for the elderly, students, children and other social groups, e.g. retirement homes, workers' hostels, fraternity homes, orphanages, hostels for the homeless etc.
+community
+and service
+other social group
+worker
+hostel
+fraternity home
+orphanage
+# 41.00_Buildings and Building Construction Works > 41.00.2_Non-Residential Buildings
+# Industrial buildings	NACE	41.00.21
+#This subcategory includes:
+#- covered buildings used for industrial production, e.g. factories, workshops, slaughterhouses, breweries, assembly plants etc.
+industrial building
+cover building
+factory	plant	mill	workshop	shopfloor	production floor	manufactory	assembly plant	production plant
+workshop
+slaughterhouse
+brewery
+
+# 41.00_Buildings and Building Construction Works > 41.00.2_Non-Residential Buildings
+# Farm buildings, non-residential	NACE	41.00.22
+#This subcategory includes:
+#- farm buildings and storage buildings used for agriculture farming, e.g. cowsheds, stables, pig houses, sheep-folds, studs, kennels, industrial hen-houses, granaries, hangars and agricultural outhouses, cellars, wine making plant, wine vats, greenhouses, agricultural silos etc.
+farm building
+storage building
+agriculture farming
+stable
+pig house
+stud
+kennel
+granary
+hangar
+agricultural outhouse
+cellar
+wine vat
+greenhouse	conservatory	glasshouse	hothouse
+agricultural silo
+# 41.00_Buildings and Building Construction Works > 41.00.2_Non-Residential Buildings
+# Office buildings	NACE	41.00.23
+#This subcategory includes:
+#- buildings used as places of business, for clerical and administrative purposes, e.g. banks, post offices, municipal offices, government department offices etc.
+#
+#This subcategory also includes:
+#- conference and congress centres, law courts, parliament buildings
+office building	office spaces	workspaces
+place
+clerical and administrative purpose
+bank
+post office
+municipal office
+conference and congress centre
+law court
+# 41.00_Buildings and Building Construction Works > 41.00.2_Non-Residential Buildings
+# Wholesale and retail trade buildings	NACE	41.00.24
+#This subcategory includes:
+#- shopping centres, shopping malls, department stores, detached shops and boutiques, halls used for fairs, auctions and exhibitions, indoor markets, service stations etc.
+wholesale and retail trade building
+shopping centre	shopping mall	mall	plaza	galleria	shopping complex
+
+storing
+detached shop
+boutique
+hall
+fair
+auction
+exhibition
+indoor market
+service station
+# 41.00_Buildings and Building Construction Works > 41.00.2_Non-Residential Buildings
+# Traffic and communication buildings	NACE	41.00.25
+#This subcategory includes:
+#- 	buildings and installations of civil and military airports, rail stations, bus stations and harbour terminals, cablecar and chairlift stations
+#- radio and television broadcast buildings, telephone exchange buildings, telecommunication centres etc.
+#- garages (overground or underground) and roofed car parks
+#
+#This subcategory also includes:
+#- 	airplane hangars, signal-box buildings and engine and wagon sheds
+#- 	telephone booths
+#- 	lighthouse buildings
+#- 	air traffic control buildings (towers)
+#- bicycle sheds
+traffic and communication building
+civil and military airport
+rail station	
+bus station	bus terminal	busstop	bus stop
+harbour terminal
+cablecar and chairlift station
+radio and television broadcast building
+telephone exchange building
+telecommunication centre
+roofed car park
+airplane hangar
+engine and wagon shed
+telephone booth
+lighthouse building
+air traffic control building
+tower	spire	column	pillar	steeple	obelisk
+bicycle shed
+# 41.00_Buildings and Building Construction Works > 41.00.2_Non-Residential Buildings
+# Reservoirs, silos and warehouses	NACE	41.00.26
+#This subcategory includes:
+#- reservoirs and tanks
+#- reservoirs for oil and gas
+#- silos for cereals, cement or other dry aggregates
+#- cold stores and specialised warehouses
+#
+#This subcategory also includes:
+#- storage areas
+silo
+warehouse
+other dry aggregate
+cold store
+specialised warehouse
+storage area
+# 41.00_Buildings and Building Construction Works > 41.00.2_Non-Residential Buildings
+# Hotels and similar buildings	NACE	41.00.27
+#This subcategory includes:
+#- hotels, motels, inns, pensions and similar lodging buildings, with or without restaurants
+#- youth hostels, mountain refuges, children's or family holiday camps, vacation bungalows, holiday and rest homes and other lodging buildings for holiday makers, not elsewhere classified
+#
+#This subcategory also includes:
+#- detached restaurants and bars
+similar building
+motel
+inn
+pension
+similar lodging building
+youth hostel
+mountain refuge
+family
+holiday
+camp	encampment	cantonment	barracks	base	tents	campsite
+vacation bungalow
+holiday and rest home
+other lodging building
+holiday maker
+detach restaurant
+# 41.00_Buildings and Building Construction Works > 41.00.2_Non-Residential Buildings
+# Public entertainment, education, hospital, institutional care or religious buildings	NACE	41.00.28
+#This subcategory includes:
+#- 	cinemas, concert halls, opera houses, theatres etc.
+#- meeting halls and multi-purpose halls mainly used for public entertainment
+#- casinos, circuses, music halls, dance-halls and discotheques, bandstands etc.
+#- museums, art galleries, libraries and resource centres
+#- buildings used for pre-primary, primary and secondary education (e.g. nursery schools, kindergartens, primary schools, secondary schools, colleges, grammar schools, technical schools etc.), formal education schools, vocational training schools
+#- buildings used for higher education and research; research laboratories; higher educational establishments
+#- institutions providing medical and surgical treatment and nursing care for ill or injured people
+#- sanatoria, long-stay hospitals and nursing homes, psychiatric hospitals, dispensaries, maternity facilities, maternal and child welfare centres
+#- buildings used for indoor sports (basketball and tennis courts, swimming pools, gymnastic halls, skating or ice-hockey rinks etc.) providing facilities for spectators (stands, terraces etc.) and for participants (shower and changing rooms etc.)
+#- churches, chapels, mosques, synagogues etc.
+#
+#This subcategory also includes:
+#- archives buildings
+#- special schools for handicapped children
+#- further education colleges
+#- weather stations, observatory buildings
+#- university hospitals, hospitals of penitentiaries, prisons or armed forces
+#- buildings used for thermal treatment, thalassotherapy, functional rehabilitation, blood transfusion, breast milk collection, veterinary treatment etc.
+#- institutional buildings with combined residential/lodging services and nursing or medical care. for the elderly, for handicapped people etc.
+#- cemeteries and associated constructions, funeral parlours, crematoriums
+institutional care
+religious building
+cinema	theatre
+concert hall
+opera house
+meeting hall
+multi purpose hall
+
+casino
+circus
+music hall
+discotheque
+bandstand
+museum
+art gallery
+library
+resource centre
+pre
+primary and secondary education
+nursery school
+kindergarten
+primary school
+secondary school	high school
+college
+grammar school
+technical school
+formal education school
+vocational training school
+high education
+research laboratory
+institution
+nursing care
+people
+sanatoria
+nursing home
+psychiatric hospital
+dispensary
+maternity facility
+maternal and child welfare centre
+indoor sport
+basketball and tennis court
+gymnastic hall
+ice
+hockey
+rink
+spectator
+stand
+terrace
+rooming
+church
+chapel
+mosque
+synagogue
+archive building
+special school
+handicapped child
+further education college
+weather station
+observatory building
+university hospital
+penitentiary
+armed force
+thalassotherapy
+functional rehabilitation
+blood transfusion
+breast milk collection
+institutional building
+nursing or medical care
+cemetery
+funeral parlour
+crematorium
+# 41.00_Buildings and Building Construction Works > 41.00.2_Non-Residential Buildings
+# Other non-residential buildings	NACE	41.00.29
+#This subcategory includes:
+#- historic or protected buildings, of any kind, not used for other purposes 
+#- penitentiaries, prisons and remand centres, barracks for armed forces, police or fire services
+#
+#This subcategory also includes:
+#- protected ruins, archeological excavations and prehistoric sites 
+#- statues and commemorative, artistic or decorative constructions
+#- structures such as bus shelters, public toilets, wash houses etc.
+any kind
+purpose
+penitentiary
+centre
+barrack
+armed force
+police or fire service
+protect ruin
+archeological excavation
+prehistoric site
+statue
+artistic or decorative construction
+bus shelter
+public toilet
+# 41.00_Buildings and Building Construction Works > 41.00.3_Construction Works for Residential Buildings (New Works, Additions, Alterations and Renovation Works)
+# Construction works in one-dwelling buildings	NACE	41.00.31
+#This subcategory includes:
+#- construction works for detached houses such as bungalows, villas, chalets, forest lodges, farmhouses, country houses, summer houses, weekend houses etc.
+#
+#This subcategory also includes:
+#- construction works for semi-detached or terraced houses, with each dwelling having its own roof and its own entrance directly from ground surface
+worked
+
+working
+detached house
+bungalow
+villa
+chalet
+forest lodge
+farmhouse
+country house
+summer house
+weekend house
+dwelling
+its own roof
+its own entrance
+ground surface
+# 41.00_Buildings and Building Construction Works > 41.00.3_Construction Works for Residential Buildings (New Works, Additions, Alterations and Renovation Works)
+# Construction works in two-dwelling buildings	NACE	41.00.32
+#This subcategory includes:
+#- construction works for detached houses, semi-detached or terraced houses, with two dwellings
+worked
+
+working
+detached house
+two dwelling
+# 41.00_Buildings and Building Construction Works > 41.00.3_Construction Works for Residential Buildings (New Works, Additions, Alterations and Renovation Works)
+# Construction works in three and more dwelling buildings	NACE	41.00.33
+#This subcategory includes:
+#- construction works for other residential buildings such as flat blocks, apartment houses, with three or more dwellings
+worked
+three and more dwelling building
+working
+other residential building
+flat block
+three or more dwelling
+# 41.00_Buildings and Building Construction Works > 41.00.3_Construction Works for Residential Buildings (New Works, Additions, Alterations and Renovation Works)
+# Construction works in residences for communities	NACE	41.00.34
+#This subcategory includes:
+#- construction works for residential buildings for communities, including residences and service residences for the elderly, students, children and other social groups, e.g. retirement homes, workers' hostels, fraternity homes, orphanages, hostels for the homeless etc.
+worked
+community
+working
+and service
+other social group
+worker
+hostel
+fraternity home
+orphanage
+# 41.00_Buildings and Building Construction Works > 41.00.4_Construction Works for Non-Residential Buildings (New Works, Additions, Alterations and Renovation Works)
+# Construction works in industrial buildings	NACE	41.00.41
+#This subcategory includes:
+#- construction works for covered buildings used for industrial production, e.g. factories, workshops, slaughterhouses, breweries, assembly plants etc.
+worked
+industrial building
+covered building
+factory
+workshop
+slaughterhouse
+brewery
+assembly plant
+# 41.00_Buildings and Building Construction Works > 41.00.4_Construction Works for Non-Residential Buildings (New Works, Additions, Alterations and Renovation Works)
+# Construction works in non-residential farm buildings	NACE	41.00.42
+#This subcategory includes:
+#- construction works for farm buildings and storage buildings used for agriculture farming, e.g. cowsheds, stables, pig houses, sheep-folds, studs, kennels, industrial hen-houses, granaries, hangars and agricultural outhouses, cellars, wine making plant, wine vats, greenhouses, agricultural silos etc.
+worked
+farm building
+working
+storage building
+agriculture farming
+stable
+pig house
+stud
+kennel
+granary
+hangar
+agricultural outhouse
+cellar
+wine make plant
+wine vat
+greenhouse
+agricultural silo
+# 41.00_Buildings and Building Construction Works > 41.00.4_Construction Works for Non-Residential Buildings (New Works, Additions, Alterations and Renovation Works)
+# Construction works in office buildings	NACE	41.00.43
+#This subcategory includes:
+#- construction works for buildings used as places of business, for clerical and administrative purposes, e.g. banks, post offices, municipal offices, government department offices etc.
+#
+#This subcategory also includes:
+#- construction works for conference and congress centres, law courts, parliament buildings
+worked
+office building
+place
+clerical and administrative purpose
+bank
+post office
+municipal office
+conference and congress centre
+law court
+# 41.00_Buildings and Building Construction Works > 41.00.4_Construction Works for Non-Residential Buildings (New Works, Additions, Alterations and Renovation Works)
+# Construction works in wholesale and retail trade buildings	NACE	41.00.44
+#This subcategory includes:
+#- construction works for shopping centres, shopping malls, department stores, detached shops and boutiques, halls used for fairs, auctions and exhibitions, indoor markets, service stations etc.
+worked
+wholesale and retail trade building
+working
+shopping centre
+shopping mall
+storing
+detached shop
+boutique
+hall
+fair
+auction
+exhibition
+indoor market
+service station
+# 41.00_Buildings and Building Construction Works > 41.00.4_Construction Works for Non-Residential Buildings (New Works, Additions, Alterations and Renovation Works)
+# Construction works in traffic and communication buildings	NACE	41.00.45
+#This subcategory includes:
+#- construction works for buildings and installations of civil and military airports, rail stations, bus stations and harbour terminals, cablecar and chairlift stations
+#- construction works for radio and television broadcast buildings, telephone exchange buildings, telecommunication centres etc.
+#- construction works for garages (overground or underground) and roofed car parks
+#
+#This subcategory also includes:
+#- construction works for airplane hangars, signal-box buildings and engine and wagon sheds
+#- construction works for telephone booths
+#- construction works for lighthouse buildings
+#- construction works for air traffic control buildings (towers)
+#- construction works for bicycle sheds
+worked
+traffic and communication building
+working
+civil and military airport
+rail station
+bus station
+harbour terminal
+cablecar and chairlift station
+radio and television broadcast building
+telephone exchange building
+telecommunication centre
+roofed car park
+airplane hangar
+engine and wagon shed
+telephone booth
+lighthouse building
+air traffic control building
+tower
+bicycle shed
+# 41.00_Buildings and Building Construction Works > 41.00.4_Construction Works for Non-Residential Buildings (New Works, Additions, Alterations and Renovation Works)
+# Construction works in reservoirs, silos and warehouses	NACE	41.00.46
+#This subcategory includes:
+#- construction works for reservoirs and tanks
+#- construction works for reservoirs for oil and gas
+#- construction works for silos for cereals, cement or other dry aggregates
+#- construction works for cold stores and specialised warehouses
+#
+#This subcategory also includes:
+#- construction works for storage areas
+worked
+silo
+warehouse
+working
+other dry aggregate
+cold store
+specialised warehouse
+storage area
+# 41.00_Buildings and Building Construction Works > 41.00.4_Construction Works for Non-Residential Buildings (New Works, Additions, Alterations and Renovation Works)
+# Construction works in hotels and similar buildings	NACE	41.00.47
+#This subcategory includes:
+#- construction works for hotels, motels, inns, pensions and similar lodging buildings, with or without restaurants
+#- construction works for youth hostels, mountain refuges, children's or family holiday camps, vacation bungalows, holiday and rest homes and other lodging buildings for holiday makers, not elsewhere classified
+#
+#This subcategory also includes:
+#- construction works for detached restaurants and bars
+worked
+similar building
+working
+motel
+inn
+pension
+similar lodging building
+youth hostel
+mountain refuge
+family
+holiday
+camp
+vacation bungalow
+holiday and rest home
+other lodging building
+holiday maker
+detach restaurant
+# 41.00_Buildings and Building Construction Works > 41.00.4_Construction Works for Non-Residential Buildings (New Works, Additions, Alterations and Renovation Works)
+# Construction works in public entertainment, education, hospital, institutional care or religious buildings	NACE	41.00.48
+#This subcategory includes:
+#- construction works for cinemas, concert halls, opera houses, theatres etc.
+#- construction works for meeting halls and multi-purpose halls mainly used for public entertainment
+#- construction works for casinos, circuses, music halls, dance-halls and discotheques, bandstands etc.
+#- construction works for museums, art galleries, libraries and resource centres
+#- construction works for buildings used for pre-primary, primary and secondary education (e.g. nursery schools, kindergartens, primary schools, secondary schools, colleges, grammar schools, technical schools etc.), formal education schools, vocational training schools
+#- construction works for buildings used for higher education and research; research laboratories; higher educational establishments
+#- construction works for institutions providing medical and surgical treatment and nursing care for ill or injured people
+#- construction works for sanatoria, long-stay hospitals and nursing homes, psychiatric hospitals, dispensaries, maternity facilities, maternal and child welfare centres
+#- construction works for buildings used for indoor sports (basketball and tennis courts, swimming pools, gymnastic halls, skating or ice-hockey rinks etc.) providing facilities for spectators (stands, terraces etc.) and for participants (shower and changing rooms etc.)
+#- construction works for churches, chapels, mosques, synagogues etc.
+#
+#This subcategory also includes:
+#- construction works for archives buildings
+#- construction works for special schools for handicapped children
+#- construction works for further education colleges
+#- construction works for weather stations, observatory buildings
+#- construction works for university hospitals, hospitals of penitentiaries, prisons or armed forces
+#- buildings used for thermal treatment, thalassotherapy, functional rehabilitation, blood transfusion, breast milk collection, veterinary treatment etc.
+#- construction works for institutional buildings with combined residential/lodging services and nursing or medical care. for the elderly, for handicapped people etc.
+#- construction works for cemeteries and associated constructions, funeral parlours, crematoriums
+worked
+institutional care
+religious building
+cinema
+concert hall
+opera house
+working
+meeting hall
+multi
+purpose
+hall
+casino
+circus
+music hall
+discotheque
+bandstand
+museum
+art gallery
+library
+resource centre
+pre
+primary and secondary education
+nursery school
+kindergarten
+primary school
+secondary school
+college
+grammar school
+technical school
+formal education school
+vocational training school
+high education
+research laboratory
+institution
+nursing care
+people
+sanatoria
+nursing home
+psychiatric hospital
+dispensary
+maternity facility
+maternal and child welfare centre
+indoor sport
+basketball and tennis court
+gymnastic hall
+ice
+hockey
+rink
+spectator
+stand
+terrace
+rooming
+church
+chapel
+mosque
+synagogue
+archive building
+special school
+handicapped child
+further education college
+weather station
+observatory building
+university hospital
+penitentiary
+armed force
+thalassotherapy
+functional rehabilitation
+blood transfusion
+breast milk collection
+institutional building
+nursing or medical care
+cemetery
+funeral parlour
+crematorium
+# 41.00_Buildings and Building Construction Works > 41.00.4_Construction Works for Non-Residential Buildings (New Works, Additions, Alterations and Renovation Works)
+# Construction works on other non-residential buildings	NACE	41.00.49
+#This subcategory includes:
+#- construction works for penitentiaries, prisons and remand centres, barracks for armed forces, police or fire services
+#
+#This subcategory also includes:
+#- construction works for statues and commemorative, artistic or decorative constructions
+#- construction works for structures such as bus shelters, public toilets, wash houses etc.
+worked
+working
+penitentiary
+centre
+barrack
+armed force
+police or fire service
+statue
+artistic or decorative construction
+bus shelter
+public toilet

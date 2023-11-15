@@ -1,0 +1,14 @@
+Pipeline:
+  Config:
+    experiment_name: dummy_experiment
+  Components:
+    - name: DataStore
+      component_config:
+        mode: read
+        batch_size: 10
+        index: documents-dev
+        document_class: Document
+        index_mapping: DOCUMENTS_MAPPING
+    - name: ESGRelatedInsightsClassifier
+      component_config:
+        model_name_or_path: facebook/bart-large-mnli

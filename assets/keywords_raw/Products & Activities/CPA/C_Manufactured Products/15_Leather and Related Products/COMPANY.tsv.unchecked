@@ -1,0 +1,116 @@
+# 15.11_Tanned and Dressed Leather; Dressed and Dyed Fur > 15.11.1_Tanned or Dressed Fur Skins
+# Tanned or dressed fur skins	NACE	15.11.10
+tan or dress fur skin
+# 15.11_Tanned and Dressed Leather; Dressed and Dyed Fur > 15.11.2_Chamois Leather; Patent Leather and Patent Laminated Leather; Metallised Leather
+# Chamois leather	NACE	15.11.21
+# 15.11_Tanned and Dressed Leather; Dressed and Dyed Fur > 15.11.2_Chamois Leather; Patent Leather and Patent Laminated Leather; Metallised Leather
+# Patent leather and patent laminated leather; metallised leather	NACE	15.11.22
+patent leather
+patent laminate leather
+metallise leather
+# 15.11_Tanned and Dressed Leather; Dressed and Dyed Fur > 15.11.3_Leather, of Bovine or Equine Animals, Without Hair
+# Leather, of bovine animals, without hair on, whole	NACE	15.11.31
+# 15.11_Tanned and Dressed Leather; Dressed and Dyed Fur > 15.11.3_Leather, of Bovine or Equine Animals, Without Hair
+# Leather, of bovine animals, without hair on, not whole	NACE	15.11.32
+# 15.11_Tanned and Dressed Leather; Dressed and Dyed Fur > 15.11.3_Leather, of Bovine or Equine Animals, Without Hair
+# Leather, of equine animals, without hair on	NACE	15.11.33
+equine animal
+# 15.11_Tanned and Dressed Leather; Dressed and Dyed Fur > 15.11.4_Leather of Sheep, Goat or Swine, Without Hair
+# Sheep or lamb skin leather, without wool on	NACE	15.11.41
+sheep or lamb skin leather
+# 15.11_Tanned and Dressed Leather; Dressed and Dyed Fur > 15.11.4_Leather of Sheep, Goat or Swine, Without Hair
+# Goat or kid skin leather, without hair on	NACE	15.11.42
+kid skin leather
+# 15.11_Tanned and Dressed Leather; Dressed and Dyed Fur > 15.11.4_Leather of Sheep, Goat or Swine, Without Hair
+# Leather of swine	NACE	15.11.43
+# 15.11_Tanned and Dressed Leather; Dressed and Dyed Fur > 15.11.5_Leather of Other Animals; Composition Leather With a Basis of Leather
+# Leather of other animals, without hair on	NACE	15.11.51
+other animal
+# 15.11_Tanned and Dressed Leather; Dressed and Dyed Fur > 15.11.5_Leather of Other Animals; Composition Leather With a Basis of Leather
+# Composition leather with a basis of leather or leather fibre	NACE	15.11.52
+composition leather
+leather fibre
+# 15.11_Tanned and Dressed Leather; Dressed and Dyed Fur > 15.11.9_Sub-Contracted Operations as Part of Manufacturing of Tanned and Dressed Leather; Dressed and Dyed Fur
+# Sub-contracted operations as part of manufacturing of tanned and dressed leather; dressed and dyed fur	NACE	15.11.99
+tan and dress leather
+dress and dye fur
+# 15.12_Luggage, Handbags and the Like, Saddlery and Harness > 15.12.1_Saddlery and Harness; Luggage, Handbags and the Like; Other Articles of Leather
+# Saddlery and harness for any animal, of any material	NACE	15.12.11
+saddlery
+harness
+any animal
+# 15.12_Luggage, Handbags and the Like, Saddlery and Harness > 15.12.1_Saddlery and Harness; Luggage, Handbags and the Like; Other Articles of Leather
+# Luggage, handbags and the like, of leather, composition of leather, plastic sheeting, textile materials, vulcanised fibre or paperboard; travel sets for personal toilet, sewing or shoe or clothes cleaning	NACE	15.12.12
+the like
+composition
+plastic sheeting
+fibre
+travel set
+personal toilet
+sewing
+shoe
+clothe cleaning
+# 15.12_Luggage, Handbags and the Like, Saddlery and Harness > 15.12.1_Saddlery and Harness; Luggage, Handbags and the Like; Other Articles of Leather
+# Watch straps (except metal), watch bands and watch bracelets and parts thereof	NACE	15.12.13
+strap
+band
+bracelet
+# 15.12_Luggage, Handbags and the Like, Saddlery and Harness > 15.12.1_Saddlery and Harness; Luggage, Handbags and the Like; Other Articles of Leather
+# Other articles of leather or composition leather (including articles used in machinery or mechanical appliances or for other technical uses) n.e.c.	NACE	15.12.19
+#This subcategory also includes:
+#- articles used in machinery or mechanical appliances of for other technical uses
+composition leather
+mechanical appliance
+other technical use
+# 15.12_Luggage, Handbags and the Like, Saddlery and Harness > 15.12.9_Sub-Contracted Operations as Part of Manufacturing of Saddlery and Harness Luggage, Handbags and the Like
+# Sub-contracted operations as part of manufacturing of saddlery and harness luggage, handbags and the like	NACE	15.12.99
+saddlery and harness luggage
+the like
+# 15.20_Footwear > 15.20.1_Footwear Other Than Sports and Protective Footwear and Orthopaedic Shoes
+# Waterproof footwear, with outer soles and uppers of rubber or plastics, other than footwear incorporating a protective metal toe-cap	NACE	15.20.11
+waterproof footwear
+outer sol
+upper
+cap
+# 15.20_Footwear > 15.20.1_Footwear Other Than Sports and Protective Footwear and Orthopaedic Shoes
+# Footwear with outer soles and uppers of rubber or plastics, other than waterproof or sports footwear	NACE	15.20.12
+outer sol
+upper
+waterproof or sport footwear
+# 15.20_Footwear > 15.20.1_Footwear Other Than Sports and Protective Footwear and Orthopaedic Shoes
+# Footwear with uppers of leather, other than sports footwear, footwear incorporating a protective metal toe-cap and miscellaneous special footwear	NACE	15.20.13
+upper
+sport footwear
+cap
+miscellaneous special footwear
+# 15.20_Footwear > 15.20.1_Footwear Other Than Sports and Protective Footwear and Orthopaedic Shoes
+# Footwear with uppers of textile materials, other than sports footwear	NACE	15.20.14
+upper
+sport footwear
+# 15.20_Footwear > 15.20.2_Sports Footwear
+# Tennis shoes, basketball shoes, gym shoes, training shoes and the like	NACE	15.20.21
+tennis shoe
+basketball shoe
+gym shoe
+training shoe
+the like
+# 15.20_Footwear > 15.20.2_Sports Footwear
+# Other sports footwear, except snow-ski footwear and skating boots	NACE	15.20.29
+other sport footwear
+snow
+skating boot
+# 15.20_Footwear > 15.20.3_Protective and Other Footwear n.e.c.
+# Footwear incorporating a protective metal toe-cap	NACE	15.20.31
+cap
+# 15.20_Footwear > 15.20.3_Protective and Other Footwear n.e.c.
+# Wooden footwear, miscellaneous special footwear and other footwear n.e.c.	NACE	15.20.32
+miscellaneous special footwear
+other footwear n.e.c
+# 15.20_Footwear > 15.20.4_Parts of Footwear of Leather; Removable Insoles, Heel Cushions and Similar Articles; Gaiters, Leggings and Similar Articles, and Parts Thereof
+# Parts of footwear of leather; removable insoles, heel cushions and similar articles; gaiters, leggings and similar articles, and parts thereof	NACE	15.20.40
+removable insole
+heel cushion
+gaiter
+legging
+# 15.20_Footwear > 15.20.9_Sub-Contracted Operations as Part of Manufacturing of Footwear
+# Sub-contracted operations as part of manufacturing of footwear	NACE	15.20.99

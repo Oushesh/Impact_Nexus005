@@ -1,0 +1,893 @@
+# 01.11_Cereals (Except Rice), Leguminous Crops and Oil Seeds > 01.11.1_Wheat
+# Durum wheat	NACE	01.11.11
+durum wheat
+# 01.11_Cereals (Except Rice), Leguminous Crops and Oil Seeds > 01.11.1_Wheat
+# Wheat, except durum wheat	NACE	01.11.12
+wheat
+durum wheat
+# 01.11_Cereals (Except Rice), Leguminous Crops and Oil Seeds > 01.11.2_Maize
+# Maize	NACE	01.11.20
+
+# 01.11_Cereals (Except Rice), Leguminous Crops and Oil Seeds > 01.11.3_Barley, Rye and Oats
+# Barley	NACE	01.11.31
+
+# 01.11_Cereals (Except Rice), Leguminous Crops and Oil Seeds > 01.11.3_Barley, Rye and Oats
+# Rye	NACE	01.11.32
+# 01.11_Cereals (Except Rice), Leguminous Crops and Oil Seeds > 01.11.3_Barley, Rye and Oats
+# Oats	NACE	01.11.33
+oat
+# 01.11_Cereals (Except Rice), Leguminous Crops and Oil Seeds > 01.11.4_Sorghum, Millet and Other Cereals
+# Sorghum	NACE	01.11.41
+# 01.11_Cereals (Except Rice), Leguminous Crops and Oil Seeds > 01.11.4_Sorghum, Millet and Other Cereals
+# Millet	NACE	01.11.42
+# 01.11_Cereals (Except Rice), Leguminous Crops and Oil Seeds > 01.11.4_Sorghum, Millet and Other Cereals
+# Triticale	NACE	01.11.43
+
+# 01.11_Cereals (Except Rice), Leguminous Crops and Oil Seeds > 01.11.4_Sorghum, Millet and Other Cereals
+# Other cereals	NACE	01.11.49
+other cereal
+# 01.11_Cereals (Except Rice), Leguminous Crops and Oil Seeds > 01.11.5_Cereals Straw and Husks
+# Cereals straw and husks	NACE	01.11.50
+#This subcategory also includes:
+#- unprepared straw, whether or not chopped, ground, pressed or in the form of pellets
+cereal straw
+husk
+unprepared straw
+pressing
+form
+# 01.11_Cereals (Except Rice), Leguminous Crops and Oil Seeds > 01.11.6_Green Leguminous Vegetables
+# Beans, green	NACE	01.11.61
+bean
+# 01.11_Cereals (Except Rice), Leguminous Crops and Oil Seeds > 01.11.6_Green Leguminous Vegetables
+# Peas, green	NACE	01.11.62
+#This subcategory also includes:
+#- green peas and forage peas
+pea
+green pea
+forage pea
+# 01.11_Cereals (Except Rice), Leguminous Crops and Oil Seeds > 01.11.6_Green Leguminous Vegetables
+# Other green leguminous vegetables	NACE	01.11.69
+other green leguminous vegetable
+# 01.11_Cereals (Except Rice), Leguminous Crops and Oil Seeds > 01.11.7_Dried Leguminous Vegetables
+# Beans, dry	NACE	01.11.71
+bean
+# 01.11_Cereals (Except Rice), Leguminous Crops and Oil Seeds > 01.11.7_Dried Leguminous Vegetables
+# Broad beans, dry	NACE	01.11.72
+broad bean
+# 01.11_Cereals (Except Rice), Leguminous Crops and Oil Seeds > 01.11.7_Dried Leguminous Vegetables
+# Chick peas, dry	NACE	01.11.73
+chick pea
+# 01.11_Cereals (Except Rice), Leguminous Crops and Oil Seeds > 01.11.7_Dried Leguminous Vegetables
+# Lentils, dry	NACE	01.11.74
+lentil
+# 01.11_Cereals (Except Rice), Leguminous Crops and Oil Seeds > 01.11.7_Dried Leguminous Vegetables
+# Peas, dry	NACE	01.11.75
+pea
+# 01.11_Cereals (Except Rice), Leguminous Crops and Oil Seeds > 01.11.7_Dried Leguminous Vegetables
+# Cow peas	NACE	01.11.76
+cow pea
+# 01.11_Cereals (Except Rice), Leguminous Crops and Oil Seeds > 01.11.7_Dried Leguminous Vegetables
+# Pigeon peas, dry	NACE	01.11.77
+pigeon pea
+# 01.11_Cereals (Except Rice), Leguminous Crops and Oil Seeds > 01.11.7_Dried Leguminous Vegetables
+# Pulses (dried leguminous vegetables) n.e.c.	NACE	01.11.79
+pulse
+dried leguminous vegetable
+# 01.11_Cereals (Except Rice), Leguminous Crops and Oil Seeds > 01.11.8_Soya Beans and Groundnuts
+# Soya beans	NACE	01.11.81
+soya bean
+# 01.11_Cereals (Except Rice), Leguminous Crops and Oil Seeds > 01.11.8_Soya Beans and Groundnuts
+# Groundnuts, in shell	NACE	01.11.82
+groundnut
+# 01.11_Cereals (Except Rice), Leguminous Crops and Oil Seeds > 01.11.9_Other Oil Seeds
+# Lin seed	NACE	01.11.91
+
+# 01.11_Cereals (Except Rice), Leguminous Crops and Oil Seeds > 01.11.9_Other Oil Seeds
+# Mustard seed	NACE	01.11.92
+mustard seed
+# 01.11_Cereals (Except Rice), Leguminous Crops and Oil Seeds > 01.11.9_Other Oil Seeds
+# Rape or colza seed	NACE	01.11.93
+rape
+colza seed
+# 01.11_Cereals (Except Rice), Leguminous Crops and Oil Seeds > 01.11.9_Other Oil Seeds
+# Sesame seed	NACE	01.11.94
+sesame seed
+# 01.11_Cereals (Except Rice), Leguminous Crops and Oil Seeds > 01.11.9_Other Oil Seeds
+# Sunflower seed	NACE	01.11.95
+sunflower seed
+# 01.11_Cereals (Except Rice), Leguminous Crops and Oil Seeds > 01.11.9_Other Oil Seeds
+# Castor oil seeds	NACE	01.11.96
+castor oil seed
+# 01.11_Cereals (Except Rice), Leguminous Crops and Oil Seeds > 01.11.9_Other Oil Seeds
+# Other oil seeds n.e.c.	NACE	01.11.99
+other oil seed
+# 01.12_Rice, Not Husked > 01.12.1_Rice, Not Husked
+# Rice, not husked	NACE	01.12.10
+husk
+# 01.13_Vegetables and Melons, Roots and Tubers > 01.13.1_Leafy or Stem Vegetables
+# Asparagus	NACE	01.13.11
+asparagus
+# 01.13_Vegetables and Melons, Roots and Tubers > 01.13.1_Leafy or Stem Vegetables
+# Cabbages	NACE	01.13.12
+cabbage
+# 01.13_Vegetables and Melons, Roots and Tubers > 01.13.1_Leafy or Stem Vegetables
+# Cauliflowers and broccoli	NACE	01.13.13
+cauliflower
+broccoli
+# 01.13_Vegetables and Melons, Roots and Tubers > 01.13.1_Leafy or Stem Vegetables
+# Lettuce	NACE	01.13.14
+lettuce
+# 01.13_Vegetables and Melons, Roots and Tubers > 01.13.1_Leafy or Stem Vegetables
+# Chicory	NACE	01.13.15
+# 01.13_Vegetables and Melons, Roots and Tubers > 01.13.1_Leafy or Stem Vegetables
+# Spinach	NACE	01.13.16
+
+# 01.13_Vegetables and Melons, Roots and Tubers > 01.13.1_Leafy or Stem Vegetables
+# Artichokes	NACE	01.13.17
+
+# 01.13_Vegetables and Melons, Roots and Tubers > 01.13.1_Leafy or Stem Vegetables
+# Other leafy or stem vegetables	NACE	01.13.19
+#This subcategory also includes:
+#- parsley
+other leafy or stem vegetable
+parsley
+# 01.13_Vegetables and Melons, Roots and Tubers > 01.13.2_Melons
+# Watermelons	NACE	01.13.21
+watermelon
+# 01.13_Vegetables and Melons, Roots and Tubers > 01.13.2_Melons
+# Other melons	NACE	01.13.29
+other melon
+# 01.13_Vegetables and Melons, Roots and Tubers > 01.13.3_Other Fruit-Bearing Vegetables
+# Chillies and peppers, green (only capsicum)	NACE	01.13.31
+chilli
+pepper
+# 01.13_Vegetables and Melons, Roots and Tubers > 01.13.3_Other Fruit-Bearing Vegetables
+# Cucumbers and gherkins	NACE	01.13.32
+cucumber
+gherkin
+# 01.13_Vegetables and Melons, Roots and Tubers > 01.13.3_Other Fruit-Bearing Vegetables
+# Eggplants (aubergines)	NACE	01.13.33
+eggplant
+aubergine
+# 01.13_Vegetables and Melons, Roots and Tubers > 01.13.3_Other Fruit-Bearing Vegetables
+# Tomatoes	NACE	01.13.34
+tomato
+# 01.13_Vegetables and Melons, Roots and Tubers > 01.13.3_Other Fruit-Bearing Vegetables
+# Other fruit-bearing vegetables n.e.c.	NACE	01.13.39
+#This subcategory includes:
+#- courgettes
+#- sweet corn
+#- vegetables of the genus Pimenta
+#- pumpkins, squash and other vegetables n.e.c.
+#
+#This subcategory also includes:
+#- fresh ears of sweetcorn for ornamental purposes
+bearing
+courgette
+sweet corn
+the genus
+pumpkin
+squash
+other vegetable
+fresh ear
+purpose
+# 01.13_Vegetables and Melons, Roots and Tubers > 01.13.4_Root, Bulb or Tuberous Vegetables
+# Carrots and turnips	NACE	01.13.41
+carrot
+turnip
+# 01.13_Vegetables and Melons, Roots and Tubers > 01.13.4_Root, Bulb or Tuberous Vegetables
+# Garlic	NACE	01.13.42
+garlic
+# 01.13_Vegetables and Melons, Roots and Tubers > 01.13.4_Root, Bulb or Tuberous Vegetables
+# Onions	NACE	01.13.43
+#This subcategory includes:
+#- onions and shallots
+onion
+shallot
+# 01.13_Vegetables and Melons, Roots and Tubers > 01.13.4_Root, Bulb or Tuberous Vegetables
+# Leeks and other alliaceous vegetables	NACE	01.13.44
+#This subcategory also includes:
+#- Japanese bunching onion or Welsh onion and chives
+leek
+other alliaceous vegetable
+japanese bunching onion
+welsh onion
+chive
+# 01.13_Vegetables and Melons, Roots and Tubers > 01.13.4_Root, Bulb or Tuberous Vegetables
+# Other root, bulb or tuberous vegetables (without high starch or inulin content)	NACE	01.13.49
+#This subcategory includes:
+#- salad beetroot
+#- radishes 
+#- horse-radish
+#- celeriac rooted celery or German celery
+#- parsnip, similar edible roots n.e.c.
+other root
+bulb
+tuberous vegetable
+high starch or inulin content
+salad beetroot
+radish
+celeriac root celery
+
+parsnip
+similar edible root
+# 01.13_Vegetables and Melons, Roots and Tubers > 01.13.5_Edible Roots and Tubers With High Starch or Inulin Content
+# Potatoes	NACE	01.13.51
+# 01.13_Vegetables and Melons, Roots and Tubers > 01.13.5_Edible Roots and Tubers With High Starch or Inulin Content
+# Sweet potatoes	NACE	01.13.52
+sweet potato
+# 01.13_Vegetables and Melons, Roots and Tubers > 01.13.5_Edible Roots and Tubers With High Starch or Inulin Content
+# Cassava	NACE	01.13.53
+
+# 01.13_Vegetables and Melons, Roots and Tubers > 01.13.5_Edible Roots and Tubers With High Starch or Inulin Content
+# Taro	NACE	01.13.54
+
+# 01.13_Vegetables and Melons, Roots and Tubers > 01.13.5_Edible Roots and Tubers With High Starch or Inulin Content
+# Other edible roots and tubers with high starch or inulin content	NACE	01.13.59
+other edible root
+high starch or inulin content
+# 01.13_Vegetables and Melons, Roots and Tubers > 01.13.6_Vegetable Seeds, Except Beet Seeds
+# Vegetable seeds, except beet seeds	NACE	01.13.60
+vegetable seed
+beet seed
+# 01.13_Vegetables and Melons, Roots and Tubers > 01.13.7_Sugar Beet and Sugar Beet Seeds
+# Sugar beet	NACE	01.13.71
+sugar beet
+# 01.13_Vegetables and Melons, Roots and Tubers > 01.13.7_Sugar Beet and Sugar Beet Seeds
+# Sugar beet seeds	NACE	01.13.72
+sugar beet seed
+# 01.13_Vegetables and Melons, Roots and Tubers > 01.13.8_Mushrooms and Truffles
+# Mushrooms and truffles	NACE	01.13.80
+truffle
+# 01.13_Vegetables and Melons, Roots and Tubers > 01.13.9_Vegetables, Fresh, n.e.c.
+# Vegetables, fresh, n.e.c.	NACE	01.13.90
+#This subcategory includes:
+#- fennel, when used as a vegetable,
+#- celeriac other than "rooted celery"
+#- other fresh vegetables, n.e.c
+#
+#This subcategory also includes:
+#- fresh edible lucerne, soya bean and sunflower sprouts
+#- bean sprouts and shoots
+fennel
+a vegetable
+celeriac
+root celery
+other fresh vegetable
+fresh edible lucerne
+soya bean
+sunflower sprout
+bean sprout
+shoot
+# 01.14_Sugar Cane > 01.14.1_Sugar Cane
+# Sugar cane	NACE	01.14.10
+sugar cane
+# 01.15_Unmanufactured Tobacco > 01.15.1_Unmanufactured Tobacco
+# Unmanufactured tobacco	NACE	01.15.10
+# 01.16_Fibre Crops > 01.16.1_Fibre Crops
+# Cotton, whether or not ginned	NACE	01.16.11
+#This subcategory also includes:
+#- cotton seeds
+cotton seed
+# 01.16_Fibre Crops > 01.16.1_Fibre Crops
+# Jute, kenaf and other textile bast fibres, raw or retted, except flax, true hemp and ramie	NACE	01.16.12
+kenaf
+other textile bast fibre
+true hemp
+ramie
+# 01.16_Fibre Crops > 01.16.1_Fibre Crops
+# Flax, true hemp and raw fibre crops n.e.c.	NACE	01.16.19
+true hemp
+raw fibre crop
+# 01.19_Other Non-Perennial Crops > 01.19.1_Forage Crops
+# Forage crops	NACE	01.19.10
+#This subcategory includes:
+#- swedes, mangolds, fodder roots, clover, alfalfa (lucerne), sainfoin, fodder maize and other grasses, forage kale and similar forage products
+forage crop
+swede
+fodder root
+clover
+alfalfa
+lucerne
+sainfoin
+fodder maize
+other grass
+forage kale
+similar forage product
+# 01.19_Other Non-Perennial Crops > 01.19.2_Cut Flowers and Flower Buds; Flower Seeds
+# Cut flowers and flower buds	NACE	01.19.21
+#This subcategory also includes:
+#- 	bouquets, wreaths, floral baskets etc. arrangements containing flowers or flower buds (e.g. posies, buttonholes)
+#- cut branches of trees, shrubs and bushes, if they have flowers or flower buds (e.g. willow branches with flower buds or flowers, sunflowers)
+cut flower
+flower bud
+bouquet
+wreath
+floral basket
+buttonhole
+cut
+branch
+tree
+bush
+sunflower
+# 01.19_Other Non-Perennial Crops > 01.19.2_Cut Flowers and Flower Buds; Flower Seeds
+# Flower seeds	NACE	01.19.22
+#This subcategory also includes:
+#- seeds of sweet pea (Lathyrus odoratus)
+flower seed
+sweet pea
+# 01.19_Other Non-Perennial Crops > 01.19.3_Beet Seeds, Seeds for Forage Plants; Other Raw Vegetable Materials
+# Beet seeds (excluding sugar beet seeds) and seeds for forage plants	NACE	01.19.31
+beet seed
+sugar beet seed
+forage plant
+# 01.19_Other Non-Perennial Crops > 01.19.3_Beet Seeds, Seeds for Forage Plants; Other Raw Vegetable Materials
+# Raw vegetable materials n.e.c.	NACE	01.19.39
+#This subcategory also includes:
+#- sweet sorghum, 
+#- pollen (pollen meal) i.e. small pellets containing pollen gathered by bees formed by nectar, honey and bee saliva
+raw vegetable material
+sweet sorghum
+pollen
+pollen meal
+bee
+form
+nectar
+honey
+bee saliva
+# 01.21_Grapes > 01.21.1_Grapes
+# Table grapes	NACE	01.21.11
+table grape
+# 01.21_Grapes > 01.21.1_Grapes
+# Other grapes, fresh	NACE	01.21.12
+other grape
+# 01.22_Tropical and Subtropical Fruits > 01.22.1_Tropical and Subtropical Fruits
+# Avocados	NACE	01.22.11
+avocado
+# 01.22_Tropical and Subtropical Fruits > 01.22.1_Tropical and Subtropical Fruits
+# Bananas, plantains and similar	NACE	01.22.12
+# 01.22_Tropical and Subtropical Fruits > 01.22.1_Tropical and Subtropical Fruits
+# Dates	NACE	01.22.13
+date
+# 01.22_Tropical and Subtropical Fruits > 01.22.1_Tropical and Subtropical Fruits
+# Figs	NACE	01.22.14
+fig
+# 01.22_Tropical and Subtropical Fruits > 01.22.1_Tropical and Subtropical Fruits
+# Other tropical and subtropical fruits	NACE	01.22.19
+# 01.23_Citrus Fruits > 01.23.1_Citrus Fruits
+# Pomelo and grapefruits	NACE	01.23.11
+pomelo
+grapefruit
+# 01.23_Citrus Fruits > 01.23.1_Citrus Fruits
+# Lemons and limes	NACE	01.23.12
+lemon
+lime
+# 01.23_Citrus Fruits > 01.23.1_Citrus Fruits
+# Oranges	NACE	01.23.13
+orange
+# 01.23_Citrus Fruits > 01.23.1_Citrus Fruits
+# Tangerines, mandarins, clementines	NACE	01.23.14
+tangerine
+# 01.23_Citrus Fruits > 01.23.1_Citrus Fruits
+# Other citrus fruits	NACE	01.23.19
+other citrus fruit
+# 01.24_Pome Fruits and Stone Fruits > 01.24.1_Apples
+# Apples	NACE	01.24.10
+apple
+# 01.24_Pome Fruits and Stone Fruits > 01.24.2_Other Pome Fruits and Stone Fruits
+# Pears	NACE	01.24.21
+pear
+# 01.24_Pome Fruits and Stone Fruits > 01.24.2_Other Pome Fruits and Stone Fruits
+# Quinces	NACE	01.24.22
+quince
+# 01.24_Pome Fruits and Stone Fruits > 01.24.2_Other Pome Fruits and Stone Fruits
+# Apricots	NACE	01.24.23
+apricot
+# 01.24_Pome Fruits and Stone Fruits > 01.24.2_Other Pome Fruits and Stone Fruits
+# Cherries	NACE	01.24.24
+cherry
+# 01.24_Pome Fruits and Stone Fruits > 01.24.2_Other Pome Fruits and Stone Fruits
+# Peaches	NACE	01.24.25
+# 01.24_Pome Fruits and Stone Fruits > 01.24.2_Other Pome Fruits and Stone Fruits
+# Nectarines	NACE	01.24.26
+nectarine
+# 01.24_Pome Fruits and Stone Fruits > 01.24.2_Other Pome Fruits and Stone Fruits
+# Plums	NACE	01.24.27
+plum
+# 01.24_Pome Fruits and Stone Fruits > 01.24.2_Other Pome Fruits and Stone Fruits
+# Sloes	NACE	01.24.28
+sloe
+# 01.24_Pome Fruits and Stone Fruits > 01.24.2_Other Pome Fruits and Stone Fruits
+# Other pome fruits and stone fruits n.e.c.	NACE	01.24.29
+other pome fruit
+stone fruit
+# 01.25_Other Tree and Bush Fruits and Nuts > 01.25.1_Berries and the Fruits of the Genus Vaccinium
+# Kiwi fruit	NACE	01.25.11
+# 01.25_Other Tree and Bush Fruits and Nuts > 01.25.1_Berries and the Fruits of the Genus Vaccinium
+# Raspberries	NACE	01.25.12
+raspberry
+# 01.25_Other Tree and Bush Fruits and Nuts > 01.25.1_Berries and the Fruits of the Genus Vaccinium
+# Strawberries	NACE	01.25.13
+strawberry
+# 01.25_Other Tree and Bush Fruits and Nuts > 01.25.1_Berries and the Fruits of the Genus Vaccinium
+# Other berries, the fruits of the genus vaccinium n.e.c.	NACE	01.25.19
+#This subcategory includes:
+#- cranberry, blueberry, lingonberry, bilberry, huckleberry
+#- currant and gooseberries
+other berry
+the fruit
+the genus vaccinium n.e.c
+cranberry
+blueberry
+lingonberry
+bilberry
+huckleberry
+currant
+gooseberry
+# 01.25_Other Tree and Bush Fruits and Nuts > 01.25.2_Fruit Seeds
+# Fruit seeds	NACE	01.25.20
+#This subcategory also includes:
+#- seeds of ornamental trees or trees intended to beautify parks, gardens and streets
+fruit seed
+tree
+gardening
+# 01.25_Other Tree and Bush Fruits and Nuts > 01.25.3_Nuts (Excluding Wild Edible Nuts, Groundnuts and Coconuts)
+# Almonds	NACE	01.25.31
+
+# 01.25_Other Tree and Bush Fruits and Nuts > 01.25.3_Nuts (Excluding Wild Edible Nuts, Groundnuts and Coconuts)
+# Chestnuts	NACE	01.25.32
+chestnut
+# 01.25_Other Tree and Bush Fruits and Nuts > 01.25.3_Nuts (Excluding Wild Edible Nuts, Groundnuts and Coconuts)
+# Hazelnuts	NACE	01.25.33
+hazelnut
+# 01.25_Other Tree and Bush Fruits and Nuts > 01.25.3_Nuts (Excluding Wild Edible Nuts, Groundnuts and Coconuts)
+# Pistachios	NACE	01.25.34
+# 01.25_Other Tree and Bush Fruits and Nuts > 01.25.3_Nuts (Excluding Wild Edible Nuts, Groundnuts and Coconuts)
+# Walnuts	NACE	01.25.35
+walnut
+# 01.25_Other Tree and Bush Fruits and Nuts > 01.25.3_Nuts (Excluding Wild Edible Nuts, Groundnuts and Coconuts)
+# Other nuts (excluding wild edible nuts, groundnuts and coconuts)	NACE	01.25.39
+other nut
+wild edible nut
+groundnut
+coconut
+# 01.25_Other Tree and Bush Fruits and Nuts > 01.25.9_Other Tree and Bush Fruits n.e.c.
+# Other tree and bush fruits n.e.c.	NACE	01.25.90
+#This subcategory also includes:
+#- persimmons 
+#- cactus pears
+#- pomegranates
+other tree and bush fruit
+persimmon
+cactus pear
+pomegranate
+# 01.26_Oleaginous Fruits > 01.26.1_Olives
+# Table olives	NACE	01.26.11
+table olive
+# 01.26_Oleaginous Fruits > 01.26.1_Olives
+# Olives for production of olive oil	NACE	01.26.12
+olive
+olive oil
+# 01.26_Oleaginous Fruits > 01.26.2_Coconuts
+# Coconuts	NACE	01.26.20
+coconut
+# 01.26_Oleaginous Fruits > 01.26.9_Other Oleaginous Fruits
+# Other oleaginous fruits	NACE	01.26.90
+other oleaginous fruit
+# 01.27_Beverage Crops > 01.27.1_Beverage Crops
+# Coffee beans, not roasted	NACE	01.27.11
+coffee bean
+# 01.27_Beverage Crops > 01.27.1_Beverage Crops
+# Tea leaves	NACE	01.27.12
+tea leave
+# 01.27_Beverage Crops > 01.27.1_Beverage Crops
+# Maté leaves	NACE	01.27.13
+
+leave
+# 01.27_Beverage Crops > 01.27.1_Beverage Crops
+# Cocoa beans	NACE	01.27.14
+cocoa bean
+# 01.28_Spices, Aromatic, Drug and Pharmaceutical Crops > 01.28.1_Spices, Not Processed
+# Pepper (piper spp.), raw	NACE	01.28.11
+piper spp
+# 01.28_Spices, Aromatic, Drug and Pharmaceutical Crops > 01.28.1_Spices, Not Processed
+# Chillies and peppers, dry (capsicum spp.), raw	NACE	01.28.12
+chilli
+pepper
+capsicum spp
+# 01.28_Spices, Aromatic, Drug and Pharmaceutical Crops > 01.28.1_Spices, Not Processed
+# Nutmeg, mace and cardamoms, raw	NACE	01.28.13
+nutmeg
+mace
+cardamom
+# 01.28_Spices, Aromatic, Drug and Pharmaceutical Crops > 01.28.1_Spices, Not Processed
+# Anise, badian, coriander, cumin, caraway, fennel and juniper berries, raw	NACE	01.28.14
+anise
+badian
+coriander
+cumin
+caraway
+fennel
+juniper
+berry
+# 01.28_Spices, Aromatic, Drug and Pharmaceutical Crops > 01.28.1_Spices, Not Processed
+# Cinnamon (canella), raw	NACE	01.28.15
+cinnamon
+canella
+# 01.28_Spices, Aromatic, Drug and Pharmaceutical Crops > 01.28.1_Spices, Not Processed
+# Cloves (whole stems), raw	NACE	01.28.16
+clove
+whole stem
+# 01.28_Spices, Aromatic, Drug and Pharmaceutical Crops > 01.28.1_Spices, Not Processed
+# Ginger, dry, raw	NACE	01.28.17
+# 01.28_Spices, Aromatic, Drug and Pharmaceutical Crops > 01.28.1_Spices, Not Processed
+# Vanilla, raw	NACE	01.28.18
+
+# 01.28_Spices, Aromatic, Drug and Pharmaceutical Crops > 01.28.1_Spices, Not Processed
+# Other spices, not processed	NACE	01.28.19
+#This subcategory also includes:
+#- chicory roots
+#- unprocessed spices of the genus Pimenta
+other spice
+chicory root
+unprocessed spice
+the genus
+# 01.28_Spices, Aromatic, Drug and Pharmaceutical Crops > 01.28.2_Hop Cones
+# Hop cones	NACE	01.28.20
+hop cone
+# 01.28_Spices, Aromatic, Drug and Pharmaceutical Crops > 01.28.3_Plants Used Primarily in Perfumery, in Pharmacy, or for Insecticidal, Fungicidal or Similar Purposes
+# Plants used primarily in perfumery, in pharmacy, or for insecticidal, fungicidal or similar purposes	NACE	01.28.30
+#This subcategory also includes:
+#- pollen obtained by mechanical processing of plants 
+#- chamomile straw and husks,
+#- dried dandelion leaves,
+#- dried sorrel (Rumex acetosa)
+#- 	dried nasturtium
+perfumery
+fungicidal or similar purpose
+pollen
+mechanical processing
+chamomile straw
+husk
+dry dandelion leave
+dry sorrel
+rumex acetosa
+dry nasturtium
+# 01.29_Other Perennial Crops > 01.29.1_Natural Rubber
+# Natural rubber	NACE	01.29.10
+natural rubber
+# 01.29_Other Perennial Crops > 01.29.2_Christmas Trees, Cut
+# Christmas trees, cut	NACE	01.29.20
+christmas tree
+cut
+# 01.29_Other Perennial Crops > 01.29.3_Vegetable Materials of a Kind Used Primarily for Plaiting or as Stuffing or Padding, or in Dyeing or Tanning
+# Vegetable materials of a kind used primarily for plaiting or as stuffing or padding, or in dyeing or tanning	NACE	01.29.30
+#This subcategory also includes:
+#- sunflower stalks and leaves, residues without flowers
+#- fresh willow branches without flower buds or flowers
+#- cleaned, bleached or dyed straw
+vegetable material
+plaiting
+stuffing
+padding
+dyeing
+tanning
+sunflower stalk
+leave
+fresh willow branch
+flower bud
+bleach or dye straw
+# 01.30_Planting Material: Live Plants, Bulbs, Tubers and Roots, Cuttings and Slips; Mushroom Spawn > 01.30.1_Planting Material: Live Plants, Bulbs, Tubers and Roots, Cuttings and Slips; Mushroom Spawn
+# Planting material: live plants, bulbs, tubers and roots, cuttings and slips; mushroom spawn	NACE	01.30.10
+#This subcategory also includes:
+#- substrate for growing mushrooms from mycelium sown
+live plant
+bulb
+slip
+mushroom spawn
+mycelium
+# 01.41_Dairy Cattle, Live and Raw Milk From Dairy Cattle > 01.41.1_Dairy Cattle, Live
+# Dairy cattle, live	NACE	01.41.10
+dairy cattle
+# 01.41_Dairy Cattle, Live and Raw Milk From Dairy Cattle > 01.41.2_Raw Milk From Dairy Cattle
+# Raw milk from dairy cattle	NACE	01.41.20
+#This subcategory also includes:
+#- raw buffalo milk
+milk
+dairy cattle
+raw buffalo milk
+# 01.42_Other Cattle and Buffaloes, Live and Their Semen > 01.42.1_Other Cattle and Buffaloes, Live
+# Other cattle and buffaloes, except calves, live	NACE	01.42.11
+#This subcategory includes:
+#-animals of subfamily Bovinae, domestic or wild, regardless of their use, n.e.c. and oxen (Ovibos moschatus)
+other cattle
+buffalo
+calf
+their use
+and oxen
+# 01.42_Other Cattle and Buffaloes, Live and Their Semen > 01.42.1_Other Cattle and Buffaloes, Live
+# Calves of cattle and buffalo, live	NACE	01.42.12
+calf
+cattle
+buffalo
+# 01.42_Other Cattle and Buffaloes, Live and Their Semen > 01.42.2_Cattle and Buffalo Semen
+# Cattle and buffalo semen	NACE	01.42.20
+cattle
+buffalo
+# 01.43_Horses and Other Equines, Live > 01.43.1_Horses and Other Equines, Live
+# Horses, live	NACE	01.43.11
+#This subcategory also includes:
+#- semen of stallions
+stallion
+# 01.43_Horses and Other Equines, Live > 01.43.1_Horses and Other Equines, Live
+# Asses, mules and hinnies, live	NACE	01.43.12
+ass
+mule
+hinny
+# 01.44_Camels and Camelids, Live > 01.44.1_Camels and Camelids, Live
+# Camels and camelids, live	NACE	01.44.10
+#This subcategory includes:
+#- dromaderies, llamas, alpacas, guanacos, vicunas and other camelids
+#
+#This subcategory also includes:
+#- semen of camelids
+camel
+camelid
+dromaderie
+alpaca
+guanaco
+vicuna
+other camelid
+# 01.45_Sheep and Goats, Live; Raw Milk and Shorn Wool From Sheep and Goats > 01.45.1_Sheep and Goats, Live
+# Sheep, live	NACE	01.45.11
+#This subcategory also includes:
+#- ram semen
+# 01.45_Sheep and Goats, Live; Raw Milk and Shorn Wool From Sheep and Goats > 01.45.1_Sheep and Goats, Live
+# Goats, live	NACE	01.45.12
+#This subcategory also includes:
+#- semen of goats
+# 01.45_Sheep and Goats, Live; Raw Milk and Shorn Wool From Sheep and Goats > 01.45.2_Raw Milk From Sheep and Goats
+# Raw milk from sheep	NACE	01.45.21
+milk
+# 01.45_Sheep and Goats, Live; Raw Milk and Shorn Wool From Sheep and Goats > 01.45.2_Raw Milk From Sheep and Goats
+# Raw milk from goats	NACE	01.45.22
+milk
+# 01.45_Sheep and Goats, Live; Raw Milk and Shorn Wool From Sheep and Goats > 01.45.3_Shorn Wool From Sheep and Goats, Greasy, Including Fleece-Washed Shorn Wool
+# Shorn wool from sheep and goats, greasy, including fleece-washed shorn wool	NACE	01.45.30
+#This subcategory also includes:
+#- fleece-washed shorn wool
+shorn wool
+# 01.46_Swine, Live > 01.46.1_Swine, Live
+# Swine, live	NACE	01.46.10
+#This subcategory also includes:
+#- semen of boars
+boar
+# 01.47_Poultry, Live and Eggs > 01.47.1_Poultry, Live
+# Chickens, live	NACE	01.47.11
+
+# 01.47_Poultry, Live and Eggs > 01.47.1_Poultry, Live
+# Turkeys, live	NACE	01.47.12
+turkey
+# 01.47_Poultry, Live and Eggs > 01.47.1_Poultry, Live
+# Geese, live	NACE	01.47.13
+
+# 01.47_Poultry, Live and Eggs > 01.47.1_Poultry, Live
+# Ducks and guinea fowls, live	NACE	01.47.14
+duck
+guinea fowl
+# 01.47_Poultry, Live and Eggs > 01.47.2_Eggs in Shell, Fresh
+# Hen eggs in shell, fresh	NACE	01.47.21
+hen egg
+# 01.47_Poultry, Live and Eggs > 01.47.2_Eggs in Shell, Fresh
+# Eggs from other poultry, in shell, fresh	NACE	01.47.22
+other poultry
+# 01.47_Poultry, Live and Eggs > 01.47.2_Eggs in Shell, Fresh
+# Hen eggs for hatching	NACE	01.47.23
+hen egg
+# 01.47_Poultry, Live and Eggs > 01.47.2_Eggs in Shell, Fresh
+# Eggs from other poultry, for hatching	NACE	01.47.24
+other poultry
+# 01.49_Other Farmed Animals and Animal Products > 01.49.1_Other Farmed Animals, Live
+# Domestic rabbits, live	NACE	01.49.11
+domestic rabbit
+# 01.49_Other Farmed Animals and Animal Products > 01.49.1_Other Farmed Animals, Live
+# Farmed birds n.e.c., live	NACE	01.49.12
+#This subcategory also includes:
+#- 	birds of the species Columbidae, wild or domestic
+#- 	wild turkeys, ducks and geese
+bird
+wild turkey
+duck
+goose
+# 01.49_Other Farmed Animals and Animal Products > 01.49.1_Other Farmed Animals, Live
+# Farmed reptiles (including snakes and turtles), live	NACE	01.49.13
+#This subcategory also includes:
+#- snakes and turtles
+farm reptile
+snake
+turtle
+# 01.49_Other Farmed Animals and Animal Products > 01.49.1_Other Farmed Animals, Live
+# Other farmed animals n.e.c., live	NACE	01.49.19
+#This subcategory includes: 
+#- reindeer
+#- fur animals (except domestic rabbits),
+#- bees and other insects,
+#- hybrids of the mare and a zebra
+#- cats, dogs and other pet animals
+#- diverse farmed animals n.e.c.
+other farm animal
+reindeer
+fur animal
+domestic rabbit
+bee
+other insect
+hybrid
+the mare
+a zebra
+cat
+dog
+other pet animal
+# 01.49_Other Farmed Animals and Animal Products > 01.49.2_Other Farm Animal Products
+# Natural honey	NACE	01.49.21
+natural honey
+# 01.49_Other Farmed Animals and Animal Products > 01.49.2_Other Farm Animal Products
+# Raw milk n.e.c.	NACE	01.49.22
+milk
+# 01.49_Other Farmed Animals and Animal Products > 01.49.2_Other Farm Animal Products
+# Snails, fresh, chilled, frozen, dried, salted or in brine, except sea snails	NACE	01.49.23
+snail
+sea snail
+# 01.49_Other Farmed Animals and Animal Products > 01.49.2_Other Farm Animal Products
+# Edible products of farm animal origin n.e.c.	NACE	01.49.24
+edible product
+farm animal origin
+# 01.49_Other Farmed Animals and Animal Products > 01.49.2_Other Farm Animal Products
+# Silk-worm cocoons suitable for reeling	NACE	01.49.25
+silk
+reeling
+# 01.49_Other Farmed Animals and Animal Products > 01.49.2_Other Farm Animal Products
+# Insect waxes and spermaceti, whether or not refined or coloured	NACE	01.49.26
+insect wax
+spermaceti
+refining
+colour
+# 01.49_Other Farmed Animals and Animal Products > 01.49.2_Other Farm Animal Products
+# Animal embryos for reproduction	NACE	01.49.27
+animal embryo
+# 01.49_Other Farmed Animals and Animal Products > 01.49.2_Other Farm Animal Products
+# Non-edible products of farm animal origin n.e.c.	NACE	01.49.28
+#This subcategory includes:
+#- fine or coarse animal hair, not carded or combed
+edible product
+farm animal origin
+fine or coarse animal hair
+card
+# 01.49_Other Farmed Animals and Animal Products > 01.49.3_Raw Fur Skins and Miscellaneous Raw Hides and Skins
+# Raw fur skins, except of fur-bearing lambs	NACE	01.49.31
+raw fur skin
+bearing
+lamb
+# 01.49_Other Farmed Animals and Animal Products > 01.49.3_Raw Fur Skins and Miscellaneous Raw Hides and Skins
+# Raw fur skins of fur-bearing lambs	NACE	01.49.32
+raw fur skin
+bearing
+lamb
+# 01.49_Other Farmed Animals and Animal Products > 01.49.3_Raw Fur Skins and Miscellaneous Raw Hides and Skins
+# Raw skins of animals n.e.c. (fresh or preserved, but not further prepared)	NACE	01.49.39
+raw skin
+preserve
+# 01.61_Support Services to Crop Production > 01.61.1_Support Services to Crop Production
+# Support services to crop production	NACE	01.61.10
+#This subcategory includes:
+#- preparation of fields
+#- planting, cultivation and fertilisation of crops
+#- crop spraying, including from the air
+#- pest control for agriculture
+#- trimming of fruit trees and vines
+#- transplanting and thinning of crops
+#- harvesting
+#- provision of agricultural machinery with crew and operators
+#- maintenance of agricultural land in good agricultural and ecological condition
+#- operation of irrigation systems for agricultural purposes
+support
+crop
+field
+planting
+cultivation
+fertilisation
+crop spraying
+the air
+pest control
+fruit tree
+vine
+transplanting
+thinning
+harvesting
+crew
+agricultural land
+good agricultural and ecological condition
+irrigation system
+agricultural purpose
+# 01.62_Support Services to Animal Production > 01.62.1_Support Services to Animal Production
+# Support services to animal production	NACE	01.62.10
+#This subcategory includes:
+#- services promoting propagation, growth and output of animals
+#- herd testing services, droving services, agistment services, poultry caponising services, grading of eggs etc.
+#- sheep shearing services
+#- farm animals boarding and care services
+#- cleaning of agricultural premises (hen houses, piggeries etc.)
+#- stud services
+#- services related to artificial insemination
+#
+#This subcategory also includes:
+#- services of farriers,
+#- rental services of assistive devices for animal husbandry with operator
+support
+propagation
+growth
+output
+herd testing service
+droving service
+poultry caponising service
+sheep shearing service
+farm animal boarding and care service
+agricultural premise
+hen house
+piggery
+stud service
+artificial insemination
+farrier
+assistive device
+animal husbandry
+# 01.63_Post-Harvest Crop Services > 01.63.1_Post-Harvest Crop Services
+# Post-harvest crop services	NACE	01.63.10
+#This subcategory includes: 
+#- preparation services for primary markets, i.e. cleaning, trimming, grading, disinfecting, drying, shelling
+#- cotton ginning
+#- preparation services for tobacco leaves, e.g. drying
+#- preparation services for cocoa beans, e.g. peeling
+#- waxing of fruit
+crop
+primary market
+shelling
+cotton ginning
+tobacco leave
+cocoa bean
+peeling
+waxing
+# 01.64_Seed Processing Services for Propagation > 01.64.1_Seed Processing Services for Propagation
+# Seed processing services for propagation	NACE	01.64.10
+#This subcategory includes: 
+#- services to improve the propagation quality of the seed, including treatment of genetically modified seeds:
+#  . removal of non-seed materials, undersized, mechanically or insect-damaged and immature seeds
+#  . removal of seed moisture to a safe level for seed storage
+#  . drying, cleaning, grading and treating of seeds until they are marketed
+seed processing service
+propagation
+the propagation quality
+the seed
+genetically modify seed
+removal
+insect
+seed moisture
+a safe level
+seed storage
+market
+# 01.70_Hunting and Trapping and Related Services > 01.70.1_Hunting and Trapping and Related Services
+# Hunting and trapping and related services	NACE	01.70.10
+#This subcategory includes:
+#- hunting and trapping on a commercial basis
+#- taking of animals (dead or alive) for food, fur, skin, or for use in research, in zoos or as pets
+#- production of fur skins, reptile or bird skins from hunting or trapping activities
+#
+#This subcategory also includes:
+#- land-based catching of sea mammals such as walrus and seal
+trapping
+zoo
+pet
+fur skin
+reptile or bird skin
+hunting or trapping activity
+sea mammal
+walrus
+seal

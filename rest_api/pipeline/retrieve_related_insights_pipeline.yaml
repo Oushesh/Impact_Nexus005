@@ -1,0 +1,13 @@
+Pipeline:
+  Config:
+    experiment_name: rest_api
+  Components:
+    - name: ESGRelatedInsightsClassifier
+      component_config:
+        model_name_or_path: "facebook/bart-large-mnli"
+
+    - name: SentenceTransformerRetriever
+      component_config:
+        model_name_or_path: "sentence-transformers/all-MiniLM-L6-v2"
+        batch_size: 32
+        show_progress_bar: False

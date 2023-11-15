@@ -1,0 +1,572 @@
+# https://www.bls.gov/iag/tgs/iag_index_alpha.htm
+Accommodation
+Food Services
+Waste Management
+Waste Remediation
+Agriculture
+Forestry
+Fishing
+Hunting
+Air Transportation
+Amusement
+Gambling
+animal husbandry
+Animal
+livestock
+animal farming
+farming
+Arts
+Entertainment
+Recreation
+Beverage
+Tobacco
+Broadcasting
+Building Material
+Garden Equipment
+Chemical
+Clothing
+Computer
+Construction
+Construction of Buildings
+Couriers
+Messengers
+Mail
+Post
+Credit
+Crop Production
+Data Processing
+Hosting
+Education
+Health
+Educational Services
+Electrical Equipment
+Appliance
+Component Manufacturing
+Finance
+Insurance
+Trapping
+Logging
+Funds
+Trusts 
+Furniture
+Furnishing
+Gasoline Stations
+Social
+Personal Care
+Hospitals
+
+internet
+Leather
+Leisure
+Hospitality
+Machinery
+Machinery Manufacturing
+Manufacturing
+Wholesalers
+Mining
+Quarrying
+Extraction
+Museums
+Historical Sites
+Natural Resources
+Mining
+Nonmetallic Mineral
+Non-metallic Mineral
+Nonstore Retailers
+Nursing
+Residential Care
+Paper
+Performing Arts
+Sports
+Petroleum
+Coal
+Pipeline Transportation
+Plastics
+Rubber
+Postal Service
+Printing
+Private Households
+Technical Services
+Scientific Services
+Publishing
+Rail
+Real Estate
+Rental
+Leasing
+Religious organisation
+Repair
+Maintenance
+Retail
+Securities
+Financial Investments
+Service 
+Social Assistance
+Hobby stores
+Book
+Music
+Agriculture
+Telecommunications
+Textile
+Trade
+Transportation
+Utilities
+Warehouse
+Truck
+Utilities
+Storage
+Waste
+Water Transportation
+Wholesale Trade
+Wood
+timber
+# Dealroom
+Dating
+Education
+Enterprise Software
+Event Tech
+Fashion
+Fintech
+Food
+Gaming
+Health
+Home Living
+Hosting
+Jobs Recruitment
+Kids
+Legal
+Advertisement
+Media
+Music
+Real Estate
+Robotics
+Semiconductors
+Telecom
+Transportation
+Travel
+Wellness
+Beauty
+Accessories
+Accommodation
+Adtech
+Agritech
+Apparel
+Banking
+Biotechnology
+CRM
+Sales
+Clean Energy
+Cloud computing
+Infrastructure
+Console gaming
+Construction
+Content Production
+Crypto
+Data Protection
+Ecommerce Solutions
+Financial Management Solutions
+Health Platform
+Restaurant
+vegan food
+vegeterian
+Insurance
+Logistics
+Delivery
+Marketing
+Medical Devices
+Mobile Gaming
+Mobility
+Mortgages
+Lending
+Navigation
+Mapping
+Oil
+Travel Agency
+Payments
+Pharmaceuticals
+Public Safety
+Publishing
+Real Estate Services
+Real Estate Software
+Social Media
+Streaming
+Vehicle
+Wealth Management
+# Manual
+Steel
+wind energy
+solar energy
+heat generation
+electricity
+nuclear power
+recycling
+automotive
+packaging
+electrical
+electronics
+tourism
+transport
+film
+creative
+metallurgic
+mould
+metal
+mechanical
+iron
+feedstock
+petrochemical
+alcohol
+public service
+# Wikidata
+television
+telecommunication
+radio communications
+biotechnology
+journalism
+agriculture
+metallurgy
+Raised-bed gardening
+health care
+visual arts
+forestry
+news
+cartography
+whaling
+insurance
+sport management
+horticulture
+hydroelectricity
+fast food
+transmission system operator
+retail
+management consulting
+maritime transport
+organic agriculture
+gastronomy
+public transport
+waste management
+fishery
+fair trade
+multi-level marketing
+aquaculture
+automotive 
+interactive advertising
+chemical 
+winemaking
+wholesale
+future market
+insurance broker
+biomedical engineering
+branch of Distributive trades
+surveillance
+papermaking
+agribusiness
+educational system
+shipbuilding
+e-commerce
+pharmaceutical 
+food delivery
+social economy
+employment website
+consumer electronics
+trade
+textile 
+show business
+fishing
+collection agency
+pipeline transport
+music industry
+glass production
+banking 
+building materials trade
+woodworking
+social entrepreneurship
+commercial shipping
+facility management
+branch of libraries
+security guard
+petroleum 
+life sciences
+handicraft
+fur trade
+software 
+tobacco 
+video game 
+meat packing
+wood 
+GLAM
+water treatment
+video game development
+hydraulic engineering
+wildlife trade
+building automation
+Mobile entertainment
+fast-moving consumer goods
+Energy service company
+drugstore
+printing 
+hotel 
+energy sector
+Rail construction
+electrical 
+electromobility
+extraction of petroleum
+game 
+film 
+Finance
+Engine tuning
+tourism 
+horeca
+photo 
+IT service management
+legal service
+hospitality 
+sound generation
+government relations
+water management
+information technology consulting
+urban cleaning
+wood economy
+real estate economics
+interior fittings
+system catering
+video rental shop
+coal 
+cultural 
+house-building
+agriculture
+forestry
+aircraft 
+coining (mint)
+porcelain
+ceramic 
+metal construction
+metal 
+cement 
+mining 
+musical instrument maker
+furniture construction
+machine 
+commercial vehicle manufacturer
+passenger transport
+consulting company
+electric vehicle charging station
+cattle breeding
+garden tourism
+Sammelgutverkehr
+T-commerce
+pulp
+paper 
+ferrous metallurgy
+pest control
+electric power 
+electricity retailing
+telecommunication company
+transportation 
+insurance 
+arms trade
+toolmaking
+anime 
+Knowledge transfer
+housing 
+semiconductor 
+alcohol 
+graphics 
+aerospace 
+automotive supplier
+rail transport
+aerospace engineering
+publishing
+Alexandrovsky radio factory
+aluminium 
+roadworks
+space-based economy
+locomotive manufacturing
+petroleum-gas 
+oil refining  of Ukraine
+architectural firm
+Building management
+bakery 
+Bangladesh textile 
+beverage 
+board game development
+information
+communications
+private equity firm
+innovation intermediary
+shoemaking
+home 
+pharmaceutical  in China
+Pharmaceutical  in the United Kingdom
+plastics 
+public affairs 
+RESCO
+Schunck's Kledingindustrie Bonaire
+silk throwing
+starch production
+Wind power 
+health sector
+commercial aviation
+ceramics 
+rolling stock manufacturing
+phonographic 
+MSSP
+cultural
+creative 
+Muen business
+clothing 
+poligraphy
+video gaming  in Finland
+machine tool 
+extractive 
+construction materials 
+TV
+biotechnology 
+cosmetics 
+construction of buildings
+construction 
+dairy 
+money creation
+agricultural machinery 
+foundry
+Food retail sector
+publishing activities
+petrochemical 
+defense 
+bicycle 
+Pharmaceutical  in India
+Pharmaceutical  in Switzerland
+vehicle 
+coastal fisheries
+forestry
+logging
+confectionery
+entertainment 
+carpentry 
+Oil
+plant engineering
+pasta 
+Genymobile SAS
+transport sciences
+lunar tourism
+zinc 
+accounting services
+management consulting 
+professional services 
+advertising 
+creative services 
+telecommunications 
+
+
+Wedding 
+dubbing of film
+cultured meat 
+horticulture 
+fishing
+aquaculture
+chalk mining
+candlemaking
+Retail sale of automotive fuel in specialised stores
+market research
+Creative
+arts
+entertainment
+Funeral
+Textile  of Sweden
+Pharmaceutical  in Russia
+musical instrument manufacturing company
+public relations
+nonmetallic minerals 
+oil services
+gas services
+funeral 
+book 
+consumer goods 
+metal goods 
+foundry 
+motorcycle 
+mobile phone 
+home appliance 
+telecommunications equipment 
+oil 
+packaging 
+diamond 
+porcelain 
+rubber 
+tyre 
+leather 
+media 
+internet 
+oils
+fats 
+confectionery 
+spirits 
+energy storage technology
+hairdressing 
+consumer products distribution
+jewellery 
+toy 
+sports equipment 
+
+transport sector
+ferry shipping
+freight transport 
+postal sector
+financial sector
+magazine publishing
+event sector
+home furnishing
+fitness 
+stamp dealer
+staffing
+recruiting 
+medical device 
+parking 
+small arms 
+chocolate 
+engine manufacturing
+toll collection
+trucking 
+asbestos 
+Transformative economie
+
+equestrian tourism
+foreign trade company
+microfinance 
+mobility
+performing arts 
+media & entertainment 
+coworking 
+
+battery 
+industrial real estate
+stonemasonry
+
+Agriculture
+fisheries
+forestry
+heavy machine building
+dubbing of television series episode
+dubbing of television series
+dubbing of anime television series
+production of pipe bits
+high seas fisheries
+marine fisheries
+demersal fisheries
+estuarine fisheries
+safari 
+toll road operator
+brass mouthpiece maker
+Wooden structures
+virtual reality 
+animal trade
+Armoloy of Illinois
+ghost tourism
+Cap d'Ona brewery
+book retail 
+library services
+Servindustriales Del Valle
+
+airline
+airport
+aviation
+

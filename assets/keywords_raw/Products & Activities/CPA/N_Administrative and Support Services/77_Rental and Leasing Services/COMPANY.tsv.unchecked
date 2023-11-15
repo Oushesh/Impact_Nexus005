@@ -1,0 +1,337 @@
+# 77.11_Rental and Leasing Services of Cars and Light Motor Vehicles > 77.11.1_Rental and Leasing Services of Cars and Light Motor Vehicles
+# Rental and leasing services of cars and light motor vehicles	NACE	77.11.10
+#This subcategory includes:
+#- rental and leasing services of passenger cars and other light motor vehicles, with a weight ≤ 3,5 tons, without driver
+light
+motor
+passenger car
+other light motor vehicle
+a weight
+
+# 77.12_Rental and Leasing Services of Trucks > 77.12.1_Rental and Leasing Services of Trucks
+# Rental and leasing services of goods transport vehicles without driver	NACE	77.12.11
+#This subcategory includes:
+#- rental, leasing or hiring services of motor vehicles, with a weight > 3,5 tons, without driver, principally designed for the transport of goods (e.g. semi-trailers, tractors, lorries, freight vans and other utility vehicles)
+good transport vehicle
+motor
+a weight
+
+lorry
+freight van
+other utility vehicle
+# 77.12_Rental and Leasing Services of Trucks > 77.12.1_Rental and Leasing Services of Trucks
+# Rental and leasing services of other land transport equipment without driver	NACE	77.12.19
+#This subcategory includes:
+#- rental, leasing or hiring services of other public-transport-type passenger vehicles such as buses without driver
+#- rental, leasing or hiring services concerning other land transport equipment without operator
+#- man- or animal-drawn passenger vehicle rental services without the services of a driver
+rental and lease service
+land transport
+type
+vehicle rental
+a driver
+# 77.21_Rental and Leasing Services of Recreational and Sports Goods > 77.21.1_Rental and Leasing Services of Recreational and Sports Goods
+# Rental and leasing services of recreational and sports goods	NACE	77.21.10
+#This subcategory includes:
+#- rental, leasing or hiring services concerning pleasure and leisure equipment, such as:
+#  . bicycles, snow skis, ice skates
+#  . gliders, hang gliders
+#  . water-sport equipment (e.g., surfboards, water-skis)
+#  . pleasure boats (canoes, sailboat and other pleasure boats)
+#  . other sports equipment (e.g., golf clubs, equipment for playing field games, racquet games etc.), saddle-horses, camping equipment etc.
+recreational and sport good
+pleasure
+snow ski
+ice skate
+glider
+hang glider
+surfboard
+pleasure boat
+canoe
+sailboat
+other pleasure boat
+golf club
+play
+field game
+racquet game
+camping
+# 77.22_Rental Services of Video Tapes and Disks > 77.22.1_Rental Services of Video Tapes and Disks
+# Rental services of video tapes and disks	NACE	77.22.10
+#This subcategory includes:
+#- rental, leasing or hiring services concerning pre-recorded video tapes, CD's and DVDs for use in home entertainment equipment
+#- rental, leasing or hiring services of pre-recorded records, sound cassettes and compact discs
+#- rental, leasing or hiring services concerning video games
+video tape
+leasing or hire service
+pre
+lease or hire service
+record
+sound cassette
+compact disc
+video game
+# 77.29_Rental and Leasing Services of Other Personal and Household Goods > 77.29.1_Rental and Leasing Services of Other Personal and Household Goods
+# Rental and leasing services of televisions, radios, video cassette recorders and related equipment and accessories	NACE	77.29.11
+#This subcategory includes: 
+#- rental, leasing or hiring services of all kinds of electrical and electronic home entertainment equipment, such as:
+#  . stereo systems, tape decks, televisions, radios
+#  . video cassette recorders and similar equipment
+radio
+video cassette recorder
+electronic
+stereo system
+tape deck
+# 77.29_Rental and Leasing Services of Other Personal and Household Goods > 77.29.1_Rental and Leasing Services of Other Personal and Household Goods
+# Rental and leasing services of furniture and other household appliances	NACE	77.29.12
+#This subcategory includes:
+#- rental, leasing or hiring services of furniture (incl. mattresses and mattress supports), household appliances, whether or not electrical, such as refrigerators, washing machines, room air conditioners, fans, toasters, mixers etc.
+#- rental, leasing or hiring services of pottery and glass, kitchen and table ware
+rental and lease service
+other household appliance
+leasing or hire service
+mattress support
+household appliance
+refrigerator
+room air conditioner
+toaster
+mixer
+lease or hire service
+pottery
+kitchen and table ware
+# 77.29_Rental and Leasing Services of Other Personal and Household Goods > 77.29.1_Rental and Leasing Services of Other Personal and Household Goods
+# Rental and leasing services of musical instruments	NACE	77.29.13
+# 77.29_Rental and Leasing Services of Other Personal and Household Goods > 77.29.1_Rental and Leasing Services of Other Personal and Household Goods
+# Rental and leasing services of household linen	NACE	77.29.14
+household linen
+# 77.29_Rental and Leasing Services of Other Personal and Household Goods > 77.29.1_Rental and Leasing Services of Other Personal and Household Goods
+# Rental and leasing services of textiles, clothing and footwear	NACE	77.29.15
+#This subcategory also includes:
+#- rental services of costumes
+costume
+# 77.29_Rental and Leasing Services of Other Personal and Household Goods > 77.29.1_Rental and Leasing Services of Other Personal and Household Goods
+# Rental and leasing services of do-it-yourself machinery and equipment	NACE	77.29.16
+#This subcategory includes:
+#- rental, leasing or hiring services of lawnmowers, tools for repairs etc., without operator
+leasing or hire service
+lawnmower
+# 77.29_Rental and Leasing Services of Other Personal and Household Goods > 77.29.1_Rental and Leasing Services of Other Personal and Household Goods
+# Rental and leasing services of other personal and household goods n.e.c.	NACE	77.29.19
+#This subcategory includes:
+#- rental and leasing services of:
+#  . books, journals and magazines
+#  . cameras, photo equipment, binoculars and other optical goods
+#  . flowers and plants
+#  . jewellery
+#  . watches and clocks etc.
+#- rental, leasing or hiring services of medical equipment (crutches) and paramedical equipment
+personal and household good
+rental and lease service
+magazine
+camera
+photo
+binocular
+other optical good
+lease or hire service
+crutch
+# 77.31_Rental and Leasing Services of Agricultural Machinery and Equipment > 77.31.1_Rental and Leasing Services of Agricultural Machinery and Equipment
+# Rental and leasing services of agricultural machinery and equipment	NACE	77.31.10
+#This subcategory includes:
+#- rental, leasing or hiring services of agricultural and forestry machinery and equipment without operator, i.e. products produced by class 28.30, such as tractors and implements, seed and seedling planters, harvesting, cropping and sorting machinery etc.
+forestry machinery
+class
+
+seedling
+planter
+harvesting
+sorting
+# 77.32_Rental and Leasing Services of Construction and Civil Engineering Machinery and Equipment > 77.32.1_Rental and Leasing Services of Construction and Civil Engineering Machinery and Equipment
+# Rental and leasing services of construction and civil engineering machinery and equipment	NACE	77.32.10
+#This subcategory includes:
+#- rental, leasing or hiring services of construction and civil engineering machinery and equipment without operator
+#- rental, leasing or hiring services concerning tractors for construction and earth moving purposes, road graders, steamrollers, bulldozers, excavating machinery, front-end loaders, scaffolding without erection and dismantling, site huts etc.
+construction and civil engineering machinery
+leasing or hire service
+construction and earth move purpose
+road grader
+steamroller
+bulldozer
+excavating machinery
+scaffolding
+erection
+site hut
+# 77.33_Rental and Leasing Services of Office Machinery and Equipment (Including Computers) > 77.33.1_Rental and Leasing Services of Office Machinery and Equipment (Including Computers)
+# Rental and leasing services of office machinery and equipment (excluding computers)	NACE	77.33.11
+#This subcategory includes:
+#- rental, leasing or hiring services of all kinds of office machinery and equipment without operator, such as:
+#  . photocopiers
+#  . typewriters and word processors
+#  . accounting machinery and equipment such as electronic calculators, cash registers and other machines incorporating a calculating device
+#- rental, leasing or hiring services of office furniture, safes and the like
+lease or hire service
+photocopier
+typewriter
+word processor
+accounting machinery
+electronic calculator
+cash register
+other machine
+a calculate device
+office furniture
+safe
+the like
+# 77.33_Rental and Leasing Services of Office Machinery and Equipment (Including Computers) > 77.33.1_Rental and Leasing Services of Office Machinery and Equipment (Including Computers)
+# Rental and leasing services of computers	NACE	77.33.12
+#This subcategory includes:
+#- rental, leasing or hiring services of computers and peripheral equipment without operator, such as electronic data processors, central processing units, peripheral units and magnetic or optical readers
+lease or hire service
+electronic datum processor
+central processing unit
+peripheral unit
+magnetic or optical reader
+# 77.34_Rental and Leasing Services of Water Transport Equipment > 77.34.1_Rental and Leasing Services of Water Transport Equipment
+# Rental and leasing services of water transport equipment	NACE	77.34.10
+#This subcategory includes:
+#- rental, leasing or hiring services of boats, ships and hovercraft without operator, primarily designed for the conveyance of passengers and freight
+hovercraft
+the conveyance
+# 77.35_Rental and Leasing Services of Air Transport Equipment > 77.35.1_Rental and Leasing Services of Air Transport Equipment
+# Rental and leasing services of air transport equipment	NACE	77.35.10
+#This subcategory includes:
+#- rental, leasing or hiring services of air transport equipment (e.g., helicopters, airplanes, hot air balloons) without operator
+air transport
+balloon
+# 77.39_Rental and Leasing Services of Other Machinery, Equipment and Tangible Goods n.e.c. > 77.39.1_Rental and Leasing Services of Other Machinery, Equipment and Tangible Goods n.e.c.
+# Rental and leasing services of railroad vehicles	NACE	77.39.11
+#This subcategory includes:
+#- rental and non-financial leasing services of commercial rail transportation equipment, without operator, such as:
+#  . locomotives and other rolling stock, subway cars, light rail equipment and streetcars
+#
+#The leases in this product are those which are not structured to provide financing to the lessee. The rental and leasing service may include maintenance and repair services and insurance, damage waivers and warranties.
+railroad vehicle
+financial leasing service
+railing
+locomotive
+other rolling stock
+light rail
+the lease
+financing
+the lessee
+the rental and leasing service
+damage waiver
+warranty
+# 77.39_Rental and Leasing Services of Other Machinery, Equipment and Tangible Goods n.e.c. > 77.39.1_Rental and Leasing Services of Other Machinery, Equipment and Tangible Goods n.e.c.
+# Rental and leasing services of containers	NACE	77.39.12
+#This subcategory includes:
+#- rental and leasing of intermodal containers
+# 77.39_Rental and Leasing Services of Other Machinery, Equipment and Tangible Goods n.e.c. > 77.39.1_Rental and Leasing Services of Other Machinery, Equipment and Tangible Goods n.e.c.
+# Rental and leasing services of motorcycles, caravans and campers	NACE	77.39.13
+#This subcategory includes:
+#- rental, leasing or hiring services concerning motorcycles, caravans and campers without drivers
+rental and lease service
+caravan
+camper
+# 77.39_Rental and Leasing Services of Other Machinery, Equipment and Tangible Goods n.e.c. > 77.39.1_Rental and Leasing Services of Other Machinery, Equipment and Tangible Goods n.e.c.
+# Rental and leasing services of telecommunications equipment	NACE	77.39.14
+#This subcategory includes:
+#- rental, leasing or hiring services of telecommunications equipment without operator:
+#  . commercial radio, television and telecommunications equipment
+#  . telephones, fax machines, pagers and cellular telephones
+telecommunication
+commercial radio
+fax machine
+pager
+cellular telephone
+# 77.39_Rental and Leasing Services of Other Machinery, Equipment and Tangible Goods n.e.c. > 77.39.1_Rental and Leasing Services of Other Machinery, Equipment and Tangible Goods n.e.c.
+# Rental and leasing services of other machinery and equipment without operator and tangible goods n.e.c.	NACE	77.39.19
+#This subcategory includes:
+#- rental, leasing or hiring services concerning all kinds of machinery, whether or not electrical, except personal or household goods, generally used as capital goods by industry, without operator, such as:
+#  . engines and turbines
+#  . machine tools
+#  . mining and oil field equipment
+#  . coin-operated gambling machines
+#  . exhibition material
+#  . motion picture production equipment
+#  . professional, scientific measuring and control apparatus
+#  . other commercial and industrial machinery
+#
+#This subcategory also includes:
+#- rental services of accommodation or office containers
+#- rental services of animals (e.g. herds, race horses)
+#- rental services of pallets
+tangible good
+personal or household good
+capital good
+industry
+field
+operating
+exhibition material
+picture
+professional
+scientific measuring and control apparatus
+other commercial and industrial machinery
+office container
+race horse
+pallet
+# 77.40_Licensing Services for the Right to Use Intellectual Property and Similar Products, Except Copyrighted Works > 77.40.1_Licensing Services for the Right to Use Intellectual Property and Similar Products, Except Copyrighted Works
+# Licensing services for the right to use research and development products	NACE	77.40.11
+#This subcategory includes:
+#- licensing services for the right to use the outcome of research and development activities, i.e. inventions, such as constitutions of matter, processes, mechanisms, electrical and electronic circuits and devices, pharmaceutical formulations and new varieties of living things produced by artifice
+licensing
+right
+the outcome
+activity
+invention
+constitution
+mechanism
+electrical and electronic circuit
+device
+pharmaceutical formulation
+new variety
+artifice
+# 77.40_Licensing Services for the Right to Use Intellectual Property and Similar Products, Except Copyrighted Works > 77.40.1_Licensing Services for the Right to Use Intellectual Property and Similar Products, Except Copyrighted Works
+# Licensing services for the right to use trademarks and franchises	NACE	77.40.12
+#This subcategory includes:
+#- licensing services for the right to use trademarks and to operate franchises in respect of other non-produced assets
+licensing
+right
+trademark
+franchise
+operating
+respect
+asset
+# 77.40_Licensing Services for the Right to Use Intellectual Property and Similar Products, Except Copyrighted Works > 77.40.1_Licensing Services for the Right to Use Intellectual Property and Similar Products, Except Copyrighted Works
+# Licensing services for the right to use mineral exploration and evaluation	NACE	77.40.13
+#This subcategory includes:
+#- licensing services for the right to use mineral exploration and evaluation information, such as mineral exploration for petroleum, natural gas and non-petroleum deposits
+licensing
+right
+mineral exploration
+mineral exploration and evaluation information
+petroleum
+deposit
+# 77.40_Licensing Services for the Right to Use Intellectual Property and Similar Products, Except Copyrighted Works > 77.40.1_Licensing Services for the Right to Use Intellectual Property and Similar Products, Except Copyrighted Works
+# Trademarks and franchises	NACE	77.40.14
+#This subcategory includes:
+#- original trademarks and franchises, i.e. the legally registered ownership of a certain brand name
+#
+#These products are produced on own account with the intent of deriving benefits from allowing others to use these trademarks or franchises.
+trademark
+franchise
+original trademark
+register
+ownership
+a certain brand name
+these product
+account
+the intent
+these trademark
+# 77.40_Licensing Services for the Right to Use Intellectual Property and Similar Products, Except Copyrighted Works > 77.40.1_Licensing Services for the Right to Use Intellectual Property and Similar Products, Except Copyrighted Works
+# Licensing services for the right to use other intellectual property and similar products, except copyrighted works	NACE	77.40.19
+#This subcategory includes:
+#- licensing services for the right to use other kinds of intellectual property products such as architectural and engineering plans, industrial designs etc.
+licensing
+right
+other intellectual property
+copyright work
+other kind
+intellectual property product
+architectural and engineering plan

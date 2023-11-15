@@ -1,0 +1,7 @@
+Pipeline:
+    Config:
+        experiment_name: test
+    Components:
+        - name: CompanyImpactClassifier
+        - name: EntityLinker
+        - name: EntityExtractor

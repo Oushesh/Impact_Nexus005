@@ -1,0 +1,26 @@
+Pipeline:
+  Config:
+    experiment_name: dummy_experiment
+  Components:
+    - name: OpenSearchStore
+      component_config:
+        mode: read
+        batch_size: 10
+        index: documents-dev
+        document_class: Document
+        index_mapping: DOCUMENTS_MAPPING
+    - name: ParagraphProcessor
+    # - name: InsightFilter
+    #   component_config:
+    #     model_name_or_path: "models/insights_classifier_v1/"
+    - name: SentenceTransformerRetriever
+      component_config:
+        model_name_or_path: "sentence-transformers/all-MiniLM-L6-v2"
+        batch_size: 32
+        show_progress_bar: True
+    - name: OpenSearchStore
+      component_config:
+        mode: write
+        index: insights-dev
+        document_class: Insight
+        index_mapping: INSIGHTS_MAPPING

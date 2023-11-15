@@ -1,0 +1,21 @@
+Pipeline:
+  Config:
+    experiment_name: dummy_experiment
+  Components:
+    - name: JSONLStore
+      component_config:
+        mode: read
+        batch_size: 10
+        infile: corpus/documents-test/*.jsonl
+        document_class: Document
+    - name: DocumentProcessor
+    - name: RelevancyFilter
+    - name: LanguageFilter
+    - name: DateFilter
+    - name: HeuristicsDocumentClassifier
+    - name: OpenSearchStore
+      component_config:
+        mode: write
+        index: documents-test
+        document_class: Document
+        index_mapping: DOCUMENTS_MAPPING

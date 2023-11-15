@@ -1,0 +1,258 @@
+# 30.11_Ships and Floating Structures > 30.11.1_Naval Ships
+# Naval ships	NACE	30.11.10
+naval ship
+# 30.11_Ships and Floating Structures > 30.11.2_Ships and Similar Vessels for the Transport of Persons or Goods
+# Cruise ships, excursion boats and similar vessels for the transport of persons; ferry-boats of all kinds	NACE	30.11.21
+cruise ship
+excursion boat
+similar vessel
+ferry
+# 30.11_Ships and Floating Structures > 30.11.2_Ships and Similar Vessels for the Transport of Persons or Goods
+# Tankers for the transport of crude oil, oil products, chemicals, liquefied gas	NACE	30.11.22
+crude oil
+oil product
+liquefy gas
+# 30.11_Ships and Floating Structures > 30.11.2_Ships and Similar Vessels for the Transport of Persons or Goods
+# Refrigerated vessels, except tankers	NACE	30.11.23
+refrigerated vessel
+# 30.11_Ships and Floating Structures > 30.11.2_Ships and Similar Vessels for the Transport of Persons or Goods
+# Dry cargo ships	NACE	30.11.24
+dry cargo ship
+# 30.11_Ships and Floating Structures > 30.11.3_Fishing Vessels and Other Special Vessels
+# Fishing vessels; factory ships and other vessels for processing or preserving fishery products	NACE	30.11.31
+fishing vessel
+factory ship
+other vessel
+preserve
+fishery product
+# 30.11_Ships and Floating Structures > 30.11.3_Fishing Vessels and Other Special Vessels
+# Tugs and pusher craft	NACE	30.11.32
+tug
+pusher craft
+# 30.11_Ships and Floating Structures > 30.11.3_Fishing Vessels and Other Special Vessels
+# Dredgers; light-vessels, floating cranes; other vessels	NACE	30.11.33
+dredger
+light
+float crane
+other vessel
+# 30.11_Ships and Floating Structures > 30.11.4_Offshore Vessels and Infrastructure
+# Offshore vessels and infrastructure	NACE	30.11.40
+offshore vessel
+infrastructure
+# 30.11_Ships and Floating Structures > 30.11.5_Other Floating Structures (Including Rafts, Tanks, Coffer-Dams, Landing Stages, Buoys and Beacons)
+# Other floating structures (including rafts, tanks, coffer-dams, landing stages, buoys and beacons)	NACE	30.11.50
+#This subcategory also includes: 
+#- seats for ships and floating structures
+#- rafts, tanks, coffer-dams, landing stages, buoys and beacons
+other float structure
+raft
+landing stage
+beacon
+floating structure
+# 30.11_Ships and Floating Structures > 30.11.9_Conversion, Reconstruction and Fitting Out Services of Ships, Floating Platforms and Structures; Sub-Contracted Operations as Part of Manufacturing of Ships and Floating Structures
+# Conversion and reconstruction of ships, floating platforms and structures	NACE	30.11.91
+conversion
+reconstruction
+floating platform
+# 30.11_Ships and Floating Structures > 30.11.9_Conversion, Reconstruction and Fitting Out Services of Ships, Floating Platforms and Structures; Sub-Contracted Operations as Part of Manufacturing of Ships and Floating Structures
+# Fitting out services of ships and floating platforms and structures	NACE	30.11.92
+#This subcategory includes:
+#- specialised inboard fitting out services of ships, floating platforms and structures, e.g. shipwright installations, electrical installations, air condition installations
+#- specialised painting services of ships and floating platforms and structures
+floating platform
+specialised inboard fitting out service
+electrical installation
+air condition installation
+specialise painting service
+# 30.11_Ships and Floating Structures > 30.11.9_Conversion, Reconstruction and Fitting Out Services of Ships, Floating Platforms and Structures; Sub-Contracted Operations as Part of Manufacturing of Ships and Floating Structures
+# Sub-contracted operations as part of manufacturing of ships and floating structures	NACE	30.11.99
+float structure
+# 30.12_Pleasure and Sporting Boats > 30.12.1_Pleasure and Sporting Boats
+# Sailboats (except inflatable) for pleasure or sports, with or without auxiliary motor	NACE	30.12.11
+sailboat
+pleasure
+auxiliary motor
+# 30.12_Pleasure and Sporting Boats > 30.12.1_Pleasure and Sporting Boats
+# Inflatable vessels for pleasure or sports	NACE	30.12.12
+inflatable vessel
+pleasure
+# 30.12_Pleasure and Sporting Boats > 30.12.1_Pleasure and Sporting Boats
+# Other vessels for pleasure or sports; rowing boats and canoes	NACE	30.12.19
+other vessel
+pleasure
+canoe
+# 30.12_Pleasure and Sporting Boats > 30.12.9_Sub-Contracted Operations as Part of Manufacturing of Pleasure and Sporting Boats
+# Sub-contracted operations as part of manufacturing of pleasure and sporting boats	NACE	30.12.99
+pleasure and sporting boat
+# 30.20_Railway Locomotives and Rolling Stock > 30.20.1_Rail Locomotives and Locomotive Tenders
+# Rail locomotives powered from an external source of electricity	NACE	30.20.11
+rail locomotive
+power
+an external source
+# 30.20_Railway Locomotives and Rolling Stock > 30.20.1_Rail Locomotives and Locomotive Tenders
+# Diesel-electric locomotives	NACE	30.20.12
+diesel
+locomotive
+# 30.20_Railway Locomotives and Rolling Stock > 30.20.1_Rail Locomotives and Locomotive Tenders
+# Other rail locomotives; locomotive tenders	NACE	30.20.13
+other rail locomotive
+locomotive tender
+# 30.20_Railway Locomotives and Rolling Stock > 30.20.2_Self-Propelled Railway or Tramway Coaches, Vans and Trucks, Except Maintenance or Service Vehicles
+# Self-propelled railway or tramway coaches, vans and trucks, except maintenance or service vehicles	NACE	30.20.20
+tramway
+coach
+van
+maintenance or service vehicle
+# 30.20_Railway Locomotives and Rolling Stock > 30.20.3_Other Rolling-Stock
+# Railway or tramway maintenance or service vehicles	NACE	30.20.31
+railway or tramway maintenance
+service vehicle
+# 30.20_Railway Locomotives and Rolling Stock > 30.20.3_Other Rolling-Stock
+# Railway or tramway passenger coaches, not self-propelled; luggage vans and other specialised vans	NACE	30.20.32
+railway or tramway passenger coach
+van
+# 30.20_Railway Locomotives and Rolling Stock > 30.20.3_Other Rolling-Stock
+# Railway or tramway goods vans and wagons, not self-propelled	NACE	30.20.33
+railway or tramway good van
+wagon
+# 30.20_Railway Locomotives and Rolling Stock > 30.20.4_Parts of Railway or Tramway Locomotives or Rolling-Stock; Mechanical Traffic Control Equipment
+# Parts of railway or tramway locomotives or rolling-stock; mechanical traffic control equipment	NACE	30.20.40
+#This subcategory also includes: 
+#- railway car seats
+railway or tramway locomotive
+stock
+traffic
+control
+railway car seat
+# 30.20_Railway Locomotives and Rolling Stock > 30.20.9_Reconditioning and Fitting Out Services ("Completing") of Railway and Tramway Locomotives and Rolling-Stock; Sub-Contracted Operations as Part of Manufacturing of Railway Locomotives and Rolling Stock
+# Reconditioning and fitting out services ("completing") of railway and tramway locomotives and rolling-stock	NACE	30.20.91
+#This subcategory includes:
+#- reconditioning services of railway and tramway locomotives and rolling-stock
+#- specialised fitting out services of railway and tramway locomotives and rolling-stock, e.g. installation of electrical equipment, air conditioning, seats, inside panelling, windows
+#- specialised painting services of railway and tramway locomotives and rolling-stock
+reconditioning
+railway and tramway locomotive
+stock
+air conditioning
+inside panelling
+# 30.20_Railway Locomotives and Rolling Stock > 30.20.9_Reconditioning and Fitting Out Services ("Completing") of Railway and Tramway Locomotives and Rolling-Stock; Sub-Contracted Operations as Part of Manufacturing of Railway Locomotives and Rolling Stock
+# Sub-contracted operations as part of manufacturing of railway locomotives and rolling stock	NACE	30.20.99
+railway locomotive
+stock
+# 30.30_Air and Spacecraft and Related Machinery > 30.30.1_Motors and Engines for Aircraft or Spacecraft; Ground Flying Trainers, and Parts Thereof
+# Aircraft spark-ignition engines	NACE	30.30.11
+# 30.30_Air and Spacecraft and Related Machinery > 30.30.1_Motors and Engines for Aircraft or Spacecraft; Ground Flying Trainers, and Parts Thereof
+# Turbo-jets and turbo-propellers	NACE	30.30.12
+turbo
+jet
+# 30.30_Air and Spacecraft and Related Machinery > 30.30.1_Motors and Engines for Aircraft or Spacecraft; Ground Flying Trainers, and Parts Thereof
+# Reaction engines, excluding turbo-jets	NACE	30.30.13
+reaction engine
+turbo
+jet
+# 30.30_Air and Spacecraft and Related Machinery > 30.30.1_Motors and Engines for Aircraft or Spacecraft; Ground Flying Trainers, and Parts Thereof
+# Ground flying trainers and parts thereof	NACE	30.30.14
+ground fly trainer
+# 30.30_Air and Spacecraft and Related Machinery > 30.30.1_Motors and Engines for Aircraft or Spacecraft; Ground Flying Trainers, and Parts Thereof
+# Parts for aircraft spark-ignition engines	NACE	30.30.15
+# 30.30_Air and Spacecraft and Related Machinery > 30.30.1_Motors and Engines for Aircraft or Spacecraft; Ground Flying Trainers, and Parts Thereof
+# Parts of turbo-jets or turbo-propellers	NACE	30.30.16
+turbo
+jet
+# 30.30_Air and Spacecraft and Related Machinery > 30.30.2_Balloons and Dirigibles; Gliders, Hang Gliders and Other Non-Powered Aircraft
+# Balloons and dirigibles; gliders, hang gliders and other non-powered aircraft	NACE	30.30.20
+balloon
+dirigible
+glider
+hang glider
+# 30.30_Air and Spacecraft and Related Machinery > 30.30.3_Helicopters and Aeroplanes
+# Helicopters	NACE	30.30.31
+# 30.30_Air and Spacecraft and Related Machinery > 30.30.3_Helicopters and Aeroplanes
+# Aeroplanes and other aircraft, of an unladen weight ≤ 2 000 kg	NACE	30.30.32
+aeroplane
+other aircraft
+an unladen weight
+
+# 30.30_Air and Spacecraft and Related Machinery > 30.30.3_Helicopters and Aeroplanes
+# Aeroplanes and other aircraft, of an unladen weight > 2 000 kg but ≤ 15 000 kg	NACE	30.30.33
+aeroplane
+other aircraft
+an unladen weight
+
+# 30.30_Air and Spacecraft and Related Machinery > 30.30.3_Helicopters and Aeroplanes
+# Aeroplanes and other aircraft, of an unladen weight > 15 000 kg	NACE	30.30.34
+aeroplane
+other aircraft
+an unladen weight
+
+# 30.30_Air and Spacecraft and Related Machinery > 30.30.4_Spacecraft (Including Satellites) and Spacecraft Launch Vehicles
+# Spacecraft (including satellites) and spacecraft launch vehicles	NACE	30.30.40
+#This subcategory also includes:
+#- intercontinental ballistic missiles (ICBM) and similar missiles
+#- satellites
+spacecraft launch vehicle
+intercontinental ballistic missile
+similar missile
+# 30.30_Air and Spacecraft and Related Machinery > 30.30.5_Other Parts of Aircraft and Spacecraft
+# Other parts of aircraft and spacecraft	NACE	30.30.50
+# 30.30_Air and Spacecraft and Related Machinery > 30.30.6_Overhaul and Conversion Services of Aircraft and Aircraft Engines
+# Overhaul and conversion services of aircraft and aircraft engines	NACE	30.30.60
+overhaul and conversion service
+aircraft and aircraft engine
+# 30.30_Air and Spacecraft and Related Machinery > 30.30.9_Sub-Contracted Operations as Part of Manufacturing of Air and Spacecraft and Related Machinery
+# Sub-contracted operations as part of manufacturing of air and spacecraft and related machinery	NACE	30.30.99
+# 30.40_Military Fighting Vehicles > 30.40.1_Motorised Tanks and Other Armoured Fighting Vehicles and Parts Thereof
+# Motorised tanks and other armoured fighting vehicles and parts thereof	NACE	30.40.10
+motorised tank
+other armoured fighting vehicle
+# 30.40_Military Fighting Vehicles > 30.40.9_Sub-Contracted Operations as Part of Manufacturing of Military Fighting Vehicles
+# Sub-contracted operations as part of manufacturing of military fighting vehicles	NACE	30.40.99
+military fighting vehicle
+# 30.91_Motorcycles > 30.91.1_Motorcycles and Side-Cars
+# Motorcycles and cycles with an auxiliary motor with reciprocating internal combustion piston engine ≤ 50 cm³	NACE	30.91.11
+cycle
+an auxiliary motor
+reciprocate internal combustion piston engine
+
+# 30.91_Motorcycles > 30.91.1_Motorcycles and Side-Cars
+# Motorcycles with reciprocating internal combustion piston engine > 50 cm³	NACE	30.91.12
+reciprocate internal combustion piston engine
+
+# 30.91_Motorcycles > 30.91.1_Motorcycles and Side-Cars
+# Motorcycles n.e.c.; side-cars	NACE	30.91.13
+# 30.91_Motorcycles > 30.91.2_Parts and Accessories of Motorcycles and Side-Cars
+# Parts and accessories of motorcycles and side-cars	NACE	30.91.20
+# 30.91_Motorcycles > 30.91.3_Internal Combustion Engines of a Kind Used for Motorcycles
+# Spark-ignition reciprocating internal combustion piston engines for motorcycles, of a cylinder capacity ≤ 1 000 cm³	NACE	30.91.31
+reciprocate internal combustion piston engine
+cylinder
+capacity
+
+# 30.91_Motorcycles > 30.91.3_Internal Combustion Engines of a Kind Used for Motorcycles
+# Spark-ignition reciprocating internal combustion piston engines for motorcycles, of a cylinder capacity > 1 000 cm³	NACE	30.91.32
+reciprocate internal combustion piston engine
+cylinder
+capacity
+
+# 30.91_Motorcycles > 30.91.9_Sub-Contracted Operations as Part of Manufacturing of Motorcycles
+# Sub-contracted operations as part of manufacturing of motorcycles	NACE	30.91.99
+# 30.92_Bicycles and Invalid Carriages > 30.92.1_Bicycles and Other Cycles, Not Motorised
+# Bicycles and other cycles, not motorised	NACE	30.92.10
+other cycle
+# 30.92_Bicycles and Invalid Carriages > 30.92.2_Invalid Carriages, Excluding Parts and Accessories
+# Invalid carriages, excluding parts and accessories	NACE	30.92.20
+carriage
+# 30.92_Bicycles and Invalid Carriages > 30.92.3_Parts and Accessories of Bicycles and Other Cycles, Not Motorised, and of Invalid Carriages
+# Parts and accessories of bicycles and other cycles, not motorised, and of invalid carriages	NACE	30.92.30
+other cycle
+carriage
+# 30.92_Bicycles and Invalid Carriages > 30.92.4_Baby Carriages and Parts Thereof
+# Baby carriages and parts thereof	NACE	30.92.40
+baby carriage
+# 30.92_Bicycles and Invalid Carriages > 30.92.9_Sub-Contracted Operations as Part of Manufacturing of Bicycles and Invalid Carriages
+# Sub-contracted operations as part of manufacturing of bicycles and invalid carriages	NACE	30.92.99
+carriage
+# 30.99_Other Transport Equipment n.e.c. > 30.99.1_Other Transport Equipment n.e.c.
+# Other transport equipment n.e.c.	NACE	30.99.10
+# 30.99_Other Transport Equipment n.e.c. > 30.99.9_Sub-Contracted Operations as Part of Manufacturing of Other Transport Equipment n.e.c.
+# Sub-contracted operations as part of manufacturing of other transport equipment n.e.c.	NACE	30.99.99

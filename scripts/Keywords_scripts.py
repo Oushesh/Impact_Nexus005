@@ -1,5 +1,6 @@
 import os
-os.chdir('../..')
+
+os.chdir("../..")
 
 from argparse import ArgumentError
 from glob import glob
@@ -14,12 +15,12 @@ from tqdm import tqdm
 
 from scripts.components import (
     component_lowercase_lemmas,
-    financial_tone_classifier,
-    sentence_masker,
-    predict_domain_from_keywords,
-    sustainability_potential_classifier,
-    keyword_ruler,
     entity_ruler,
+    financial_tone_classifier,
+    keyword_ruler,
+    predict_domain_from_keywords,
+    sentence_masker,
+    sustainability_potential_classifier,
 )
 from scripts.data_helpers import (
     extract_sentence_entities,
@@ -28,4 +29,3 @@ from scripts.data_helpers import (
     hash_documents,
 )
 from scripts.extract_paragraphs import paragraph_generator
-

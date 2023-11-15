@@ -1,0 +1,46 @@
+Pipeline:
+  Config:
+    experiment_name: dummy_experiment
+    description: "dummy description"
+  Components:
+    - name: OpenSearchStore
+      component_config:
+        mode: read
+        batch_size: 10
+        index: evaluation_dev
+        document_class: AnnotatedInsight
+        index_mapping: INSIGHTS_MAPPING
+
+    - name: CompanyImpactClassifier
+      component_config:
+        device: "auto"
+        model_name_or_path: "cross-encoder/nli-MiniLM2-L6-H768"
+      evaluation_config:
+        metrics:
+          - name: precision
+          - name: recall
+          - name: confusion_matrix
+
+    - name: BoolQACompanyImpactClassifier
+      component_config:
+        device: "auto"
+        model_name_or_path: "models/boolqa_concept_relation_classifier"
+      evaluation_config:
+        metrics:
+          - name: precision
+          - name: recall
+          - name: confusion_matrix
+
+    - name: InsightClassifier
+      component_config:
+        model_name_or_path: "models/insights_classifier_v1/"
+      evaluation_config:
+        metrics:
+          - name: precision
+          - name: recall
+          - name: roc_auc
+
+    - name: OpenSearchStore
+      component_config:
+        mode: write
+        index: evaluation_results

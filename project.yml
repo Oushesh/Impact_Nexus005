@@ -1,0 +1,156 @@
+title: "Nexus"
+description: "NLP pipeline of ImpactNexus"
+spacy_version: ">=3.0.6,<4.0.0"
+vars:
+  lang: "en"
+  base_pipeline: "en_core_web_trf"
+  version: "0.0.0"
+  # Annotations are saved on insights using the experiment name
+  experiment_name: "dev"
+  # Set your GPU ID, -1 is CPU
+  gpu_id: -1
+
+# These are the directories that the project needs. The project CLI will make
+# sure that they always exist.
+directories:
+  [
+    "assets",
+    "corpus",
+    "configs",
+    "training",
+    "smart_evidence",
+    "packages",
+    "models",
+  ]
+
+# Assets that should be downloaded or available in the directory.
+# assets:
+
+# Workflows are sequences of commands (see below) executed in order. You can
+# run them via "spacy project run [workflow]". If a commands's inputs/outputs
+# haven't changed, it won't be re-run. Remove the `project.lock` to execute again.
+workflows:
+  create-corpus:
+    - create-documents
+    - upload-corpus
+  prepare:
+    - package-and-install-entity-pipeline
+    - download-corpus
+  index:
+    - extract-documents
+    - extract-insights
+
+# Project commands, specified in a style similar to CI config files (e.g. Azure
+# pipelines). The name is the command name that lets you trigger the command
+# via "spacy project run [command] [path]". The help message is optional and
+# shown when executing "spacy project run [optional command] [path] --help".
+commands:
+  - name: "download-pipeline"
+    help: "Download the pretrained pipeline"
+    script:
+      - "python -m spacy download ${vars.base_pipeline}"
+
+  - name: "download-insight-classifier"
+    help: "Download the pretrained insight classifier"
+    script:
+      - "aws s3 sync s3://ix-nexus/models/insights_classifier_v1/ models/insights_classifier_v1/"
+
+  - name: "download-boolqa-concept-relation-classifier"
+    help: "Download the pretrained boolqa style company impact classifier"
+    script:
+      - "aws s3 sync s3://ix-nexus/models/boolqa_concept_relation_classifier/ models/boolqa_concept_relation_classifier/"
+
+  - name: "create-documents"
+    help: "Create documents jsonl from scraping index in dynamoDB"
+    script:
+      - "python -m smart_evidence.create_documents corpus/ cambridge-core-sdg, eea, eur-lex, hypothesis, iea, ipcc, oecd, oeko, pik, wuppertal"
+    deps:
+      - "smart_evidence/create_documents.py"
+    outputs:
+      - "corpus/documents/documents-cambridge-core-sdg.jsonl"
+      - "corpus/documents/documents-eea.jsonl"
+      - "corpus/documents/documents-eur-lex.jsonl"
+      - "corpus/documents/documents-hypothesis.jsonl"
+      - "corpus/documents/documents-iea.jsonl"
+      - "corpus/documents/documents-ipcc.jsonl"
+      - "corpus/documents/documents-oecd.jsonl"
+      - "corpus/documents/documents-oeko.jsonl"
+      - "corpus/documents/documents-pik.jsonl"
+      - "corpus/documents/documents-wuppertal.jsonl"
+
+  - name: "upload-corpus"
+    help: "Upload all corpus"
+    script:
+      - "aws s3 sync corpus/ s3://ix-knowledge-base/corpus"
+
+  - name: "download-corpus"
+    help: "Download all corpus"
+    script:
+      - "aws s3 sync s3://ix-knowledge-base/corpus/documents corpus/"
+
+  - name: "download-test-corpus"
+    help: "Download test corpus"
+    script:
+      - "aws s3 sync s3://ix-knowledge-base/corpus/documents-test corpus/"
+
+  - name: "package-and-install-entity-pipeline-cpu"
+    help: "Create spacy package for en_ix_entity_ruler pipeline"
+    script:
+      - "python -m spacy download en_core_web_sm"
+      - "python -m smart_evidence.helpers.create_entity_pipeline_config_cpu"
+      - "mkdir -p packages"
+      - "python -m spacy package --force -n ix_entity_ruler pipelines/en_ix_entity_ruler/ packages/ -c smart_evidence/components/misc/lowercase_lemmas.py,smart_evidence/components/misc/entity_ruler.py"
+      - "pip install --force-reinstall packages/en_ix_entity_ruler-3.4.1/dist/en_ix_entity_ruler-3.4.1.tar.gz"
+    deps:
+      - "assets/keywords_raw/Impact/IRIS"
+      - "assets/keywords_raw/Products & Activities/CPA"
+      - "assets/keywords_raw/Products & Activities/UNSPSC"
+    outputs:
+      - "packages/en_ix_entity_ruler-3.4.1"
+
+  - name: "package-and-install-entity-pipeline"
+    help: "Create spacy package for en_ix_entity_ruler pipeline"
+    script:
+      - "python -m spacy download en_core_web_trf"
+      - "python -m smart_evidence.helpers.create_entity_pipeline_config"
+      - "mkdir -p packages"
+      - "python -m spacy package --force -n ix_entity_ruler pipelines/en_ix_entity_ruler/ packages/ -c smart_evidence/components/misc/lowercase_lemmas.py,smart_evidence/components/misc/entity_ruler.py"
+      - "pip install --force-reinstall packages/en_ix_entity_ruler-3.4.1/dist/en_ix_entity_ruler-3.4.1.tar.gz"
+    deps:
+      - "assets/keywords_raw/Impact/IRIS"
+      - "assets/keywords_raw/Products & Activities/CPA"
+      - "assets/keywords_raw/Products & Activities/UNSPSC"
+    outputs:
+      - "packages/en_ix_entity_ruler-3.4.1"
+
+  - name: "upload-package-entity-pipeline"
+    deps:
+      - "packages/en_ix_entity_ruler-3.4.1/dist/en_ix_entity_ruler-3.4.1.tar.gz"
+    script:
+      - "aws codeartifact login --tool twine --domain impactnexus --domain-owner 907043436216 --repository ix-knowledge-base"
+      - "twine upload --repository codeartifact packages/en_ix_entity_ruler-3.4.1/dist/en_ix_entity_ruler-3.4.1.tar.gz --verbose"
+      - "twine upload --repository-url https://europe-north1-python.pkg.dev/postgres-330510/concept-extractor/ packages/en_ix_entity_ruler-3.4.1/dist/en_ix_entity_ruler-3.4.1.tar.gz --verbose"
+
+  - name: "extract-documents"
+    help: "Extract document from scrape index."
+    script:
+      - "python -m smart_evidence.flows.run_pipeline --config_path=smart_evidence/flows/configs/index_documents.yaml"
+
+  - name: "extract-insights"
+    help: "Extract document elements, e.g. paragraphs, abstract from documents."
+    script:
+      - "python -m smart_evidence.flows.run_pipeline --config-path=smart_evidence/flows/configs/extract_insights.yaml"
+
+  - name: "annotate-insights"
+    help: "Annotate insights"
+    script:
+      - "python -m smart_evidence.flows.run_pipeline --config-path=smart_evidence/flows/configs/annotate_insights.yaml"
+
+  - name: "generate-annotation-tasks"
+    help: "Annotate insights"
+    script:
+      - "python -m smart_evidence.flows.run_pipeline --config-path=smart_evidence/flows/configs/insight_classifier_annotation_task.yaml"
+
+  - name: "serve-dev"
+    script:
+      - "sh rest_api/start-reload.sh"

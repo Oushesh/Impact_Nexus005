@@ -1,0 +1,16 @@
+Pipeline:
+  Components:
+    - name: OpenSearchStore
+      component_config:
+        mode: read
+        batch_size: 5
+        index: eu-taxonomy-documents-dev-v1
+        document_class: AnnotatedInsight
+        index_mapping: INSIGHTS_MAPPING
+    - name: OpenSearchStore
+      component_config:
+        mode: write
+        batch_size: 1
+        index: eu-taxonomy-documents-dev-v2
+        document_class: AnnotatedInsight
+        index_mapping: INSIGHTS_MAPPING
