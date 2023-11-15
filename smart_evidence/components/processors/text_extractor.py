@@ -3,8 +3,6 @@ from typing import Any, List, Optional
 from app.models.documents import Document, ScrapeItem
 from smart_evidence.components.base_component import BaseComponent
 from smart_evidence.components.processors.base_processor import BaseProcessor
-from smart_evidence.components.processors.extract_s3_html import ExtractHTML
-from smart_evidence.components.processors.extract_pdf import ExtractPDF
 
 
 class TextExtractor(BaseProcessor):

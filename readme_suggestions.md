@@ -108,4 +108,10 @@ AWS Bottleneck.
 
 
 ## TODO and Progress Tracking.
-   Django Project abstrcting Knowledge Base from the Folder info into massive json
+   Django Project abstracting Knowledge Base from the Folder info into massive json (DONE)
+   Add Deepcheck to check incoming data
+   Aggregate Data from scraping (Airbyte example oekobaudat data here)
+   
+   Bad Comments: why have 2 application running: (unifed: into 1 Django structure) rest_api
+   
+   
