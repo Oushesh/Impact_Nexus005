@@ -1,0 +1,116 @@
+# 03.00_Fish and Other Fishing Products; Aquaculture Products; Support Services to Fishing > 03.00.1_Fish, Live, Not for Human Consumption
+# Ornamental fish, wild	NACE	03.00.11
+# 03.00_Fish and Other Fishing Products; Aquaculture Products; Support Services to Fishing > 03.00.1_Fish, Live, Not for Human Consumption
+# Ornamental fish, farmed	NACE	03.00.12
+farm
+# 03.00_Fish and Other Fishing Products; Aquaculture Products; Support Services to Fishing > 03.00.1_Fish, Live, Not for Human Consumption
+# Other wild, live fish, not for human consumption, including seeds and feeds for aquaculture	NACE	03.00.13
+live fish
+consumption
+feed
+aquaculture
+# 03.00_Fish and Other Fishing Products; Aquaculture Products; Support Services to Fishing > 03.00.1_Fish, Live, Not for Human Consumption
+# Other farmed, live fish, not for human consumption, including seeds and feeds for aquaculture	NACE	03.00.14
+farm
+live fish
+consumption
+feed
+aquaculture
+# 03.00_Fish and Other Fishing Products; Aquaculture Products; Support Services to Fishing > 03.00.2_Fish Live, Fresh or Chilled, for Human Consumption
+# Fish, live, fresh or chilled, for human consumption, marine, not farmed	NACE	03.00.21
+consumption
+marine
+farm
+# 03.00_Fish and Other Fishing Products; Aquaculture Products; Support Services to Fishing > 03.00.2_Fish Live, Fresh or Chilled, for Human Consumption
+# Fish, live, fresh or chilled, for human consumption, freshwater, not farmed	NACE	03.00.22
+consumption
+freshwater
+farm
+# 03.00_Fish and Other Fishing Products; Aquaculture Products; Support Services to Fishing > 03.00.2_Fish Live, Fresh or Chilled, for Human Consumption
+# Fish, live, fresh or chilled, for human consumption, marine, farmed	NACE	03.00.23
+consumption
+marine
+farm
+# 03.00_Fish and Other Fishing Products; Aquaculture Products; Support Services to Fishing > 03.00.2_Fish Live, Fresh or Chilled, for Human Consumption
+# Fish, live, fresh or chilled, for human consumption, freshwater, farmed	NACE	03.00.24
+consumption
+freshwater
+farm
+# 03.00_Fish and Other Fishing Products; Aquaculture Products; Support Services to Fishing > 03.00.3_Crustaceans, Not Frozen
+# Crustaceans, not frozen, not farmed	NACE	03.00.31
+farm
+# 03.00_Fish and Other Fishing Products; Aquaculture Products; Support Services to Fishing > 03.00.3_Crustaceans, Not Frozen
+# Crustaceans, not frozen, farmed	NACE	03.00.32
+farm
+# 03.00_Fish and Other Fishing Products; Aquaculture Products; Support Services to Fishing > 03.00.4_Molluscs and Other Aquatic Invertebrates, Live, Fresh or Chilled
+# Oysters, live, fresh or chilled, not farmed	NACE	03.00.41
+oysters
+farm
+# 03.00_Fish and Other Fishing Products; Aquaculture Products; Support Services to Fishing > 03.00.4_Molluscs and Other Aquatic Invertebrates, Live, Fresh or Chilled
+# Other molluscs, live, fresh or chilled, not farmed	NACE	03.00.42
+other mollusc
+farm
+# 03.00_Fish and Other Fishing Products; Aquaculture Products; Support Services to Fishing > 03.00.4_Molluscs and Other Aquatic Invertebrates, Live, Fresh or Chilled
+# Oysters, live, fresh or chilled, farmed	NACE	03.00.43
+oysters
+farm
+# 03.00_Fish and Other Fishing Products; Aquaculture Products; Support Services to Fishing > 03.00.4_Molluscs and Other Aquatic Invertebrates, Live, Fresh or Chilled
+# Other molluscs, live, fresh or chilled, farmed	NACE	03.00.44
+other mollusc
+farm
+# 03.00_Fish and Other Fishing Products; Aquaculture Products; Support Services to Fishing > 03.00.4_Molluscs and Other Aquatic Invertebrates, Live, Fresh or Chilled
+# Other aquatic invertebrates, live, fresh or chilled, farmed	NACE	03.00.45
+aquatic invertebrate
+farm
+# 03.00_Fish and Other Fishing Products; Aquaculture Products; Support Services to Fishing > 03.00.4_Molluscs and Other Aquatic Invertebrates, Live, Fresh or Chilled
+# Other aquatic invertebrates, live, fresh or chilled, not farmed	NACE	03.00.46
+aquatic invertebrate
+farm
+# 03.00_Fish and Other Fishing Products; Aquaculture Products; Support Services to Fishing > 03.00.5_Pearls, Unworked
+# Natural pearls, unworked	NACE	03.00.51
+natural pearl
+# 03.00_Fish and Other Fishing Products; Aquaculture Products; Support Services to Fishing > 03.00.5_Pearls, Unworked
+# Cultured pearls, unworked	NACE	03.00.52
+# 03.00_Fish and Other Fishing Products; Aquaculture Products; Support Services to Fishing > 03.00.6_Other Aquatic Plants, Animals and Their Products
+# Coral and similar products, shells of molluscs, crustaceans or echinoderms and cuttle-bone	NACE	03.00.61
+coral and similar product
+echinoderm
+bone
+# 03.00_Fish and Other Fishing Products; Aquaculture Products; Support Services to Fishing > 03.00.6_Other Aquatic Plants, Animals and Their Products
+# Natural sponges of animal origin	NACE	03.00.62
+natural sponge
+animal origin
+# 03.00_Fish and Other Fishing Products; Aquaculture Products; Support Services to Fishing > 03.00.6_Other Aquatic Plants, Animals and Their Products
+# Seaweeds and other algae for human consumption, wild	NACE	03.00.63
+other algae
+consumption
+# 03.00_Fish and Other Fishing Products; Aquaculture Products; Support Services to Fishing > 03.00.6_Other Aquatic Plants, Animals and Their Products
+# Seaweeds and other algae for human consumption, farmed	NACE	03.00.64
+other algae
+consumption
+farm
+# 03.00_Fish and Other Fishing Products; Aquaculture Products; Support Services to Fishing > 03.00.6_Other Aquatic Plants, Animals and Their Products
+# Seaweeds and other algae not for human consumption, wild	NACE	03.00.65
+other algae
+consumption
+# 03.00_Fish and Other Fishing Products; Aquaculture Products; Support Services to Fishing > 03.00.6_Other Aquatic Plants, Animals and Their Products
+# Seaweeds and other algae not for human consumption, farmed	NACE	03.00.66
+other algae
+consumption
+farm
+# 03.00_Fish and Other Fishing Products; Aquaculture Products; Support Services to Fishing > 03.00.6_Other Aquatic Plants, Animals and Their Products
+# Other aquatic plants, animals and their products n.e.c.	NACE	03.00.69
+#This subcategory includes:
+#- farmed frogs
+#- whales
+other aquatic plant
+their product
+farm frog
+whale
+# 03.00_Fish and Other Fishing Products; Aquaculture Products; Support Services to Fishing > 03.00.7_Support Services to Fishing and Aquaculture
+# Support services to fishing	NACE	03.00.71
+support
+# 03.00_Fish and Other Fishing Products; Aquaculture Products; Support Services to Fishing > 03.00.7_Support Services to Fishing and Aquaculture
+# Support services to aquaculture	NACE	03.00.72
+support
+aquaculture

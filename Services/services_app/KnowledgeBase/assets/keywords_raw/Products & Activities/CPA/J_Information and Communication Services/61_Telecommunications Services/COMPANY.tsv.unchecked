@@ -1,0 +1,457 @@
+# 61.10_Wired Telecommunications Services > 61.10.1_Data and Message Transmitting Services
+# Fixed telephony services - access and use	NACE	61.10.11
+#This subcategory includes:
+#- provision of access to and use of the public switched telephone network for the transmission and switching of voice, data, and video from a fixed customer location or from public and semi-public coin and card operated phones 
+#- inbound and outbound telephony to and from national and international destinations
+#- calling features bundled with the access service
+fixed telephony service
+and use
+the public switch telephone network
+the transmission
+switching
+voice
+a fixed customer location
+card
+operating
+phone
+inbound and outbound telephony
+national and international destination
+calling feature
+bundle
+the access service
+# 61.10_Wired Telecommunications Services > 61.10.1_Data and Message Transmitting Services
+# Fixed telephony services - calling features	NACE	61.10.12
+#This subcategory includes: 
+#- provision of call management services for use from a fixed customer location for a fee, separate from the access fee 
+#
+#This service is made possible by specialised software and database applications linked to telecommunications networks. It includes features such as:
+#  . call waiting, call forwarding, caller identification, three-way calling, call display, call return, call screen, call blocking, automatic call-back, call answer, voice mail and voice menus
+fixed telephony service
+calling feature
+call
+a fixed customer location
+a fee
+the access fee
+specialised software
+database application
+telecommunication network
+feature
+call waiting
+call forwarding
+caller identification
+call display
+call return
+call screen
+call blocking
+call answer
+voice
+mail
+# 61.10_Wired Telecommunications Services > 61.10.1_Data and Message Transmitting Services
+# Private network services for wired telecommunications systems	NACE	61.10.13
+#This subcategory includes: 
+#- provision of wired telecommunication link(s) between specified points for the exclusive use of the client
+private network service
+wire telecommunications system
+wire telecommunication link(s
+specify point
+the exclusive use
+# 61.10_Wired Telecommunications Services > 61.10.2_Carrier Services for Wired Telecommunications
+# Carrier services for wired telecommunications	NACE	61.10.20
+#This subcategory includes:
+#- provision by a telecommunication carrier of wired facilities to originate, terminate, or transit calls for another telecommunications service provider
+#- charging for interconnection, settlement or termination of domestic or international calls
+#- charging long-distance carriers for calls originating at a pay phone or within another carriers local network
+#- charging for jointly used facilities such as pole attachment
+#- charging for the exclusive use of circuits
+carrier service
+wired telecommunication
+a telecommunication carrier
+wired facility
+or transit call
+another telecommunication service provider
+charge
+interconnection
+termination
+domestic or international call
+distance
+call
+a pay phone
+another carriers local network
+jointly use facility
+the exclusive use
+circuit
+# 61.10_Wired Telecommunications Services > 61.10.3_Data Transmission Services Over Wired Telecommunications Networks
+# Data transmission services over wired telecommunications networks	NACE	61.10.30
+#This subcategory includes:
+#- provision of access to wired facilities and services specifically designed for the efficient transmission of data on a pay-as-you-use basis
+transmission service
+wire telecommunications network
+wired facility
+and service
+the efficient transmission
+data
+you
+# 61.10_Wired Telecommunications Services > 61.10.4_Wired Internet Telecommunications Services
+# Internet backbone services	NACE	61.10.41
+#This subcategory includes:
+#- carrier services of Internet traffic by one ISP for another ISP (generally known in the industry as peering and transit charges)
+internet backbone service
+carrier service
+internet traffic
+one isp
+another isp
+the industry
+peering
+transit charge
+# 61.10_Wired Telecommunications Services > 61.10.4_Wired Internet Telecommunications Services
+# Narrow-band Internet access services over wired networks	NACE	61.10.42
+#This subcategory includes:
+#- provision of a direct wired connection to the Internet at speeds below 256 Kbps. The Internet Service Provider (ISP) may also provide free services along with Internet access such as E-mail, space for the customer’s web page, tools for simple web page design, chat, and technical support
+#
+#This service may also include remote access or other types of Internet access and package upgrades such as international roaming and extra E-mail boxes, usually for additional costs to customers.
+band
+internet
+access service
+a direct wire connection
+speed
+
+free service
+mail
+the customer
+simple web page design
+chat
+and technical support
+remote access
+other type
+package upgrade
+international roaming
+additional cost
+customer
+# 61.10_Wired Telecommunications Services > 61.10.4_Wired Internet Telecommunications Services
+# Broad-band Internet access services over wired networks	NACE	61.10.43
+#This subcategory includes:
+#- provision of a direct wired connection to the Internet at speeds 256 Kbps and higher. The Internet Service Provider (ISP) may also provide free services along with Internet access such as E-mail, space for the customer’s web page, tools for simple web page design, chat, and technical support.
+#
+#This service may also include remote access or other types of Internet access and package upgrades such as international roaming and extra E-mail boxes, usually for additional costs to customers.
+band
+internet
+access service
+a direct wire connection
+speed
+
+free service
+mail
+the customer
+simple web page design
+chat
+and technical support
+remote access
+other type
+package upgrade
+international roaming
+additional cost
+customer
+# 61.10_Wired Telecommunications Services > 61.10.4_Wired Internet Telecommunications Services
+# Other wired Internet telecommunications services	NACE	61.10.49
+#This subcategory includes:
+#- provision of wired telecommunications services over the Internet other than Internet access
+# 
+#This includes services such as fax, telephony, audio conferencing and video conferencing over the Internet.
+other wire internet telecommunication service
+wire telecommunication service
+internet
+fax
+telephony
+audio conferencing
+video conferencing
+# 61.10_Wired Telecommunications Services > 61.10.5_Home Programme Distribution Services Over Wired Infrastructure
+# Home programme distribution services over wired infrastructure, basic programming package	NACE	61.10.51
+#This subcategory includes:
+#- providing subscriber access to a basic range of programming services via wired infrastructure generally for a monthly fee
+# 
+#This package contains the minimum number of channels available to subscribers, as defined by each cable operator, and must be purchased to obtain any higher-level programming package. Charges for initial connection to the network, or for reconnection to the network, are included here.
+wire infrastructure
+basic programming package
+a basic range
+programming service
+infrastructure
+a monthly fee
+the minimum number
+channel
+each cable operator
+purchase
+programming
+charge
+initial connection
+the network
+reconnection
+# 61.10_Wired Telecommunications Services > 61.10.5_Home Programme Distribution Services Over Wired Infrastructure
+# Home programme distribution services over wired infrastructure, discretionary programming package	NACE	61.10.52
+#This subcategory includes:
+#- providing subscriber programming services via wired infrastructure in addition to those included in the basic package for a fee separate from, and in addition to, the basic monthly fee
+# 
+#This programming service can be provided in bundles determined by the cable operator or by the subscriber.
+infrastructure
+discretionary programming package
+programming service
+addition
+the basic package
+a fee
+the basic monthly fee
+can
+bundle
+the cable operator
+# 61.10_Wired Telecommunications Services > 61.10.5_Home Programme Distribution Services Over Wired Infrastructure
+# Home programme distribution services over wired infrastructure, pay-per-view	NACE	61.10.53
+#This subcategory includes:
+#- providing subscribers the ability to view a specific program (movie or event) via wired infrastructure from his home for a fee separate from, and in addition to, the monthly fee for basic or discretionary programming packages
+wire infrastructure
+view
+the ability
+a specific program
+movie
+event
+his home
+a fee
+addition
+the monthly fee
+basic or discretionary programming package
+# 61.20_Wireless Telecommunications Services > 61.20.1_Mobile Telecommunications Services and Private Network Services for Wireless Telecommunications Systems
+# Private network services for wireless telecommunications systems	NACE	61.20.11
+#This subcategory includes:
+#- provision of wireless telecommunication link(s) between specified points for the exclusive use of the client
+private network service
+wireless telecommunications system
+wireless telecommunication link(s
+specify point
+the exclusive use
+# 61.20_Wireless Telecommunications Services > 61.20.1_Mobile Telecommunications Services and Private Network Services for Wireless Telecommunications Systems
+# Mobile voice services	NACE	61.20.12
+#This subcategory includes:
+#- provision of access to, and use of, switched or non-switched networks for the transmission of voice telephony using portable handsets or devices such as cellular phones, mobile phones, satellite phones, smart phones, and similar devices
+mobile voice service
+and use
+switch
+the transmission
+voice telephony
+portable handset
+device
+cellular phone
+mobile phone
+satellite phone
+smart phone
+and similar device
+# 61.20_Wireless Telecommunications Services > 61.20.1_Mobile Telecommunications Services and Private Network Services for Wireless Telecommunications Systems
+# Mobile text services	NACE	61.20.13
+#This subcategory includes:
+#- provision of access to SMS (short message service) to send and receive text messages on cellular phones, mobile phones, smart phones and similar devices
+mobile text service
+short message service
+sending
+text message
+cellular phone
+mobile phone
+smart phone
+and similar device
+# 61.20_Wireless Telecommunications Services > 61.20.1_Mobile Telecommunications Services and Private Network Services for Wireless Telecommunications Systems
+# Mobile data services, except text services	NACE	61.20.14
+#This subcategory includes:
+#- provision of access to mobile data networks for mobile phones, smart phones, tablets, and similar devices to send and receive data (other than voice or text)
+#
+#This subcategory also includes:
+#- provision of MMS (multimedia message service) services
+mobile datum service
+text service
+mobile datum network
+mobile phone
+smart phone
+tablet
+and similar device
+sending
+data
+voice
+text
+multimedia message service
+# 61.20_Wireless Telecommunications Services > 61.20.2_Carrier Services for Wireless Telecommunications
+# Carrier services for wireless telecommunications	NACE	61.20.20
+#This subcategory includes:
+#- provision by a telecommunication carrier of wireless facilities to originate, terminate, or transit calls for another telecommunications service provider
+#- charging for interconnection, settlement or termination of domestic or international calls
+#- charging long-distance carriers for calls originating at a pay phone or within another carriers local network
+#- charging for jointly used facilities such as pole attachments
+#- charging for the exclusive use of circuits
+carrier service
+wireless telecommunication
+a telecommunication carrier
+wireless facility
+or transit call
+another telecommunication service provider
+interconnection
+termination
+domestic or international call
+charge
+distance
+call
+a pay phone
+another carriers local network
+jointly use facility
+the exclusive use
+circuit
+# 61.20_Wireless Telecommunications Services > 61.20.3_Data Transmission Services Over Wireless Telecommunications Networks
+# Data transmission services over wireless telecommunications networks	NACE	61.20.30
+#This subcategory includes:
+#- provision of access to wireless facilities and services specifically designed for the efficient transmission of data on a pay-as-you-use basis
+transmission service
+wireless telecommunications network
+wireless facility
+and service
+the efficient transmission
+data
+you
+# 61.20_Wireless Telecommunications Services > 61.20.4_Wireless Internet Telecommunications Services
+# Narrow-band Internet access services over wireless networks	NACE	61.20.41
+#This subcategory includes:
+#- provision of a direct wireless connection to the Internet at speeds below 256 Kbps. The Internet Service Provider (ISP) may also provide free services along with Internet access such as E-mail, space for the customer’s web page, tools for simple web page design, chat, and technical support.
+#
+#This service may also include remote access or other types of Internet access and package upgrades such as international roaming and extra E-mail boxes, usually for additional costs to customers.
+band
+internet
+access service
+wireless network
+a direct wireless connection
+speed
+
+free service
+mail
+the customer
+simple web page design
+chat
+and technical support
+remote access
+other type
+package upgrade
+international roaming
+additional cost
+customer
+# 61.20_Wireless Telecommunications Services > 61.20.4_Wireless Internet Telecommunications Services
+# Broad-band Internet access services over wireless networks	NACE	61.20.42
+#This subcategory includes:
+#- provision of a direct wireless connection to the Internet at speeds 256 Kbps and higher. The Internet Service Provider (ISP) may also provide free services along with Internet access such as E-mail, space for the customer’s web page, tools for simple web page design, chat, and technical support.
+#
+#This service may also include remote access or other types of Internet access and package upgrades such as international roaming and extra E-mail boxes, usually for additional costs to customers.
+band
+internet
+access service
+wireless network
+a direct wireless connection
+speed
+
+free service
+mail
+the customer
+simple web page design
+chat
+and technical support
+remote access
+other type
+package upgrade
+international roaming
+additional cost
+customer
+# 61.20_Wireless Telecommunications Services > 61.20.4_Wireless Internet Telecommunications Services
+# Other wireless Internet telecommunications services	NACE	61.20.49
+#This subcategory includes:
+#- provision of wireless telecommunications services over the Internet other than Internet access
+# 
+#This includes services such as fax, telephony, audio conferencing and video conferencing over the Internet.
+other wireless internet telecommunication service
+wireless telecommunication service
+internet
+fax
+telephony
+audio conferencing
+video conferencing
+# 61.20_Wireless Telecommunications Services > 61.20.5_Home Programme Distribution Services Over Wireless Networks
+# Home programme distribution services over wireless networks	NACE	61.20.50
+wireless network
+# 61.30_Satellite Telecommunications Services > 61.30.1_Satellite Telecommunications Services, Except Home Programme Distribution Services via Satellite
+# Satellite telecommunications services, except home programme distribution services via satellite	NACE	61.30.10
+#This subcategory includes:
+#- operating, maintaining or providing access to facilities for the transmission of voice, data, text, sound and video using satellite telecommunications infrastructure
+#
+#This subcategory also includes:
+#- provision of Internet access by the operator of the satellite infrastructure
+satellite telecommunication service
+operating
+the transmission
+voice
+data
+text
+satellite telecommunication infrastructure
+internet
+the operator
+the satellite infrastructure
+# 61.30_Satellite Telecommunications Services > 61.30.2_Home Programme Distribution Services via Satellite
+# Home programme distribution services via satellite	NACE	61.30.20
+#This subcategory includes:
+#- providing subscriber access to a basic range of programming services via satellite generally for a monthly fee. This package contains the minimum number of channels available to subscribers, as defined by each satellite operator, and must be purchased to obtain any higher-level programming package. Charges for initial connection or for reconnection are included here.
+#- providing subscriber programming services via satellite in addition to those included in the basic package for a fee separate from, and in addition to, the basic monthly fee. This programming service can be provided in bundles determined by the cable, satellite or MDS operator, in bundles determined by the subscriber, or a la carte.
+#- providing subscribers the ability to view a specific program (movie or event) via satellite from his home for a fee separate from, and in addition to, the monthly fee for basic or discretionary programming packages
+a basic range
+programming service
+a monthly fee
+the minimum number
+channel
+each satellite operator
+purchase
+programming
+charge
+initial connection
+reconnection
+addition
+the basic package
+a fee
+the basic monthly fee
+can
+bundle
+the cable
+the ability
+view
+a specific program
+movie
+event
+his home
+the monthly fee
+basic or discretionary programming package
+# 61.90_Other Telecommunications Services > 61.90.1_Other Telecommunications Services
+# Other telecommunications services	NACE	61.90.10
+#This subcategory includes:
+#- provision of specialised telecommunications applications, such as satellite tracking, communications telemetry, and radar station operations
+#- operation of satellite terminal stations and associated facilities operationally connected with one or more terrestrial communications systems and capable of transmitting telecommunications to or receiving telecommunications from satellite systems
+#- provision of Internet access over networks between the client and the ISP not owned or controlled by the ISP, such as dial-up Internet access etc.
+#- provision of telephone and Internet access in facilities open to the public
+#- provision of telecommunications services over existing telecom connections:
+#  . VOIP (Voice Over Internet Protocol) provision
+#- provision of network capacity without providing additional services
+#- provision of telecommunications services n.e.c., such as telegraph, telex and audio conferencing bridging services
+other telecommunications service
+specialised telecommunication application
+satellite tracking
+communication telemetry
+and radar station operation
+satellite terminal station
+associated facility
+one or more terrestrial communication system
+telecommunication
+satellite system
+internet
+the isp
+control
+telephone and internet access
+the public
+exist telecom connection
+network capacity
+additional service
+telecommunication service
+telegraph
+audio conferencing

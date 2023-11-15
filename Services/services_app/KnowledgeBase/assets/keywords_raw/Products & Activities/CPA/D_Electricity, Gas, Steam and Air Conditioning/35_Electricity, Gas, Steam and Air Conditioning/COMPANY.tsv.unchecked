@@ -1,0 +1,105 @@
+# 35.11_Electricity > 35.11.1_Electricity
+# Electricity	NACE	35.11.10
+#This subcategory includes:
+#- electric energy, such as thermal, nuclear, gas turbine, diesel, hydroelectric and other renewable
+electric energy
+gas turbine
+diesel
+# 35.12_Transmission Services of Electricity > 35.12.1_Transmission Services of Electricity
+# Transmission services of electricity	NACE	35.12.10
+#This subcategory includes:
+#- operation services of transmission systems that convey the electricity from the generation facility to the distribution system
+transmission service
+transmission system
+the electricity
+the generation facility
+the distribution system
+# 35.13_Distribution Services of Electricity > 35.13.1_Distribution Services of Electricity
+# Distribution services of electricity	NACE	35.13.10
+#This subcategory includes:
+#- operation services of distribution systems (i.e. consisting of lines, poles, meters, and wiring) that convey electric power received from the generation facility or the transmission system to the final consumer
+#- maintenance services of electric meters
+distribution system
+lining
+electric power
+the generation facility
+the transmission system
+the final consumer
+maintenance service
+electric meter
+# 35.14_Trade Services of Electricity > 35.14.1_Trade Services of Electricity
+# Trade services of electricity	NACE	35.14.10
+#This subcategory includes:
+#- trade services of electricity to the user 
+#- services provided by electric power brokers or agents that arrange the sale of electricity via power distribution systems operated by others
+#- operation services of electricity and transmission capacity exchanges for electric power
+the user
+electric power broker
+agent
+arranging
+power distribution system
+operating
+transmission capacity exchange
+electric power
+# 35.21_Manufactured Gas > 35.21.1_Coal Gas, Water Gas, Producer Gas and Similar Gases, Other Than Petroleum Gases
+# Coal gas, water gas, producer gas and similar gases, other than petroleum gases	NACE	35.21.10
+#This subcategory includes:
+#- gas for the purpose of gas supply by carbonation of coal, from by-products of agriculture or from waste
+coal gas
+water gas
+producer gas
+similar gas
+petroleum gas
+purpose
+gas supply
+carbonation
+# 35.22_Distribution Services of Gaseous Fuels Through Mains > 35.22.1_Distribution Services of Gaseous Fuels Through Mains
+# Distribution services of gaseous fuels through mains	NACE	35.22.10
+#This subcategory includes:
+#- distribution and supply of gaseous fuels of all kinds through a system of mains
+#- maintenance services of gas meters
+gaseous fuel
+mains
+a system
+maintenance service
+gas meter
+# 35.23_Trade Services of Gas Through Mains > 35.23.1_Trade Services of Gas Through Mains
+# Trade services of gas through mains	NACE	35.23.10
+#This subcategory includes:
+#- trade services of gas to the user through mains
+#- services by gas brokers or agents that arrange the sale of gas over gas distribution systems operated by others
+#- commodity and transport exchanges for gaseous fuels
+the user
+gas broker
+agent
+arranging
+gas distribution system
+operating
+commodity and transport exchange
+gaseous fuel
+# 35.30_Steam and Air Conditioning Supply Services > 35.30.1_Steam and Hot Water; Steam and Hot Water Supply Services
+# Steam and hot water	NACE	35.30.11
+hot water
+# 35.30_Steam and Air Conditioning Supply Services > 35.30.1_Steam and Hot Water; Steam and Hot Water Supply Services
+# Steam and hot water supply services through mains	NACE	35.30.12
+#This subcategory includes:
+#- steam and hot water supply services for heating, power and other purposes
+steam and hot water supply service
+mains
+power
+purpose
+# 35.30_Steam and Air Conditioning Supply Services > 35.30.2_Ice; Cooled Air and Chilled Water Supply Services
+# Ice, including ice for cooling (i.e. non-food) purposes	NACE	35.30.21
+#This subcategory also includes:
+#- Ice for cooling (i.e. non-food) purposes
+ice
+purpose
+# 35.30_Steam and Air Conditioning Supply Services > 35.30.2_Ice; Cooled Air and Chilled Water Supply Services
+# Cooled air and chilled water supply services	NACE	35.30.22
+#This subcategory includes:
+#- cooled air and chilled water supply services through mains
+#- ice supply services
+cool air
+chill water supply service
+mains
+ice supply service

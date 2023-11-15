@@ -1,0 +1,140 @@
+# 90.01_Services of Performing Artists > 90.01.1_Services of Performing Artists
+# Services of performing artists	NACE	90.01.10
+#This subcategory includes:
+#- services of actors, readers, singers, musicians, dancers, stunt people, television personality hosts/presenters, lecturers, speakers, circus artists and other performing artists
+#- services of independent models
+perform artist
+actor
+reader
+singer
+musician
+dancer
+stunt people
+television personality host
+presenter
+lecturer
+speaker
+circus artist
+other perform artist
+independent model
+# 90.02_Support Services to Performing Arts > 90.02.1_Support Services to Performing Arts
+# Performing arts event production and presentation services	NACE	90.02.11
+#This subcategory includes:
+#- production and presentation services for:
+#  . theatre, opera, ballet, musical, concert performances
+#  . puppet shows
+#  . circus performances
+performing art
+event
+presentation service
+opera
+ballet
+concert
+puppet show
+circus
+# 90.02_Support Services to Performing Arts > 90.02.1_Support Services to Performing Arts
+# Performing arts event promotion and organisation services	NACE	90.02.12
+#This subcategory includes:
+#- promotion and organisation services for:
+#  . theatre, opera, ballet, musical, concert performances
+#  . puppet shows
+#  . circus performances
+art event promotion
+organisation service
+promotion
+opera
+ballet
+concert
+puppet show
+circus
+# 90.02_Support Services to Performing Arts > 90.02.1_Support Services to Performing Arts
+# Other performing arts support services	NACE	90.02.19
+#This subcategory includes:
+#- management services for rights attached to artistic, literary, musical works, except cinematographic and audio-visual works
+#- performing arts support services by stage-set designers, costume designers and lighting designers 
+#- other services ancillary to performing arts n.e.c. (operation of scenery and backdrops, lighting and sound equipment for the performing arts)
+other performing art support service
+right
+musical work
+worked
+arts
+support
+set
+costume designer
+lighting designer
+scenery
+backdrop
+lighting
+the perform art
+# 90.03_Artistic Creation > 90.03.1_Artistic Creation
+# Services provided by authors, composers, sculptors and other artists, except performing artists	NACE	90.03.11
+#This subcategory includes:
+#- services of individual artists such as composers, sculptors, painters, cartoonists, engravers, etchers etc. 
+#- services of individual writers for all subjects, including fictional and technical writing
+#- services of independent journalists
+#- restoration services for works of art
+author
+composer
+sculptor
+other artist
+perform artist
+individual artist
+painter
+cartoonist
+engraver
+individual writer
+fictional and technical writing
+independent journalist
+restoration service
+working
+arts
+# 90.03_Artistic Creation > 90.03.1_Artistic Creation
+# Original works of authors, composers and other artists, except performing artists, painters, graphical artists and sculptors	NACE	90.03.12
+#This subcategory includes original works of:
+#- authors: book manuscripts
+#- composers: the original piece of music, not the copyrighted master recording produced from it
+#- other artists other than performing artists, painters, graphical artists and sculptors
+#
+#The creation of these original works is done on own account, that is their production is intended for sale that is undertaken without either a contract or known buyer in mind.
+original work
+author
+composer
+other artist
+perform artist
+painter
+graphical artist
+sculptor
+the original piece
+not the copyright master recording
+the creation
+these original work
+account
+either a contract
+mind
+# 90.03_Artistic Creation > 90.03.1_Artistic Creation
+# Original works of painters, graphical artists and sculptors	NACE	90.03.13
+#This subcategory includes:
+#- paintings, drawings and pastels; original engravings, prints and lithographs; original sculptures and statuary, in any material
+original work
+painter
+graphical artist
+sculptor
+pastel
+original engraving
+print
+lithograph
+original sculpture
+statuary
+# 90.04_Arts Facility Operation Services > 90.04.1_Arts Facility Operation Services
+# Arts facility operation services	NACE	90.04.10
+#This subcategory includes:
+#- operation services of concert halls, theatres, opera houses, music halls, including ticket services
+#- operation services of multipurpose centres and similar facilities with a cultural predominance
+art facility operation service
+concert hall
+opera house
+music hall
+ticket service
+multipurpose centre
+similar facility
+a cultural predominance
