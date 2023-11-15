@@ -1,0 +1,505 @@
+# 43.11_Demolition Works > 43.11.1_Demolition Works
+# Demolition works	NACE	43.11.10
+#This subcategory includes:
+#- wrecking and demolition works for buildings and other structures
+#- wrecking and demolition works for streets and highways
+demolition work
+wrecking and demolition work
+other structure
+# 43.12_Site Preparation Works > 43.12.1_Site Preparation Works
+# Soil and land preparation works; clearance works	NACE	43.12.11
+#This subcategory includes:
+#- preparation works for agricultural land
+#- preparation works for making sites ready for subsequent construction works, including blasting and rock removal works
+#- preparation works for mining: overburden removal and other development and preparation works of mineral properties and sites, including tunnelling, except for oil and gas extraction
+#- site clearance, clearance of undergrowth
+#- soil stabilisation
+#- horizontal drillings for the passage of cables or drainpipes
+#- digging of trenches for site drainage
+soil and land preparation work
+clearance work
+preparation work
+agricultural land
+site
+worked
+blasting and rock removal work
+overburden removal
+mineral property
+oil and gas extraction
+site clearance
+clearance
+undergrowth
+soil stabilisation
+horizontal drilling
+the passage
+drainpipe
+trench
+site drainage
+# 43.12_Site Preparation Works > 43.12.1_Site Preparation Works
+# Excavating and earthmoving works	NACE	43.12.12
+#This subcategory includes:
+#- digging of trenches, for utilities, urban drainage, various roadworks etc.
+#- digging of conventional ditches for various constructions
+#- contaminated top soil stripping works
+#- land re-creation works
+#- large-scale earthworks, excavations, sloping, earthmoving works in making embankments or cuttings, prior to highway construction (roads, motorways, railways etc.)
+#- other excavating and earthmoving works n.e.c.
+earthmoving work
+trench	ditch	excavation	pit	channel
+utility
+various roadwork
+conventional ditch
+various construction
+soil
+worked
+creation
+scale
+excavation
+sloping
+highway construction
+# 43.13_Test Drilling and Boring Works > 43.13.1_Test Drilling and Boring Works
+# Test drilling and boring works	NACE	43.13.10
+#This subcategory includes:
+#- test drilling and boring and core extraction works for construction, geophysical, geological or similar purposes
+test drilling and boring work
+test
+drilling
+boring
+core extraction work
+purpose
+#
+electrical installation work
+special trade installation work
+the installation
+basic electrical wiring circuit
+other construction project
+electrical work
+electrical wiring and fitting work
+emergency power supply system
+worked
+fire alarm system
+burglar alarm system
+the construction site
+working
+type
+residential antenna
+satellite antenna
+cable television line
+a building
+electric solar energy collector
+baseboard heater
+electricity meter
+illumination and signalling system
+airport
+harbour
+# 43.22_Plumbing, Heat and Air-Conditioning Installation Works > 43.22.1_Water Plumbing, Drain Laying, Heating, Ventilation and Air Conditioning Installation Works
+# Water plumbing and drain laying works	NACE	43.22.11
+#This subcategory includes:
+#- installation works involving primary hot- and cold-water piping systems (i.e., plumbing), including sprinkler installation
+#- installation works of fixed sanitary ware
+#- associated plumbing works
+#- installation works of pressurised water supplies for fire fighting (including fire plugs with hose and spout)
+#- drain laying works
+water plumbing
+drain laying
+worked
+plumbing
+sprinkler installation
+fix sanitary ware
+associate plumbing work
+pressurised water supply
+fire fighting
+fire plug
+spout
+# 43.22_Plumbing, Heat and Air-Conditioning Installation Works > 43.22.1_Water Plumbing, Drain Laying, Heating, Ventilation and Air Conditioning Installation Works
+# Heating, ventilation and air conditioning installation works	NACE	43.22.12
+#This subcategory includes:
+#- installation works of heating equipment (electric, gas, oil, non-electric solar energy collectors). Pipe works, duct works and related sheet metal works performed as an integral part of such works is included.
+#- installation and maintenance of central heating control systems
+#- connection to the district heating system
+#- repair and maintenance works of domestic boilers and burners
+#- construction works involving ventilation, refrigeration or air conditioning equipment for dwellings, computer centres, offices and shops. Pipe works, duct works and related sheet metal works performed as an integral part of such works is included.
+ventilation and air conditioning installation work
+working
+electric solar energy collector
+pipe work
+duct work
+such work
+central heating control system
+the district heating system
+repair and maintenance work
+domestic boiler
+burner
+worked
+ventilation
+refrigeration
+air conditioning
+dwelling
+centre
+# 43.22_Plumbing, Heat and Air-Conditioning Installation Works > 43.22.2_Gas Fitting Installation Works
+# Gas fitting installation works	NACE	43.22.20
+#This subcategory includes:
+#- installation works for the supply of various gases (oxygen in hospitals, for example) and connection of other gas-operated equipment
+gas fitting installation work
+working
+various gas
+oxygen
+other gas
+operating
+# 43.29_Other Construction Installation Works > 43.29.1_Other Construction Installation Works
+# Insulation works	NACE	43.29.11
+#This subcategory includes:
+#- thermal insulation works involving weather-proofing insulating materials for exterior wall cavities
+#- thermal insulation works to hot and chilled water pipes, boilers and duct runs
+#- sound insulation works
+#- fireproofing works
+insulation
+worked
+thermal insulation work
+insulate material
+exterior wall cavity
+duct run
+sound insulation
+# 43.29_Other Construction Installation Works > 43.29.1_Other Construction Installation Works
+# Fencing and railing installation works	NACE	43.29.12
+#This subcategory includes:
+#- installation works of fences, railings and similar enclosures. The fences may be of different materials (wire, wood, steel, fibreglass) and may be used at various sites (courts, playgrounds, residential properties or industrial premises).
+#- special trade installation works of (metal) fire escape staircases
+fencing and railing installation work
+worked
+fence
+similar enclosure
+the fence
+different material
+wire
+fibreglass
+various site
+court
+residential property
+premise
+special trade installation work
+fire
+# 43.29_Other Construction Installation Works > 43.29.1_Other Construction Installation Works
+# Other installation works n.e.c.	NACE	43.29.19
+#This subcategory includes:
+#- special trade installation works of lifts, escalators, travelators (moving sidewalks), including repair and maintenance
+#- installation works of automated and revolving doors
+#- installation works of blinds and awnings
+#- installation works of signs (luminous or not)
+#- installation works of lightning conductors
+#- installation works, not elsewhere classified, involving goods not regarded as part of the basic building structure
+#- other installation works n.e.c.
+other installation work
+special trade installation work
+lift
+escalator
+travelator
+move sidewalk
+working
+blind
+awning
+worked
+sign
+regard
+the basic building structure
+# 43.31_Plastering Works > 43.31.1_Plastering Works
+# Plastering works	NACE	43.31.10
+#This subcategory includes:
+#- construction works of interior and exterior plaster or stucco and of lathing materials
+#- dry walling works involving the installation of wallboard, generally of gypsum
+plastering work
+worked
+interior and exterior plaster
+stucco
+dry walling work
+the installation
+wallboard
+gypsum
+# 43.32_Joinery Installation Works > 43.32.1_Joinery Installation Works
+# Joinery installation works	NACE	43.32.10
+#This subcategory includes:
+#- installation works of door and window frames and of doors (except of automated or revolving), windows, shutters, slatted shutters, garage doors etc., made of any kind of material
+#- armouring of outside doors and installation works of armoured doors
+#- installation works of fire doors
+#- installation works of interior staircases, construction of wall cupboards, installation works of fitted kitchen units
+#- installation works of clapboard, panelling etc.
+#- installation works of movable partitions and false ceilings on metallic structures
+#- installation works of verandas and conservatories for private houses
+joinery installation work
+working
+door and window frame
+shutter
+slatted shutter
+any kind
+armouring
+outside door
+worked
+fire door
+interior staircase
+wall cupboard
+fit kitchen unit
+clapboard
+panelling
+false ceiling
+metallic structure
+veranda
+conservatory
+private house
+# 43.33_Floor and Wall Covering Works > 43.33.1_Tiling Works
+# Tiling works	NACE	43.33.10
+#This subcategory includes:
+#- construction works of laying or setting ceramic, concrete or stone wall tiles, floor tiles and flagstones inside or outside of buildings and other structures
+#- decorative covering of exterior walls of buildings with ceramic materials, stone, brick etc.
+tiling work
+worked
+laying
+set
+concrete or stone wall tile
+floor tile
+flagstone
+other structure
+decorative covering
+exterior wall
+ceramic material
+# 43.33_Floor and Wall Covering Works > 43.33.2_Other Floor Laying and Covering, Wall Covering and Wallpapering Works
+# Terrazzo, marble, granite and slate works	NACE	43.33.21
+#This subcategory includes:
+#- construction works of poured-in-place terrazzo and interior marble, granite or slate works
+terrazzo
+marble
+granite and slate work
+working
+place
+interior marble
+granite or slate work
+# 43.33_Floor and Wall Covering Works > 43.33.2_Other Floor Laying and Covering, Wall Covering and Wallpapering Works
+# Other floor laying and covering, wall covering and wallpapering works n.e.c.	NACE	43.33.29
+#This subcategory includes:
+#- laying of carpeting, linoleum and other flexible floor coverings. Related finishing works are included.
+#- laying works of wood floors and wooden floor and wall coverings, including parquet and other wood flooring. Related finishing works such as sanding, wax polishing, sealing etc. are included.
+#- hanging works of paper and other flexible wall coverings
+#- wallpaper removal works
+other floor laying
+wall covering
+wallpapering
+worked
+carpeting
+linoleum
+other flexible floor covering
+finishing work
+lay work
+wood floor
+wooden floor and wall covering
+parquet
+other wood flooring
+wax polishing
+sealing
+hanging work
+other flexible wall covering
+wallpaper removal work
+# 43.34_Painting and Glazing Works > 43.34.1_Painting Works
+# Painting works	NACE	43.34.10
+#This subcategory includes:
+#- painting works (principally decorative) of building interiors and similar works (application of coatings, lacquer etc.)
+#- painting works of building exteriors (principally for protection)
+#- painting works of railings, gratings, doors and window frames of buildings etc.
+#- painting works of other engineering structures
+#- paint removal works
+painting work
+paint work
+building interior
+similar work
+application
+coating
+lacquer
+building exterior
+grating
+door and window frame
+other engineering structure
+paint removal work
+# 43.34_Painting and Glazing Works > 43.34.2_Glazing Works
+# Glazing works	NACE	43.34.20
+#This subcategory includes:
+#- installation works of glass cladding, mirror walls and other glass products
+#- closed-in works such as window glass installation works
+glazing work
+worked
+glass cladding
+mirror wall
+other glass product
+window glass installation work
+# 43.39_Other Building Completion and Finishing Works > 43.39.1_Other Building Completion and Finishing Works
+# Ornamentation fitting works	NACE	43.39.11
+#This subcategory includes:
+#- installation works of standard or custom fabricated sheet metal components
+#- decorative iron or steel works and ornamental or architectural metal works
+#- installation works of grilles covering radiators
+working
+standard or custom fabricate sheet metal component
+decorative iron or steel work
+worked
+grille
+covering
+radiator
+# 43.39_Other Building Completion and Finishing Works > 43.39.1_Other Building Completion and Finishing Works
+# Other building completion and finishing works n.e.c.	NACE	43.39.19
+#This subcategory includes:
+#- acoustic works involving the application of acoustic panels, tiles and other materials to interior walls and ceilings
+#- cleaning of new buildings after construction
+#- building completion and finishing works n.e.c.
+other building completion and finishing work
+acoustic work
+the application
+acoustic panel
+interior wall
+ceiling
+new building
+building completion
+finishing work
+# 43.91_Roofing Works > 43.91.1_Roofing Works
+# Roof framing works	NACE	43.91.11
+#This subcategory includes:
+#- construction works involving the installation of roof frames
+roof framing work
+worked
+the installation
+roof frame
+# 43.91_Roofing Works > 43.91.1_Roofing Works
+# Other roofing works	NACE	43.91.19
+#This subcategory includes:
+#- construction works involving the installation of any kind of roof coverings
+#- construction works of guttering and spouting, roof shingling and metal roofing
+other roofing work
+worked
+the installation
+any kind
+roof covering
+working
+guttering
+roof shingling
+metal roofing
+# 43.99_Other Specialised Construction Works n.e.c. > 43.99.1_Waterproofing Works
+# Waterproofing works	NACE	43.99.10
+#This subcategory includes:
+#- waterproofing works on flat roofs and roof terraces
+#- waterproofing works on the outside of constructions and other subterranean structures
+#- damp proofing
+waterproofing work
+flat roof
+roof terrace
+the outside
+damp proofing
+# 43.99_Other Specialised Construction Works n.e.c. > 43.99.2_Scaffolding Works
+# Scaffolding works	NACE	43.99.20
+#This subcategory includes:
+#- scaffold and work-platform erecting and dismantling works, excluding rental of scaffolding and work platforms
+scaffolding work
+worked
+scaffolding
+work platform
+# 43.99_Other Specialised Construction Works n.e.c. > 43.99.3_Pile Driving Works; Foundation Works
+# Pile driving works; foundation works	NACE	43.99.30
+pile driving
+working
+foundation
+# 43.99_Other Specialised Construction Works n.e.c. > 43.99.4_Concreting Works
+# Concreting works	NACE	43.99.40
+#This subcategory includes:
+#- casting of concrete in form and other works generally making use of concrete, (general foundations, base courses, raft foundations, stanchions, floors etc.)
+#- works involving the construction of form and reinforcement
+#- consolidation of foundations
+#- erection works of reinforced concrete frame requiring specialised skills or equipment because of its size or the method used
+#- construction of domes and thin shells in concrete
+#- special trade construction works involving steel bending and welding for reinforced concreting on construction projects
+concreting work
+casting
+concreting
+form
+other work
+general foundation
+base course
+raft foundation
+stanchion
+floor
+worked
+the construction
+consolidation
+foundation
+erection work
+reinforce concrete frame
+specialised skill
+its size
+the method
+dome
+thin shell
+special trade construction work
+steel bending
+reinforce concreting
+construction project
+# 43.99_Other Specialised Construction Works n.e.c. > 43.99.5_Structural Steel Components Erection Works
+# Structural steel components erection works	NACE	43.99.50
+#This subcategory includes:
+#- special trade construction works on steel frameworks
+#- erection works of prefabricated, structural steel components for buildings and for other structures such as bridges, overhead cranes or electricity transmission towers
+#- erection of curtain walls
+#- associated welding works
+structural steel component erection work
+special trade construction work
+steel framework
+erection work
+structural steel component
+other structure
+overhead crane
+electricity transmission tower
+erection
+curtain wall
+associate welding work
+# 43.99_Other Specialised Construction Works n.e.c. > 43.99.6_Masonry and Bricklaying Works
+# Masonry and bricklaying works	NACE	43.99.60
+#This subcategory includes:
+#- bricklaying, block laying, stone setting and other masonry works
+masonry and bricklaying work
+bricklaying
+block laying
+stone setting
+other masonry work
+# 43.99_Other Specialised Construction Works n.e.c. > 43.99.7_Assembly and Erection Works of Prefabricated Constructions
+# Assembly and erection works of prefabricated constructions	NACE	43.99.70
+#This subcategory includes:
+#- installation, assembly and erection services of prefabricated structures and constructions
+#- installation services of all types of street furniture (e.g. bus shelters, benches)
+assembly and erection work
+prefabricated construction
+assembly and erection service
+type
+street furniture
+bus shelter
+bench
+# 43.99_Other Specialised Construction Works n.e.c. > 43.99.9_Specialised Construction Works n.e.c.
+# Specialised construction works n.e.c.	NACE	43.99.90
+#This subcategory includes:
+#- construction works of factory chimneys
+#- construction works of refractory linings for furnaces etc.
+#- construction works for outdoor swimming pools
+#- construction works of ornamental fire places
+#- steam cleaning, sand blasting and similar specialised construction works for building exteriors
+#- rental of crane and other building equipment, which cannot be allocated to a specific construction service, with operator
+#- other specialised construction works n.e.c.
+specialised construction work
+worked
+factory chimney
+working
+refractory lining
+furnace
+outdoor swimming pool
+fire
+place
+steam cleaning
+sand blasting
+similar specialised construction work
+building exterior
+crane
+other building
+can
+a specific construction service
+other specialised construction work

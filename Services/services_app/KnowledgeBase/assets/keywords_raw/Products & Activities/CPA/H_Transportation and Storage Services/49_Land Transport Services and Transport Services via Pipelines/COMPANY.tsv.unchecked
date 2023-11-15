@@ -1,0 +1,371 @@
+# 49.10_Passenger Rail Transport Services, Interurban > 49.10.1_Passenger Rail Transport Services, Interurban
+# Passenger rail transport services for sightseeing	NACE	49.10.11
+passenger rail transport service
+# 49.10_Passenger Rail Transport Services, Interurban > 49.10.1_Passenger Rail Transport Services, Interurban
+# Other passenger rail transport services, interurban	NACE	49.10.19
+#This subcategory includes:
+#- interurban passenger transport services provided by railway, regardless of the distance covered and the class used
+#- transport services for accompanying vehicles, luggage, animals and other items
+other passenger rail transport service
+interurban passenger transport service
+the distance
+cover
+the class
+accompany vehicle
+# 49.20_Freight Rail Transport Services > 49.20.1_Freight Rail Transport Services
+# Railway transport services of freight by refrigerator cars	NACE	49.20.11
+#This subcategory includes:
+#- railway transport services of frozen or refrigerated goods, in special refrigerator cars
+refrigerator car
+special refrigerator car
+# 49.20_Freight Rail Transport Services > 49.20.1_Freight Rail Transport Services
+# Railway transport services of freight by tanker cars, petroleum products	NACE	49.20.12
+#This subcategory includes:
+#- railway transport services of petroleum products (crude oil, natural gas and refined petroleum products) in special tank cars
+petroleum product
+crude oil
+special tank car
+# 49.20_Freight Rail Transport Services > 49.20.1_Freight Rail Transport Services
+# Railway transport services of freight by tanker cars, bulk liquids and gases	NACE	49.20.13
+#This subcategory includes:
+#- railway transport services of other bulk liquids or gases in special tank cars
+bulk liquid
+other bulk liquid
+special tank car
+# 49.20_Freight Rail Transport Services > 49.20.1_Freight Rail Transport Services
+# Railway transport services of intermodal containers	NACE	49.20.14
+#This subcategory includes:
+#- railway transport services of individual articles and packages assembled and shipped in specially constructed shipping containers designed for ease of handling in transport
+assembling
+specially construct shipping container
+handle
+# 49.20_Freight Rail Transport Services > 49.20.1_Freight Rail Transport Services
+# Railway transport services of letters and parcels	NACE	49.20.15
+#This subcategory includes:
+#- railway transport services of mail on behalf of national and foreign postal authorities
+#- railway transport services of letters and parcels on behalf of postal and courier services
+mail
+national and foreign postal authority
+postal and courier service
+# 49.20_Freight Rail Transport Services > 49.20.1_Freight Rail Transport Services
+# Railway transport services of dry bulk goods	NACE	49.20.16
+#This subcategory includes:
+#- railway transport services of dry bulk goods such as cereals, flours, cement, sand, coal etc.
+dry bulk good
+sanding
+# 49.20_Freight Rail Transport Services > 49.20.1_Freight Rail Transport Services
+# Other railway transport services of freight	NACE	49.20.19
+#This subcategory includes:
+#- railway transport services of cars, trucks and truck trailers
+#- railway transport services of live animals
+#- transport services by railway of other freight n.e.c.
+other railway transport service
+truck trailer
+other freight n.e.c
+# 49.31_Urban and Suburban Passenger Land Transport Services > 49.31.1_Urban and Suburban Railway Transport Services of Passengers
+# Urban and suburban railway transport services of passengers	NACE	49.31.10
+#This subcategory includes:
+#- urban and suburban passenger transport services by railway
+#
+#Urban traffic is defined as traffic, the origin and destination of which are within the borders of the same urban unit; and suburban commuter traffic as traffic within a greater metropolitan area including contiguous cities.
+#
+#- services provided by urban mass transit railways (underground or elevated railway)
+#- transport services of accompanying vehicles, luggage, animals and other items
+urban traffic
+traffic
+the origin
+destination
+the border
+the same urban unit
+a great metropolitan area
+contiguous city
+urban mass transit railway
+underground or elevated railway
+accompany vehicle
+# 49.31_Urban and Suburban Passenger Land Transport Services > 49.31.2_Other Urban and Suburban Passenger Land Transport Services
+# Urban and suburban scheduled road transport services of passengers	NACE	49.31.21
+#This subcategory includes:
+#- passenger transport services over predetermined routes on a predetermined schedule open to any user by motor-bus, tramway, trolley bus and similar, rendered within the confines of a single city or group of contiguous cities
+#- transport services of accompanying luggage, animals and other items that may be carried at no extra cost
+#
+#This subcategory also includes:
+#- operation services of funicular railways, aerial cableways etc. if part of urban, suburban or metropolitan transit systems, rendered on a scheduled basis
+predetermined route
+schedule
+any user
+motor
+tramway
+trolley bus
+the confine
+a single city
+contiguous city
+accompany luggage
+carrying
+cost
+funicular railway
+aerial cableway
+transit
+# 49.31_Urban and Suburban Passenger Land Transport Services > 49.31.2_Other Urban and Suburban Passenger Land Transport Services
+# Mixed mode urban and suburban scheduled transport services of passengers	NACE	49.31.22
+#This subcategory includes:
+#- provision of services of urban and suburban passenger transport, using more than one mode of transport over regular routes and on regular schedules
+mode
+more than one mode
+regular route
+regular schedule
+# 49.32_Taxi Operation Services > 49.32.1_Taxi Operation Services
+# Taxi services	NACE	49.32.11
+#This subcategory includes:
+#- motorised taxi services, including urban, suburban and interurban
+#- non-scheduled airport shuttle services
+#
+#These services are generally rendered on a distance-travelled basis and to a specific destination.
+#
+#This subcategory also includes:
+#- connected reservation services
+taxi service
+motorise taxi service
+airport
+distance
+travelling
+a specific destination
+connect reservation service
+# 49.32_Taxi Operation Services > 49.32.1_Taxi Operation Services
+# Rental services of passenger cars with driver	NACE	49.32.12
+#This subcategory includes:
+#- chauffeur-driven rental car services, wherever delivered, except taxi services
+# 
+#These services are generally supplied on a time basis to a limited number of passengers and frequently involve transportation to more than one destination.
+passenger car
+chauffeur
+rental car
+taxi service
+a limited number
+more than one destination
+# 49.39_Other Passenger Land Transport Services n.e.c. > 49.39.1_Interurban and Special-Purpose Scheduled Passenger Land Transport Services
+# Interurban scheduled road transport services of passengers	NACE	49.39.11
+#This subcategory includes:
+#- interurban passenger transport services over predetermined routes on a predetermined schedule open to any user by motor bus, tramway, trolley bus and similar transport vehicles
+#- transport services of accompanying luggage, animals and other items that may be carried at no extra cost
+schedule
+interurban passenger transport service
+predetermined route
+any user
+motor bus
+tramway
+trolley bus
+similar transport vehicle
+accompany luggage
+carrying
+cost
+# 49.39_Other Passenger Land Transport Services n.e.c. > 49.39.1_Interurban and Special-Purpose Scheduled Passenger Land Transport Services
+# Interurban special-purpose scheduled road transport services of passengers	NACE	49.39.12
+#This subcategory includes:
+#- interurban road passenger transport services over predetermined routes on a predetermined schedule for a specific segment of users
+#- scheduled interurban shuttle services, e.g. airport shuttles
+purpose
+schedule
+interurban road passenger transport service
+predetermined route
+user
+scheduled interurban shuttle service
+airport
+# 49.39_Other Passenger Land Transport Services n.e.c. > 49.39.1_Interurban and Special-Purpose Scheduled Passenger Land Transport Services
+# Other special-purpose scheduled road transport services of passengers	NACE	49.39.13
+#This subcategory includes:
+#- urban and suburban passenger transport services over predetermined routes on a predetermined schedule for a specific segment of users, e.g. colleges or enterprises
+#- scheduled urban and suburban shuttle services, e.g. airport shuttles
+#- all passenger school bus services to carry pupils between their homes and school and between schools, including in rural areas
+purpose
+schedule
+predetermined route
+user
+college
+enterprise
+airport
+all passenger school bus service
+carrying
+pupil
+their home
+rural area
+# 49.39_Other Passenger Land Transport Services n.e.c. > 49.39.2_Passenger Transport Services by Funiculars, Teleferics and Ski-Lifts
+# Passenger transport services by funiculars, teleferics and ski-lifts	NACE	49.39.20
+#This subcategory includes:
+#- operation services of funiculars, teleferics, ski and cable lifts and similar services, if not part of urban, suburban or metropolitan transit systems
+funicular
+teleferic
+lift
+ski and cable lift
+transit
+# 49.39_Other Passenger Land Transport Services n.e.c. > 49.39.3_Non-Scheduled Passenger Land Transport Services
+# Rental services of buses and coaches with driver	NACE	49.39.31
+#This subcategory includes:
+#- rental services of buses or coaches with operators for a period of time, not generally dependent on distance. The renter defines how and when the vehicles will be operated, determining schedules, routes, and other operational considerations.
+coach
+a period
+distance
+the renter
+the vehicle
+will
+operating
+schedule
+route
+other operational consideration
+# 49.39_Other Passenger Land Transport Services n.e.c. > 49.39.3_Non-Scheduled Passenger Land Transport Services
+# Road transport services of passengers for sightseeing	NACE	49.39.32
+#This subcategory includes:
+#- sightseeing-bus services, including city tours
+city tour
+# 49.39_Other Passenger Land Transport Services n.e.c. > 49.39.3_Non-Scheduled Passenger Land Transport Services
+# Non-scheduled local bus and coach charter services	NACE	49.39.33
+#This subcategory includes:
+#- non-scheduled chauffeur-driven hired bus and motor coach services within urban and suburban areas, generally rendered on a time and distance basis, frequently involving transportation to more than one destination
+#
+#Unlike rental of a bus, which gives the client full control, this service is typically provided on a pre-determined route and time-table.
+coach
+chauffeur
+motor
+area
+distance
+more than one destination
+a bus
+full control
+pre
+route
+table
+# 49.39_Other Passenger Land Transport Services n.e.c. > 49.39.3_Non-Scheduled Passenger Land Transport Services
+# Non-scheduled long distance bus and coach charter services	NACE	49.39.34
+#This subcategory includes:
+#- chauffeur-driven hired bus and motor coach services interurban and long distance, generally rendered on a time and distance basis, frequently involving transportation to more than one destination.
+#
+#Unlike rental of a bus, which gives the client full control, this service is typically provided on a pre-determined route and time-table.
+distance
+coach
+chauffeur
+motor
+more than one destination
+a bus
+full control
+pre
+route
+table
+# 49.39_Other Passenger Land Transport Services n.e.c. > 49.39.3_Non-Scheduled Passenger Land Transport Services
+# Road transport services of passengers by man- or animal-drawn vehicles	NACE	49.39.35
+#This subcategory includes:
+#- passenger transport services by man- or animal-drawn vehicles or conveyances such as rickshaws and by pack animals, provided that the services of an operator are provided with the vehicle or animals
+conveyance
+rickshaw
+pack animal
+an operator
+the vehicle
+# 49.39_Other Passenger Land Transport Services n.e.c. > 49.39.3_Non-Scheduled Passenger Land Transport Services
+# Passenger land transport services n.e.c.	NACE	49.39.39
+#This subcategory includes:
+#- passenger transport services by vehicles with driver n.e.c. 
+#- transport services of accompanying luggage, animals and other items that may be carried at no extra cost
+land transport
+driver n.e.c
+accompany luggage
+carrying
+cost
+# 49.41_Freight Transport Services by Road > 49.41.1_Freight Transport Services by Road
+# Road transport services of freight by refrigerator vehicles	NACE	49.41.11
+#This subcategory includes:
+#- road transport services of frozen or refrigerated goods in special refrigerator trucks and cars
+refrigerator vehicle
+special refrigerator truck
+# 49.41_Freight Transport Services by Road > 49.41.1_Freight Transport Services by Road
+# Road transport services of freight by tank trucks or semi-trailers, petroleum products	NACE	49.41.12
+#This subcategory includes:
+#- road transport services of petroleum products (crude oil, natural gas and refined petroleum products) in special tank trucks
+tank truck
+petroleum product
+crude oil
+special tank truck
+# 49.41_Freight Transport Services by Road > 49.41.1_Freight Transport Services by Road
+# Road transport services of freight by tank trucks or semi-trailers, other bulk liquids or gases	NACE	49.41.13
+#This subcategory includes:
+#- road transport services of other bulk liquids or gases in special tank trucks
+tank truck
+other bulk liquid
+special tank truck
+# 49.41_Freight Transport Services by Road > 49.41.1_Freight Transport Services by Road
+# Road transport services of intermodal containers	NACE	49.41.14
+#This subcategory includes:
+#- road transport services of individual articles and packages assembled and shipped in specially constructed shipping containers designed for ease of handling in transport
+assembling
+specially construct shipping container
+handle
+# 49.41_Freight Transport Services by Road > 49.41.1_Freight Transport Services by Road
+# Road transport services of dry bulk goods	NACE	49.41.15
+#This subcategory includes:
+#- road transport services of dry bulk goods such as cereals, flours, cement, sand, coal etc.
+dry bulk good
+sanding
+# 49.41_Freight Transport Services by Road > 49.41.1_Freight Transport Services by Road
+# Road transport services of live animals	NACE	49.41.16
+#This subcategory includes:
+#- road transport services by specialised vehicles of live animals
+specialised vehicle
+# 49.41_Freight Transport Services by Road > 49.41.1_Freight Transport Services by Road
+# Road transport services of freight by man- or animal-drawn vehicles	NACE	49.41.17
+#This subcategory includes:
+#- road transport services of freight by man- or animal-drawn vehicles
+# 49.41_Freight Transport Services by Road > 49.41.1_Freight Transport Services by Road
+# Road transport services of letters and parcels	NACE	49.41.18
+#This subcategory includes:
+#- transport services of letters and parcels by any mode of land transport, other than railway, on behalf of postal and courier services
+any mode
+land transport
+postal and courier service
+# 49.41_Freight Transport Services by Road > 49.41.1_Freight Transport Services by Road
+# Other road transport services of freight	NACE	49.41.19
+#This subcategory includes:
+#- road transport services by other specialised vehicles n.e.c.
+#
+#Included here are transport of waste and waste materials (without collection or disposal), concrete and tarred macadam, cars etc. by specialised vehicles.
+#
+#- transportation by road of freight not elsewhere classified, by non-specialised vehicles
+other road transport service
+other specialised vehicle
+waste material
+concreting
+tarred macadam
+specialised vehicle
+# 49.41_Freight Transport Services by Road > 49.41.2_Rental Services of Trucks With Operator
+# Rental services of trucks with operator	NACE	49.41.20
+#This subcategory includes:
+#- truck and other motorised freight vehicle rental services, with driver
+truck and other motorised freight vehicle rental service
+# 49.42_Removal Services > 49.42.1_Removal Services
+# Removal services for households	NACE	49.42.11
+#This subcategory includes:
+#- household goods and furniture removal (relocation) services, including ancillary services of packing and carrying and in-house moving
+removal service
+household good
+removal
+relocation
+ancillary service
+packing
+# 49.42_Removal Services > 49.42.1_Removal Services
+# Other removal services	NACE	49.42.19
+#This subcategory includes:
+#- office equipment, machinery and furniture removal (relocation) services, including ancillary services of packing and carrying and in-house moving
+other removal service
+removal
+relocation
+ancillary service
+packing
+# 49.50_Transport Services via Pipeline > 49.50.1_Transport Services via Pipeline
+# Transport services via pipeline of crude or refined petroleum and petroleum products	NACE	49.50.11
+crude or refined petroleum
+petroleum product
+# 49.50_Transport Services via Pipeline > 49.50.1_Transport Services via Pipeline
+# Transport services via pipeline of natural gas	NACE	49.50.12
+# 49.50_Transport Services via Pipeline > 49.50.1_Transport Services via Pipeline
+# Transport services via pipeline of other goods	NACE	49.50.19
+#This subcategory includes:
+#- transport services via pipeline of other chemical products, of coal slurry and of other products, n.e.c.
+other good
+other chemical product
+coal slurry

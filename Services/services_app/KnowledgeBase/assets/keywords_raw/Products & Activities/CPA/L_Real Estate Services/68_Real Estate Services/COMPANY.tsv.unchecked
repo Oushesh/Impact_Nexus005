@@ -1,0 +1,205 @@
+# 68.10_Buying and Selling Services of Own Real Estate > 68.10.1_Buying and Selling Services of Own Real Estate
+# Residential buildings and associated land sales or purchases services	NACE	68.10.11
+#This subcategory includes:
+#- sales on own account of residential buildings and associated land in cases where the sales are treated as sales of trading stock by the seller, but not sales of property where the sales are disposals of the fixed assets of the selling unit
+#- sales of houses with associated land, multiple-dwelling buildings with associated land and individual dwelling units within such buildings, such as individual apartments or condominiums. Such property can be either leasehold or freehold.
+purchase service
+account
+trading
+stock
+the seller
+but not sale
+the fix asset
+individual dwelling unit
+such building
+condominium
+such property
+can
+# 68.10_Buying and Selling Services of Own Real Estate > 68.10.1_Buying and Selling Services of Own Real Estate
+# Time-share properties sales or purchases services	NACE	68.10.12
+#This subcategory includes:
+#- sales on own account of time-share properties
+share
+purchase service
+account
+# 68.10_Buying and Selling Services of Own Real Estate > 68.10.1_Buying and Selling Services of Own Real Estate
+# Residential vacant land sales or purchases services	NACE	68.10.13
+#This subcategory includes:
+#- sales on own account of vacant residential land in cases where the sales are treated as sales of trading stock by the seller. Such vacant land can include subdivided vacant land.
+#
+#This subcategory also includes:
+#- subdividing real estate into lots, without land improvement
+residential vacant land sale
+purchase service
+account
+vacant residential land
+trading
+stock
+the seller
+such vacant land
+can
+lot
+# 68.10_Buying and Selling Services of Own Real Estate > 68.10.1_Buying and Selling Services of Own Real Estate
+# Non-residential buildings and associated land sales or purchases services	NACE	68.10.14
+#This subcategory includes:
+#- sales on own account of non-residential buildings and associated land in cases where the sales are treated as sales of trading stock by the seller, but not sales of property where the sales are disposals of the fixed assets of the selling unit. 
+#
+#Examples of non-residential properties include:
+#  . factories, office buildings, warehouses
+#  . theatres, multiple-use buildings that are primarily non-residential
+#  . agriculture, forestry properties
+#  . similar properties
+purchase service
+account
+trading
+stock
+the seller
+but not sale
+the fix asset
+residential property
+factory
+office building
+warehouse
+forestry property
+similar property
+# 68.10_Buying and Selling Services of Own Real Estate > 68.10.1_Buying and Selling Services of Own Real Estate
+# Non-residential vacant land sales or purchases services	NACE	68.10.15
+#This subcategory includes:
+#- sales on own account of vacant non-residential land in cases where the sales are treated as sales of trading stock by the seller. Such vacant land can include subdivided vacant land.
+#
+#This subcategory also includes:
+#- subdividing real estate into lots, without land improvement
+residential vacant land sale
+purchase service
+account
+residential land
+trading
+stock
+the seller
+such vacant land
+can
+lot
+# 68.20_Rental and Operating Services of Own or Leased Real Estate > 68.20.1_Rental and Operating Services of Own or Leased Real Estate
+# Rental and operating services of own or leased residential real estate	NACE	68.20.11
+#This subcategory includes:
+#- rental and operating services concerning residential real estate by owners or leaseholders:
+#  . houses, flats, apartment buildings
+#  . multiple-use buildings that are primarily residential
+#  . residential mobile home sites
+#  . space owned by time-share owners
+rental and operating service
+own or lease residential real estate
+residential real estate
+owner
+leaseholder
+flat
+residential mobile home site
+share
+# 68.20_Rental and Operating Services of Own or Leased Real Estate > 68.20.1_Rental and Operating Services of Own or Leased Real Estate
+# Rental and operating services of own or leased non-residential real estate	NACE	68.20.12
+#This subcategory includes:
+#- rental and operating services concerning industrial, commercial or other non-residential buildings or property by owners or leaseholders:
+#  . factories, office buildings, warehouses
+#  . theatres, convention centres, exhibition halls and multiple-use buildings that are primarily non-residential
+#  . agricultural, forestry and similar properties
+#- rental or leasing by the month or year of caravan sites, lock-up garages or other places for parking vehicles
+rental and operating service
+leasing
+residential real estate
+owner
+leaseholder
+factory
+office building
+warehouse
+convention centre
+exhibition hall
+similar property
+the month
+year
+caravan site
+other place
+# 68.31_Real Estate Agency Services on a Fee or Contract Basis > 68.31.1_Real Estate Agency Services on a Fee or Contract Basis
+# Residential buildings and associated land sale services on a fee or contract basis, except of time-share ownership properties	NACE	68.31.11
+#This subcategory includes:
+#- real estate agency and brokerage house services related to the sale of houses, flats, apartment buildings and other residential properties, and similar intermediation services involving buying, selling and rental of residential buildings and associated land, on a fee or contract basis
+associated land sale service
+a fee
+share
+ownership
+real estate agency and brokerage house service
+flat
+other residential property
+and similar intermediation service
+# 68.31_Real Estate Agency Services on a Fee or Contract Basis > 68.31.1_Real Estate Agency Services on a Fee or Contract Basis
+# Time-share properties sale services on a fee or contract basis	NACE	68.31.12
+#This subcategory includes:
+#- real estate agency and brokerage house services related to the sale of time-share properties
+share
+a fee
+real estate agency and brokerage house service
+# 68.31_Real Estate Agency Services on a Fee or Contract Basis > 68.31.1_Real Estate Agency Services on a Fee or Contract Basis
+# Residential vacant land sale services on a fee or contract basis	NACE	68.31.13
+#This subcategory includes:
+#- real estate agency and brokerage house services related to the sale of residential vacant land, and similar intermediation services involving buying, selling and rental, on a fee or contract basis
+residential vacant land sale service
+a fee
+real estate agency and brokerage house service
+residential vacant land
+and similar intermediation service
+# 68.31_Real Estate Agency Services on a Fee or Contract Basis > 68.31.1_Real Estate Agency Services on a Fee or Contract Basis
+# Non-residential buildings and associated land sale services on a fee or contract basis	NACE	68.31.14
+#This subcategory includes:
+#- real estate agency and brokerage house services related to the sale of non-residential buildings and land, such as offices, factories, shops etc., and similar intermediation services involving buying, selling and rental of non-residential buildings and associated land, on a fee or contract basis
+associated land sale service
+a fee
+real estate agency and brokerage house service
+factory
+and similar intermediation service
+# 68.31_Real Estate Agency Services on a Fee or Contract Basis > 68.31.1_Real Estate Agency Services on a Fee or Contract Basis
+# Non-residential vacant land sale services on a fee or contract basis	NACE	68.31.15
+#This subcategory includes:
+#- real estate agency and brokerage house services related to the sale of non-residential vacant land, and similar intermediation services involving buying, selling and rental, on a fee or contract basis
+residential vacant land sale service
+a fee
+real estate agency and brokerage house service
+residential vacant land
+and similar intermediation service
+# 68.31_Real Estate Agency Services on a Fee or Contract Basis > 68.31.1_Real Estate Agency Services on a Fee or Contract Basis
+# Real estate appraisal services on a fee or contract basis	NACE	68.31.16
+#This subcategory includes:
+#- appraisal of residential buildings and land, non-residential buildings and land, and residential and non-residential vacant land on a fee or contract basis
+real estate appraisal service
+a fee
+appraisal
+residential vacant land
+# 68.32_Management Services of Real Estate on a Fee or Contract Basis > 68.32.1_Management Services of Real Estate on a Fee or Contract Basis
+# Residential property management services on a fee or contract basis, except of time-share ownership properties	NACE	68.32.11
+#This subcategory includes:
+#- management services concerning houses and other residential properties, on a fee or contract basis
+#- management services concerning multi-unit apartment buildings (or multiple-use buildings that are primarily residential)
+#- management services concerning residential mobile home sites
+#- rent collection services
+#- management services concerning dwellings in joint ownership
+residential property
+a fee
+share
+ownership
+other residential property
+multi
+residential mobile home site
+rent collection service
+dwelling
+joint ownership
+# 68.32_Management Services of Real Estate on a Fee or Contract Basis > 68.32.1_Management Services of Real Estate on a Fee or Contract Basis
+# Time-share property management services on a fee or contract basis	NACE	68.32.12
+share
+a fee
+# 68.32_Management Services of Real Estate on a Fee or Contract Basis > 68.32.1_Management Services of Real Estate on a Fee or Contract Basis
+# Non-residential property management services on a fee or contract basis	NACE	68.32.13
+#This subcategory includes:
+#- management services concerning industrial and commercial properties, multiple-use buildings that are primarily non-residential etc.
+#- management services concerning agricultural, forestry and similar properties
+residential property
+a fee
+industrial and commercial property
+similar property

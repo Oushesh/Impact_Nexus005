@@ -1,0 +1,952 @@
+residential building	Wohngebäude
+building	Gebäude
+commercial building	Gewerbebau
+building material	Baumaterial
+prefabricated buildings	vorgefertigte Gebäude
+building construction	Baukonstruktion
+building operation	Baubetrieb
+construction work	Bauarbeiten
+construction	Bauwesen
+civil engineering	Tiefbau
+civil engineering work	Tiefbauarbeiten
+repair of building	Instandsetzung eines Gebäudes
+reparing a building	Instandsetzung eines Gebäudes
+reconstruction	Wiederaufbau
+renovate	renovieren
+renovating	renovieren
+redevelop	sanieren
+remodelling	umgestalten
+development of a building project	Entwicklung eines Bauvorhabens
+development of a construction project	Entwicklung eines Bauvorhabens
+developing a building project	Entwicklung eines Bauvorhabens
+developing a construction project	Entwicklung eines Bauvorhabens
+construction planning	Bauplanung
+building design	Bauplanung
+bulding planning	Gebäudeplanung
+architectural planning	Architekturplanung
+installing lights	Installation von Beleuchtung
+installing heating	Heizungsinstallation
+installing air-conditioning systems	Installation von Klimasystemen
+installing antennas	Installation von Antennen
+installing alarm system	Installation von Alarmanlagen
+installing sprinkler systems	Installation von Sprinkleranlagen
+installing elevators	Einbau von Aufzügen
+installing escalators	Installation von Rolltreppen
+installing illumination systems	Installation von Beleuchtungsanlagen
+installing signalling systems	Installation von Signalsystemen
+repairing lights	Reparatur von Beleuchtungen
+repairing heating	Reparatur von Heizungen
+repairing air-conditioning systems	Reparatur von Klimaanlagen
+repairing antennas	Reparatur von Antennen
+repairing alarm system	Reparatur von Alarmsystemen
+repairing sprinkler systems	Reparatur von Sprinkleranlagen
+repairing elevators	Reparatur von Aufzügen
+repairing escalators	Reparatur von Rolltreppen
+repairing illumination systems	Reparatur von Beleuchtungsanlagen
+repairing signalling systems	Reparatur von Signalsystemen
+glazing	Verglasung
+plastering	Verputzen
+painting	Malerei
+floor tiling	Bodenfliesen
+wall tiling	Wandverkleidungen
+floor covering	Bodenbelag
+wall covering	Wandverkleidung
+floor sanding	Boden schleifen
+finish carpentry	Tischlerarbeiten
+acoustical work	Akustikarbeiten
+cleaning of the exterior	Reinigung des Außenbereichs
+roofing	Dacheindeckung
+lay current	Strom verlegen
+lay electrictiy	Elektrizität verlegen
+laying electricity	Strom verlegen
+insulation work	Isolierarbeiten
+sheet metal work	Spenglerarbeiten
+commercial refrigerating work	Gewerbliche Kältetechnik
+drill a tunnel	Tunnel bohren
+drilling a tunnel	Tunnel bohren
+boring a tunnel	Tunnel bohren
+bore a tunnel	einen Tunnel bohren
+digging the foundation	Ausheben des Fundaments
+dig the foundation	das Fundament ausheben
+excavate the foundation	Ausheben des Fundaments
+excavating the foundation	Ausheben des Fundaments
+plumbing	Klempnerarbeiten
+pile-driving	Rammarbeiten
+foundation work	Fundamentarbeiten
+carcass work	Rohbauarbeiten
+concrete work	Betonarbeiten
+brick laying	Maurerarbeiten
+stone setting	Steinsetzen
+scaffolding	Gerüstbau
+roof covering	Dacheindeckung
+erection of steel structures	Errichtung von Stahlkonstruktionen
+demolition	Abbrucharbeiten
+wrecking	Abbrucharbeiten
+earth moving	Erdarbeiten
+excavation	Aushub
+landfill	Mülldeponie
+levelling	Nivellierung
+grading of construction sites	Planieren von Baustellen
+trench digging	Grabenaushub
+rock removal	Felsabtrag
+blasting	Sprengungen
+Mineral wool insulation	Isolierung aus Mineralwolle
+Extruded polystyrene XPS insulation	Isolierung aus extrudiertem Polystyrol XPS
+Foam insulation	Schaumstoff-Isolierung
+Thermal Insulating bricks	Wärmedämmende Ziegel
+Door sweep	Türfeger
+Fiber insulation	Faserisolierung
+Thermal insulation sleeving	Wärmedämmungsschläuche
+Weather stripping	Wetterschutzabdeckungen
+Expanded polystyrene EPS insulation	Expandiertes Polystyrol EPS-Dämmung
+Thermal insulation kits	Bausätze zur Wärmedämmung
+Window film	Fensterfolie
+Acoustical insulation	Akustische Isolierung
+Heat Shields	Hitzeschutzschilder
+Asphalt board sealing layer	Dichtungsschicht aus Asphaltplatten
+Plastic sealing layer	Kunststoff-Dichtungsschicht
+Rubber sealing layer	Dichtungsschicht aus Gummi
+Combination roof bolt and truss	Kombination von Dachbolzen und Binder
+Roof plate	Dachplatte
+Resin glue capsule or cartridge	Klebstoffkapsel oder -patrone aus Harz
+Rib mat	Rippenmatte
+Expansion shell	Expansionsgehäuse
+Creosote	Kreosot
+Bitumen	Bitumen
+Coal tar	Steinkohlenteer
+Gilsonite	Gilsonit
+Manhole frames with covers	Schachtrahmen mit Deckel
+Cutback products	Reduzierte Produkte
+Asphalt	Asphalt
+Pitch	Stellplatz
+Geomesh	Geomesh
+Bridge rail	Brückengeländer
+Concrete slab	Betonplatte
+Paving slab	Gehwegplatte
+Concrete curb	Bordsteinkante aus Beton
+Noise protection board	Lärmschutzplatte
+Brick tile	Ziegelfliese
+Ungraded crushed rock	Ungeschliffenes gebrochenes Gestein
+Paving stone	Pflasterstein
+Natural curbstone	Natürliche Bordsteinkante
+Post cover	Postabdeckung
+Geotextile	Geotextil
+Tree grating	Baumroste
+Tree protection rod	Baumschutzstange
+Greenhouses	Gewächshäuser
+Silos	Silos
+Houses	Häuser
+Mobile homes	Mobilheime
+Cabins	Hütten
+Garages	Garagen
+Gazebo	Gazebo
+Home kitchens	Heimküchen
+Storage sheds	Lagerschuppen
+Spray booths	Spritzkabinen
+Guardhouses	Wachhäuser
+Clean rooms	Saubere Zimmer
+In plant offices	In Betriebsbüros
+Warehouses	Lagerhäuser
+Auditorium	Auditorium
+Office kitchens	Büroküchen
+Conservatory	Gewächshaus
+Phone box or phone booth	Telefonzelle oder Telefonkabine
+Container units	Container-Einheiten
+Shelters	Unterstände
+Emergency tent halls	Notfall-Zelthallen
+Medical units	Medizinische Einheiten
+Laboratory units	Laboreinheiten
+Dental units	Zahnärztliche Einheiten
+Surgical units	Chirurgische Einheiten
+Bidets	Bidets
+Showers	Duschen
+Sinks	Waschbecken
+Urinals	Urinale
+Bathtub or shower enclosures	Badewannen- oder Duschabtrennungen
+Restroom partitions	Trennwände für Toiletten
+Toilet bowls	Toilettenschüsseln
+Toilet tank covers	Deckel für Toilettentanks
+Toilet tanks	Toilettenbehälter
+Sauna	Sauna
+Whirlpool tub	Whirlwanne
+Toilets	Toiletten
+Bathtubs	Badewannen
+Soap dish	Seifenschale
+Soap dispenser	Seifenspender
+Bathtub or whirlpool apron or skirt	Schürze oder Schürze für Badewanne oder Whirlpool
+Shaving razor hook	Rasierklingenhaken
+Toothbrush or tumbler holder	Zahnbürsten- oder Becherhalter
+Toilet tissue holder	Toilettenpapierhalter
+Shower caddy	Duschwanne
+Towel bar or ring or stand or hook	Handtuchhalter, -ring, -ständer oder -haken
+Shower curtain or assembly	Duschvorhang oder Montage
+Robe hook	Kleiderhaken
+Drain	Abfluss
+Toilet seat lid	Toilettensitzdeckel
+Toilet seat	Toilettensitz
+Shower rod	Duschstange
+Spigot	Zapfen
+Body spray head	Körpersprühkopf
+Faucet repair kit	Wasserhahn-Reparaturset
+Faucet trim	Wasserhahnverkleidung
+Hand shower repair kit	Handbrause-Reparaturset
+Rough in valve	Schruppen im Ventil
+Combination fixed and hand held shower head	Kombination aus festem und handgehaltenem Duschkopf
+Whirlpool jet	Whirlpool-Düse
+Faucet handle	Griff des Wasserhahns
+Hand held shower unit	Handdusche
+Faucet aerator	Perlator für Wasserhahn
+Shower head	Duschkopf
+Spout	Ausgießer
+Air tight door	Luftdichte Tür
+Fire door	Feuerschutztür
+Door closers	Türschließer
+Inspection door	Inspektionstür
+Door screen	Türgitter
+Door and window loop	Tür- und Fensterschleife
+Blem door	Bleibtür
+Blast proof door	Explosionssichere Tür
+Water tight door	Wasserdichte Tür
+Door openers	Türöffner
+Sound proof door	Schalldichte Tür
+Swing door	Flügeltür
+Kick plates	Trittplatten
+Revolving doors	Karusselltüren
+Pocket doors	Taschentüren
+Door frames	Türrahmen
+Storm doors	Sturmtüren
+Metal doors	Türen aus Metall
+Wooden doors	Hölzerne Türen
+Rolling doors	Rolltore
+Screen doors	Bildschirmtüren
+Glass doors	Glastüren
+Automatic doors	Automatische Türen
+French windows	Französische Fenster
+Window screens	Fensterbildschirme
+Window walls	Fensterwände
+Projected windows	Vorstehende Fenster
+Bay windows	Erkerfenster
+Fixed windows	Feste Fenster
+Bow windows	Bogenfenster
+Horizontal slider windows	Horizontale Schiebefenster
+Casement windows	Fenster mit Flügeln
+Single hung windows	Einflügelige Fenster
+Double hung windows	Doppelflügelige Fenster
+Tilt or transom windows	Kipp- oder Sprossenfenster
+Wired glass	Verdrahtetes Glas
+Float glass	Floatglas
+Safety glass	Sicherheitsglas
+Tempered glass	Gehärtetes Glas
+Laminated glass	Verbundsicherheitsglas
+Beveled glass	Geschliffenes Glas
+Paving blocks	Pflastersteine
+Leaded glass	Bleiglas
+Fixed skylights	Feste Oberlichter
+Vented skylights	Belüftete Oberlichter
+Tube skylights	Rohr-Dachfenster
+Smoke lid	Deckel rauchen
+Window sill	Fensterbank
+Fixed window frames	Feste Fensterrahmen
+Tilt or transom window frames	Kipp- oder Sprossenfensterrahmen
+Window arch	Fensterbogen
+Horizontal slider window frames	Horizontale Schiebefensterrahmen
+Double hung window frames	Doppelflügelige Fensterrahmen
+Single hung window frames	Einflügelige Fensterrahmen
+Casement window frames	Flügelfensterrahmen
+Single bar gate	Einfaches Gittertor
+Double bar gate	Doppelstabtor
+Garage door operator accessory	Zubehör für Garagentorantriebe
+Garage door operator component	Bauteil für Garagentorantrieb
+Garage door accessory	Garagentor-Zubehör
+Garage door component	Garagentor-Komponente
+Rolling garage door	Garagen-Rolltor
+Chain link garage door	Kettenglied-Garagentor
+PVC garage door	PVC-Garagentor
+Garage door complete operator	Garagentor Komplettantrieb
+Carriage garage door	Garagentor für Kutschen
+Wood garage door	Garagentor aus Holz
+Insulated sandwich garage door	Isoliertes Sandwich-Garagentor
+Pan garage door	Pan-Garagentor
+Screen garage door	Bildschirm-Garagentor
+Foamed concrete	Schaumbeton
+Ready mix concrete	Transportbeton
+Insulating concrete	Isolierender Beton
+Grout	Fugenmasse
+Mortars	Mörser
+Conductive concrete	Leitfähiger Beton
+Cement	Zement
+Chlorinated lime	Chlorkalk
+Hydraulic lime	Hydraulischer Kalk
+Hydrated lime	Hydratisierter Kalk
+Lean lime	Magerer Kalk
+Unslaked lime	Ungelöschter Kalk
+Gypsum plaster	Gipsputz
+Corner guards	Eckschutzvorrichtungen
+Drywall	Trockenbau
+Wallpapers	Bildschirmhintergründe
+Wallboard	Wandtafel
+Wallpaper roller	Tapetenroller
+Gypsum board	Gipskarton
+Wall fabric	Wandbespannung
+Plastic wall covering	Wandverkleidung aus Kunststoff
+Panels	Paneele
+paneling	Verkleidung
+Acoustic ceiling tiles	Akustische Deckenplatten
+Ceiling panels	Deckenplatten
+Coffers	Kassen
+Suspended ceiling systems	Abgehängte Deckensysteme
+Laminate flooring	Laminatfußböden
+Tufted carpeting	Tufting-Teppichboden
+Flooring joists	Fußbodenbalken
+Knotted carpeting	Knüpfteppichboden
+Flooring threshold	Fußbodenschwelle
+Floor panel	Bodenplatte
+Carpet underlays	Teppichunterlagen
+rug underlays	Teppichunterlagen
+Non skid steel flooring	Rutschfeste Stahlböden
+Access flooring	Doppelboden
+Duckboards	Entenbretter
+Carpet pads	Teppichunterlagen
+Outdoor carpeting	Teppichboden im Freien
+Vinyl flooring	Vinyl-Bodenbelag
+Cork flooring	Kork-Bodenbelag
+Rubber flooring	Gummibodenbelag
+Linoleum	Linoleum
+Wood flooring	Holzfußböden
+Carpeting	Teppichboden
+Stone flooring	Steinböden
+tile flooring	Fliesenbelag
+Tri view cabinet	Tri-View-Schrank
+Bumper pad	Stoßfänger-Pad
+Drawer slide	Schubladenauszug
+Drawer	Schublade
+Wardrobe	Garderobe
+Laboratory cupboard	Laborschrank
+School cupboard	Schulschrank
+Domestic cupboard	Häuslicher Schrank
+Cabinets	Schränke
+Cornices	Gesimse
+Louvers	Lamellen
+Door surrounds	Türumrandungen
+Molding	Gießen
+Stair parts	Treppenteile
+Wainscoting	Vertäfelung
+Columns	Rubriken
+High pressure laminate	Hochdruck-Laminat
+Specialty laminate	Spezielles Laminat
+Metal laminate	Metall-Laminat
+Rigid thermal foil RTF	Starre Thermofolie RTF
+Edgebanding laminate	Laminat mit Kantenanleimung
+Concrete stairs	Treppen aus Beton
+Steel stairs	Stahltreppe
+Wooden stairs	Hölzerne Treppe
+Stair nosing	Treppenkanten
+Granite countertop	Granit-Arbeitsplatte
+Solid surface countertop	Arbeitsplatte mit fester Oberfläche
+Cultured marble countertop	Arbeitsplatte aus kultiviertem Marmor
+Laminate countertop	Arbeitsplatte aus Laminat
+Pull out hamper hardware	Hardware für ausziehbare Wäschekörbe
+Pull out hamper assembly	Ausziehbarer Wäschekorb
+tip out hamper hardware	auskippbare Wäschekörbe Hardware
+tip out hamper assembly	Montage des Kippbehälters
+Pull out waste basket hardware	Hardware für herausziehbare Papierkörbe
+Pull out waste basket assembly	Herausziehbarer Papierkorb
+Spice rack insert	Gewürzregal-Einsatz
+spice drawer insert	Gewürzschubladeneinsatz
+Lazy susan hardware	Lazy Susan Hardware
+Lazy susan assembly	Lazy Susan Montage
+Pantry hardware	Hardware für die Speisekammer
+Pantry assembly	Montage der Speisekammer
+Bread box lid	Brotkasten-Deckel
+Bread box assembly	Montage des Brotkastens
+Stemware rack	Stemmbrett
+Roll out tray	Tablett ausrollen
+Slide out storage bin	Herausschiebbarer Stauraum
+Slide out storage assembly	Herausschiebbare Aufbewahrungseinheit
+Tilt out tray hardware	Hardware für ausklappbare Ablage
+Tilt out tray assembly	Auskippbare Tablett-Baugruppe
+Door mount hardware	Hardware für die Türmontage
+Door mount assembly	Montage der Türhalterung
+sliding towel hardware	Schiebehandtuchhalter
+sliding towel assembly	Schiebehandtuchhalter
+Folding wall	Faltbare Wand
+Screen wall	Sichtschutzwand
+Screen cubicle	Sichtschutzkabine
+Interior wall system	Innenwandsystem
+Cold storage wall	Kühlhauswand
+Combination ladder	Kombi-Leiter
+Step stool	Tritthocker
+Ladders	Leitern
+Scaffolding	Gerüstbau
+Platform step ladder	Plattform Stufenleiter
+Roof ladder	Dachleiter
+Scaffolding cross brace	Querstrebe für Gerüste
+Scaffolding handrail	Handlauf für Gerüste
+Scaffolding flooring	Bodenbeläge für Gerüste
+Ladder tray	Leiterschale
+Ladder platform	Plattform für Leitern
+Scaffolding stabilizers	Gerüststabilisatoren
+Ladder stay	Leiterstütze
+Scaffolding davit	Gerüst-Davit
+Scaffolding trestle	Gerüstbock
+Scaffolding corbel	Gerüstkragstein
+Scaffolding counterweight	Gegengewicht für Gerüste
+Scaffolding staircase	Gerüsttreppe
+Scaffolding frame	Gerüstrahmen
+Scaffolding fixation device	Gerüstbefestigungsvorrichtung
+Scaffolding wire rope	Drahtseile für Gerüste
+Construction shed	Bauhütte
+Construction trailer	Bauwagen
+Hot rolled c360 brass bar	Warmgewalzte c360 Messingstange
+Hot forged c360 brass bar	Heißgeschmiedete c360 Messingstange
+Hot rolled c464 brass bar	Warmgewalzte c464 Messingstange
+Hot forged c464 brass bar	Heißgeschmiedete c464 Messingstange
+Cold drawn c464 brass bar	Kaltgezogene c464 Messingstange
+Hot rolled c360 brass sheet	Warmgewalztes c360 Messingblech
+Cold rolled c464 brass sheet	Kaltgewalztes c464 Messingblech
+Hot rolled c464 brass sheet	Warmgewalztes c464 Messingblech
+Brass billet	Messingknüppel
+Brass coil	Spule aus Messing
+Brass strip	Messingstreifen
+Brass ingot	Messingbarren
+Extruded magnesium bar	Stranggepresster Magnesiumstab
+Cold rolled magnesium sheet	Kaltgewalztes Magnesiumblech
+Magnesium strip	Magnesiumstreifen
+Magnesium billet	Magnesiumknüppel
+Magnesium ingot	Magnesium-Barren
+Magnesium coil	Magnesium-Spule
+Cast titanium bar	Gegossener Titanstab
+Hot rolled titanium sheet	Warmgewalztes Titanblech
+Titanium coil	Titan-Spule
+Titanium strip	Titanband
+Titanium billet	Knüppel aus Titan
+Titanium ingot	Titan-Barren
+Cold drawn copper bar	Kaltgezogene Kupferstange
+Hot rolled copper bar	Warmgewalzte Kupferstange
+Cold rolled copper sheet	Kaltgewalztes Kupferblech
+Hot rolled copper sheet	Warmgewalztes Kupferblech
+Hot rolled copper strip	Warmgewalztes Kupferband
+Cold rolled copper strip	Kaltgewalztes Kupferband
+Copper billet	Kupferknüppel
+Copper ingot	Kupferbarren
+Copper coil	Kupferspule
+Cold drawn silicone bronze bar	Kaltgezogene Stange aus Silikonbronze
+Hot rolled silicone bronze bar	Warmgewalzte Silikonbronze-Stange
+Cold drawn aluminum bronze bar	Kaltgezogene Aluminium-Bronzestange
+Cold drawn phosphor bronze bar	Kaltgezogene Stange aus Phosphorbronze
+Hot rolled phosphor bronze bar	Warmgewalzter Phosphorbronze-Stab
+Hot rolled aluminum bronze bar	Warmgewalzte Aluminium-Bronzestange
+Hot rolled phosphor bronze sheet	Warmgewalztes Phosphorbronzeblech
+Cold rolled phosphor bronze sheet	Kaltgewalztes Phosphorbronzeblech
+Hot rolled aluminum bronze sheet	Warmgewalztes Aluminium-Bronzeblech
+Cold rolled aluminum bronze sheet	Kaltgewalztes Aluminium-Bronzeblech
+Hot rolled aluminum silicone sheet	Warmgewalztes Aluminium-Silikonblech
+Cold rolled silicone bronze sheet	Kaltgewalztes Silikonbronzeblech
+Bronze coil	Bronze-Spule
+Bronze strip	Bronzeband
+Bronze billet	Knüppel aus Bronze
+Bronze ingot	Bronze-Barren
+Hot rolled zinc sheet	Warmgewalztes Zinkblech
+Hot rolled zinc bar	Warmgewalzter Zinkbarren
+Zinc coil	Zink-Spule
+Zinc strip	Zinkband
+Zinc billet	Knüppel aus Zink
+Zinc ingot	Zinkbarren
+Tin cold drawn bar	Kaltgezogene Zinnstangen
+Tin hot rolled bar	Warmgewalzter Zinnstab
+Tin hot rolled sheet	Warmgewalztes Zinnblech
+Tin cold rolled sheet	Kaltgewalztes Zinnblech
+Tin coil	Zinnspule
+Tin strip	Zinnstreifen
+Tin ingot	Zinnbarren
+Lead cold drawn bar	Kaltgezogene Stangen aus Blei
+Lead extruded bar	Stranggepresstes Blei
+Lead hot rolled bar	Warmgewalzter Bleistab
+Lead hot rolled sheet	Warmgewalztes Bleiblech
+Lead cold rolled sheet	Kaltgewalztes Bleiblech
+Lead coil	Leitspule
+Lead strip	Bleistreifen
+Lead billet	Knüppel aus Blei
+Lead ingot	Bleibarren
+Carbon steel SAE 1500 series hot rolled bar	Warmgewalzte Stäbe aus Kohlenstoffstahl der Serie SAE 1500
+Carbon steel SAE 1200 series hot rolled bar	Kohlenstoffstahl SAE 1200 Serie warmgewalzt
+Carbon steel SAE 1100 series hot rolled bar	Warmgewalzte Stäbe aus Kohlenstoffstahl der Serie SAE 1100
+Carbon steel SAE 1500 series cold drawn bar	Kaltgezogener Stabstahl aus Kohlenstoffstahl der Serie SAE 1500
+Carbon steel SAE 1200 series cold drawn bar	Kaltgezogener Stabstahl aus Kohlenstoffstahl der Serie SAE 1200
+Carbon steel SAE 1100 series cold drawn bar	Kaltgezogener Stabstahl aus Kohlenstoffstahl der Serie SAE 1100
+Carbon steel SAE 1000 series cold drawn bar	Kaltgezogener Stabstahl aus Kohlenstoffstahl der Serie SAE 1000
+Carbon steel SAE 1000 series hot rolled bar	Warmgewalzte Stäbe aus Kohlenstoffstahl der Serie SAE 1000
+Steel alloy SAE 6000 series hot rolled bar	Warmgewalzte Stäbe aus legiertem Stahl der Serie SAE 6000
+Steel alloy SAE 9000 series hot rolled bar	Stahllegierung SAE 9000 Serie warmgewalzt
+Steel alloy SAE 8000 series hot rolled bar	Warmgewalzte Stäbe aus legiertem Stahl der Serie SAE 8000
+Steel alloy SAE 5000 series hot rolled bar	Warmgewalzter Stabstahl der Serie SAE 5000
+Steel alloy SAE 4000 series hot rolled bar	Warmgewalzter Stabstahl der Serie SAE 4000
+Steel alloy SAE 9000 series cold drawn bar	Stahllegierung SAE 9000 Serie kaltgezogener Stab
+Steel alloy SAE 8000 series cold drawn bar	Stahllegierung SAE 8000 Serie kaltgezogener Stab
+Steel alloy SAE 6000 series cold drawn bar	Stahllegierung SAE 6000 Serie kaltgezogener Stab
+Steel alloy SAE 5000 series cold drawn bar	Stahllegierung SAE 5000 Serie kaltgezogener Stab
+Steel alloy SAE 4000 series cold drawn bar	Stahllegierung SAE 4000 Serie kaltgezogener Stab
+Tool steel cold drawn bar	Kaltgezogener Werkzeugstahl
+Tool steel hot rolled bar	Warmgewalzter Werkzeugstahl
+High strength low alloy HSLA steel hot rolled bar	Hochfester, niedrig legierter HSLA-Stahl, warmgewalzt
+Carbon steel SAE 1500 series cold rolled sheet	Kaltgewalzte Bleche aus Kohlenstoffstahl der Serie SAE 1500
+Carbon steel SAE 1000 series electro galvanized cold rolled sheet	Kohlenstoffstahl SAE 1000 Serie elektrolytisch verzinktes kaltgewalztes Blech
+Carbon steel SAE 1100 series electro galvanized cold rolled sheet	Kohlenstoffstahl SAE 1100 Serie elektrolytisch verzinktes kaltgewalztes Blech
+Carbon steel SAE 1200 series electro galvanized cold rolled sheet	Kohlenstoffstahl SAE 1200 Serie elektrolytisch verzinktes kaltgewalztes Blech
+Carbon steel SAE 1100 series hot dip galvanized cold rolled sheet	Kohlenstoffstahl SAE 1100 Serie feuerverzinktes kaltgewalztes Blech
+Carbon steel SAE 1000 series hot dip galvanized cold rolled sheet	Kohlenstoffstahl SAE 1000 Serie feuerverzinktes kaltgewalztes Blech
+Carbon steel SAE 1200 series cold rolled sheet	Kaltgewalzte Bleche aus Kohlenstoffstahl der Serie SAE 1200
+Carbon steel SAE 1200 series hot dip galvanized cold rolled sheet	Kohlenstoffstahl SAE 1200 Serie feuerverzinktes kaltgewalztes Blech
+Carbon steel SAE 1500 series hot dip galvanized cold rolled sheet	Kohlenstoffstahl SAE 1500 Serie feuerverzinktes kaltgewalztes Blech
+Carbon steel SAE 1500 series electro galvanized cold rolled sheet	Kohlenstoffstahl SAE 1500 Serie elektrolytisch verzinktes kaltgewalztes Blech
+Carbon steel SAE 1100 series cold rolled sheet	Kaltgewalzte Bleche aus Kohlenstoffstahl der Serie SAE 1100
+Carbon steel SAE 1000 series electro galvanized hot rolled sheet	Kohlenstoffstahl SAE 1000 Serie elektrolytisch verzinktes warmgewalztes Blech
+Carbon steel SAE 1500 series hot dip galvanized hot rolled sheet	Kohlenstoffstahl der Serie SAE 1500, feuerverzinktes, warmgewalztes Blech
+Carbon steel SAE 1200 series hot dip galvanized hot rolled sheet	Kohlenstoffstahl der Serie SAE 1200 feuerverzinktes, warmgewalztes Blech
+Carbon steel SAE 1100 series hot dip galvanized hot rolled sheet	Kohlenstoffstahl der Serie SAE 1100, feuerverzinktes, warmgewalztes Blech
+Carbon steel SAE 1000 series hot dip galvanized hot rolled sheet	Kohlenstoffstahl der Serie SAE 1000 feuerverzinktes, warmgewalztes Blech
+Carbon steel SAE 1500 series electro galvanized hot rolled sheet	Kohlenstoffstahl SAE 1500 Serie elektrolytisch verzinktes warmgewalztes Blech
+Carbon steel SAE 1200 series electro galvanized hot rolled sheet	Kohlenstoffstahl SAE 1200 Serie elektrolytisch verzinktes warmgewalztes Blech
+Carbon steel SAE 1100 series electro galvanized hot rolled sheet	Kohlenstoffstahl SAE 1100 Serie elektrolytisch verzinktes warmgewalztes Blech
+Carbon steel SAE 1500 series hot rolled sheet	Warmgewalzte Bleche aus Kohlenstoffstahl der Serie SAE 1500
+Carbon steel SAE 1200 series hot rolled sheet	Warmgewalzte Bleche aus Kohlenstoffstahl der Serie SAE 1200
+Carbon steel SAE 1100 series hot rolled sheet	Warmgewalzte Bleche aus Kohlenstoffstahl der Serie SAE 1100
+Carbon steel SAE 1000 series hot rolled sheet	Warmgewalzte Bleche aus Kohlenstoffstahl der Serie SAE 1000
+Carbon steel SAE 1000 series cold rolled sheet	Kaltgewalzte Bleche aus Kohlenstoffstahl der Serie SAE 1000
+Steel alloy SAE 9000 series cold rolled sheet	Stahllegierung SAE 9000 Serie kaltgewalztes Blech
+Steel alloy SAE 8000 series cold rolled sheet	Stahllegierung SAE 8000 Serie kaltgewalztes Blech
+Steel alloy SAE 6000 series cold rolled sheet	Stahllegierung SAE 6000 Serie kaltgewalztes Blech
+Steel alloy SAE 5000 series cold rolled sheet	Stahllegierung SAE 5000 Serie kaltgewalztes Blech
+Steel alloy SAE 4000 series hot rolled sheet	Stahllegierung SAE 4000 Serie warmgewalztes Blech
+Steel alloy SAE 9000 series hot rolled sheet	Stahllegierung SAE 9000 Serie warmgewalztes Blech
+Steel alloy SAE 8000 series hot rolled sheet	Stahllegierung SAE 8000 Serie warmgewalztes Blech
+Steel alloy SAE 6000 series hot rolled sheet	Stahllegierung SAE 6000 Serie warmgewalztes Blech
+Steel alloy SAE 5000 series hot rolled sheet	Stahllegierung SAE 5000 Serie warmgewalztes Blech
+Steel alloy SAE 4000 series cold rolled sheet	Stahllegierung SAE 4000 Serie kaltgewalztes Blech
+Aluminized steel sheet	Aluminisiertes Stahlblech
+Corrugated steel sheet	Gewelltes Stahlblech
+High strength low alloy HSLA steel hot rolled sheet	Hochfester, niedrig legierter HSLA-Stahl, warmgewalztes Blech
+High strength low alloy HSLA cold rolled sheet	Hochfestes, niedrig legiertes, kaltgewalztes HSLA-Blech
+Electro galvanized steel coil	Elektrolytisch verzinktes Stahlband
+Hot dip galvanized steel coil	Feuerverzinktes Stahlband
+Embossed steel coil	Geprägtes Stahlband
+Perforated steel coil	Perforiertes Stahlband
+Aluminized steel coil	Aluminisierte Stahlspule
+Carbon steel cold rolled ingot	Kaltgewalzter Block aus Kohlenstoffstahl
+Carbon steel hot rolled ingot	Warmgewalzter Kohlenstoffstahl-Block
+Carbon steel cold rolled billet	Knüppel aus kaltgewalztem Kohlenstoffstahl
+Carbon steel hot rolled billet	Warmgewalzte Knüppel aus Kohlenstoffstahl
+Carbon steel SAE 1500 series hot rolled strip	Kohlenstoffstahl SAE 1500 Serie warmgewalztes Band
+Carbon steel SAE 1200 series hot rolled strip	Kohlenstoffstahl SAE 1200 Serie warmgewalztes Band
+Carbon steel SAE 1500 series cold rolled strip	Kaltgewalztes Band aus Kohlenstoffstahl der Serie SAE 1500
+Carbon steel SAE 1200 series cold rolled strip	Kaltgewalztes Band aus Kohlenstoffstahl der Serie SAE 1200
+Carbon steel SAE 1100 series cold rolled strip	Kaltgewalztes Band aus Kohlenstoffstahl der Serie SAE 1100
+Carbon steel SAE 1500 series hot rolled coil	Kohlenstoffstahl SAE 1500 Serie warmgewalztes Coil
+Carbon steel SAE 1200 series hot rolled coil	Kohlenstoffstahl SAE 1200 Serie warmgewalztes Coil
+Carbon steel SAE 1100 series hot rolled coil	Kohlenstoffstahl SAE 1100 Serie warmgewalztes Coil
+Carbon steel SAE 1100 series hot rolled strip	Kohlenstoffstahl SAE 1100 Serie warmgewalztes Band
+Stainless steel SAE 400 series hot rolled bar	Warmgewalzter Stabstahl aus nichtrostendem Stahl der Serie SAE 400
+Stainless steel SAE 300 series hot rolled bar	Warmgewalzter Stabstahl aus nichtrostendem Stahl der Serie SAE 300
+Stainless steel SAE 400 series cold drawn bar	Kaltgezogener Stabstahl aus Edelstahl der Serie SAE 400
+Stainless steel SAE 300 series cold drawn bar	Kaltgezogener Stabstahl aus Edelstahl der Serie SAE 300
+Stainless steel SAE 200 series cold drawn bar	Kaltgezogener Stabstahl aus Edelstahl der Serie SAE 200
+Stainless steel SAE 200 series hot rolled bar	Warmgewalzter Stabstahl aus nichtrostendem Stahl der Serie SAE 200
+Stainless steel SAE 200 series hot rolled sheet	Warmgewalztes Blech aus Edelstahl der Serie SAE 200
+Stainless steel SAE 300 series hot rolled sheet	Warmgewalzte Bleche aus rostfreiem Stahl der Serie SAE 300
+Stainless steel SAE 400 series hot rolled sheet	Warmgewalzte Bleche aus Edelstahl der Serie SAE 400
+Stainless steel SAE 200 series cold rolled sheet	Kaltgewalzte Bleche aus Edelstahl der Serie SAE 200
+Stainless steel SAE 300 series cold rolled sheet	Kaltgewalzte Bleche aus Edelstahl der Serie SAE 300
+Stainless steel SAE 400 series cold rolled sheet	Kaltgewalzte Bleche aus Edelstahl der Serie SAE 400
+Stainless steel SAE 300 series hot rolled coil	Edelstahl SAE 300 Serie warmgewalztes Coil
+Stainless steel SAE 400 series hot rolled coil	Edelstahl SAE 400 Serie warmgewalztes Coil
+Stainless steel SAE 200 series cold rolled coil	Kaltgewalztes Band aus Edelstahl der Serie SAE 200
+Stainless steel SAE 300 series cold rolled coil	Kaltgewalztes Band aus Edelstahl der Serie SAE 300
+Stainless steel SAE 400 series cold rolled coil	Kaltgewalztes Band aus Edelstahl der Serie SAE 400
+Stainless steel SAE 400 series cold rolled strip	Kaltgewalztes Band aus Edelstahl der Serie SAE 400
+Stainless steel SAE 300 series cold rolled strip	Kaltgewalztes Band aus nichtrostendem Stahl der Serie SAE 300
+Stainless steel SAE 200 series hot rolled strip	Warmgewalztes Band aus nichtrostendem Stahl der Serie SAE 200
+Stainless steel SAE 400 series hot rolled strip	Warmgewalztes Band aus nichtrostendem Stahl der Serie SAE 400
+Stainless steel SAE 300 series hot rolled strip	Warmgewalztes Band aus nichtrostendem Stahl der Serie SAE 300
+Stainless steel SAE 200 series cold rolled strip	Kaltgewalztes Band aus Edelstahl der Serie SAE 200
+Aluminum SAE 6000 series hot rolled bar	Warmgewalzter Aluminiumstab der Serie SAE 6000
+Aluminum SAE 6000 series cold drawn bar	Kaltgezogener Aluminiumstab der Serie SAE 6000
+Aluminum SAE 5000 series hot rolled bar	Warmgewalzter Aluminiumstab der Serie SAE 5000
+Aluminum SAE 5000 series cold drawn bar	Kaltgezogener Aluminiumstab der Serie SAE 5000
+Aluminum SAE 4000 series cold drawn bar	Kaltgezogener Aluminiumstab der Serie SAE 4000
+Aluminum SAE 4000 series hot rolled bar	Warmgewalzter Aluminiumstab der Serie SAE 4000
+Aluminum SAE 3000 series cold drawn bar	Kaltgezogener Aluminiumstab der Serie SAE 3000
+Aluminum SAE 2000 series hot rolled bar	Warmgewalzter Aluminiumstab der Serie SAE 2000
+Aluminum SAE 2000 series cold drawn bar	Kaltgezogener Aluminiumstab der Serie SAE 2000
+Aluminum SAE 1000 series hot rolled bar	Warmgewalzter Aluminiumstab der Serie SAE 1000
+Aluminum SAE 1000 series cold drawn bar	Kaltgezogener Aluminiumstab der Serie SAE 1000
+Aluminum SAE 3000 series hot rolled bar	Aluminium SAE 3000 Serie warmgewalzt bar
+Aluminum SAE 5000 series cold rolled sheet	Aluminium SAE 5000 Serie kaltgewalztes Blech
+Corrugated aluminum sheet	Gewelltes Aluminiumblech
+Aluminum SAE 6000 series cold rolled sheet	Aluminium SAE 6000 Serie kaltgewalztes Blech
+Aluminum SAE 5000 series hot rolled sheet	Aluminium SAE 5000 Serie warmgewalztes Blech
+Aluminum SAE 4000 series hot rolled sheet	Aluminium SAE 4000 Serie warmgewalztes Blech
+Aluminum SAE 1000 series cold rolled sheet	Aluminium SAE 1000 Serie kaltgewalztes Blech
+Aluminum SAE 3000 series hot rolled sheet	Aluminium SAE 3000 Serie warmgewalztes Blech
+Aluminum SAE 3000 series cold rolled sheet	Aluminium SAE 3000 Serie kaltgewalztes Blech
+Aluminum SAE 2000 series hot rolled sheet	Aluminium SAE 2000 Serie warmgewalztes Blech
+Aluminum SAE 2000 series cold rolled sheet	Aluminium SAE 2000 Serie kaltgewalztes Blech
+Aluminum SAE 1000 series hot rolled sheet	Aluminium SAE 1000 Serie warmgewalztes Blech
+Aluminum SAE 4000 series cold rolled sheet	Aluminium SAE 4000 Serie kaltgewalztes Blech
+Aluminum SAE 5000 series hot rolled coil	Aluminium SAE 5000 Serie warmgewalztes Coil
+Aluminum SAE 6000 series hot rolled coil	Aluminium SAE 6000 Serie warmgewalztes Coil
+Aluminum SAE 3000 series hot rolled coil	Aluminium SAE 3000 Serie warmgewalztes Coil
+Aluminum SAE 2000 series hot rolled coil	Aluminium SAE 2000 Serie warmgewalztes Coil
+Aluminum SAE 4000 series hot rolled coil	Aluminium SAE 4000 Serie warmgewalztes Coil
+Aluminum SAE 1000 series hot rolled coil	Aluminium SAE 1000 Serie warmgewalztes Coil
+Aluminum strip	Aluminiumband
+Aluminum ingot	Aluminium-Barren
+Ductile iron cast bar	Stabstahl aus duktilem Eisen
+Gray iron cast bar	Grauguss-Stab
+White iron cast bar	Stange aus weißem Eisen
+Malleable iron cast bar	Gusseisen aus verformbarem Eisen
+Ductile iron hot rolled sheet	Sphäroguss warmgewalztes Blech
+Gray iron hot rolled sheet	Grauguss warmgewalztes Blech
+White iron hot rolled sheet	Weißes Eisen warmgewalztes Blech
+Malleable iron hot rolled sheet	Warmgewalzte Bleche aus verformbarem Eisen
+Malleable iron billet	Knüppel aus verformbarem Eisen
+White iron billet	Knüppel aus weißem Eisen
+Gray iron billet	Graugussknüppel
+Ductile iron strip	Band aus duktilem Eisen
+Ductile iron coil	Sphäroguss-Spule
+Ductile iron billet	Knüppel aus duktilem Eisen
+Ferrous alloy bar	Stange aus Eisenlegierung
+Ferrous alloy sheet	Blech aus einer Eisenlegierung
+Ferrous alloy billet	Knüppel aus Eisenlegierung
+Ferrous alloy extrusion ingot	Strangpressbarren aus Eisenlegierung
+Ferrous alloy coil	Spule aus Eisenlegierung
+Ferrous alloy strip	Band aus Eisenlegierung
+Plastic bar	Kunststoffleiste
+Plastic sheet	Plastikfolie
+Corrugated plastic sheet	Gewellte Kunststoffplatten
+Plastic coil	Kunststoffspule
+Plastic strip	Plastikstreifen
+Precious metal bar	Barren aus Edelmetall
+Non ferrous alloy bar	Stange aus Nichteisenlegierung
+Non ferrous alloy sheet	Bleche aus Nichteisenlegierungen
+Beryllium alloy sheet	Bleche aus Berylliumlegierung
+Composite metal sheet	Zusammengesetztes Metallblech
+Non ferrous alloy coil	Spule aus Nichteisenlegierung
+Precious metal coil	Edelmetallspule
+Non ferrous alloy strip	Band aus Nichteisenlegierung
+Non ferrous alloy billet	Knüppel aus Nichteisenlegierung
+Precious metal billet	Knüppel aus Edelmetall
+Precious metal ingot	Edelmetallbarren
+Non ferrous alloy extrusion ingot	Strangpressbarren aus Nichteisenlegierungen
+Cadmium ingot	Kadmium-Barren
+Zirconium ingot	Zirkonium-Barren
+Cobalt ingot	Kobalt-Barren
+Molybdenum ingot	Molybdän-Barren
+Arsenic ingot	Arsenbarren
+Bismuth ingot	Wismut-Barren
+Indium ingot	Indium-Barren
+Graphite coil	Graphit-Spule
+Antimony ingot	Antimonbarren
+Wooden bar	Hölzerne Stange
+Rubber sheet	Gummiplatte
+Foam rubber sheet	Moosgummi-Platte
+Cork and rubber sheet	Kork und Gummiplatten
+Compressed fiber sheet	Komprimierte Faserplatte
+Metal inserted compressed fiber sheet	Mit Metall eingelegte Pressfaserplatte
+Fiber and rubber sheet	Faser- und Gummiplatten
+Asbestos sheet	Asbestplatte
+Reinforcing bar or rebar or mesh	Bewehrungsstab oder Betonstahl oder Masche
+Rubber bar	Gummistange
+Rubber strip	Gummistreifen
+Compressed fiber coil	Komprimierte Faserspule
+Fiber and rubber coil	Faser- und Gummispule
+Nickel sheet	Nickel-Blech
+Nickel ingot	Nickel-Barren
+Steel shafting	Stahlwellen
+Stainless steel shafting	Wellen aus rostfreiem Stahl
+Sound proof block	Schalldichter Block
+Glass block	Glasblock
+Light concrete block	Leichter Betonblock
+Natural rock slab	Natürliche Felsplatte
+Haydite block	Haydite-Block
+Ceramic blocks	Keramische Blöcke
+Stone blocks	Steinblöcke
+Concrete blocks	Betonsteine
+Autoclaved lightweight aerated concrete block	Autoklavierter Leichtporenbetonblock
+Rubber block	Gummiblock
+Reinforced concrete built up culvert block	Aufgebauter Durchlassblock aus Stahlbeton
+Concrete block for revetment	Betonblock für Deckwerk
+Concrete armor unit	Betonpanzereinheit
+Ceramic bricks	Keramische Ziegel
+Concrete bricks	Betonziegel
+Stone bricks	Ziegelsteine
+Sandlime brick	Kalksandstein
+Loess brick	Löß-Ziegel
+Clay brick	Lehmziegel
+Fabricated brick	Vorgefertigter Ziegel
+Insulating fire brick	Isolierender Schamottestein
+Salt glazed brick	Salzglasierter Ziegel
+Head stones	Kopfsteine
+Stone tiles	Steinfliesen
+Stone flagstones	Steinfliesen
+Concrete tiles	Betonplatten
+Concrete flagstones	Betonsteinplatten
+Ceramic tiles	Keramische Fliesen
+Ceramic flagstones	Keramische Plattenbeläge
+Tube frame connector	Rohrrahmenverbinder
+Side pole	Seitenpfosten
+Structural alignment tool	Werkzeug zur strukturellen Ausrichtung
+Structural brace	Strukturelle Strebe
+Steel A-frame	A-Rahmen aus Stahl
+Transom	Heckspiegel
+Stake or peg	Pflock oder Hering
+Mast section and king pole	Mastabschnitt und Königsmast
+Gin pole and accessories	Ginstange und Zubehör
+Gable	Giebel
+Funicular bell	Glocke der Standseilbahn
+Cupola	Kuppel
+Bail ring	Kautionsring
+Anchor plate	Verankerungsplatte
+Base plate	Grundplatte
+Grandstand footboard and accessories	Tribünen-Trittbrett und Zubehör
+Stair riser	Treppensetzer
+Stringer	Stringer
+Stair step	Trittstufe
+Framing beam or rail or tubing	Rahmenträger oder Schiene oder Rohr
+Portable structure canvas section	Tragbare Struktur Segeltuchabschnitt
+Steel angles	Stahlwinkel
+Iron angles	Eisenwinkel
+Magnesium angles	Magnesium-Winkel
+Ferrous alloy angles	Winkel aus Eisenlegierungen
+Titanium angles	Titan-Winkel
+Copper angles	Kupferwinkel
+Zinc angles	Zink-Winkel
+Bronze angles	Bronze-Winkel
+Tin angles	Zinnwinkel
+Lead angles	Spitzenwinkel
+Plastic angles	Kunststoffwinkel
+Precious metal angles	Edelmetall-Winkel
+Brass angles	Winkel aus Messing
+Rubber angles	Gummiwinkel
+Non ferrous alloy angles	Winkel aus Nichteisenlegierungen
+Aluminum angles	Aluminium-Winkel
+Stainless steel angles	Winkel aus rostfreiem Stahl
+Plywood beam	Sperrholzbalken
+Haydite beam	Haydite-Balken
+Precious metal beams	Edelmetallträger
+Concrete beams	Balken aus Beton
+Rubber beams	Gummibalken
+Steel beams	Stahlträger
+Lead beams	Leitstrahlen
+Tin beams	Zinnbalken
+Zinc beams	Zinkbalken
+Iron beams	Eisenbalken
+Brass beams	Messing-Balken
+Bronze beams	Bronze-Balken
+Non ferrous alloy beams	Balken aus Nichteisenlegierungen
+Ferrous alloy beams	Balken aus Eisenlegierungen
+Stainless steel beams	Balken aus rostfreiem Stahl
+Plastic beams	Kunststoffbalken
+Magnesium beams	Magnesiumbalken
+Titanium beams	Titan-Balken
+Copper beams	Balken aus Kupfer
+Aluminum beams	Aluminium-Träger
+Non ferrous alloy channels	Kanäle aus Nichteisenlegierungen
+Iron channels	Eiserne Kanäle
+Steel channels	Stahlkanäle
+Stainless steel channels	Kanäle aus rostfreiem Stahl
+Aluminum channels	Aluminium-Kanäle
+Magnesium channels	Magnesium-Kanäle
+Titanium channels	Kanäle aus Titan
+Ferrous alloy channels	Kanäle aus Eisenlegierungen
+Brass channels	Kanäle aus Messing
+Zinc channels	Zink-Kanäle
+Tin channels	Zinnkanäle
+Lead channels	Führende Kanäle
+Plastic channels	Kunststoff-Kanäle
+Rubber channels	Gummirinnen
+Precious metal channels	Kanäle aus Edelmetall
+Fiberglass channel	Fiberglas-Kanal
+Copper channels	Kanäle aus Kupfer
+Bronze channels	Bronze-Kanäle
+Plastic foil	Plastikfolie
+Lead foil	Bleifolie
+Zinc foil	Zinkfolie
+Bronze foil	Bronzefolie
+Brass foil	Messingfolie
+Copper foil	Kupferfolie
+Tin foil	Zinnfolie
+Magnesium foil	Magnesiumfolie
+Titanium foil	Titanfolie
+Non ferrous alloy foil	Folie aus Nichteisenlegierung
+Iron foil	Eisenfolie
+Ferrous alloy foil	Folie aus Eisenlegierung
+Stainless steel foil	Folie aus rostfreiem Stahl
+Aluminum foil	Alufolie
+Steel foil	Stahlfolie
+Rubber plate	Gummiplatte
+Plastic plate	Kunststoffplatte
+Lead plate	Bleiplatte
+Tin plate	Weißblech
+Zinc plate	Zinkblech
+Bronze plate	Bronzeplatte
+Brass plate	Messingplatte
+Copper plate	Kupferplatte
+Magnesium plate	Magnesiumplatte
+Stainless steel plate	Platte aus rostfreiem Stahl
+Steel plate	Stahlplatte
+Iron plate	Eisenplatte
+Non ferrous plate	Nicht eisenhaltige Platte
+Ferrous alloy plate	Platte aus Eisenlegierung
+Titanium plate	Platte aus Titan
+Aluminum plate	Aluminiumplatte
+Woodwool plate	Holzwolleplatte
+Nickel plate	Nickelplatte
+Wood veneer plate	Holzfurnierplatte
+Coreboard plate	Kernpappenplatte
+Cork plate	Korkplatte
+Butyl plate	Butylplatte
+Fiber plate	Faserplatte
+Concrete plate	Platte aus Beton
+Precious metal plate	Platte aus Edelmetall
+Ferrous alloy profiles	Profile aus Eisenlegierungen
+Non ferrous alloy profiles	Profile aus Nichteisenlegierungen
+Iron profiles	Profile aus Eisen
+Steel profiles	Stahlprofile
+Stainless steel profiles	Profile aus rostfreiem Stahl
+Aluminum profiles	Aluminium-Profile
+Magnesium profiles	Magnesium-Profile
+Titanium profiles	Titan-Profile
+Copper profiles	Profile aus Kupfer
+Brass profiles	Profile aus Messing
+Zinc profiles	Zink-Profile
+Tin profiles	Zinn-Profile
+Bronze profiles	Profile aus Bronze
+Plastic profiles	Kunststoff-Profile
+Rubber profiles	Gummi-Profile
+Lead profiles	Leitprofile
+Tin rods	Zinnstangen
+Nickel rod	Nickel-Stab
+Rubber rods	Gummistangen
+Plastic rods	Plastikstangen
+Lead rods	Bleiruten
+Copper rods	Kupferstangen
+Titanium rods	Titan-Stäbe
+Aluminum rods	Aluminium-Stangen
+Stainless steel rods	Stangen aus rostfreiem Stahl
+Steel rods	Stahlstangen
+Iron rods	Eisenstangen
+Non ferrous alloy rods	Stangen aus Nichteisenlegierungen
+Ferrous alloy rods	Stangen aus Eisenlegierungen
+Bronze rods	Bronze-Stäbe
+Magnesium rods	Magnesium-Stäbe
+Brass rods	Messingstangen
+Zinc rods	Stangen aus Zink
+Aluminum pilings	Aluminium Pfähle
+Concrete pilings	Betonpfähle
+Steel pilings	Stahlpfähle
+Cement posts	Zementpfosten
+concrete posts	Betonpfosten
+Metal posts	Metallpfosten
+Wooden posts	Hölzerne Pfosten
+Plastic posts	Kunststoffpfosten
+Fiberglass posts	Pfosten aus Fiberglas
+Treated wooden post	Pfosten aus behandeltem Holz
+Wooden rail	Hölzerne Schiene
+Steel rail	Stahlschiene
+Metal rail	Metallschiene
+Aluminum rail	Aluminium-Schiene
+Stainless steel grating	Gitterrost aus rostfreiem Stahl
+Aluminum grating	Aluminium-Gitterrost
+Fiberglass grating	Fiberglas-Gitterrost
+Iron grating	Eisengitter
+Plastic grating	Kunststoff-Gitterrost
+Laminated grating	Laminierte Gitterroste
+Steel grating	Stahlgitterrost
+Copper honeycomb core	Wabenkern aus Kupfer
+Titanium honeycomb core	Titan-Wabenkern
+Zinc honeycomb core	Wabenkern aus Zink
+Lead honeycomb core	Wabenkern aus Blei
+Steel honeycomb core	Stahlwabenkern
+Magnesium honeycomb core	Magnesium-Wabenkern
+Plastic honeycomb core	Kunststoffwabenkern
+Foam honeycomb core	Schaumstoff-Wabenkern
+Aluminum honeycomb core	Aluminium-Wabenkern
+Brass honeycomb core	Wabenkern aus Messing
+Wooden honeycomb core	Wabenkern aus Holz
+Non ferrous metal honeycomb core	Wabenkern aus Nichteisenmetall
+Precious metal honeycomb core	Wabenkern aus Edelmetall
+Bronze honeycomb core	Bronze-Wabenkern
+Ferrous metal honeycomb core	Wabenkern aus Eisenmetall
+Railway tie untreated	Eisenbahnschwelle unbehandelt
+Crib block treated	Krippenblock behandelt
+Precast concrete element	Betonfertigteil
+Steel framework	Stahlrahmen
+Wooden framework	Hölzerner Rahmen
+Composite framework	Zusammengesetzter Rahmen
+Plate girder	Plattenbalken
+Precast haydite element	Vorgefertigtes Haydit-Element
+Railway tie	Eisenbahnschwelle
+Shovel mat	Schaufelmatte
+Wood beams	Holzbalken
+Brattice board	Gittertafel
+Wood composite beams	Holzverbundbalken
+Crib block	Krippenblock
+Wood sheathing	Holzummantelung
+Wood sheets	Holzplatten
+Wood planks	Holzdielen
+Wood trusses	Holzdachstühle
+Framing lumber	Schnittholz
+Wooden poles	Hölzerne Stangen
+telephone poles	Telefonmasten
+Wood joists	Holzbalken
+Steel plate joist	Stahlplattenbalken
+Stainless steel braid	Geflecht aus rostfreiem Stahl
+Steel fiber	Stahlfaser
+Tin fiber	Zinnfaser
+Aluminum fiber	Alufaser
+Alloy fiber	Legierungsfaser
+Headed shafts	Schächte mit Kopf
+Portable grandstand	Tragbare Tribüne
+Mobile grandstand	Mobile Tribüne
+Foldable grandstand	Klappbare Tribüne
+Portable kitchen unit	Tragbare Küchenzeile
+Site Office	Standort Büro
+Portable box office	Tragbare Kasse
+Portable toilet	Tragbare Toilette
+Framed textile structure	Gerahmte Textilstruktur
+Pole tent or tension tent	Stangenzelt oder Spannzelt
+Roll roofing	Walzendach
+Roof valleys	Dachkehlen
+Shakes	Schüttelt
+Shingles	Gürtelrose
+Rubber support block	Gummi-Stützblock
+Slate roofing	Schieferbedachung
+Concrete roofing tile	Dachziegel aus Beton
+Brick roofing tile	Ziegel-Dachziegel
+Roofing membranes	Dachmembranen
+Roofing fabrics	Bedachungsgewebe
+Flashings	Abdeckungen
+Gravel stops	Schotterpausen
+Roofing drains	Dachentwässerung
+Roofing vents	Dachentlüftung
+Soffits	Untersichten
+Roof curbs	Dachkanten
+Hip and ridge	Hüfte und Grat
+Roof fascias	Dachabdeckungen
+Drip caps	Tropfkappen
+Splashblocks	Splashblocks
+Gutters	Dachrinnen
+Downspouts	Fallrohre
+Brick mould	Backsteinform
+Glass curtainwalling	Vorhangfassaden aus Glas
+Stucco	Stuck
+Siding butt joints	Abstellgleis-Stumpfstöße
+Siding	Abstellgleis
+Shutters	Fensterläden
+Exterior trim material	Material der Außenverkleidung
+Canopy	Vordach
+Awnings	Markisen
+Metal fencing	Metallzäune
+Fibrocement fencing	Zäune aus Faserzement
+Wood fencing	Holzfechten
+Shot steel	Schrotstahl

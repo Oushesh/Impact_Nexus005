@@ -1,0 +1,14 @@
+# 06.10_Crude Petroleum > 06.10.1_Petroleum Oils and Oils Obtained From Bituminous Minerals, Crude
+# Petroleum oils and oils obtained from bituminous minerals, crude	NACE	06.10.10
+petroleum oil
+bituminous mineral
+# 06.10_Crude Petroleum > 06.10.2_Bituminous or Oil Shale and Tar Sands
+# Bituminous or oil shale and tar sands	NACE	06.10.20
+bituminous or oil shale
+tar sand
+# 06.20_Natural Gas, Liquefied or in Gaseous State > 06.20.1_Natural Gas, Liquefied or in Gaseous State
+# Natural gas, liquefied or in gaseous state	NACE	06.20.10
+#This subcategory also includes:
+#- 	gaseous hydrocarbons n.e.c.
+gaseous state
+gaseous hydrocarbon

@@ -1,0 +1,676 @@
+# 71.11_Architectural Services > 71.11.1_Plans and Drawings for Architectural Purposes
+# Plans and drawings for architectural purposes	NACE	71.11.10
+architectural purpose
+# 71.11_Architectural Services > 71.11.2_Architectural Services for Buildings
+# Architectural services for residential building projects	NACE	71.11.21
+#This subcategory includes architectural services for:
+#- single-family residential projects
+#- multi-family residential projects
+architectural service
+residential building project
+family
+project
+multi
+# 71.11_Architectural Services > 71.11.2_Architectural Services for Buildings
+# Architectural services for non-residential building projects	NACE	71.11.22
+#This subcategory includes architectural services for:
+#- office building projects
+#- retail and restaurant projects
+#- hotels and convention centres
+#- health care projects
+#- entertainment, recreational and cultural building projects
+#- educational building projects
+#- industrial building projects
+#- transportation and distribution facility projects
+#- other non-residential building projects
+architectural service
+residential building project
+office building project
+retail and restaurant project
+convention centre
+health care project
+recreational and cultural building project
+educational building project
+industrial building project
+transportation and distribution facility project
+# 71.11_Architectural Services > 71.11.2_Architectural Services for Buildings
+# Historical restoration architectural services	NACE	71.11.23
+#This subcategory includes:
+#- architectural services that incorporate legal requirements to preserve or restore the historic character of a building
+historical restoration architectural service
+architectural service
+preserve
+restoring
+the historic character
+a building
+# 71.11_Architectural Services > 71.11.2_Architectural Services for Buildings
+# Building project architectural advisory services	NACE	71.11.24
+#This subcategory includes:
+#- expert witness services in the field of architecture consisting in the provision of testimony before a court or administrative body, by a witness who, by virtue of experience, training, skill or knowledge of architecture, is recognised as being qualified to render an informed opinion on matters relating to that field or subject
+#- the provision of advice, studies and reports on architectural matters
+project
+architectural advisory service
+expert witness service
+field
+architecture
+testimony
+a court
+administrative body
+a witness
+who
+virtue
+experience
+skill
+an informed opinion
+that field
+study
+report
+architectural matter
+# 71.11_Architectural Services > 71.11.3_Urban and Land Planning Services
+# Urban planning services	NACE	71.11.31
+#This subcategory includes:
+#- development services for plans concerning land use, site selection, control and utilisation, road systems and servicing of land with a view to creating and maintaining systematic, coordinated urban development, such as:
+#  . comprehensive urban plans 
+#  . community urban plans 
+#  . element urban plans for specific amenities or objectives such as transportation, utilities etc.
+#  . studies and plans related to urban rehabilitation and renewal process
+#  . studies and plans related to urban public and private transports and accessibilities
+#  . studies and plans related to urban economic and social spatial sustainability
+#- feasibility studies 
+#- urban planning advisory services, such as expert witness, policy and program evaluation and other urban planning advisory services
+#
+#This subcategory also includes:
+#- studies of environmental impact and economic assessments of urban development plans are also included
+urban planning service
+land use
+site selection
+control
+utilisation
+road system
+servicing
+a view
+creating
+comprehensive urban plan
+community urban plan
+objective
+utility
+study
+urban rehabilitation and renewal process
+urban public and private transport
+accessibility
+urban economic and social spatial sustainability
+feasibility study
+urban planning advisory service
+expert witness
+policy and program evaluation
+other urban planning advisory service
+economic
+# 71.11_Architectural Services > 71.11.3_Urban and Land Planning Services
+# Rural land planning services	NACE	71.11.32
+#This subcategory includes:
+#- development of plans that describe the long-term objectives of rural areas for the development of infrastructure, housing, industry, commercial, recreational and other facilities
+#- comprehensive plans covering a large geographical area, for a lengthy time period
+rural land planning service
+term
+objective
+rural area
+infrastructure
+industry
+recreational and other facility
+comprehensive plan
+cover
+a large geographical area
+a lengthy time period
+# 71.11_Architectural Services > 71.11.3_Urban and Land Planning Services
+# Project site master planning services	NACE	71.11.33
+#This subcategory includes services that provide plans for a construction site, showing the proposed location of buildings, roads, parking lots and other features, for:
+#- residential building projects 
+#- non-residential building projects 
+#- recreational and open-space projects
+project site master planning service
+a construction site
+showing
+the propose location
+parking lot
+other feature
+residential building project
+project
+# 71.11_Architectural Services > 71.11.4_Landscape Architectural Services and Architectural Advisory Services
+# Landscape architectural services	NACE	71.11.41
+#This subcategory includes landscape architecture services for:
+#- residential building projects:
+#  . single-family residential projects
+#  . multi-family residential projects
+#  . residential subdivision projects
+#- non-residential building projects:
+#  . corporate building projects
+#  . hotels, convention centres, stadiums and arenas
+#  . educational building projects
+#  . health care, penal institutions 
+#  . other non-residential building projects
+#- recreational and open-space projects:
+#  . city centres and public squares
+#  . non-building recreational facilities, parks and natural areas
+#  . transportation corridors
+#  . resorts
+#  . other recreational and open space projects
+#
+#This subcategory also includes landscape architecture services related to:
+#- preparing and modifying terrain such as land clearing and grading plans,
+#drainage designs, erosion and sediment control designs, retaining wall designs,
+#outdoor sprinkler system plans
+#- facilitating access to a site such as lighting plans, signage plans, trail and
+#path plans, accessibility designs
+#- structures with specialised uses
+landscape architectural service
+landscape architecture service
+residential building project
+family
+project
+multi
+corporate building project
+convention centre
+stadium
+arena
+educational building project
+health care
+penal institution
+city centre
+public square
+natural area
+transportation corridor
+resort
+other recreational and open space project
+terrain
+land clearing
+drainage design
+erosion
+control
+retain wall design
+outdoor sprinkler system plan
+a site
+lighting plan
+signage plan
+path
+accessibility design
+specialised use
+# 71.11_Architectural Services > 71.11.4_Landscape Architectural Services and Architectural Advisory Services
+# Landscape architectural advisory services	NACE	71.11.42
+#This subcategory includes:
+#- expert witness services in the field of landscape architecture consisting in the provision of testimony before a court or administrative body, by a witness who, by virtue of experience, training, skill or knowledge of landscape architecture, is recognised as being qualified to render an informed opinion on matters relating to that field or subject
+#- the provision of advice, studies and reports on landscape architecture matters
+landscape architectural advisory service
+expert witness service
+field
+landscape architecture
+testimony
+a court
+administrative body
+a witness
+who
+virtue
+experience
+skill
+an informed opinion
+that field
+study
+report
+landscape architecture matter
+# 71.12_Engineering Services and Related Technical Consulting Services > 71.12.1_Engineering Services
+# Engineering advisory services	NACE	71.12.11
+#This subcategory includes:
+#- provision of advice to clients concerning engineering principles and methods, when performed independently of an engineering project, including policy analysis, regulatory studies and audits
+#- provision of testimony by a witness who, by virtue of experience, training, skill or knowledge of engineering, is recognised as being qualified to render an informed opinion on such matters
+#- engineering investigation of a failed engineered system or structure to determine causal factors
+engineering advisory service
+engineering principle
+method
+an engineering project
+policy analysis
+study
+testimony
+a witness
+who
+virtue
+experience
+skill
+an informed opinion
+such matter
+engineering investigation
+a fail engineer system
+causal factor
+# 71.12_Engineering Services and Related Technical Consulting Services > 71.12.1_Engineering Services
+# Engineering services for building projects	NACE	71.12.12
+#This subcategory includes:
+#- provision of designs, plans, and studies related to residential building projects, such as:
+#  . new and existing homes
+#  . row housing, apartments etc.
+#  . mixed-use buildings that are predominantly used for residential housing
+#- provision of designs, plans, and studies related to new and existing commercial, public and institutional building projects, including mixed-use buildings that are predominantly used for commercial, public, or institutional purposes, such as:
+#  . office buildings
+#  . shopping centres 
+#  . hotels and restaurants 
+#  . service stations and warehouses 
+#  . bus and truck terminals 
+#  . hospitals, schools, churches 
+#  . prisons, stadiums and arenas 
+#  . libraries and museums
+#
+#This subcategory also includes: 
+#- engineering advisory services that are related to a specific residential, commercial, public or institutional building project
+building project
+and study
+residential building project
+new and existing home
+row housing
+residential housing
+public and institutional building project
+purpose
+office building
+shopping centre
+service station
+warehouse
+bus and truck terminal
+church
+stadium
+arena
+library
+museum
+engineering advisory service
+public or institutional building project
+# 71.12_Engineering Services and Related Technical Consulting Services > 71.12.1_Engineering Services
+# Engineering services for power projects	NACE	71.12.13
+#This subcategory includes:
+#- engineering services related to facilities that generate electrical power from:
+#  . coal and other fossil-fuel energy such as oil and gas
+#  . nuclear energy
+#  . the energy in falling water
+#  . other energy, such as solar power, wind power, geothermal power including cogeneration facilities
+#- engineering services related to overhead or underground electrical power transmission and distribution lines
+power project
+electrical power
+fuel
+nuclear energy
+the energy
+fall water
+other energy
+solar power
+wind power
+geothermal power
+cogeneration facility
+overhead or underground electrical power transmission and distribution line
+# 71.12_Engineering Services and Related Technical Consulting Services > 71.12.1_Engineering Services
+# Engineering services for transportation projects	NACE	71.12.14
+#This subcategory includes all engineering services (including provision of designs, plans, and studies) related to:
+#- highways, roads and streets, including elevated highways used for motor vehicle traffic
+#- bridges and tunnels
+#- ancillary road transport facilities such as rest stops, weigh stations, toll booths
+#- mass transit systems, such as light rail or subway systems
+#- railways and related structures
+#- railway bridges and tunnels
+#- marine and inland ports
+#- harbours, locks, canals, and dams primarily used for transportation purposes
+#- airports, runways, hangars
+#- other aviation facilities
+#- space transportation projects
+#- oil and gas transportation projects
+#- other transportation projects n.e.c.
+transportation project
+all engineering service
+and study
+motor vehicle traffic
+tunnelling
+ancillary road transport facility
+rest stop
+weigh station
+toll booth
+mass transit system
+light rail
+railway bridge
+marine and inland port
+harbour
+and dam
+transportation purpose
+airport
+runway
+hangar
+other aviation facility
+space transportation project
+oil and gas transportation project
+other transportation project
+# 71.12_Engineering Services and Related Technical Consulting Services > 71.12.1_Engineering Services
+# Engineering services for waste management projects (hazardous and non-hazardous)	NACE	71.12.15
+#This subcategory includes:
+#- engineering services related to household garbage collection and disposal systems, such as:
+#  . recycling facilities
+#  . composting facilities
+#  . transfer stations
+#  . resource recovery facilities
+#  . landfill sites
+#- engineering services related to programs for the collection, treatment, recycling, and disposal of industrial air, water and solid wastes, generally to a level such that the remaining waste stream can be safely released to the natural environment or ordinary municipal systems
+#- engineering services related to programs for hazardous waste remediation, such as:
+#  . management of nuclear waste 
+#  . chemical agent destruction 
+#  . brownfield redevelopment 
+#  . ground water modelling
+#  . contaminated site remediation
+project
+household garbage collection and disposal system
+recycling facility
+composting facility
+transfer station
+resource recovery facility
+landfill site
+program
+recycling
+and disposal
+industrial air
+solid waste
+a level
+the remain waste stream
+can
+ordinary municipal system
+hazardous waste remediation
+nuclear waste
+chemical agent destruction
+ground water modelling
+contaminated site remediation
+# 71.12_Engineering Services and Related Technical Consulting Services > 71.12.1_Engineering Services
+# Engineering services for water, sewerage and drainage projects	NACE	71.12.16
+#This subcategory includes:
+#- engineering services related to systems for the collection, distribution, treatment, and disposal of water such as:
+#  . drinking water distribution systems, pumping stations, reservoirs, water storage facilities, water transmission and distribution mains including dams used primarily for local drinking water distribution and desalination plants
+#  . systems for storm water management, drainage and detention systems including dams used primarily for flood control
+#  . systems for the collection, treatment, and disposal of wastewater
+#  . irrigation systems and water pipelines including dams primarily used for irrigation
+sewerage and drainage project
+and disposal
+distribution system
+pumping station
+water storage facility
+water transmission and distribution main
+local drinking water distribution
+desalination plant
+storm
+drainage and detention system
+flood control
+wastewater
+irrigation system
+water pipeline
+irrigation
+# 71.12_Engineering Services and Related Technical Consulting Services > 71.12.1_Engineering Services
+# Engineering services for industrial and manufacturing projects	NACE	71.12.17
+#This subcategory includes the application of physical laws and principles of engineering in the design, development and utilisation of machines, materials, instruments, structures, processes and systems.
+#
+#This subcategory includes:
+#- engineering services related to industrial facilities and processes:
+#  . mining and metallurgical facilities such as mines, smelters, mills, mineral refineries, including integrated facility and process engineering projects
+#  . mining and metallurgical processes, such as mineral extraction, smelting, refining, metal forming
+#  . petroleum and petrochemical facilities such as oil and gas platforms, refineries, pipelines, petrochemical plants, including integrated facility and process engineering projects
+#  . processes for the production of petroleum and petrochemicals, such as extraction, refining, formulation, mixing
+#  . microelectronics facilities and processes, such as those that produce microprocessors, silicon chips and wafers, microcircuits, and semiconductors
+#  . textile and clothing facilities and processes
+#  . iron and steel facilities and processes
+#  . other industrial and manufacturing facilities and processes n.e.c.
+#- engineering services related to the design of industrial and manufactured products:
+#  . industrial machinery such as agricultural, construction, mining, metalworking, commercial and service industry, heating, ventilating and air conditioning, power transmission machinery
+#  . electronic equipment such as computers and peripheral equipment, communications equipment, audio and video equipment, semiconductors and other electronic components
+#  . electrical equipment such as lighting, major and minor appliances and components thereof
+#  . transportation equipment such as motor vehicles, aircraft, trains, marine vessels, space vehicles
+#  . industrial and manufactured products not elsewhere classified
+project
+the application
+physical law
+principle
+the design
+utilisation
+industrial facility
+mining and metallurgical facility
+mine
+smelter
+mill
+mineral refinery
+integrated facility and process engineering project
+mineral extraction
+smelting
+metal forming
+petroleum and petrochemical facility
+oil and gas platform
+refinery
+petrochemical plant
+petroleum
+petrochemical
+extraction
+formulation
+mixing
+microelectronic facility
+microprocessor
+silicon chip
+microcircuit
+and semiconductor
+textile and clothing facility
+metalworking
+commercial and service industry
+air conditioning
+power transmission machinery
+electronic
+semiconductor
+other electronic component
+lighting
+major and minor appliance
+component
+motor
+train
+marine vessel
+space vehicle
+# 71.12_Engineering Services and Related Technical Consulting Services > 71.12.1_Engineering Services
+# Engineering services for telecommunications and broadcasting projects	NACE	71.12.18
+#This subcategory includes: 
+#- engineering services related to systems for the transmission of voice and data between network termination points by copper wire, fibre-optic cable, co-axial cable, and hybrid fibre-coax cable
+#- engineering services related to systems for the transmission of voice, data and programming between network termination points by short-wave or microwave, such as:
+#  . wireless telephony systems 
+#  . satellite radio systems
+#  . direct-broadcast satellite systems
+#- engineering services related to systems for the transmission of radio and television signals
+#- engineering services related to systems for the transmission or distribution of voice, data or programming, not elsewhere classified
+telecommunication and broadcasting project
+the transmission
+voice
+data
+network termination point
+copper wire
+fibre
+hybrid
+programming
+short
+microwave
+wireless telephony system
+satellite radio system
+broadcast
+satellite system
+radio and television signal
+# 71.12_Engineering Services and Related Technical Consulting Services > 71.12.1_Engineering Services
+# Engineering services for other projects	NACE	71.12.19
+#This subcategory includes:
+#- engineering services related to:
+#  . natural gas and steam distribution projects
+#  . other utility projects n.e.c.
+#- engineering services related to systems, processes, facilities or products n.e.c., including the provision of designs, plans and studies related to them
+other project
+natural gas and steam distribution project
+other utility project
+and study
+# 71.12_Engineering Services and Related Technical Consulting Services > 71.12.2_Project Management Services for Construction Projects
+# Project management services for construction projects	NACE	71.12.20
+#This subcategory includes:
+#- services of assuming overall responsibility for the successful completion of a construction project on behalf of a client, including organising the financing and the design, requesting tenders, and performing management and control functions
+#- project management services provided by engineers or architects
+project
+construction project
+overall responsibility
+the successful completion
+a construction project
+a client
+the financing
+the design
+tender
+control
+functioning
+engineer
+architect
+# 71.12_Engineering Services and Related Technical Consulting Services > 71.12.3_Geological, Geophysical and Related Prospecting and Consulting Services
+# Geological and geophysical consulting services	NACE	71.12.31
+#This subcategory includes:
+#- geological consulting services relating to mineral deposits, oil and gas fields and groundwater by studying the properties of the earth and rock formation and structures
+#- provide advice with regard to exploration and development of mineral, oil and natural gas properties
+#- consultation services on evaluation of geological, geophysical and geochemical anomalies
+#- consultation services on geological mapping or surveying at surface or subsurface
+geological and geophysical consulting service
+geological consulting service
+mineral deposit
+field
+groundwater
+study
+the property
+the earth and rock formation
+regard
+exploration
+oil and natural gas property
+consultation service
+geological mapping
+surface
+# 71.12_Engineering Services and Related Technical Consulting Services > 71.12.3_Geological, Geophysical and Related Prospecting and Consulting Services
+# Geophysical services	NACE	71.12.32
+#This subcategory includes:
+#- services providing information on subsurface earth formations by different methods:
+#  . seismographic, gravimetric, magnetometric methods
+#  . other subsurface surveying methods
+geophysical service
+different method
+method
+# 71.12_Engineering Services and Related Technical Consulting Services > 71.12.3_Geological, Geophysical and Related Prospecting and Consulting Services
+# Mineral exploration and evaluation services	NACE	71.12.33
+mineral exploration and evaluation service
+# 71.12_Engineering Services and Related Technical Consulting Services > 71.12.3_Geological, Geophysical and Related Prospecting and Consulting Services
+# Surface surveying services	NACE	71.12.34
+#This subcategory includes:
+#- gathering services of information on the shape, position and/or boundaries of a portion of the earth's surface by different methods, including transit, photogrammetric and hydrographic surveying, for the purpose of preparing maps
+#- collection of data by satellite
+#- land surveying services (e.g., marking of property, boundary marking)
+surface surveying service
+the shape
+position
+boundary
+a portion
+surface
+different method
+transit
+photogrammetric and hydrographic surveying
+purpose
+data
+land surveying service
+marking
+boundary marking
+# 71.12_Engineering Services and Related Technical Consulting Services > 71.12.3_Geological, Geophysical and Related Prospecting and Consulting Services
+# Map-making services	NACE	71.12.35
+#This subcategory includes:
+#- map-making services consisting in the preparation and revision of maps of all kinds (e.g. road, cadastral, topographic, planimetric, hydrographic), using the results of survey activities, other maps and other information sources
+the preparation
+revision
+the result
+survey activity
+other map
+other information source
+# 71.20_Technical Testing and Analysis Services > 71.20.1_Technical Testing and Analysis Services
+# Composition and purity testing and analysis services	NACE	71.20.11
+#This subcategory includes:
+#- testing and analysis services for the chemical and biological properties of materials such as air, water, waste (municipal and industrial), fuels, metal, soil, minerals, food and chemicals
+#- testing and analysis services in related scientific fields such as microbiology, biochemistry, bacteriology etc.
+composition and purity testing and analysis service
+testing and analysis service
+the chemical and biological property
+fuel
+soil
+field
+microbiology
+biochemistry
+bacteriology
+# 71.20_Technical Testing and Analysis Services > 71.20.1_Technical Testing and Analysis Services
+# Testing and analysis services of physical properties	NACE	71.20.12
+#This subcategory includes:
+#- testing and analysis services of physical properties such as strength, ductility, electrical conductivity and radioactivity of materials such as metals, plastics, textiles, woods, glass, concrete and other materials
+#- tests for tension, hardness, impact resistance, fatigue resistance and high-temperature effects
+testing and analysis service
+physical property
+strength
+ductility
+electrical conductivity
+radioactivity
+concreting
+test
+tension
+hardness
+impact resistance
+fatigue resistance
+temperature
+# 71.20_Technical Testing and Analysis Services > 71.20.1_Technical Testing and Analysis Services
+# Testing and analysis services of integrated mechanical and electrical systems	NACE	71.20.13
+#This subcategory includes:
+#- testing and analysis services for the mechanical and electrical characteristics of complete machinery, motors, automobiles, tools, appliances, communication equipment and other equipment incorporating mechanical and electrical components 
+#
+#The results of the testing and analysis generally take the form of an assessment of the performance and behavioural characteristics of the object tested. Tests may be performed using models or mock-ups of ships, aircraft, dams etc.
+testing and analysis service
+integrate mechanical and electrical system
+the mechanical and electrical characteristic
+complete machinery
+motor
+automobile
+mechanical and electrical component
+the result
+the testing
+taking
+form
+characteristic
+the object
+test
+testing
+model
+# 71.20_Technical Testing and Analysis Services > 71.20.1_Technical Testing and Analysis Services
+# Technical inspection services of road transport vehicles	NACE	71.20.14
+#This subcategory includes:
+#- periodical technical inspection services for automobiles, motorcycles, buses, lorries, trucks and other road transport vehicles
+technical inspection service
+road transport vehicle
+periodical technical inspection service
+automobile
+lorry
+other road transport vehicle
+# 71.20_Technical Testing and Analysis Services > 71.20.1_Technical Testing and Analysis Services
+# Other technical testing and analysis services	NACE	71.20.19
+#This subcategory includes:
+#- testing and analysis services of a technical or scientific nature that do not alter the object being tested
+#- radiographic, magnetic and ultrasonic testing of machine parts and structures in order to identify defects. These tests are often conducted on site.
+#- certification of ships, aircraft, dams etc.
+#- certification and authentication of works of art
+#- radiological inspection of welds
+#- analysis services of police laboratories
+#- all other technical testing and analysis services not elsewhere classified
+other technical testing and analysis service
+testing and analysis service
+a technical or scientific nature
+the object
+test
+magnetic and ultrasonic testing
+order
+defect
+these test
+site
+certification
+authentication
+working
+arts
+radiological inspection
+weld
+analysis service
+police laboratory
+all other technical testing and analysis service
