@@ -39,3 +39,5 @@ known_hosts.github
 
 nlp_venv/*
 AWSCLIV2.pkg
+
+rest_api_venv/*
