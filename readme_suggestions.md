@@ -117,7 +117,6 @@ pre-commit install
 ## Logs for Supabase client
    python3 -m pip install supabase
 
-
 ## TODO and Progress Tracking.
    Django Project abstracting Knowledge Base from the Folder info into massive json (DONE)
    Add Deepcheck to check incoming data
