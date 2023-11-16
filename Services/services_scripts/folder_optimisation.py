@@ -36,14 +36,6 @@ def convert_to_parquet(input_base_folder, input_file_paths, output_base_folder):
         output_relative_folder = output_relative_folder.strip("/")
 
         output_folder = os.path.join(output_base_folder,output_relative_folder)
-        #print (file_name+"."+file_extension)
-        #print ("file extension",file_extension)
-        #print ("file name",file_name)
-        #print ("output file_name",output_file_name)
-        #print ("output_relative_folder",output_relative_folder)
-        #print ("input_file_path",input_file_path)
-        #print ("output_base_folder",output_base_folder)
-        #print ("output_folder",output_folder)
         try:
             if file_extension in ['csv', 'tsv', 'txt']:
                 # CSV, TSV, TXT to Parquet

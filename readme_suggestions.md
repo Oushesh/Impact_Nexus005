@@ -83,15 +83,14 @@ To install pre-commit as a git hook that will run automatically on commit (recom
 
 pre-commit install
 
-## Data Optimisation storage:
+## Data Optimisation storage (DONE)
    * convert csv and other data types to optimise for storage
      apache parquet.
    * if your data is hugely dependent on csv convert to apache parquet then optimise the data storage in the system. (cost of optimisation)
    
-## Efficiency of Data Collection process
+## Efficiency of Data Collection process 
    * implement stream application for data collection (airbyte for extra api development to stream data
      from different sources.)
-   * 
 
 ## Data Retraining and Versioning.
    * add an endpoint for absorbing from different (sources), different 
@@ -104,14 +103,9 @@ pre-commit install
    insights generated from data 
 
 ## Data Steps:
-1. Download data (Airbyte) 
-2. raw Data, preprocess and process Data --> then postprocess Data
-3. combine data --> Data Optimisation (apache parquet) --> 
 
 ## Automatic Retraining when new data comes in:
    * data: (will add today as well.)
-
-## Ask credentials for aws to finish the application.
 
 ## Changes made:
    * Logs should be under log folder
@@ -120,8 +114,8 @@ pre-commit install
    * Abstracts the Folder as a Knowledge Base. (DONE)
      #TODO: Folder selection step using Django Ninja Form select
 
-## Bottleneck:
-AWS Bottleneck.
+## Logs for Supabase client
+   python3 -m pip install supabase
 
 
 ## TODO and Progress Tracking.
@@ -130,7 +124,6 @@ AWS Bottleneck.
    Aggregate Data from scraping (Airbyte example oekobaudat data here)
    
    Bad Comments: why have 2 application running: (unified: into 1 Django structure) rest_api
-
 
 ## MLOPS
     * Technical risk -- poorly performing
