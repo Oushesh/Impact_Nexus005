@@ -8,8 +8,8 @@ local path: where data is stored.
 import os
 from dotenv import load_dotenv
 from typing import List
-from ninja import Router
-from ninja import QueryParam, File
+from ninja import Router, Form
+#from ninja import QueryParam, File
 from urllib.parse import urlparse
 from django.http import JsonResponse
 import pandas as pd
@@ -18,9 +18,18 @@ from pathlib import Path
 import json
 from django.shortcuts import get_object_or_404
 
+
 router = Router()
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
+
+#Schema definition
+class FolderSelectionForm(Form):
+    input_folder: str
+    output_folder: str
+
+class S3UrlForm(Form):
+    s3_url: str
 
 class Parquet_Optimization():
     def __init__(self,**kwargs):
@@ -36,13 +45,24 @@ class Parquet_Optimization():
         return files
 
     @classmethod
-    def convert_to_parquet(cls,input_url:str,output_url:str,url_type:str):
+    def folder_select(cls,message):
+        app = QApplication([])
+        folder_path = QFileDialog.getExistingDirectory(None, message)
+        return folder_path
+
+    @classmethod
+    def convert_to_parquet(cls,input_url:str,output_url:str,url_type:str,form: FolderSelectionForm):
         # Determine file format based on file extension
-        input_path = urlparse(input_url).path.lstrip('/')
-        file_extension = input_path.split('.')[-1].lower()
 
         if url_type == "local":
-            #Loacl path
+            #TODO: prompt for selection of the local folder
+            input_folder = form.input_folder
+            output_folder = form.output_folder
+            input_path = f"local://{input_folder}"
+            output_path = f"local://{output_folder}"
+
+            file_extension = input_path.split('.')[-1].lower()
+
             df = None
             if file_extension == 'csv':
                 df = pd.read_csv(input_path)
@@ -73,6 +93,9 @@ class Parquet_Optimization():
         #TODO: its possible to add support to extend to other cloud services
         # when your credits is running away during the product-market fit phase
         elif url_type == "s3":
+            input_path = urlparse(input_url).path.lstrip('/')
+            file_extension = input_path.split('.')[-1].lower()
+
             s3 = boto3.client("s3")
             bucket_name = urlparse(output_url).netloc
             key = urlparse(output_url).path.lsstrip("/")
@@ -106,8 +129,14 @@ class Parquet_Optimization():
                 df.to_parquet(s3_parquet_url)
                 return JsonResponse({"message": f"Conversion successful. Parquet file saved to S3: {s3_parquet_url}"})
 
-@router.get("/parquet_conversion_service")
-def parquet_conversion_service(request, input_url: str, output_url: str, url_type: str = QueryParam('local', alias='url_type')):
-    Parquet_Optimization.convert_to_parquet(input_url,output_url,url_type)
+@router.post("/parquet_conversion_service")
+def parquet_conversion_service(request, url_type:str, form: FolderSelectionForm=None, s3_form:S3UrlForm = None):
+    # TODO: make a way there is drop down for user to select the url_type
+    assert url_type in ["local","s3"]
+
+    if url_type == "local" and form:
+        Parquet_Optimization.convert_to_parquet(form.input_folder,form.output_folder,url_type)
+    elif url_type == "s3" and s3_form:
+        Parquet_Optimization.convert_to_parquet(s3_form.s3_url,"",url_type,form)
     return {"data":"success"}
 
