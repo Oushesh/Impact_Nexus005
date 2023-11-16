@@ -117,7 +117,8 @@ pre-commit install
    * Logs should be under log folder
 
 ## Assessment Service
-   * Abstracts the Folder as a Knowledge Base.
+   * Abstracts the Folder as a Knowledge Base. (DONE)
+     #TODO: Folder selection step using Django Ninja Form select
 
 ## Bottleneck:
 AWS Bottleneck.

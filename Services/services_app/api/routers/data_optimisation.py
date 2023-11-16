@@ -6,17 +6,14 @@ local path: where data is stored.
 """
 
 import os
-from dotenv import load_dotenv
-from typing import List
-from ninja import Router, Form
-#from ninja import QueryParam, File
+from ninja import Router
+from ninja import Form as NinjaForm
 from urllib.parse import urlparse
 from django.http import JsonResponse
 import pandas as pd
 import boto3
 from pathlib import Path
 import json
-from django.shortcuts import get_object_or_404
 
 
 router = Router()
@@ -24,11 +21,11 @@ router = Router()
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 #Schema definition
-class FolderSelectionForm(Form):
+class FolderSelectionForm(NinjaForm):
     input_folder: str
     output_folder: str
 
-class S3UrlForm(Form):
+class S3UrlForm(NinjaForm):
     s3_url: str
 
 class Parquet_Optimization():
@@ -36,8 +33,8 @@ class Parquet_Optimization():
         self.kwargs = kwargs
 
     @classmethod
-    def find_files_in_subfolders(cls,folder_path):
-        # Recursively find all files in subfolders
+    def find_files_in_folder(cls, folder_path):
+        # Recursively find all files in the folder and its subfolders
         files = []
         for root, dirs, filenames in os.walk(folder_path):
             for filename in filenames:
@@ -46,15 +43,17 @@ class Parquet_Optimization():
 
     @classmethod
     def folder_select(cls,message):
-        app = QApplication([])
-        folder_path = QFileDialog.getExistingDirectory(None, message)
-        return folder_path
+        pass
 
     @classmethod
     def convert_to_parquet(cls,input_url:str,output_url:str,url_type:str,form: FolderSelectionForm):
         # Determine file format based on file extension
 
         if url_type == "local":
+            input_url = os.path.join(BASE_DIR,"Services/Services_app/KnowledgeBase")
+            output_url = os.path.join(BASE_DIR,"Services/Services_app/KnowledgeBaseParquet")
+
+
             #TODO: prompt for selection of the local folder
             input_folder = form.input_folder
             output_folder = form.output_folder
