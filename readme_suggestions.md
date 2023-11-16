@@ -28,12 +28,26 @@
        way fast for a team to work with rather than
        configuring gpu configs locally.
 
+## Scalabilty of Data: 
+   CSV is a simple and common format that is used 
+   by many tools such as Excel, Google Sheets and others.
+   
+   Disadvantages:
+   * Amazon Athena and Spectrum --> pricing based on 
+     amount of data scanned per query.
+   * Google GS/Amazon S3 will charge according to the amount 
+     of data available.
+     
+     In perspective:
+![Apache_Parquet_Advantages](docs/Apache_Parquet_Advantages.png)
+     
+
+
 ## Data Download (DONE) , Data Ingestion, Data Aggregation
    * Enhance Data Collection from different sources: Airbyte (scrape data from api endpoints) -->
      save onto s3 (save the data and write migrations on Django to that).
     
      Example: Airbyte with Oekobaudat (Data Enhancing) --> Anomaly Detection
-
 
    * Endpoints Django --> (absorb all data) --> postgresql --> show statistics 
    * Unified Data Format (migration)
@@ -75,7 +89,9 @@ pre-commit install
    * if your data is hugely dependent on csv convert to apache parquet then optimise the data storage in the system. (cost of optimisation)
    
 ## Efficiency of Data Collection process
-   * implement stream application for data collection
+   * implement stream application for data collection (airbyte for extra api development to stream data
+     from different sources.)
+   * 
 
 ## Data Retraining and Versioning.
    * add an endpoint for absorbing from different (sources), different 
@@ -112,6 +128,17 @@ AWS Bottleneck.
    Add Deepcheck to check incoming data
    Aggregate Data from scraping (Airbyte example oekobaudat data here)
    
-   Bad Comments: why have 2 application running: (unifed: into 1 Django structure) rest_api
-   
-   
+   Bad Comments: why have 2 application running: (unified: into 1 Django structure) rest_api
+
+
+## MLOPS
+    * Technical risk -- poorly performing
+    * Compliance risk -- violating regulatory or corporate policies 
+
+## Why make it like the idea of services?
+   Tomorrow when the company has to change infrastructure you can use stuffs like Terraform or ansible 
+   to make the transition for different versions of the app.
+
+## Make Budget for ChatGPT or github copilot
+   * This will 5-10x productivity your engineers in the team.
+   * This is crucial for GPT 
