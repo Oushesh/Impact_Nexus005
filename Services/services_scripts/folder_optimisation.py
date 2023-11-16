@@ -2,6 +2,13 @@ import os
 import pandas as pd
 import json
 from pathlib import Path
+import logging
+
+# Configure Logging
+log_file_path = 'conversion_logs.log'
+logging.basicConfig(level=logging.INFO, filename=log_file_path, filemode='a',
+                    format='%(asctime)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
+logger = logging.getLogger(__name__)
 
 def find_files_in_folder(folder_path):
     # Recursively find all files in the folder and its subfolders
@@ -17,6 +24,7 @@ def convert_to_parquet(input_base_folder, input_file_paths, output_base_folder):
         if os.path.getsize(input_file_path) == 0:
             #Add logger here
             print(f"Skipping empty file: {input_file_path}")
+            logger.warning(f"Skipping empty file: {input_file_path}")
             continue
 
         # Determine file format based on file extension
@@ -28,14 +36,14 @@ def convert_to_parquet(input_base_folder, input_file_paths, output_base_folder):
         output_relative_folder = output_relative_folder.strip("/")
 
         output_folder = os.path.join(output_base_folder,output_relative_folder)
-        print (file_name+"."+file_extension)
-        print ("file extension",file_extension)
-        print ("file name",file_name)
-        print ("output file_name",output_file_name)
-        print ("output_relative_folder",output_relative_folder)
-        print ("input_file_path",input_file_path)
-        print ("output_base_folder",output_base_folder)
-        print ("output_folder",output_folder)
+        #print (file_name+"."+file_extension)
+        #print ("file extension",file_extension)
+        #print ("file name",file_name)
+        #print ("output file_name",output_file_name)
+        #print ("output_relative_folder",output_relative_folder)
+        #print ("input_file_path",input_file_path)
+        #print ("output_base_folder",output_base_folder)
+        #print ("output_folder",output_folder)
         try:
             if file_extension in ['csv', 'tsv', 'txt']:
                 # CSV, TSV, TXT to Parquet
@@ -83,6 +91,7 @@ def convert_to_parquet(input_base_folder, input_file_paths, output_base_folder):
 
             else:
                 print(f"Unsupported file format: {file_extension}")
+                logger.warning(f"Unsupported file format: {file_extension}")
                 continue
 
             # Convert all columns to strings
@@ -96,9 +105,11 @@ def convert_to_parquet(input_base_folder, input_file_paths, output_base_folder):
 
             # Write DataFrame to Parquet
             df.to_parquet(os.path.join(output_folder,output_file_name))
+            logger.info(f"Converted {file_extension} file: {input_file_path} to Parquet: {os.path.join(output_folder,output_file_name)}")
 
         except pd.errors.ParserError as e:
             print(f"Error parsing {file_extension} file {input_file_path}: {e}")
+            logger.error(f"Error parsing {file_extension} file {input_file_path}: {e}")
             # Handle the error as needed (skip the file, log the error, etc.)
 
 if __name__ == "__main__":
@@ -115,3 +126,5 @@ if __name__ == "__main__":
     print ("input_file",input_file_paths[10])
     # Convert each file to Parquet and save it in the output folder
     convert_to_parquet(input_base_folder,input_file_paths, output_base_folder)
+
+## Convert this to an endpoint: add logs to supabase
