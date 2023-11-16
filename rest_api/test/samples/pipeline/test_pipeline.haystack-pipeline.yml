@@ -26,7 +26,6 @@ components:
     params:
       remove_numeric_tables: false
 
-
 pipelines:
   - name: test-query
     nodes:
