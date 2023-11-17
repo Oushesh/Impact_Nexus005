@@ -194,3 +194,8 @@ if __name__ == "__main__":
 ## TODO: upload log files: # Parse log lines and prepare data for upsert
 ## TODO: data = {'log_timestamp': [], 'log_level': [], 'log_message': []}
 
+## Airbyte: https://medium.com/@kfinkels/streaming-data-from-multiple-sources-using-airbyte-part-2-c1a00d195cde
+
+## https://medium.com/@kfinkels/streaming-data-from-multiple-sources-using-airbyte-part-2-c1a00d195cde
+
+## Trigger embeddings when new data comes.
