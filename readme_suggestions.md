@@ -18,8 +18,7 @@
        * pre-commit install
 
     2. Github actions when merging branches. (configure tests)
-       * 
-       * 
+        
     3. Good critics: (Django or FastAPI is good).
        I would have put a minus if things like Flask or streamlit 
        were to be used.
@@ -136,3 +135,17 @@ pre-commit install
 ## Make Budget for ChatGPT or github copilot
    * This will 5-10x productivity your engineers in the team.
    * This is crucial for GPT 
+
+## TODOS:
+   * 
+
+## DONE
+   * Data Optimisation Cost optimisation csv,json,jsonl, pandas --> apache parquet
+   * Data Sync
+   * Embeddings Semantic knowledge of Data
+   * Deep Check to check for anomalies in incoming data
+
+## Tests for high Standards from here: 
+   * https://eugeneyan.com/writing/setting-up-python-project-for-automation-and-collaboration/
+
+## Write Tests for ML Here: 
