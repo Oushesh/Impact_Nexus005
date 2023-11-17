@@ -18,7 +18,8 @@
        * pre-commit install
 
     2. Github actions when merging branches. (configure tests)
-
+       * 
+       * 
     3. Good critics: (Django or FastAPI is good).
        I would have put a minus if things like Flask or streamlit 
        were to be used.
@@ -27,6 +28,8 @@
        use notebooks from google colab its cheap and 
        way fast for a team to work with rather than
        configuring gpu configs locally.
+
+    5.  
 
 ## Scalabilty of Data: 
    CSV is a simple and common format that is used 
@@ -40,8 +43,6 @@
      
      In perspective:
 ![Apache_Parquet_Advantages](docs/Apache_Parquet_Advantages.png)
-     
-
 
 ## Data Download (DONE) , Data Ingestion, Data Aggregation
    * Enhance Data Collection from different sources: Airbyte (scrape data from api endpoints) -->
@@ -123,7 +124,7 @@ pre-commit install
    Aggregate Data from scraping (Airbyte example oekobaudat data here)
    
    Bad Comments: why have 2 application running: (unified: into 1 Django structure) rest_api
-
+    Rest_api 
 ## MLOPS
     * Technical risk -- poorly performing
     * Compliance risk -- violating regulatory or corporate policies 
