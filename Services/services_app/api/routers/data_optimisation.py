@@ -52,7 +52,7 @@ class Parquet_Optimization():
         return files
 
     @classmethod
-    def convert_to_parquet(input_base_folder, input_file_paths, output_base_folder):
+    def convert_to_parquet(cls,input_base_folder, input_file_paths, output_base_folder):
         log_data = {'log_timestamp': [], 'log_level': [], 'log_message': []}
         for input_file_path in input_file_paths:
             # Check if the file is empty
@@ -199,7 +199,11 @@ def parquet_conversion_service(request, url_type:str, form: FolderSelectionForm=
     # TODO: make a way there is drop down for user to select the url_type
     assert url_type in ["local","s3"]
 
-    assert ()
+    BASE_DIR = Path(__file__).resolve().parent.parent
+    input_base_folder = os.path.join(BASE_DIR,"services_app/KnowledgeBase")  # Replace with your input folder
+
+    print ("input_folder",input_base_folder)
+
 
     if url_type == "local" and form:
         Parquet_Optimization.convert_to_parquet(form.input_folder,form.output_folder,url_type)
