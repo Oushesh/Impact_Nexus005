@@ -137,7 +137,7 @@ pre-commit install
    * This is crucial for GPT 
 
 ## TODOS:
-   * 
+   * Bugs (add support for multiple pages for .xslx files in: UoA .xslx )
 
 ## DONE
    * Data Optimisation Cost optimisation csv,json,jsonl, pandas --> apache parquet
@@ -149,3 +149,4 @@ pre-commit install
    * https://eugeneyan.com/writing/setting-up-python-project-for-automation-and-collaboration/
 
 ## Write Tests for ML Here: 
+
