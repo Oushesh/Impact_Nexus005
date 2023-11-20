@@ -6,9 +6,10 @@ from pathlib import Path
 import os
 import supabase
 from dotenv import load_dotenv
-import logging
 import pandas as pd
 import json
+import pytest
+
 
 class Parquet_Optimization():
     def __init__(self,**kwargs):
@@ -105,8 +106,9 @@ class Parquet_Optimization():
 
             # Create a DataFrame to append
             log_dfs.append(df)
-            #print (log_dfs)
-        return log_dfs
+        # Concatenate all DataFrames into a single DataFrame
+        final_log_df = pd.concat(log_dfs, ignore_index=True)
+        return final_log_df
 
 def parquet_conversion_service(url_type:str,input_base_folder:str,output_base_folder:str):
     # TODO: make a way there is drop down for user to select the url_type
@@ -117,14 +119,16 @@ def parquet_conversion_service(url_type:str,input_base_folder:str,output_base_fo
     log_df = Parquet_Optimization.convert_to_parquet(input_base_folder,input_file_paths,output_base_folder)
     return log_df
 
+@pytest.fixture
 def test_parquet_conversion_service():
     url_type = "local"
     input_base_folder = os.path.join("../Services/services_app","KnowledgeBase")
     output_base_folder = os.path.join("../Services/services_app","KnowledgeBaseParquet")
 
     #Read files and check if they contain NaN etc..
-    log_dfs = parquet_conversion_service(url_type,input_base_folder,output_base_folder)
+    final_log_df = parquet_conversion_service(url_type,input_base_folder,output_base_folder)
+    for _, row in final_log_df.iterrows():
+        assert not row.isnull().any(), "No empty cells or unwanted characters should exist in the database"
 
-    for log_df in log_dfs:
-        assert (log_df.isnull().values.any()==False) #assert no empty cells or unwanted characters exist in the database
+    #assert (final_log_df.isnull().values.any()==False) #assert no empty cells or unwanted characters exist in the database
     return None

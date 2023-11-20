@@ -43,6 +43,8 @@ thefuzz
 trafilatura
 python-levenshtein
 pyarrow
+pytest-cov
+pytest
 
 
 #[tool.poetry.group.dev.dependencies]

@@ -28,16 +28,12 @@ class Build_KnowledgeBase():
         # Assuming you want to read the contents of .csv and .tsv files
         # You might need to adjust this based on the actual file format
         with open(file_path, 'r') as file:
-            # Read the content of the file and return it as a list or dictionary
-            # For example, if it's a CSV file, you might want to use the csv module
             # If it's a TSV file, you can split lines based on tabs, etc.
             content = file.readlines()
-            # Replace contents if they contains /n ot /t
             # Iterate through each line and replace '\n' and '\t'
             for i in range(len(content)):
                 content[i] = content[i].replace("\n", "").replace("\t", "")
         return content
-
 
 @router.get("/build_knowledgebase")
 def build_knowledgebase(request,path:str):

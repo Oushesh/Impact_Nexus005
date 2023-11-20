@@ -144,6 +144,7 @@ pre-commit install
    * Data Sync
    * Embeddings Semantic knowledge of Data
    * Deep Check to check for anomalies in incoming data
+   * Tests: pytest fixture and coverage of data (added pytest-coverage to see which part of the code were ran during our code execution)
 
 ## Tests for high Standards from here: 
    * https://eugeneyan.com/writing/setting-up-python-project-for-automation-and-collaboration/
