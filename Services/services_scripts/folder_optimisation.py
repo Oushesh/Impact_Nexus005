@@ -189,7 +189,6 @@ if __name__ == "__main__":
     # Convert each file to Parquet and save it in the output folder
     convert_to_parquet(input_base_folder,input_file_paths, output_base_folder)
 
-## TODO: convert this endpoint to a service for the company
 ## TODO: add sync between 2 aws s3 Buckets
 ## TODO: upload log files: # Parse log lines and prepare data for upsert
 ## TODO: data = {'log_timestamp': [], 'log_level': [], 'log_message': []}
