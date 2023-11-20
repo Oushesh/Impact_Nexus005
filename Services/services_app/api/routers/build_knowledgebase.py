@@ -1,6 +1,4 @@
 import os
-from dotenv import load_dotenv
-from typing import List
 from ninja import Router
 from pathlib import Path
 import json
