@@ -8,6 +8,7 @@ import supabase
 from dotenv import load_dotenv
 import logging
 import pandas as pd
+import json
 
 class Parquet_Optimization():
     def __init__(self,**kwargs):
@@ -24,12 +25,11 @@ class Parquet_Optimization():
 
     @classmethod
     def convert_to_parquet(cls,input_base_folder, input_file_paths, output_base_folder):
-        log_data = {'log_level': [], 'log_message': []}
+        log_dfs = []
         for input_file_path in input_file_paths:
             # Check if the file is empty
             if os.path.getsize(input_file_path) == 0:
-                log_data["log_level"].append("warning")
-                log_data["log_message"].append(f"Skipping empty file: {input_file_path}"[:1023])
+                print (f"Skipping empty file: {input_file_path}"[:1023])
                 continue
 
             # Determine file format based on file extension
@@ -51,8 +51,7 @@ class Parquet_Optimization():
                     try:
                         os.makedirs(output_folder, exist_ok=True)
                     except OSError as e:
-                        log_data["log_level"].append("warning")
-                        log_data["log_message"].append(f'Error creating the directory: {e}'[:1023])
+                        print (f'Error creating the directory: {e}'[:1023])
 
                 elif file_extension == 'json':
                     # JSON to Parquet
@@ -60,9 +59,7 @@ class Parquet_Optimization():
                     try:
                         os.makedirs(output_folder, exist_ok=True)
                     except OSError as e:
-                        logger.warning(f'Error creating the directory: {e}')
-                        log_data["log_level"].append("warning")
-                        log_data["log_message"].append(f'Error creating the directory: {e}'[:1023])
+                        print (f'Error creating the directory: {e}'[:1023])
 
                 elif file_extension == 'jsonl':
                     # JSONL to Parquet
@@ -75,9 +72,7 @@ class Parquet_Optimization():
                     try:
                         os.makedirs(output_folder, exist_ok=True)
                     except OSError as e:
-                        log_data["log_level"].append("warning")
-                        log_data["log_message"].append(f'Error creating the directory: {e}'[:1023])
-
+                        print (f'Error creating the directory: {e}'[:1023])
                 elif file_extension == 'xlsx':
                     # Excel (xlsx) to Parquet
                     df = pd.read_excel(input_file_path, header=None)
@@ -86,13 +81,10 @@ class Parquet_Optimization():
                     try:
                         os.makedirs(output_folder, exist_ok=True)
                     except OSError as e:
-                        log_data["log_level"].append("warning")
-                        log_data["log_message"].append(f'Error creating the directory: {e}'[:1023])
+                        print (f'Error creating the directory: {e}'[:1023])
 
                 else:
                     print(f"Unsupported file format: {file_extension}")
-                    log_data["log_level"].append("warning")
-                    log_data["log_message"].append(f"Unsupported file format: {file_extension}"[:1023])
                     continue
 
                 # Convert all columns to strings
@@ -106,30 +98,24 @@ class Parquet_Optimization():
                 # Write DataFrame to Parquet
                 df.to_parquet(os.path.join(output_folder,output_file_name))
 
-                log_data["log_level"].append("info")
-                log_data["log_message"].append(f"Converted {file_extension} file: {input_file_path} to Parquet: {os.path.join(output_folder,output_file_name)}"[:1023])
+                print (f"Converted {file_extension} file: {input_file_path} to Parquet: {os.path.join(output_folder,output_file_name)}"[:1023])
 
             except pd.errors.ParserError as e:
-                log_data["log_level"].append("error")
-                log_data["log_message"].append(f"Error parsing {file_extension} file {input_file_path}: {e}"[:1023])
+                print (f"Error parsing {file_extension} file {input_file_path}: {e}"[:1023])
 
-        # Create a DataFrame from the parsed data
-        log_df = pd.DataFrame(log_data).to_dict()
-
+            # Create a DataFrame to append
+            log_dfs.append(df)
+            #print (log_dfs)
+        return log_dfs
 
 def parquet_conversion_service(url_type:str,input_base_folder:str,output_base_folder:str):
     # TODO: make a way there is drop down for user to select the url_type
     assert url_type in ["local","s3"]
 
-    BASE_DIR = Path(__file__).resolve().parent.parent.parent
-    input_base_folder = os.path.join(BASE_DIR,"KnowledgeBase")  # Replace with your input folder
-
-    output_base_folder = os.path.join(BASE_DIR,"KnowledgeBaseParquet")
-
     input_file_paths = Parquet_Optimization.find_files_in_folder(input_base_folder)
 
-    Parquet_Optimization.convert_to_parquet(input_base_folder,input_file_paths,output_base_folder)
-    return None
+    log_df = Parquet_Optimization.convert_to_parquet(input_base_folder,input_file_paths,output_base_folder)
+    return log_df
 
 def test_parquet_conversion_service():
     url_type = "local"
@@ -137,8 +123,8 @@ def test_parquet_conversion_service():
     output_base_folder = os.path.join("../Services/services_app","KnowledgeBaseParquet")
 
     #Read files and check if they contain NaN etc..
-    parquet_conversion_service(url_type,input_base_folder,output_base_folder)
+    log_dfs = parquet_conversion_service(url_type,input_base_folder,output_base_folder)
+
+    for log_df in log_dfs:
+        assert (log_df.isnull().values.any()==False) #assert no empty cells or unwanted characters exist in the database
     return None
-
-
-##TODO: add more test service here.

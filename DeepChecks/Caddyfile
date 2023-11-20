@@ -1,0 +1,19 @@
+{
+  auto_https disable_redirects
+}
+localhost:8443 {
+    tls /certs/localhost.crt /certs/localhost.key
+
+    reverse_proxy http://casdoor:4545 {
+        header_up Host {upstream_hostport}
+        header_up X-Real-IP {remote_host}
+    }
+}
+localhost, :443 {
+    tls /certs/localhost.crt /certs/localhost.key
+
+    reverse_proxy http://app:8000
+}
+localhost:80 {
+    reverse_proxy http://app:8000
+}
