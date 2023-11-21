@@ -31,6 +31,7 @@ logger = logging.getLogger(__name__)
 @router.post("/process_file_classification_job")
 def process_file_classification_job(request, file: UploadedFile):
     # Read the file into a Pandas DataFrame
+    filename, _ = file.name.rsplit('.', 1)
     if file.name.endswith('.xlsx'):
         df = pd.read_excel(file.file, engine='openpyxl')
     elif file.name.endswith(('.csv', '.tsv')):
@@ -46,11 +47,11 @@ def process_file_classification_job(request, file: UploadedFile):
     output_file = io.BytesIO()
     df.to_excel(output_file, index=False, engine='openpyxl')
     #TODO: save it to csv instead.
-    df.to_csv()
+    #df.to_csv()
     output_file.seek(0)
 
     # Create a response with the modified file
     response = HttpResponse(output_file.read(), content_type='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
-    response['Content-Disposition'] = 'attachment; filename=modified_file.xlsx'
+    response['Content-Disposition'] = 'attachment; filename={filename}_filled.xlsx'
 
     return response
