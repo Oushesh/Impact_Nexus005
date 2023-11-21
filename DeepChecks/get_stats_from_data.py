@@ -3,18 +3,18 @@ This is a data loader
 and then we perform statistical
 check on the data.
 """
-
 import json
 import os
-from io import BytesIO
 
 import numpy as np
 import pandas as pd
-import requests
 import typing as t
 
 from deepchecks.nlp.checks import TextPropertyOutliers
 from deepchecks.nlp import TextData
+
+
+#TODO: add source of data as metadata always and date and time of export or experiment number.
 
 def read_and_save_data(assets_dir, file_name, url_to_file, file_type='csv', to_numpy=False, include_index=True):
     """If the file exist reads it from the assets' directory, otherwise reads it from the url and saves it."""
