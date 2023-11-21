@@ -28,10 +28,12 @@ logging.basicConfig(level=logging.INFO, filename=log_file_path, filemode='a',
 
 logger = logging.getLogger(__name__)
 
-@router.post("/process_file_classification_job")
-def process_file_classification_job(request, file: UploadedFile):
-    # Read the file into a Pandas DataFrame
+@router.post("/process_file")
+def process_file(request, file: UploadedFile):
+    # Get the filename without extension
     filename, _ = file.name.rsplit('.', 1)
+
+    # Read the file into a Pandas DataFrame
     if file.name.endswith('.xlsx'):
         df = pd.read_excel(file.file, engine='openpyxl')
     elif file.name.endswith(('.csv', '.tsv')):
@@ -43,15 +45,23 @@ def process_file_classification_job(request, file: UploadedFile):
     # Fill in empty rows with "None"
     df.fillna('None', inplace=True)
 
+    # Check if the columns already exist
+    if 'label' not in df.columns:
+        # Add a new "label" column with a default value of "None"
+        df['label'] = 'None'
+
+    if 'train_test_split' not in df.columns:
+        # Add a new "train_test_split" column with a default value of "None"
+        df['train_test_split'] = 'None'
+
     # Save the modified DataFrame to a new Excel file
     output_file = io.BytesIO()
-    df.to_excel(output_file, index=False, engine='openpyxl')
-    #TODO: save it to csv instead.
-    #df.to_csv()
+    #df.to_excel(output_file, index=False, engine='openpyxl')
+    df.to_csv(output_file,index=False)
     output_file.seek(0)
 
-    # Create a response with the modified file
+    # Create a response with the modified file and dynamic filename
     response = HttpResponse(output_file.read(), content_type='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
-    response['Content-Disposition'] = 'attachment; filename={filename}_filled.xlsx'
+    response['Content-Disposition'] = f'attachment; filename={filename}_filled.csv'
 
     return response
