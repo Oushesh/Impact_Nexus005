@@ -28,6 +28,7 @@ logging.basicConfig(level=logging.INFO, filename=log_file_path, filemode='a',
 
 logger = logging.getLogger(__name__)
 
+
 @router.post("/process_file")
 def process_file(request, file: UploadedFile, selected_header: str = ''):
     # Get the filename without extension
