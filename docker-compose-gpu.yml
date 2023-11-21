@@ -3,7 +3,7 @@ services:
   smart-evidence-api:
     build:
       context: .
-      dockerfile: Dockerfile.gpu
+      dockerfile: gpu.Dockerfile
     container_name: smart-evidence-container
     # in recent docker-compose version you can enable GPU resources. Make sure to fulfill the prerequisites listed here: https://docs.docker.com/compose/gpu-support/
     ulimits:
@@ -30,7 +30,7 @@ services:
   smart-evidence-api-dev:
     build:
       context: .
-      dockerfile: Dockerfile.gpu
+      dockerfile: gpu.Dockerfile
     ulimits:
       memlock: -1
       stack: 67108864
