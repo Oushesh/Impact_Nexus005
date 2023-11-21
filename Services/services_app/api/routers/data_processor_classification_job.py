@@ -16,7 +16,8 @@ import logging
 import io
 from dotenv import load_dotenv
 from datetime import datetime
-
+from django.http import HttpResponse
+from django.shortcuts import render
 
 router = Router()
 
@@ -44,6 +45,8 @@ def process_file_classification_job(request, file: UploadedFile):
     # Save the modified DataFrame to a new Excel file
     output_file = io.BytesIO()
     df.to_excel(output_file, index=False, engine='openpyxl')
+    #TODO: save it to csv instead.
+    df.to_csv()
     output_file.seek(0)
 
     # Create a response with the modified file
