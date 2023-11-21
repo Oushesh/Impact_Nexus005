@@ -147,7 +147,9 @@ pre-commit install
    * Tests: pytest fixture and coverage of data (added pytest-coverage to see which part of the code were ran during our code execution)
    * moved rest_api_schema under services of schema.
    * moved assets under folder data
-   * moved language model 
+   * moved language model under folder model
+   * used embeddings from openai ada --> no need for python-levenstein distance (why?)
+     * semantic difference is better with lemma, stemming 
     
 ## Tests for high Standards from here: 
    * https://eugeneyan.com/writing/setting-up-python-project-for-automation-and-collaboration/

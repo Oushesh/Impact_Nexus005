@@ -4,7 +4,12 @@ run-docker-dev:
 	docker-compose up
 
 run-docker-gpu:
-	docker-compose -p entity-lookup-service_stack -f local_infra/docker-compose-local.yml up --build
+	docker-compose-gpu
+run-docker-rest-api:
+	docker-compose-rest-api
+
+run-smart-evidence:
+	docker-compose-smart-evidence
 
 run:
 	cd Services && python3 manage.py runserver
@@ -28,23 +33,27 @@ opensearch:
     -e "discovery.type=single-node" \
     opensearchproject/opensearch:1.2.0
 
-local-infra:
-	docker-compose -p entity-lookup-service_local_infra -f local_infra/docker-compose-local-infra.yml up --build
 
-local-infra-gpu:
+download-data:
+	bash bash-scripts/download_blink_models.sh
 
-
-data:
-	chmod 755 local_infra/put_data.sh && ./local_infra/put_data.sh
+models:
+	aws sync models
 
 install-dev:
-	python3 -m pip install -r requirements/dev.txt
+	python3 -m venv dev_venv && \
+    	. dev_venv/bin/activate && \
+    	python3 -m pip install -r requirements/dev.txt
 
 install-common:
-	python3 -m pip install -r requirements/prod.txt
+	python3 -m venv common_venv && \
+      . common_venv/bin/activate && \
+      python3 -m pip install -r requirements/common.txt
 
 install-prod:
-	python3 -m pip install -r requirements/prod.txt
+	python3 -m venv prod_venv && \
+        . prod_venv/bin/activate && \
+        python3 -m pip install -r requirements/prod.txt
 
 test:
 	python3 -m pytest tests
@@ -52,8 +61,10 @@ test:
 lint:
 	flake8
 
-rest_api:
-	python3 -m pip install -r requirements/rest_api.txt
+rest_api-local:
+	python3 -m venv rest_api_venv && \
+        . rest_api_venv/bin/activate && \
+        python3 -m pip install -r requirements/rest_api.txt
 
 postgres:
 

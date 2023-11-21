@@ -3,7 +3,7 @@ KnoledgeBaseParquet/
 rest_api/
 rest_api_venv
 nlp_venv
-postgres-330510-458530c3ac03.json
+postgres/postgres-330510-458530c3ac03.json
 smart_evidence
 tests
 tika.log
