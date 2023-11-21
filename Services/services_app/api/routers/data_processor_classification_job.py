@@ -29,7 +29,7 @@ logging.basicConfig(level=logging.INFO, filename=log_file_path, filemode='a',
 logger = logging.getLogger(__name__)
 
 @router.post("/process_file")
-def process_file(request, file: UploadedFile):
+def process_file(request, file: UploadedFile, selected_header: str = ''):
     # Get the filename without extension
     filename, _ = file.name.rsplit('.', 1)
 
@@ -45,7 +45,26 @@ def process_file(request, file: UploadedFile):
     # Fill in empty rows with "None"
     df.fillna('None', inplace=True)
 
-    # Check if the columns already exist
+    # Get the list of headers from the DataFrame
+    headers_list = list(df.columns)
+
+    # If no header is selected, provide a list of headers for the user to choose
+    if not selected_header:
+        return {
+            "message": "Please select a header.",
+            "headers": headers_list,
+        }
+
+    # Check if the selected header exists
+    if selected_header not in headers_list:
+        return HttpResponse(f"Selected header '{selected_header}' not found in the file.", status=400)
+
+    # Rename the selected header to "text" and move it to the first column
+    df['text'] = df[selected_header]
+    df.drop(columns=[selected_header], inplace=True)
+    df = pd.concat([df['text'], df.drop(columns=['text'])], axis=1)
+
+    # Check if the columns "label" and "train_test_split" already exist
     if 'label' not in df.columns:
         # Add a new "label" column with a default value of "None"
         df['label'] = 'None'
@@ -62,6 +81,6 @@ def process_file(request, file: UploadedFile):
 
     # Create a response with the modified file and dynamic filename
     response = HttpResponse(output_file.read(), content_type='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
-    response['Content-Disposition'] = f'attachment; filename={filename}_filled.csv'
+    response['Content-Disposition'] = f'attachment; filename={filename}_filled.xlsx'
 
     return response
