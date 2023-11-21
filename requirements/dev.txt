@@ -97,3 +97,4 @@ typing_extensions
 uvicorn
 validators
 virtualenv
+openpyxl
