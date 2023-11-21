@@ -1,0 +1,86 @@
+# 02.10_Forest Trees and Nursery Services > 02.10.1_Live Forest Tree Plants; Forest Tree Seeds
+# Live forest tree plants	NACE	02.10.11
+live forest tree plant
+# 02.10_Forest Trees and Nursery Services > 02.10.1_Live Forest Tree Plants; Forest Tree Seeds
+# Forest tree seeds	NACE	02.10.12
+forest tree seed
+# 02.10_Forest Trees and Nursery Services > 02.10.2_Forest Trees Nurseries Services
+# Forest trees nurseries services	NACE	02.10.20
+forest tree nursery service
+# 02.10_Forest Trees and Nursery Services > 02.10.3_Forest Trees
+# Forest trees	NACE	02.10.30
+forest tree
+# 02.20_Wood in the Rough > 02.20.1_Wood in the Rough
+# Logs of coniferous wood	NACE	02.20.11
+log
+# 02.20_Wood in the Rough > 02.20.1_Wood in the Rough
+# Logs of non-coniferous wood, except tropical wood	NACE	02.20.12
+log
+tropical wood
+# 02.20_Wood in the Rough > 02.20.1_Wood in the Rough
+# Logs of tropical wood	NACE	02.20.13
+log
+tropical wood
+# 02.20_Wood in the Rough > 02.20.1_Wood in the Rough
+# Fuel wood of coniferous wood	NACE	02.20.14
+#This subcategory also includes:
+#- charcoal produced in the forest (by use of traditional methods)
+fuel wood
+charcoal
+the forest
+traditional method
+# 02.20_Wood in the Rough > 02.20.1_Wood in the Rough
+# Fuel wood of non-coniferous wood	NACE	02.20.15
+#This subcategory also includes:
+#- charcoal produced in the forest (by use of traditional methods)
+fuel wood
+charcoal
+the forest
+traditional method
+# 02.30_Wild Growing Non-Wood Products > 02.30.1_Natural Gums
+# Balata, gutta-percha, guayula, chicle and similar natural gums	NACE	02.30.11
+balata
+guayula
+chicle
+similar natural gum
+# 02.30_Wild Growing Non-Wood Products > 02.30.1_Natural Gums
+# Lac, balsams and other natural gums and resins	NACE	02.30.12
+other natural gum
+resin
+# 02.30_Wild Growing Non-Wood Products > 02.30.2_Natural Cork, Raw or Simply Prepared
+# Natural cork, raw or simply prepared	NACE	02.30.20
+natural cork
+# 02.30_Wild Growing Non-Wood Products > 02.30.3_Parts of Plants, Grasses, Mosses and Lichens Suitable for Ornamental Purposes
+# Parts of plants, grasses, mosses and lichens suitable for ornamental purposes	NACE	02.30.30
+grass
+moss
+lichen
+purpose
+# 02.30_Wild Growing Non-Wood Products > 02.30.4_Wild Growing Edible Products
+# Wild growing edible products	NACE	02.30.40
+wild grow edible product
+# 02.40_Support Services to Forestry > 02.40.1_Support Services to Forestry
+# Support services to forestry	NACE	02.40.10
+#This subcategory includes:
+#- forestry services:
+#  . forestry inventories
+#  . forest management consulting services
+#  . timber evaluation
+#  . forest fire fighting and protection
+#  . forest pest control
+#- logging services:
+#  . transport of logs within the forest
+#- provision of forestry machinery with crew and operators
+support
+forestry service
+forestry inventory
+forest
+consulting service
+timber evaluation
+forest fire fighting
+forest pest control
+logging service
+log
+the forest
+forestry machinery
+crew

@@ -1,0 +1,99 @@
+# 19.10_Coke Oven Products > 19.10.1_Coke and Semi-Coke of Coal, of Lignite or of Peat; Retort Carbon
+# Coke and semi-coke of coal, of lignite or of peat; retort carbon	NACE	19.10.10
+coke
+carbon
+# 19.10_Coke Oven Products > 19.10.2_Tar Distilled From Coal, Lignite or Peat; Other Mineral Tars
+# Tar distilled from coal, lignite or peat; other mineral tars	NACE	19.10.20
+tar
+other mineral tar
+# 19.10_Coke Oven Products > 19.10.3_Pitch and Pitch Coke
+# Pitch and pitch coke	NACE	19.10.30
+pitch
+pitch coke
+# 19.10_Coke Oven Products > 19.10.9_Sub-Contracted Operations as Part of Manufacturing of Coke Oven Products
+# Sub-contracted operations as part of manufacturing of coke oven products	NACE	19.10.99
+coke oven product
+# 19.20_Refined Petroleum Products > 19.20.1_Briquettes, Ovoids and Similar Solid Fuels
+# Briquettes, ovoids and similar solid fuels manufactured from coal	NACE	19.20.11
+#This subcategory also includes:
+#- pellets and briquettes of organic fossils
+briquettes
+ovoid
+similar solid fuel
+organic fossil
+# 19.20_Refined Petroleum Products > 19.20.1_Briquettes, Ovoids and Similar Solid Fuels
+# Briquettes, ovoids and similar solid fuels manufactured from lignite	NACE	19.20.12
+#This subcategory also includes:
+#- pellets and briquettes of organic fossils
+briquettes
+ovoid
+similar solid fuel
+organic fossil
+# 19.20_Refined Petroleum Products > 19.20.1_Briquettes, Ovoids and Similar Solid Fuels
+# Briquettes, ovoids and similar solid fuels manufactured from peat	NACE	19.20.13
+#This subcategory also includes:
+#- pellets and briquettes of organic fossils
+briquettes
+ovoid
+similar solid fuel
+organic fossil
+# 19.20_Refined Petroleum Products > 19.20.2_Fuel Oil and Gas; Lubricating Oils
+# Motor spirit (gasoline)	NACE	19.20.21
+motor spirit
+gasoline
+# 19.20_Refined Petroleum Products > 19.20.2_Fuel Oil and Gas; Lubricating Oils
+# Aviation spirit	NACE	19.20.22
+aviation spirit
+# 19.20_Refined Petroleum Products > 19.20.2_Fuel Oil and Gas; Lubricating Oils
+# White spirit	NACE	19.20.23
+white spirit
+# 19.20_Refined Petroleum Products > 19.20.2_Fuel Oil and Gas; Lubricating Oils
+# Spirit type and kerosene jet fuel	NACE	19.20.24
+spirit type
+kerosene jet fuel
+# 19.20_Refined Petroleum Products > 19.20.2_Fuel Oil and Gas; Lubricating Oils
+# Naphtha	NACE	19.20.25
+naphtha
+# 19.20_Refined Petroleum Products > 19.20.2_Fuel Oil and Gas; Lubricating Oils
+# Gas oils	NACE	19.20.26
+gas oil
+# 19.20_Refined Petroleum Products > 19.20.2_Fuel Oil and Gas; Lubricating Oils
+# Medium petroleum oils; medium preparations n.e.c.	NACE	19.20.27
+medium petroleum oil
+medium preparation
+# 19.20_Refined Petroleum Products > 19.20.2_Fuel Oil and Gas; Lubricating Oils
+# Fuel oils n.e.c.	NACE	19.20.28
+fuel oil n.e.c
+# 19.20_Refined Petroleum Products > 19.20.2_Fuel Oil and Gas; Lubricating Oils
+# Lubricating petroleum oils; heavy preparations n.e.c.	NACE	19.20.29
+lubricate petroleum oil
+heavy preparation
+# 19.20_Refined Petroleum Products > 19.20.3_Petroleum Gases and Other Gaseous Hydrocarbons, Except Natural Gas
+# Propane and butane, liquefied	NACE	19.20.31
+propane
+butane
+# 19.20_Refined Petroleum Products > 19.20.3_Petroleum Gases and Other Gaseous Hydrocarbons, Except Natural Gas
+# Ethylene, propylene, butylene, butadiene	NACE	19.20.32
+ethylene
+propylene
+butylene
+butadiene
+# 19.20_Refined Petroleum Products > 19.20.3_Petroleum Gases and Other Gaseous Hydrocarbons, Except Natural Gas
+# Other petroleum gases or gaseous hydrocarbons, except natural gas	NACE	19.20.39
+other petroleum gas
+gaseous hydrocarbon
+# 19.20_Refined Petroleum Products > 19.20.4_Other Petroleum Products
+# Petroleum jelly; paraffin wax; petroleum and other waxes	NACE	19.20.41
+petroleum jelly
+paraffin wax
+petroleum
+other wax
+# 19.20_Refined Petroleum Products > 19.20.4_Other Petroleum Products
+# Petroleum coke; petroleum bitumen and other residues of petroleum oils	NACE	19.20.42
+petroleum coke
+petroleum
+other residue
+petroleum oil
+# 19.20_Refined Petroleum Products > 19.20.9_Sub-Contracted Operations as Part of Manufacturing of Refined Petroleum Products
+# Sub-contracted operations as part of manufacturing of refined petroleum products	NACE	19.20.99
+petroleum product

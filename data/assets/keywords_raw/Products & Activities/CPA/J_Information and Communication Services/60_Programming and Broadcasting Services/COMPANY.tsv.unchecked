@@ -1,0 +1,82 @@
+# 60.10_Radio Broadcasting Services > 60.10.1_Radio Broadcasting Services; Broadcast Originals
+# Radio programming and broadcasting services	NACE	60.10.11
+#This subcategory includes:
+#- programme selection, scheduling and broadcasting of radio programmes
+#- combined programme production and broadcasting services
+radio
+programming and broadcasting service
+programme selection
+scheduling
+broadcasting
+radio programme
+broadcasting service
+# 60.10_Radio Broadcasting Services > 60.10.1_Radio Broadcasting Services; Broadcast Originals
+# Radio broadcasting originals	NACE	60.10.12
+#This subcategory includes:
+#- original radio content protectable as intellectual property, produced for transmission
+radio broadcasting original
+original radio content
+transmission
+# 60.10_Radio Broadcasting Services > 60.10.2_Radio Channel Programmes
+# Radio channel programmes	NACE	60.10.20
+#This subcategory includes:
+#- assemblies of radio programmes and broadcasts as the daily line-up of a station for distribution by others
+radio channel programme
+assembly
+radio programme
+broadcast
+
+lining
+a station
+# 60.10_Radio Broadcasting Services > 60.10.3_Radio Advertising Time
+# Radio advertising time	NACE	60.10.30
+radio advertising time
+# 60.20_Television Programming and Broadcasting Services; Broadcasting Originals > 60.20.1_Television Programming and Broadcasting Services
+# Linear television programming and broadcasting services	NACE	60.20.11
+#This subcategory includes:
+#- programme selection, scheduling (with editorial responsibility) and broadcasting of linear audio-visual media services to be delivered by electronic communications networks
+#- combined programme production, programme selection, scheduling (with editorial responsibility) of linear audio-visual media services to be delivered by electronic communications networks
+#- assemblies of television programmes and broadcasts as the daily line-up of a channel for distribution by others
+programming and broadcasting service
+programme selection
+scheduling
+editorial responsibility
+broadcasting
+medium
+electronic communication network
+assembly
+television programme
+broadcast
+
+lining
+a channel
+# 60.20_Television Programming and Broadcasting Services; Broadcasting Originals > 60.20.1_Television Programming and Broadcasting Services
+# On-line video-on-demand services	NACE	60.20.12
+#This subcategory includes:
+#- selection, scheduling (with editorial responsibility) and broadcasting of video-on-demand services delivered on-line (open Internet)
+lining
+selection
+scheduling
+editorial responsibility
+broadcasting
+open internet
+# 60.20_Television Programming and Broadcasting Services; Broadcasting Originals > 60.20.1_Television Programming and Broadcasting Services
+# Other video-on-demand services	NACE	60.20.13
+#This subcategory includes:
+#- selection, scheduling (with editorial responsibility) and broadcasting of video-on-demand services delivered through other means than open internet
+selection
+scheduling
+editorial responsibility
+broadcasting
+other mean
+open internet
+# 60.20_Television Programming and Broadcasting Services; Broadcasting Originals > 60.20.2_Television Broadcasting Originals
+# Television broadcasting originals	NACE	60.20.20
+#This subcategory includes:
+#- original television content protectable as intellectual property, produced for transmission
+television broadcasting original
+original television content
+transmission
+# 60.20_Television Programming and Broadcasting Services; Broadcasting Originals > 60.20.3_Television Advertising Time
+# Television advertising time	NACE	60.20.30
+television advertising time

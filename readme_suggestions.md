@@ -141,13 +141,19 @@ pre-commit install
 
 ## DONE
    * Data Optimisation Cost optimisation csv,json,jsonl, pandas --> apache parquet
-   * Data Sync
-   * Embeddings Semantic knowledge of Data
-   * Deep Check to check for anomalies in incoming data
+   * Data Sync 
+   * Embeddings Semantic knowledge of Data (ToDAY: Done)
+   * Deep Check to check for anomalies in incoming data (TOday:Done)
    * Tests: pytest fixture and coverage of data (added pytest-coverage to see which part of the code were ran during our code execution)
-
+   * moved rest_api_schema under services of schema.
+   * moved assets under folder data
+   * moved language model 
+    
 ## Tests for high Standards from here: 
    * https://eugeneyan.com/writing/setting-up-python-project-for-automation-and-collaboration/
 
 ## Write Tests for ML Here: 
 
+
+## Resources: 
+    https://eugeneyan.com/writing/setting-up-python-project-for-automation-and-collaboration/

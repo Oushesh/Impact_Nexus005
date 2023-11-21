@@ -5,7 +5,7 @@ from download_blink.sh
 import os
 from ninja import Router
 import urllib.request
-from django.responses import JSONResponse
+from django.http import JsonResponse
 
 router = Router()
 
@@ -38,7 +38,7 @@ def download_model(model_file, output_dir):
 def model_downloader(request,model_name:str):
     #Build the script for downloader here
     if model_name not in MODELS:
-        return JSONResponse(content={"error": "Invalid model name"}, status_code=400)
+        return JsonResponse(content={"error": "Invalid model name"}, status_code=400)
     return {"data":"success"}
 
 ## TODO: move all of that script here.

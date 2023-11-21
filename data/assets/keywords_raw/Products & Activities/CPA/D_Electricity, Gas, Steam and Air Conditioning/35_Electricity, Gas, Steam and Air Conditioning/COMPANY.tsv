@@ -1,0 +1,139 @@
+Renewable energy technology	renewable energy system	renewables	renewable electricity	renewable source	alternate energy
+
+
+Storage of energy	Storage of electricity	Energy storage	Electricity storage	Power storage
+Storage of heat	Heat storage
+Power to gas	Power-to-gas
+Energy storage	power storage	Grid energy storage	Energy storage technology	energy storage system
+
+
+# 35.11_Electricity > 35.11.1_Electricity
+# Electricity	NACE	35.11.10
+#This subcategory includes:
+#- electric energy, such as thermal, nuclear, gas turbine, diesel, hydroelectric and other renewable
+Electricity	Electric power	Electric energy
+Thermal energy
+Nuclear energy
+Fossil energy
+Gas turbine
+Diesel
+Petrol	Gasoline
+Hydroelectric
+Renewable energy	Energy from renewable	Renewable electricity	Renewable power	Power from renewable	Electrictiy from renewable	Renewable energy	renewable power	renewable electricity
+Clean energy	clean power	Clean electricity	green electricity	green power	renewable electricity
+Wind energy	Wind power
+Wind tribunes
+Photovoltaic	PV	P.V. 	Photovoltaic system	photovoltaic cells	Photovoltaic energy	solar electricity	solar panel	solar electricity	solar thermal	Solar energy	Solar power
+Geothermal energy	Geothermal power
+Waste-to-energy	Waste energy	WtE	EfW	energy-from-waste	energy to waste	waste to energy
+Tidal energy	Tidal power
+Hydro energy	Hydropower 
+Biomass energy
+Hydrogen fuel
+Fuel cell
+Renewable fuels
+Coal power	coal-fired power station	coal fired power station	coal power station	coal electricity
+Power station
+Renewable heat	Heat from renewable
+Batteries
+Bioenergy
+Biomass resources
+Biomass energy
+Biofuel
+Hydrogen fuel
+Power to gas	P2G	power-to-gas
+Power-to-X	P2X	P2Y	power to x
+
+# 35.12_Transmission Services of Electricity > 35.12.1_Transmission Services of Electricity
+# Transmission services of electricity	NACE	35.12.10
+#This subcategory includes:
+#- operation services of transmission systems that convey the electricity from the generation facility to the distribution system
+# 35.13_Distribution Services of Electricity > 35.13.1_Distribution Services of Electricity
+# Distribution services of electricity	NACE	35.13.10
+#This subcategory includes:
+#- operation services of distribution systems (i.e. consisting of lines, poles, meters, and wiring) that convey electric power received from the generation facility or the transmission system to the final consumer
+#- maintenance services of electric meters
+
+Transmission of energy	Energy transmission
+Transmission of electricity	Electricity transmission
+Transmission of heat	Heat transmission
+Distribution of energy	Energy distribution
+Distribution of electricity	Electric power distribution	electricity distribution	Electric power transmission
+Distribution of heat	Heat distribution
+Off-grid
+Electricity generation
+The distribution system
+Electricity distribution system
+Electrical grid	Power grid	Transmission grid	Distribution grid	
+Smart grid
+Decentralized electricity production
+
+# 35.14_Trade Services of Electricity > 35.14.1_Trade Services of Electricity
+# Trade services of electricity	NACE	35.14.10
+#This subcategory includes:
+#- trade services of electricity to the user 
+#- services provided by electric power brokers or agents that arrange the sale of electricity via power distribution systems operated by others
+#- operation services of electricity and transmission capacity exchanges for electric power
+
+
+# 35.21_Manufactured Gas > 35.21.1_Coal Gas, Water Gas, Producer Gas and Similar Gases, Other Than Petroleum Gases
+# Coal gas, water gas, producer gas and similar gases, other than petroleum gases	NACE	35.21.10
+#This subcategory includes:
+#- gas for the purpose of gas supply by carbonation of coal, from by-products of agriculture or from waste
+Coal gas
+Water gas
+Producer gas
+Petroleum gas
+Gas supply
+Natural gas
+Carbonation of coal
+Gaseous fuel
+Fracking
+
+# 35.22_Distribution Services of Gaseous Fuels Through Mains > 35.22.1_Distribution Services of Gaseous Fuels Through Mains
+# Distribution services of gaseous fuels through mains	NACE	35.22.10
+#This subcategory includes:
+#- distribution and supply of gaseous fuels of all kinds through a system of mains
+#- maintenance services of gas meters
+
+
+# 35.23_Trade Services of Gas Through Mains > 35.23.1_Trade Services of Gas Through Mains
+# Trade services of gas through mains	NACE	35.23.10
+#This subcategory includes:
+#- trade services of gas to the user through mains
+#- services by gas brokers or agents that arrange the sale of gas over gas distribution systems operated by others
+#- commodity and transport exchanges for gaseous fuels
+Gas distribution system
+
+
+# 35.30_Steam and Air Conditioning Supply Services > 35.30.1_Steam and Hot Water; Steam and Hot Water Supply Services
+# Steam and hot water	NACE	35.30.11
+Hot water
+Air conditioner	air conditioning	cooler
+Heating	Heating	spaceheating heat management
+Central heating
+Clean heat	clean heating
+
+# 35.30_Steam and Air Conditioning Supply Services > 35.30.1_Steam and Hot Water; Steam and Hot Water Supply Services
+# Steam and hot water supply services through mains	NACE	35.30.12
+#This subcategory includes:
+#- steam and hot water supply services for heating, power and other purposes
+Steam supply service
+Hot water supply service
+
+
+# 35.30_Steam and Air Conditioning Supply Services > 35.30.2_Ice; Cooled Air and Chilled Water Supply Services
+# Ice, including ice for cooling (i.e. non-food) purposes	NACE	35.30.21
+#This subcategory also includes:
+#- Ice for cooling (i.e. non-food) purposes
+Ice for cooling
+Refrigerants
+CFCs
+
+# 35.30_Steam and Air Conditioning Supply Services > 35.30.2_Ice; Cooled Air and Chilled Water Supply Services
+# Cooled air and chilled water supply services	NACE	35.30.22
+#This subcategory includes:
+#- cooled air and chilled water supply services through mains
+#- ice supply services
+Chill water supply service
+Ice supply service

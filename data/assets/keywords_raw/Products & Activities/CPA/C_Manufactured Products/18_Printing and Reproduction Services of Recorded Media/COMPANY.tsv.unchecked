@@ -1,0 +1,159 @@
+# 18.11_Newspaper Printing Services > 18.11.1_Newspaper Printing Services
+# Newspaper printing services	NACE	18.11.10
+#his subcategory includes:
+#- printing services of newspapers, journals and periodicals appearing at least four times a week
+newspaper print service
+print service
+
+# 18.12_Other Printing Services > 18.12.1_Other Printing Services
+# Printing services for postage stamps, taxation stamps, documents of titles, smart cards, cheques and other security papers and the like	NACE	18.12.11
+postage stamp
+taxation stamp
+smart card
+cheque
+other security paper
+the like
+# 18.12_Other Printing Services > 18.12.1_Other Printing Services
+# Printing services for advertising catalogues, prospects, posters and other printed advertising	NACE	18.12.12
+advertising catalogue
+prospecting
+poster
+other print advertising
+# 18.12_Other Printing Services > 18.12.1_Other Printing Services
+# Printing services for journals and periodicals, appearing less than four times a week	NACE	18.12.13
+print service
+less than four time
+# 18.12_Other Printing Services > 18.12.1_Other Printing Services
+# Printing services for books, maps, hydrographic or similar charts of all kinds, pictures, designs and photographs, postcards	NACE	18.12.14
+hydrographic or similar chart
+picture
+photograph
+postcard
+# 18.12_Other Printing Services > 18.12.1_Other Printing Services
+# Printing services for labels and tags	NACE	18.12.15
+label
+tag
+# 18.12_Other Printing Services > 18.12.1_Other Printing Services
+# Printing services directly onto materials other than paper	NACE	18.12.16
+#This subcategory also includes:
+#- printing services directly onto plastic, glass, metal, wood, textiles and ceramics
+#- silk-screen printing services on textiles and wearing apparel
+print service
+silk
+screen
+wear apparel
+# 18.12_Other Printing Services > 18.12.1_Other Printing Services
+# Other printing services n.e.c.	NACE	18.12.19
+other printing service n.e.c
+# 18.13_Pre-Press and Pre-Media Services > 18.13.1_Pre-Press Services
+# Pre-press services	NACE	18.13.10
+#This subcategory includes:
+#- composition, typesetting, phototypesetting, data-input including scanning and optical character recognition, electronic makeup services
+#- document creation, desktop publishing, and all other origination services
+#- preparation services of digital data, e.g. enhancement, selection, linkage of digital data
+#- computer aided design, computer aided manufacture, electronic processes for data-output services
+#- digital imposition services
+#- plate-making services including image setting and plate setting (for the printing processes letterpress and offset)
+#- services of engraving or etching of cylinders for gravure
+#- services of plate processes direct to plate (also photopolymer plates)
+#- plates and dies for relief stamping or printing services 
+#- artistic work including litho stones and prepared wood blocks services
+pre
+press service
+composition
+typesetting
+phototypesetting
+scanning
+optical character recognition
+electronic makeup service
+creation
+desktop publishing
+and all other origination service
+digital datum
+selection
+linkage
+computer aid design
+electronic process
+output
+digital imposition service
+image setting
+plate setting
+the printing process
+letterpress
+offset
+cylinder
+gravure
+plate process
+also photopolymer plate
+die
+relief stamping
+artistic work
+litho stone
+prepare wood block
+# 18.13_Pre-Press and Pre-Media Services > 18.13.2_Printing Plates or Cylinders and Other Impressed Media for Use in Printing
+# Printing plates or cylinders and other impressed media for use in printing	NACE	18.13.20
+print
+cylinder
+other impressed medium
+# 18.13_Pre-Press and Pre-Media Services > 18.13.3_Ancillary Services Related to Printing
+# Ancillary services related to printing	NACE	18.13.30
+#This subcategory includes:
+#- production services of presentation media, e.g. overhead projection foils and other digital forms of presentation
+#- design services of printing products e.g. sketches, layouts, dummies etc.
+ancillary service
+presentation medium
+other digital form
+presentation
+design service
+print product
+layout
+# 18.14_Binding and Related Services > 18.14.1_Binding and Related Services
+# Binding and related services	NACE	18.14.10
+#This subcategory includes:
+#- bookbinding, folding, assembling, stitching, glueing, collating, basting, adhesive binding, trimming, gold stamping services
+#- other graphic services such as die, sinking or stamping, Braille copying, punching and drilling, embossing, varnishing and laminating, collating and insetting, creasing
+#
+#This subcategory also includes:
+#- rebinding services
+binding
+bookbinding
+folding
+stitching
+collating
+basting
+adhesive binding
+gold stamping service
+other graphic service
+die
+stamping
+braille copying
+drilling
+embossing
+varnishing
+insetting
+creasing
+rebinding service
+# 18.20_Reproduction Services of Recorded Media > 18.20.1_Reproduction Services of Sound Recording
+# Reproduction services of sound recording	NACE	18.20.10
+#This subcategory includes:
+#- reproduction services from master copies of gramophone records, CDs, DVDs and tapes with music or other sound recordings
+sound recording
+master copy
+gramophone record
+other sound recording
+# 18.20_Reproduction Services of Recorded Media > 18.20.2_Reproduction Services of Video Recording
+# Reproduction services of video recording	NACE	18.20.20
+#This subcategory includes:
+#- reproduction services from master copies of video tapes and DVDs with motion pictures and other video recordings
+video recording
+master copy
+video tape
+picture
+other video recording
+# 18.20_Reproduction Services of Recorded Media > 18.20.3_Reproduction Services of Software
+# Reproduction services of software	NACE	18.20.30
+#This subcategory includes:
+#- reproduction services from master copies of software and data on all kind of discs and tapes
+master copy
+data
+disc

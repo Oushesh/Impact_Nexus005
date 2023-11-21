@@ -41,8 +41,6 @@ def build_knowledgebase(request,path:str):
 
     base_folder = os.path.join(BASE_DIR,"KnowledgeBase/assets")
     output_json = os.path.join(BASE_DIR,"output/knowledge.json")
-    #base_folder = '../assets'  # Change this to the root folder of your Django project
-    #output_json = 'knowledge.json'  # Change this to the desired output JSON file path
 
     result = Build_KnowledgeBase.process_folder(base_folder)
 

@@ -1,0 +1,19 @@
+version: "3"
+services:
+  smart-evidence-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # Mount custom Pipeline YAML and custom Components.
+    container_name: smart-evidence-container
+    volumes:
+      - .:/code
+    ports:
+      - 8000:8000
+    restart: on-failure
+    env_file:
+      - .env
+    environment:
+      - PORT=8000
+    command: rest_api/start-reload.sh
+  
