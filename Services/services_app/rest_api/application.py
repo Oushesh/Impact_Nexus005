@@ -11,9 +11,9 @@ from fastapi.routing import APIRoute
 from fastapi.openapi.utils import get_openapi
 from starlette.middleware.cors import CORSMiddleware
 
-from rest_api.controller.errors.http_error import http_error_handler
-from rest_api.config import ROOT_PATH
-from rest_api.controller.router import router as api_router
+from Services.services_app.rest_api.controller.errors.http_error import http_error_handler
+from Services.services_app.rest_api.config import ROOT_PATH
+from Services.services_app.rest_api.controller.router import router as api_router
 
 
 def get_application() -> FastAPI:

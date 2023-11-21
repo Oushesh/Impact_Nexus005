@@ -1,5 +1,5 @@
 import logging
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List
 
 from app.models.annotation import (
     AnnotatedInsight,
@@ -8,12 +8,11 @@ from app.models.annotation import (
     InsightAnnotation,
     SimpleConcept,
 )
-from rest_api.schema import InsightForConcept
-from smart_evidence.components import BaseComponent, Component
+from Services.services_app.rest_api import InsightForConcept
+from smart_evidence.components import BaseComponent
 from smart_evidence.components.classifiers.zero_shot_classifier import (
     ZeroShotClassifier,
 )
-from smart_evidence.components.data_stores import OpenSearchStore
 from smart_evidence.flows.config_to_flow import get_flow
 
 logger = logging.getLogger(__name__)

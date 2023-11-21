@@ -4,8 +4,7 @@ from typing import Any, List, Optional, Set, Tuple
 
 from haystack.nodes.base import BaseComponent
 from haystack.schema import Document
-from rest_api.config import LOG_LEVEL
-import numpy as np
+from Services.services_app.rest_api.config import LOG_LEVEL
 
 logging.getLogger(__name__).setLevel(LOG_LEVEL)
 logger = logging.getLogger(__name__)

@@ -3,28 +3,16 @@ import logging
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseConfig
 
-from app.models.documents import Document
-from app.models.impact_screening import Insight
-from rest_api.config import (
+from Services.services_app.rest_api.config import (
     CONCURRENT_REQUEST_PER_WORKER,
     LOG_LEVEL,
 )
-from rest_api.controller.errors.http_error import http_error_handler
-from rest_api.controller.utils import RequestLimiter
-from rest_api.schema import (
-    InsightForConcept,
+from Services.services_app.rest_api.controller.errors.http_error import http_error_handler
+from Services.services_app.rest_api.controller.utils import RequestLimiter
+from Services.services_app.rest_api.schema import (
     InsightsForConceptRequest,
     InsightsForConceptResponse,
 )
-from smart_evidence.components import Component
-from smart_evidence.components.classifiers.concept_insight_relatedness_classifier import (
-    ESGRelatedInsightsClassifier,
-)
-from smart_evidence.components.retrievers.sentence_transformer_retriever import (
-    SentenceTransformerRetriever,
-)
-from smart_evidence.data_models.document_store_schema import INSIGHTS_MAPPING
-from smart_evidence.components.data_stores import OpenSearchStore
 
 logging.getLogger("haystack").setLevel(LOG_LEVEL)
 logger = logging.getLogger("haystack")

@@ -5,7 +5,7 @@ from pathlib import Path
 import pytest
 from fastapi.testclient import TestClient
 
-from rest_api.application import app
+from Services.services_app.rest_api.application import app
 
 
 FEEDBACK = {

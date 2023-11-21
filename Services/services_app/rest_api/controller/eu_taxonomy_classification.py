@@ -1,33 +1,20 @@
 import logging
-from typing import List, Union
+from typing import List
 
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseConfig
 from app.models.annotation import AnnotatedInsight
-from app.models.documents import Document
-from app.models.impact_screening import Insight
-from rest_api.config import (
+from Services.services_app.rest_api.config import (
     CONCURRENT_REQUEST_PER_WORKER,
     EU_TAXONOMY_CLASSIFICATION_CONFIG_PATH,
     LOG_LEVEL,
 )
-from rest_api.controller.errors.http_error import http_error_handler
-from rest_api.controller.utils import RequestLimiter
-from rest_api.schema import (
+from Services.services_app.rest_api.controller.errors.http_error import http_error_handler
+from Services.services_app.rest_api.controller.utils import RequestLimiter
+from Services.services_app.rest_api.schema import (
     EUTaxonomyClassificationRequest,
     EUTaxonomyClassificationResponse,
 )
-from smart_evidence.components import Component
-from smart_evidence.components.classifiers import (
-    EUTaxonomyClassifier,
-    InsightClassifier,
-    ESGRelatedConceptsClassifier,
-)
-from smart_evidence.components.data_stores import (
-    OpenSearchStore,
-)
-from smart_evidence.components.retrievers import SentenceTransformerRetriever
-from smart_evidence.components.processors import ExtractScraperHTML, ParagraphProcessor
 from smart_evidence.flows.config_to_flow import get_flow
 
 logging.getLogger("smart-evidence").setLevel(LOG_LEVEL)

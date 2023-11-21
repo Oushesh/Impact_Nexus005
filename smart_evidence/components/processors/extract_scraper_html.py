@@ -1,13 +1,10 @@
-import json
-import logging
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, Optional
 import uuid
 
 from trafilatura import extract, fetch_url
 from trafilatura.settings import use_config
 
 from app.models.documents import Document, DocumentType
-from rest_api.schema import EUTaxonomyClassificationRequest
 from smart_evidence.components.base_component import BaseComponent
 from smart_evidence.components.processors.base_processor import BaseProcessor
 from smart_evidence.helpers.processor_util import html_extraction_to_document
