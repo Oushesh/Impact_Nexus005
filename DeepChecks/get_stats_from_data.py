@@ -88,7 +88,11 @@ class DisplayEmbeddings:
             Properties for the tweet_emotion dataset.
         """
         ASSETS_DIR = "Data"
-        properties = DisplayEmbeddings.read_and_save_data(ASSETS_DIR, 'tweet_emotion_properties.csv', _PROPERTIES_URL, to_numpy=False)
+        #properties = DisplayEmbeddings.read_and_save_data(ASSETS_DIR, 'tweet_emotion_properties.csv', _PROPERTIES_URL, to_numpy=False)
+
+        properties = DisplayEmbeddings.read_and_save_data(ASSETS_DIR, 'properties.csv', _PROPERTIES_URL,
+                                                          to_numpy=False)
+
         if as_train_test:
             train = properties[properties['train_test_split'] == 'Train'].drop(columns=['train_test_split'])
             test = properties[properties['train_test_split'] == 'Test'].drop(columns=['train_test_split'])
@@ -101,7 +105,9 @@ class DisplayEmbeddings:
         """Get the indexes of the train and test sets."""
 
         assets_dir = "Data"
-        file_name = "tweet_emotion_data.csv"
+        #file_name = "tweet_emotion_data.csv"
+        file_name = "dfg_other_sectors_20220121_filled.csv"
+
         full_file_path = os.path.join(assets_dir,file_name)
         _FULL_DATA_URL = 'https://ndownloader.figshare.com/files/39486889'
 
@@ -182,7 +188,12 @@ class DisplayEmbeddings:
         ASSETS_DIR = "Data"
         _target = 'label'
 
-        data = DisplayEmbeddings.read_and_save_data(ASSETS_DIR, 'tweet_emotion_data.csv', _FULL_DATA_URL, to_numpy=False)
+        #data = DisplayEmbeddings.read_and_save_data(ASSETS_DIR, 'tweet_emotion_data.csv', _FULL_DATA_URL, to_numpy=False)
+
+        data = DisplayEmbeddings.read_and_save_data(ASSETS_DIR, 'dfg_other_sectors_20220121_filled.csv', _FULL_DATA_URL,
+                                                    to_numpy=False)
+
+
         if not as_train_test:
             data.drop(columns=['train_test_split'], inplace=True)
             if data_format.lower() != 'textdata':
@@ -228,6 +239,8 @@ if __name__ == "__main__":
     dataset=DisplayEmbeddings.load_data(as_train_test=False)
 
     print (data)
+
+
 
     check = TextPropertyOutliers()
     result = check.run(dataset)
