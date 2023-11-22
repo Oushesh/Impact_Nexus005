@@ -9,12 +9,10 @@ import os
 from ninja import Router
 from ninja.files import UploadedFile
 import pandas as pd
-from pathlib import Path
 import json
 import supabase
 import logging
 import io
-from dotenv import load_dotenv
 from datetime import datetime
 from django.http import HttpResponse
 from django.shortcuts import render
@@ -29,7 +27,6 @@ logging.basicConfig(level=logging.INFO, filename=log_file_path, filemode='a',
 
 logger = logging.getLogger(__name__)
 
-
 def fill_train_test_split(df):
     # Fill the "train_test_split" column randomly with "Train" or "Test"
     df['train_test_split'] = df.apply(lambda row: random.choice(['Train', 'Test']), axis=1)
@@ -39,7 +36,6 @@ def assign_labels(df, label_list):
     # Assign labels randomly to the "label" column based on the given list of labels
     df['label'] = random.choices(label_list, k=len(df))
     return df
-
 
 @router.post("/process_file")
 def process_file(request, file: UploadedFile, selected_header: str = ''):
@@ -99,7 +95,10 @@ def process_file(request, file: UploadedFile, selected_header: str = ''):
     # Save the modified DataFrame to a new Excel file
     output_file = io.BytesIO()
     #df.to_excel(output_file, index=False, engine='openpyxl')
+
+    #TODO: save to the desired folder output:
     df.to_csv(output_file,index=False)
+
     output_file.seek(0)
 
     # Create a response with the modified file and dynamic filename
@@ -107,3 +106,4 @@ def process_file(request, file: UploadedFile, selected_header: str = ''):
     response['Content-Disposition'] = f'attachment; filename={filename}_filled.csv'
 
     return response
+
