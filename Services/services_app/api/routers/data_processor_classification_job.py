@@ -18,6 +18,7 @@ from dotenv import load_dotenv
 from datetime import datetime
 from django.http import HttpResponse
 from django.shortcuts import render
+import random
 
 router = Router()
 
@@ -29,8 +30,19 @@ logging.basicConfig(level=logging.INFO, filename=log_file_path, filemode='a',
 logger = logging.getLogger(__name__)
 
 
+def fill_train_test_split(df):
+    # Fill the "train_test_split" column randomly with "Train" or "Test"
+    df['train_test_split'] = df.apply(lambda row: random.choice(['Train', 'Test']), axis=1)
+    return df
+
+def assign_labels(df, label_list):
+    # Assign labels randomly to the "label" column based on the given list of labels
+    df['label'] = random.choices(label_list, k=len(df))
+    return df
+
+
 @router.post("/process_file")
-def process_file(request, file: UploadedFile, selected_header: str = ''):
+def process_file(request, file: UploadedFile, selected_header: str = '', label_list: str = ''):
     # Get the filename without extension
     filename, _ = file.name.rsplit('.', 1)
 
@@ -74,10 +86,17 @@ def process_file(request, file: UploadedFile, selected_header: str = ''):
         # Add a new "train_test_split" column with a default value of "None"
         df['train_test_split'] = 'None'
 
+    # Fill the "train_test_split" column randomly with "Train" or "Test"
+    df = fill_train_test_split(df)
+
+    # If a label list is provided, assign labels randomly to the "label" column
+    if label_list:
+        label_list = label_list.split(',')
+        df = assign_labels(df, label_list)
+
     # Save the modified DataFrame to a new Excel file
     output_file = io.BytesIO()
-    #df.to_excel(output_file, index=False, engine='openpyxl')
-    df.to_csv(output_file,index=False)
+    df.to_excel(output_file, index=False, engine='openpyxl')
     output_file.seek(0)
 
     # Create a response with the modified file and dynamic filename

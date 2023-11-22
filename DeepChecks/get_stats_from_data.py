@@ -9,12 +9,24 @@ import os
 import numpy as np
 import pandas as pd
 import typing as t
+import random
 
 from deepchecks.nlp.checks import TextPropertyOutliers
 from deepchecks.nlp import TextData
 
 
 #TODO: rewrite the function into classes
+
+def fill_train_test_split(df):
+    # Fill the "train_test_split" column randomly with "Train" or "Test"
+    df['train_test_split'] = df.apply(lambda row: random.choice(['Train', 'Test']), axis=1)
+    return df
+
+def assign_labels(df, label_list):
+    # Assign labels randomly to the "label" column based on the given list of labels
+    df['label'] = random.choices(label_list, k=len(df))
+    return df
+
 
 class DisplayEmbeddings:
     def __init__(self,**kwargs):
@@ -208,6 +220,7 @@ class DisplayEmbeddings:
 
 if __name__ == "__main__":
     file_name = "tweet_emotion_data.csv"
+    file_name = ""
     assets_dir= "Data"
     url_to_file = "https://ndownloader.figshare.com/files/39486889"
     _PROPERTIES_URL = 'https://ndownloader.figshare.com/files/39717619'
@@ -220,6 +233,5 @@ if __name__ == "__main__":
     result = check.run(dataset)
     result.show()
     result.save_as_html()
-
 
 #TODO: add a service to display the results.
