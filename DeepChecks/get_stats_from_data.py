@@ -220,7 +220,7 @@ class DisplayEmbeddings:
 
 if __name__ == "__main__":
     file_name = "tweet_emotion_data.csv"
-    file_name = ""
+    file_name = "dfg_other_sectors_20220121_filled.csv"
     assets_dir= "Data"
     url_to_file = "https://ndownloader.figshare.com/files/39486889"
     _PROPERTIES_URL = 'https://ndownloader.figshare.com/files/39717619'

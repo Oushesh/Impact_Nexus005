@@ -2,8 +2,6 @@ import os
 import json
 
 
-
-
 def process_folder(folder_path):
     result = {}
 

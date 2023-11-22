@@ -42,9 +42,12 @@ def assign_labels(df, label_list):
 
 
 @router.post("/process_file")
-def process_file(request, file: UploadedFile, selected_header: str = '', label_list: str = ''):
+def process_file(request, file: UploadedFile, selected_header: str = ''):
     # Get the filename without extension
     filename, _ = file.name.rsplit('.', 1)
+
+    #TODO: Define a list of labels for the data
+    label_list = ["Environmental Positive","Environmental Negative","Social Positive","Social Negative","Governance Positive","Governance Negative"]
 
     # Read the file into a Pandas DataFrame
     if file.name.endswith('.xlsx'):
@@ -91,16 +94,16 @@ def process_file(request, file: UploadedFile, selected_header: str = '', label_l
 
     # If a label list is provided, assign labels randomly to the "label" column
     if label_list:
-        label_list = label_list.split(',')
         df = assign_labels(df, label_list)
 
     # Save the modified DataFrame to a new Excel file
     output_file = io.BytesIO()
-    df.to_excel(output_file, index=False, engine='openpyxl')
+    #df.to_excel(output_file, index=False, engine='openpyxl')
+    df.to_csv(output_file,index=False)
     output_file.seek(0)
 
     # Create a response with the modified file and dynamic filename
     response = HttpResponse(output_file.read(), content_type='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
-    response['Content-Disposition'] = f'attachment; filename={filename}_filled.xlsx'
+    response['Content-Disposition'] = f'attachment; filename={filename}_filled.csv'
 
     return response
