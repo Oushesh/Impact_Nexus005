@@ -99,7 +99,6 @@ def process_file(request, file: UploadedFile, selected_header: str = ''):
 
     # Save the modified DataFrame to a new Excel file
     output_file = io.BytesIO()
-    #df.to_excel(output_file, index=False, engine='openpyxl')
 
     #TODO: save to the desired folder output:
     df.to_csv(output_file,index=False)

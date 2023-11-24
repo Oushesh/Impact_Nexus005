@@ -18,7 +18,7 @@ class DisplayEmbeddings:
         self.kwargs = kwargs
 
     @classmethod
-    def read_and_save_data(cls,assets_dir, file_name, url_to_file, file_type='csv', to_numpy=False, include_index=True):
+    def read_and_save_data(cls,assets_dir, file_name,file_type='csv', to_numpy=False, include_index=True,url_to_file=None):
         os.makedirs(assets_dir, exist_ok=True)
 
         #Check if file exists.
@@ -206,7 +206,7 @@ if __name__ == "__main__":
     assets_dir= "Data"
     url_to_file = "https://ndownloader.figshare.com/files/39486889"
     _PROPERTIES_URL = 'https://ndownloader.figshare.com/files/39717619'
-    data = DisplayEmbeddings.read_and_save_data(assets_dir, file_name, url_to_file, file_type='csv', to_numpy=False, include_index=True)
+    data = DisplayEmbeddings.read_and_save_data(assets_dir, file_name,file_type='csv', to_numpy=False, include_index=True)
     dataset=DisplayEmbeddings.load_data(as_train_test=False)
 
     print (data)

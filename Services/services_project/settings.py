@@ -15,7 +15,6 @@ import os
 from dotenv import load_dotenv
 from decouple import config
 
-
 #Temporary Workaround
 SECRET_KEY="django-insecure-9g%z#0bgcdtu5uhq6=l)p8ld8=_t7vir=3i8as^mx70fg9_%%_"
 # Build paths inside the project like this: BASE_DIR / 'subdir'.

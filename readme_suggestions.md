@@ -154,6 +154,8 @@ pre-commit install
      * Language Modelling: (Gloves, Wordnet, ADA Embeddings, coccurrence) (TODO: replace with openai ada)
      * Classification: emotional analysis, named entity recognition 
      * embeddings for 
+   * Endpoint to get DeepCheck data. (TODAY)
+   * CI/CD (TODO) + logging in supabase all endpoints + Snowflake + gsutil (done)
   
 ## 
   
