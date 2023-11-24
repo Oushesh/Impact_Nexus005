@@ -21,6 +21,6 @@ assessment-service/
 .pre-commit-config.yaml.old
 configs/
 data/
-DeepChecks/
+Services/services_app/api/utils/DeepChecks_old/
 docs/
 models/

@@ -151,14 +151,16 @@ pre-commit install
    * used embeddings from openai ada --> no need for python-levenstein distance (why?)
      * semantic difference is better with lemma, stemming 
    * NLP consists of different jobs: 
-     * Language Modelling: (Gloves, Wordnet, ADA Embeddings, coccurrence)
+     * Language Modelling: (Gloves, Wordnet, ADA Embeddings, coccurrence) (TODO: replace with openai ada)
      * Classification: emotional analysis, named entity recognition 
-     * embeddings 
-    
+     * embeddings for 
+  
+## 
+  
 ## Tests for high Standards from here: 
    * https://eugeneyan.com/writing/setting-up-python-project-for-automation-and-collaboration/
 
-## Write Tests for ML Here: 
+## Write Tests for ML Here (DONE)
 
 
 ## Resources: 

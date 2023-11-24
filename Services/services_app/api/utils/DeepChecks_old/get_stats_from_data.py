@@ -15,18 +15,6 @@ from deepchecks.nlp.checks import TextPropertyOutliers
 from deepchecks.nlp import TextData
 
 
-#TODO: rewrite the function into classes
-
-def fill_train_test_split(df):
-    # Fill the "train_test_split" column randomly with "Train" or "Test"
-    df['train_test_split'] = df.apply(lambda row: random.choice(['Train', 'Test']), axis=1)
-    return df
-
-def assign_labels(df, label_list):
-    # Assign labels randomly to the "label" column based on the given list of labels
-    df['label'] = random.choices(label_list, k=len(df))
-    return df
-
 
 class DisplayEmbeddings:
     def __init__(self,**kwargs):

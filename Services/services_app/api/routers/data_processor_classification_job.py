@@ -1,8 +1,5 @@
 """
-This service allows to convert any
-raw data in the form of .csv,
-.tsv or any excel sheet into ready for the job
-data.
+Service converts any raw data in the form of .csv, .tsv or any excel sheet into ready for the job data.
 """
 
 import os
@@ -17,6 +14,7 @@ from datetime import datetime
 from django.http import HttpResponse
 from django.shortcuts import render
 import random
+from pathlib import Path
 
 router = Router()
 
@@ -40,7 +38,14 @@ def assign_labels(df, label_list):
 @router.post("/process_file")
 def process_file(request, file: UploadedFile, selected_header: str = ''):
     # Get the filename without extension
+
+    BASE_DIR = Path(__file__).resolve().parent.parent.parent
+
     filename, _ = file.name.rsplit('.', 1)
+
+    input_path = os.path.join(BASE_DIR, "Classification/source/")
+    output_path = os.path.join(os.path.join(BASE_DIR, "Classification/target"),filename+"_filled.csv")
+
 
     #TODO: Define a list of labels for the data
     label_list = ["Environmental Positive","Environmental Negative","Social Positive","Social Negative","Governance Positive","Governance Negative"]
@@ -98,7 +103,7 @@ def process_file(request, file: UploadedFile, selected_header: str = ''):
 
     #TODO: save to the desired folder output:
     df.to_csv(output_file,index=False)
-
+    df.to_csv()
     output_file.seek(0)
 
     # Create a response with the modified file and dynamic filename
