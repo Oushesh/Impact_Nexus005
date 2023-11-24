@@ -8,17 +8,17 @@ import os
 
 import numpy as np
 import pandas as pd
-import typing as t
-import random
+import validators
 from deepchecks.nlp.checks import TextPropertyOutliers
 from deepchecks.nlp import TextData
+from pathlib import Path
 
 class DisplayEmbeddings:
     def __init__(self,**kwargs):
         self.kwargs = kwargs
 
     @classmethod
-    def read_and_save_data(cls,assets_dir, file_name,file_type='csv', to_numpy=False, include_index=True,url_to_file=None):
+    def read_and_save_data(cls,assets_dir, file_name,include_index=True):
         os.makedirs(assets_dir, exist_ok=True)
 
         #Check if file exists.
@@ -44,25 +44,19 @@ class DisplayEmbeddings:
             else:
                 raise ValueError('file_type must be either "csv" or "npy"')
 
-        if to_numpy and (file_type in {'csv', 'npy'}):
-            if isinstance(data, pd.DataFrame):
-                data = data.to_numpy()
-            elif not isinstance(data, np.ndarray):
-                raise ValueError(f'Unknown data type - {type(data)}. Must be either pandas.DataFrame or numpy.ndarray')
-        elif to_numpy:
-            raise ValueError(f'Cannot convert {file_type} to numpy array')
+
         return data
 
     @classmethod
-    def load_properties(cls,as_train_test: bool = True):
+    def load_properties(cls,assets_dir,filename:str,as_train_test: bool = True):
         """
         Data must contain train_test to get the split
         -------
         properties : pd.DataFrame
             Properties for the tweet_emotion dataset.
         """
-        ASSETS_DIR = "Data"
-        properties = DisplayEmbeddings.read_and_save_data(ASSETS_DIR, 'properties.csv', _PROPERTIES_URL,to_numpy=False)
+
+        properties = DisplayEmbeddings.read_and_save_data(assets_dir, filename)
 
         if as_train_test:
             train = properties[properties['train_test_split'] == 'Train'].drop(columns=['train_test_split'])
@@ -72,11 +66,11 @@ class DisplayEmbeddings:
             return properties.drop(columns=['train_test_split']).sort_index()
 
     @classmethod
-    def _get_train_test_indexes(cls):
+    def _get_train_test_indexes(cls,directory,filename:str):
         """Get the indexes of the train and test present in the """
 
         assets_dir = "Data"
-        #file_name = "tweet_emotion_data.csv"
+
         file_name = "dfg_other_sectors_20220121_filled.csv"
 
         full_file_path = os.path.join(assets_dir,file_name)
@@ -94,36 +88,27 @@ class DisplayEmbeddings:
         return train_indexes, test_indexes
 
     @classmethod
-    def load_embeddings(cls,as_train_test: bool = True) -> t.Union[np.array, t.Tuple[np.array, np.array]]:
-        """Load and return the embeddings of the tweet_emotion dataset calculated by OpenAI.
-
-        Parameters
-        ----------
-        as_train_test : bool, default: True
-            If True, the returned data is split into train and test exactly like the toy model
-            was trained. The first return value is the train data and the second is the test data.
-            Otherwise, returns a single object.
-
+    def load_embeddings(cls,assets_dir:str,filename:str,embeddings_url:str,as_train_test: bool = True):
+        """Load and return the embeddings from data specifically from
+        openai embeddings.
         Returns
         -------
         embeddings : np.ndarray
             Embeddings for the tweet_emotion dataset.
         """
-        _EMBEDDINGS_URL = 'https://ndownloader.figshare.com/files/40564880'
-        ASSETS_DIR = "Data"
-        all_embeddings = DisplayEmbeddings.read_and_save_data(ASSETS_DIR, 'tweet_emotion_embeddings.npy', _EMBEDDINGS_URL,
-                                            file_type='npy', to_numpy=True)
+        if
+        assert validators.validate(embeddings_url==True)
+        all_embeddings = DisplayEmbeddings.read_and_save_data(assets_dir, filename)
 
 
         if as_train_test:
-            train_indexes, test_indexes = DisplayEmbeddings._get_train_test_indexes()
+            train_indexes, test_indexes = DisplayEmbeddings._get_train_test_indexes(directory,filename)
             return all_embeddings[train_indexes], all_embeddings[test_indexes]
         else:
             return all_embeddings
 
     @classmethod
-    def load_data(cls,data_format: str = 'TextData', as_train_test: bool = True,
-                  include_properties: bool = True, include_embeddings: bool = False):
+    def load_data(cls,data_format: str = 'TextData', as_train_test: bool = True,include_properties: bool = True, include_embeddings: bool = False):
         """Load and returns the Tweet Emotion dataset (classification).
 
         Parameters
@@ -159,59 +144,41 @@ class DisplayEmbeddings:
         ASSETS_DIR = "Data"
         _target = 'label'
 
-        #data = DisplayEmbeddings.read_and_save_data(ASSETS_DIR, 'tweet_emotion_data.csv', _FULL_DATA_URL, to_numpy=False)
-
-        data = DisplayEmbeddings.read_and_save_data(ASSETS_DIR, 'dfg_other_sectors_20220121_filled.csv', _FULL_DATA_URL,
-                                                    to_numpy=False)
+        data = DisplayEmbeddings.read_and_save_data(ASSETS_DIR, 'dfg_other_sectors_20220121_filled.csv')
 
 
-        if not as_train_test:
-            data.drop(columns=['train_test_split'], inplace=True)
-            if data_format.lower() != 'textdata':
-                return data
+        # train has more sport and Customer Complains but less Terror and Optimism
+        train = data[data['train_test_split'] == 'Train'].drop(columns=['train_test_split'])
+        test = data[data['train_test_split'] == 'Test'].drop(columns=['train_test_split'])
 
-            metadata = data.drop(columns=[_target, 'text'])
-            properties = DisplayEmbeddings.load_properties(as_train_test=False) if include_properties else None
-            embeddings = DisplayEmbeddings.load_embeddings(as_train_test=False) if include_embeddings else None
-            _CAT_METADATA = ['gender', 'user_region']
-            dataset = TextData(data.text, label=data[_target], task_type='text_classification',
-                               metadata=metadata, embeddings=embeddings, properties=properties,
-                               categorical_metadata=_CAT_METADATA)
-            return dataset
+        if data_format.lower() != 'textdata':
+            return train, test
 
-        else:
-            # train has more sport and Customer Complains but less Terror and Optimism
-            train = data[data['train_test_split'] == 'Train'].drop(columns=['train_test_split'])
-            test = data[data['train_test_split'] == 'Test'].drop(columns=['train_test_split'])
+        train_metadata, test_metadata = train.drop(columns=[_target, 'text']), test.drop(columns=[_target, 'text'])
+        train_properties, test_properties = DisplayEmbeddings.load_properties(as_train_test=True) if include_properties else (None, None)
+        train_embeddings, test_embeddings = DisplayEmbeddings.load_embeddings(as_train_test=True) if include_embeddings else (None, None)
 
-            if data_format.lower() != 'textdata':
-                return train, test
+        train_ds = TextData(train.text, label=train[_target], task_type='text_classification',
+                            metadata=train_metadata, embeddings=train_embeddings, properties=train_properties,
+                            categorical_metadata=_CAT_METADATA)
+        test_ds = TextData(test.text, label=test[_target], task_type='text_classification',
+                            metadata=test_metadata, embeddings=test_embeddings, properties=test_properties,
+                            categorical_metadata=_CAT_METADATA)
 
-            train_metadata, test_metadata = train.drop(columns=[_target, 'text']), test.drop(columns=[_target, 'text'])
-            train_properties, test_properties = DisplayEmbeddings.load_properties(as_train_test=True) if include_properties else (None, None)
-            train_embeddings, test_embeddings = DisplayEmbeddings.load_embeddings(as_train_test=True) if include_embeddings else (None, None)
-
-            train_ds = TextData(train.text, label=train[_target], task_type='text_classification',
-                                metadata=train_metadata, embeddings=train_embeddings, properties=train_properties,
-                                categorical_metadata=_CAT_METADATA)
-            test_ds = TextData(test.text, label=test[_target], task_type='text_classification',
-                               metadata=test_metadata, embeddings=test_embeddings, properties=test_properties,
-                               categorical_metadata=_CAT_METADATA)
-
-            return train_ds, test_ds
+        return train_ds, test_ds
 
 if __name__ == "__main__":
-    file_name = "tweet_emotion_data.csv"
+    BASE_DIR = Path(__file__).resolve().parent.parent.parent.parent
+    file_name = ("tweet_emoti"
+                 "on_data.csv")
     file_name = "dfg_other_sectors_20220121_filled.csv"
-    assets_dir= "Data"
-    url_to_file = "https://ndownloader.figshare.com/files/39486889"
-    _PROPERTIES_URL = 'https://ndownloader.figshare.com/files/39717619'
-    data = DisplayEmbeddings.read_and_save_data(assets_dir, file_name,file_type='csv', to_numpy=False, include_index=True)
+    assets_dir= "JOBS/Classification/target"
+    #url_to_file = "https://ndownloader.figshare.com/files/39486889"
+    #_PROPERTIES_URL = 'https://ndownloader.figshare.com/files/39717619'
+    data = DisplayEmbeddings.read_and_save_data(assets_dir, file_name)
     dataset=DisplayEmbeddings.load_data(as_train_test=False)
 
     print (data)
-
-
 
     check = TextPropertyOutliers()
     result = check.run(dataset)
