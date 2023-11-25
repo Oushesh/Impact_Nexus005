@@ -5,18 +5,13 @@ It uses but can also be modified to use openai ada embeddings
 """
 
 from ninja import Router
-from ninja import File
+from ninja.files import UploadedFile
 
 import pandas as pd
 import json
 import supabase
 import logging
 import io
-from datetime import datetime
-import random
-from pathlib import Path
-
-from services_app.api.utils.DeepChecks.get_data_properties_deepcheck import DisplayEmbeddings
 from deepchecks.nlp import TextData
 from deepchecks.nlp.checks import TextPropertyOutliers
 from django.http import JsonResponse
@@ -31,13 +26,10 @@ logger = logging.getLogger(__name__)
 ## This endpoint works both locally and can be connected to
 ## any cloud database such as Snowflake, s3 or cloud computing platform
 
-
-
-
 router = Router()
 
 class Data_Properties:
-    def __init__(self,**kwargs):
+    def __init__(self, **kwargs):
         self.kwargs = kwargs
 
     @classmethod
@@ -53,7 +45,6 @@ class Data_Properties:
         except Exception as error:
             # Handle the exception here
             print(f"Error: {error}")
-            return JsonResponse({"message": f"Error processing file: {str(error)}"}, status=500)
 
         # TODO: Define a schema for the incoming data
         text_data.calculate_builtin_properties()
@@ -71,13 +62,19 @@ class Data_Properties:
         result.save_as_html(file=html_filename)
         result.to_wandb()
 
-        #TODO: modify return here
+        # TODO: modify return here
         return None
 
-@router.post("/deepcheck_endpoint")
-def deepcheck(request, file: File):
-    Data_Properties.compute(file)
-    return JsonResponse({"message":"File processed successfully"},status=200)
+
+@router.post("/deepcheck")
+def deepcheck(request, file: UploadedFile):
+    filename, _ = file.name.rsplit('.', 1)
+
+    if file.name.endswith(".csv"):
+        Data_Properties.compute(file)
+        return JsonResponse({"message": f"File {filename} processed successfully"}, status=200)
+    else:
+        return JsonResponse({"message":f"File {filename} not in .csv format"})
 
 ## TODO: Complete this endpoint.
 ## https://github.com/edemiraydin/snowpark_ml_demo_deepchecks/blob/main/Linear%20Regression%20with%20Snowpark%20and%20DeepChecks.ipynb
