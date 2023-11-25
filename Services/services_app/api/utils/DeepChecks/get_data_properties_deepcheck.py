@@ -23,6 +23,7 @@ class DisplayEmbeddings:
 
         #Check if file exists.
         full_file_path = os.path.join(assets_dir,file_name)
+        print ("full_file_path",full_file_path)
         if full_file_path:
             if full_file_path.endswith("csv"):
                 try:
@@ -66,14 +67,10 @@ class DisplayEmbeddings:
             return properties.drop(columns=['train_test_split']).sort_index()
 
     @classmethod
-    def _get_train_test_indexes(cls,directory,filename:str):
+    def _get_train_test_indexes(cls,assets_dir,filename:str):
         """Get the indexes of the train and test present in the """
 
-        assets_dir = "Data"
-
-        file_name = "dfg_other_sectors_20220121_filled.csv"
-
-        full_file_path = os.path.join(assets_dir,file_name)
+        full_file_path = os.path.join(assets_dir,filename)
         _FULL_DATA_URL = 'https://ndownloader.figshare.com/files/39486889'
 
         if (full_file_path).exists():
@@ -88,27 +85,31 @@ class DisplayEmbeddings:
         return train_indexes, test_indexes
 
     @classmethod
-    def load_embeddings(cls,assets_dir:str,filename:str,embeddings_url:str,as_train_test: bool = True):
+    def load_embeddings(cls,assets_dir:str,filename:str,embeddings_url="None",as_train_test: bool = True):
         """Load and return the embeddings from data specifically from
-        openai embeddings.
+        openai embeddings either locally or from a url which will be a cloud service: gsutil or s3.
         Returns
         -------
         embeddings : np.ndarray
             Embeddings for the tweet_emotion dataset.
         """
-        if
-        assert validators.validate(embeddings_url==True)
+
+        #TODO: in case of embeddings
+        if not embeddings_url=="None":
+            assert validators.validate(embeddings_url==True)
+
+
         all_embeddings = DisplayEmbeddings.read_and_save_data(assets_dir, filename)
 
 
         if as_train_test:
-            train_indexes, test_indexes = DisplayEmbeddings._get_train_test_indexes(directory,filename)
+            train_indexes, test_indexes = DisplayEmbeddings._get_train_test_indexes(assets_dir,filename)
             return all_embeddings[train_indexes], all_embeddings[test_indexes]
         else:
             return all_embeddings
 
     @classmethod
-    def load_data(cls,data_format: str = 'TextData', as_train_test: bool = True,include_properties: bool = True, include_embeddings: bool = False):
+    def load_data(cls,assets_dir:str,filename:str,data_format: str = 'TextData', as_train_test: bool = True,include_properties: bool = True, include_embeddings: bool = False):
         """Load and returns the Tweet Emotion dataset (classification).
 
         Parameters
@@ -140,12 +141,10 @@ class DisplayEmbeddings:
             if include_properties or include_embeddings:
                 warnings.warn('include_properties and include_embeddings are incompatible with data_format="Dataframe". '
                               'loading only original text data.',UserWarning)
-        _FULL_DATA_URL = 'https://ndownloader.figshare.com/files/39486889'
-        ASSETS_DIR = "Data"
+
         _target = 'label'
 
-        data = DisplayEmbeddings.read_and_save_data(ASSETS_DIR, 'dfg_other_sectors_20220121_filled.csv')
-
+        data = DisplayEmbeddings.read_and_save_data(assets_dir, filename)
 
         # train has more sport and Customer Complains but less Terror and Optimism
         train = data[data['train_test_split'] == 'Train'].drop(columns=['train_test_split'])
@@ -169,18 +168,16 @@ class DisplayEmbeddings:
 
 if __name__ == "__main__":
     BASE_DIR = Path(__file__).resolve().parent.parent.parent.parent
-    file_name = ("tweet_emoti"
-                 "on_data.csv")
-    file_name = "dfg_other_sectors_20220121_filled.csv"
-    assets_dir= "JOBS/Classification/target"
-    #url_to_file = "https://ndownloader.figshare.com/files/39486889"
-    #_PROPERTIES_URL = 'https://ndownloader.figshare.com/files/39717619'
-    data = DisplayEmbeddings.read_and_save_data(assets_dir, file_name)
-    dataset=DisplayEmbeddings.load_data(as_train_test=False)
 
-    print (data)
+    filename = "JOBS/Classification/target/tweet_emotion_data.csv"
+    filename = "JOBS/Classification/target/dfg_other_sectors_20220121_filled.csv"
 
-    check = TextPropertyOutliers()
-    result = check.run(dataset)
-    result.show()
-    result.save_as_html()
+    data = DisplayEmbeddings.read_and_save_data(BASE_DIR, filename)
+    dataset=DisplayEmbeddings.load_data(BASE_DIR,filename,as_train_test=False)
+
+    #print (data)
+
+    #check = TextPropertyOutliers()
+    #result = check.run(dataset)
+    #result.show()
+    #result.save_as_html()
