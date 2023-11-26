@@ -2,16 +2,17 @@ import os
 from ninja import Router
 from pathlib import Path
 import json
+from ninja import Form
 
 router = Router()
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
-class Build_KnowledgeBase():
+class Build_KnowledgeBase:
     def __init__(self, **kwargs):
         self.kwargs = kwargs
 
     @classmethod
-    def process_folder(cls,folder_path):
+    def process_folder(cls, folder_path):
         result = {}
 
         for item in os.listdir(folder_path):
@@ -24,7 +25,7 @@ class Build_KnowledgeBase():
         return result
 
     @classmethod
-    def read_file(cls,file_path):
+    def read_file(cls, file_path):
         # Assuming you want to read the contents of .csv and .tsv files
         # You might need to adjust this based on the actual file format
         with open(file_path, 'r') as file:
@@ -36,15 +37,18 @@ class Build_KnowledgeBase():
         return content
 
 @router.get("/build_knowledgebase")
-def build_knowledgebase(request,path:str):
-    assert isinstance(path,str)
+def build_knowledgebase(request, folder_path:str):
+    assert isinstance(folder_path, str)
 
-    base_folder = os.path.join(BASE_DIR,"KnowledgeBase/assets")
-    output_json = os.path.join(BASE_DIR,"output/knowledge.json")
+    # Combine the specified folder path with the base directory
+    base_folder = os.path.join(BASE_DIR, folder_path)
+    output_json = os.path.join(BASE_DIR, "output/knowledge.json")
 
     result = Build_KnowledgeBase.process_folder(base_folder)
 
     with open(output_json, 'w') as json_file:
         json.dump(result, json_file, indent=4)
 
-    return {"data":"success"}
+    return {"data": "success"}
+
+#TODO: add interactive way to choose the folder for knowledgebase
