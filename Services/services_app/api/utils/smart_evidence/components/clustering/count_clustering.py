@@ -1,10 +1,9 @@
-from collections import Counter
+
 import logging
 from typing import List, Tuple
 from haystack.nodes.base import BaseComponent
 from haystack.schema import Document
-from sklearn.base import TransformerMixin
-from sklearn.cluster import AgglomerativeClustering
+
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.cluster import AgglomerativeClustering
 from collections import defaultdict, Counter

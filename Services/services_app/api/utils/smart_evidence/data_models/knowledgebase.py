@@ -153,3 +153,6 @@ class ImpactTopic(StructuredNode):
     )
     occurance = IntegerProperty()
     improvement_levers = RelationshipTo("ImpactTopic", "CANIMPROVE")
+
+
+

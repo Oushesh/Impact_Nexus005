@@ -168,4 +168,25 @@ pre-commit install
     https://eugeneyan.com/writing/setting-up-python-project-for-automation-and-collaboration/
     https://stackoverflow.com/questions/67646383/authentication-to-github-using-personal-access-token-on-macos#:~:text=3%20Answers&text=Run%20a%20git%20push%20or,it%20and%20paste%20it%20in).
         
-    
+
+## Structure of the Project:
+    ```
+    Services
+    │   services_app
+    │   services_project    
+    │
+    └───smart_evidence
+    │   │   components
+    │   │   data_models
+    │   │   flows
+    │   │   helpers
+    │   │
+    │   └───models
+    │       │   concept_extractor.py
+    │       │   fuzz_concept_extractor.py
+    │       │   
+    │   
+    └───wandb
+        │   latest-run
+        │   run-files
+```   

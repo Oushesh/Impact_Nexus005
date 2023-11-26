@@ -25,15 +25,34 @@ logging.basicConfig(level=logging.INFO, filename=log_file_path, filemode='a',
 
 logger = logging.getLogger(__name__)
 
-def fill_train_test_split(df):
-    # Fill the "train_test_split" column randomly with "Train" or "Test"
-    df['train_test_split'] = df.apply(lambda row: random.choice(['Train', 'Test']), axis=1)
-    return df
 
-def assign_labels(df, label_list):
-    # Assign labels randomly to the "label" column based on the given list of labels
-    df['label'] = random.choices(label_list, k=len(df))
-    return df
+class Classification_Job:
+    """
+    A classification in NLP usually consists of data in pandas
+    predefined which row is for test,train or validation, y-label output,
+    either single entry for x as input or multiple rows as input.
+    Entity Recognition is also a classification job.
+    """
+    def __init__(self,**kwargs):
+        self.kwargs = kwargs
+
+    @classmethod
+    def fill_train_test_split(cls,df):
+        # Fill the "train_test_split" column randomly with "Train" or "Test"
+        df['train_test_split'] = df.apply(lambda row: random.choice(['Train', 'Test']), axis=1)
+        return df
+
+
+    @classmethod
+    def assign_labels(cls,df, label_list):
+        # Assign labels randomly to the "label" column based on the given list of labels
+        df['label'] = random.choices(label_list, k=len(df))
+        return df
+
+    @classmethod
+
+
+
 
 @router.post("/process_file")
 def process_file(request, file: UploadedFile, selected_header: str = ''):
@@ -111,3 +130,5 @@ def process_file(request, file: UploadedFile, selected_header: str = ''):
 
     return response
 
+
+# TODO: Add the option to measure Data Drift: before that add a way to import knowledge graph here.
