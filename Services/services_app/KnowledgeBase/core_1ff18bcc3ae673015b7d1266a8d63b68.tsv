@@ -1,0 +1,30 @@
+"Raw cement asbestos (RCA) undergoes a complete solid state transformation when heated at high temperatures.
+The secondary raw material produced, high temperatures-cement asbestos (HT-CA) is composed of newly-formed
+crystals in place of the asbestos fibers present in RCA. Our previous study showed that HT-CA exerts lower
+cytotoxic cell damage compared to RCA. Nevertheless further investigations are needed to deepen our understanding
+of pathogenic pathways involving oxidative and nitrative damage.
+Our aim is to deepen the understanding of the biological effects on A549 cells of these materials regarding DNA damage related proteins
+(p53, its isoform p73 and TRAIL) and nitric oxide (NO) production during inducible nitric oxide synthase (iNOS)-mediated inflammation.
+ Increments of p53/p73 expression, iNOS positive cells and NO concentrations were found with RCA, compared to HT-CA and controls mainly at 48 h.
+ Interestingly, ferrous iron causing reactive oxygen species (ROS)-mediated DNA damage was found in RCA as a contaminant.
+HT-CA thermal treatment induces a global recrystallization with iron in a crystal form poorly released in media. HT-CA slightly interferes with
+genome expression and exerts lower inflammatory potential compared to RCA on biological systems. It could represent a safe approach for storing
+or recycling asbestos and an environmentally friendly alternative to asbestos waste"
+Raw and thermally treated cement asbestos exerts different cytotoxicity effects on A549 cells in vitro
+core	1ff18bcc3ae673015b7d1266a8d63b68
+
+# Company concepts
+Raw cement asbestos (RCA)	High temperatures-cement asbestos (HT-CA)
+
+# Impact concepts
+environment friendly	safe storage	safe recycling
+
+# Relations
+Raw cement asbestos (RCA)	environment friendly	NEGATIVE
+High temperatures-cement asbestos (HT-CA)	environment friendly	POSITIVE
+
+Raw cement asbestos (RCA)	safe recycling	NEGATIVE
+High temperatures-cement asbestos (HT-CA)	safe recycling	POSITIVE
+
+Raw cement asbestos (RCA)	safe storage	NEGATIVE
+High temperatures-cement asbestos (HT-CA)	safe storage	POSITIVE

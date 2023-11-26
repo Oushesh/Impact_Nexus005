@@ -49,11 +49,6 @@ class Classification_Job:
         df['label'] = random.choices(label_list, k=len(df))
         return df
 
-    @classmethod
-
-
-
-
 @router.post("/process_file")
 def process_file(request, file: UploadedFile, selected_header: str = ''):
     # Get the filename without extension
