@@ -195,6 +195,7 @@ pre-commit install
    
     
 ## Install all dependencies of dvc (data version control, model registry)
+   auto transfer of data from bucket (dvc) to gcp and vice-versa
 
 ## 
   
