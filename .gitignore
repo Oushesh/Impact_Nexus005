@@ -43,3 +43,4 @@ AWSCLIV2.pkg
 rest_api_venv/*
 
 fastText/*
+google-cloud-sdk/*
