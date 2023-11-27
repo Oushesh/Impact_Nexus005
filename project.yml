@@ -27,7 +27,7 @@ directories:
 # assets:
 
 # Workflows are sequences of commands (see below) executed in order. You can
-# run them via "spacy project run [workflow]". If a commands's inputs/outputs
+# run them via "spacy project run [workflows]". If a commands's inputs/outputs
 # haven't changed, it won't be re-run. Remove the `project.lock` to execute again.
 workflows:
   create-corpus:
