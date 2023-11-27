@@ -1,11 +1,17 @@
 from transformers import pipeline, AutoModelForSequenceClassification, AutoTokenizer
+from transformers import DistilBertTokenizer, DistilBertForSequenceClassification
+
 import nlpaug.augmenter.char as nac
 import json
 import pandas as pd
 
 # Load model
-tokenizer = AutoTokenizer.from_pretrained("textattack/albert-base-v2-SST-2")
-inference_model = AutoModelForSequenceClassification.from_pretrained("textattack/albert-base-v2-SST-2")
+#tokenizer = AutoTokenizer.from_pretrained("textattack/albert-base-v2-SST-2")
+#inference_model = AutoModelForSequenceClassification.from_pretrained("textattack/albert-base-v2-SST-2")
+
+tokenizer = DistilBertTokenizer.from_pretrained("distilbert-base-uncased-sst2-english")
+inference_model = DistilBertForSequenceClassification.from_pretrained("distilbert-base-uncased-sst2-english")
+
 model = pipeline("sentiment-analysis", model=inference_model, tokenizer=tokenizer)
 
 # Define text perturbation
@@ -17,11 +23,16 @@ def typo(input):
     return (output)
 
 
-def eval_perturb(input_a, input_b):
+def eval_perturb(input_a,input_b):
+    input_b = input_b[0]
+
     output_a, output_b = model([input_a, input_b])
-    sq_error = (output_a["score"] - output_b["score"]) ** 2
+    #TODO: check from error message
+
+
+    sq_error = (output_a["score"] - output_b["score"])**2
     acc = output_a["label"] == output_b["label"]
-    return (sq_error, acc, output_b["score"])
+    return(sq_error,acc,output_b["score"])
 
 
 # Read in our test dataset

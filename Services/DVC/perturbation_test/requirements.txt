@@ -1,6 +1,7 @@
+sentencepiece
 transformers
 nlpaug
 pandas
 torch
 tabulate
-sentencepiece
+protobuf
