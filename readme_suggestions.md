@@ -138,6 +138,8 @@ pre-commit install
 
 ## TODOS:
    * Bugs (add support for multiple pages for .xslx files in: UoA .xslx )
+   * DVC: https://dvc.org/doc/user-guide/data-management/remote-storage --> sync with GCP or aws s3.
+   * Add logging to all endpoints and save the logs directly on supabase.
 
 ## DONE
    * Data Optimisation Cost optimisation csv,json,jsonl, pandas --> apache parquet
@@ -156,7 +158,10 @@ pre-commit install
      * embeddings for 
    * Endpoint to get DeepCheck data. (TODAY)
    * CI/CD (TODO) + logging in supabase all endpoints + Snowflake + gsutil (done)
-  
+   * build spec.yml into Makefile 
+   * Getting away completely from Spacy.
+
+
 ## 
   
 ## Tests for high Standards from here: 
