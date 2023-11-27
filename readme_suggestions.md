@@ -157,11 +157,41 @@ pre-commit install
      * Classification: emotional analysis, named entity recognition 
      * embeddings for 
    * Endpoint to get DeepCheck data. (TODAY)
-   * CI/CD (TODO) + logging in supabase all endpoints + Snowflake + gsutil (done)
+   * CI/CD (TODO) 
+   * logging in supabase all endpoints + Snowflake + gsutil (todo)
+   * GPU mlops actions: cml (continuous machine learning, github actions, nividia-docker)
    * build spec.yml into Makefile 
    * Getting away completely from Spacy.
 
+## GPU nvidia-docker cml aws ec2 deep learning AMI
+   Choose aws ec2 deep learning AMI Ubuntu 18.04
+   ssh into your ec2 instance
+   run nvidia-smi
+   
+   Check all the gpus in the docker
+   docker run --gpus all dvcorg/cml-py3 nvidia-smi
+   
+   This will check if cml image of nvidia-smi is available otherwise
+   it will pull it.
+    
+   You should see your gpu on terminal
 
+   Next step is to connect GH (github-actions) with docker. (I personally
+   dont have GPU on my mac M2)
+
+   Reference: https://www.jeremyjordan.me/testing-ml/
+
+   docker run --name gpurunner -d --gpus all -e RUNNER_IDLE_TIMEOUT=1000 -e RUNNER_LABELS=cml,gpu -e RUNNER_REPO="url_to_your_github_repository" -e repo_token="your_personal_access_token"
+
+   This gpu docker cml can run in the background. This will be a self-hosted runner running on your ec2 instance or gcp.
+
+
+   The CML docker container will listen to the workflows from github or gitlab.
+    
+    You can autoscale the workflows on self-hosted gpu machines for lots of developers
+    if they exist: https://docs.github.com/en/webhooks/webhook-events-and-payloads#workflow_job
+   
+    
 ## Install all dependencies of dvc (data version control, model registry)
 
 ## 
@@ -174,7 +204,9 @@ pre-commit install
 ## Resources: 
     https://eugeneyan.com/writing/setting-up-python-project-for-automation-and-collaboration/
     https://stackoverflow.com/questions/67646383/authentication-to-github-using-personal-access-token-on-macos#:~:text=3%20Answers&text=Run%20a%20git%20push%20or,it%20and%20paste%20it%20in).
-        
+    https://iterative.ai/blog/cml-self-hosted-runners-on-demand-with-gpus
+    (how to self-host runners on gpus)
+    
 
 ## Structure of the Project:
     ```
@@ -197,3 +229,5 @@ pre-commit install
         │   latest-run
         │   run-files
 ```   
+
+
