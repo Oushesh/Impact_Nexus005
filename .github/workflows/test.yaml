@@ -1,5 +1,9 @@
 name: auto-testing
-on: [push]
+on:
+  push:
+    paths:
+      - 'Services/DVC/**'
+
 jobs:
   run:
     runs-on: [ubuntu-latest]
