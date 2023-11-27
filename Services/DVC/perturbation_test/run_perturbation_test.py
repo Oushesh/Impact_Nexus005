@@ -4,15 +4,16 @@ from transformers import DistilBertTokenizer, DistilBertForSequenceClassificatio
 import nlpaug.augmenter.char as nac
 import json
 import pandas as pd
+import requests
 
 # Load model
 #tokenizer = AutoTokenizer.from_pretrained("textattack/albert-base-v2-SST-2")
 #inference_model = AutoModelForSequenceClassification.from_pretrained("textattack/albert-base-v2-SST-2")
 
-tokenizer = DistilBertTokenizer.from_pretrained("distilbert-base-uncased-sst2-english")
-inference_model = DistilBertForSequenceClassification.from_pretrained("distilbert-base-uncased-sst2-english")
+#tokenizer = DistilBertTokenizer.from_pretrained("distilbert-base-uncased-finetuned-sst-2-english")
+#inference_model = DistilBertForSequenceClassification.from_pretrained("distilbert-base-uncased-finetuned-sst-2-english")
 
-model = pipeline("sentiment-analysis", model=inference_model, tokenizer=tokenizer)
+#model = pipeline("sentiment-analysis", model=inference_model, tokenizer=tokenizer)
 
 # Define text perturbation
 aug = nac.KeyboardAug(aug_word_max=1)  # Insert realistic keystroke errors
@@ -23,16 +24,39 @@ def typo(input):
     return (output)
 
 
+API_URL = "https://api-inference.huggingface.co/models/distilbert-base-uncased-finetuned-sst-2-english"
+headers = {"Authorization": "Bearer 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"}
+
+
+def query(payload):
+    response = requests.post(API_URL,headers=headers,json=payload)
+    return response.json()
+
+
+
 def eval_perturb(input_a,input_b):
     input_b = input_b[0]
 
-    output_a, output_b = model([input_a, input_b])
-    #TODO: check from error message
+    #output_a, output_b = model([input_a, input_b])
 
+    #TODO: use the hugging face API instead of doing local
+    output_a, output_b = query({
+	"inputs": "I like you. I love you",
+    })
+
+    #TODO: check from error message
 
     sq_error = (output_a["score"] - output_b["score"])**2
     acc = output_a["label"] == output_b["label"]
     return(sq_error,acc,output_b["score"])
+
+
+
+
+def eval_perturb_api(input_a,input_b):
+    input_b = input_b[0]
+
+    return None
 
 
 # Read in our test dataset
@@ -53,6 +77,22 @@ for sentence in test_dataset:
 
 interesting_cases.sort(key=lambda tup: tup[2], reverse=True)
 
+import requests
+
+API_URL = "https://api-inference.huggingface.co/models/distilbert-base-uncased-finetuned-sst-2-english"
+headers = {"Authorization": "Bearer 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"}
+
+
+def query(payload):
+    response = requests.post(API_URL, headers=headers, json=payload)
+    return response.json()
+
+
+output = query({
+    "inputs": "I like you. I love you",
+})
+
+
 # Write out our favorite interesting cases
 to_report = interesting_cases[:5]
 df = pd.DataFrame(to_report, columns=["Original", "Perturbed", "Model confidence"])
@@ -62,3 +102,5 @@ with open("data/failure_modes.txt", "w") as outfile:
 # Write results to file
 with open("metrics/test_score.json", 'w') as outfile:
     json.dump({"accuracy": total_acc, "mse": mse}, outfile)
+
+#TODO: Use the hugging face api version as long as you can.
