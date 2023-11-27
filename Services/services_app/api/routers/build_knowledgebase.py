@@ -57,3 +57,5 @@ def build_knowledgebase(request, folder_path:str):
         json.dump(result, json_file, indent=4)
 
     return {"data": "success"}
+
+
