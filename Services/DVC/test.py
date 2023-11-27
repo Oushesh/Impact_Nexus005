@@ -10,3 +10,4 @@ X_test, y = make_regression(1000,n_features = 11)
 # Test on the model
 y_hat = model.predict(X_test)
 
+# TODO: add the django services for better testing.
