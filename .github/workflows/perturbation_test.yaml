@@ -1,0 +1,31 @@
+name: perturbation-test
+on:
+  push:
+    paths:
+      - 'Services/DVC/perturbation_test/**'
+jobs:
+  run:
+    runs-on: [ubuntu-latest]
+    container: docker://dvcorg/cml-py3:latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: cml_run
+        env:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+
+          # Run the test
+          pip3 install -r Services/DVC/perturbation_test/requirements.txt
+          python3 Services/DVC/perturbation_test/run_perturbation_test.py
+          
+          # Report the diff
+          echo "## Workspace vs. Main" > Services/DVC/perturbation_test/reports/report.md
+          git fetch --prune
+          dvc metrics diff main --targets Services/DVC/perturbation_test/metrics/test_score.json --show-md >> Services/DVC/perturbation_test/reports/report.md
+          
+          # Print out the failure modes
+          echo "## Failure modes" >> Services/DVC/perturbation_test/reports/report.md
+          cat Services/DVC/perturbation_test/failure_modes.txt >> Services/DVC/perturbation_test/report.md
+          
+          # Send it!
+          cml-send-comment Services/DVC/perturbation_test/report.md
