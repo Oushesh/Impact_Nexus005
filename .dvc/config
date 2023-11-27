@@ -1,0 +1,5 @@
+[core]
+    remote = dvc_init
+    autostage = true
+['remote "dvc_init"']
+    url = gs://dvc_models_bucket/models
