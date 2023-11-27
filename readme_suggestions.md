@@ -160,8 +160,8 @@ pre-commit install
    * CI/CD (TODO) 
    * logging in supabase all endpoints + Snowflake + gsutil (todo)
    * GPU mlops actions: cml (continuous machine learning, github actions, nividia-docker)
-   * build spec.yml into Makefile 
-   * Getting away completely from Spacy.
+   * build spec.yml into Makefile (DONE)
+   * Getting away completely from Spacy. (DONE)
 
 ## GPU nvidia-docker cml aws ec2 deep learning AMI
    Choose aws ec2 deep learning AMI Ubuntu 18.04
