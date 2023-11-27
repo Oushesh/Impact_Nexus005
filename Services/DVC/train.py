@@ -1,5 +1,6 @@
 from sklearn.datasets import make_regression
 from sklearn.linear_model import LinearRegression
+#from sklearn.linear_model import Lasso
 import pickle
 import os
 
@@ -16,3 +17,6 @@ if not os.path.isdir("models/"):
 
 filename = 'models/model.pkl'
 pickle.dump(reg, open(filename, 'wb'))
+
+
+# TODO: the model is then changed
