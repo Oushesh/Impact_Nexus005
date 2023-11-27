@@ -3,3 +3,4 @@ nlpaug
 pandas
 torch
 tabulate
+sentencepiece
