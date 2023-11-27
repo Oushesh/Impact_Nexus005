@@ -165,7 +165,9 @@ pre-commit install
 
 ## GPU nvidia-docker cml aws ec2 deep learning AMI
    Choose aws ec2 deep learning AMI Ubuntu 18.04
-   ssh into your ec2 instance
+   ssh into your ec2 instance from that terminal you can work into 
+   your pycharm or terminal.
+
    run nvidia-smi
    
    Check all the gpus in the docker
