@@ -99,3 +99,4 @@ validators
 virtualenv
 openpyxl
 wandb
+dvc

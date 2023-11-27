@@ -162,6 +162,8 @@ pre-commit install
    * Getting away completely from Spacy.
 
 
+## Install all dependencies of dvc (data version control, model registry)
+
 ## 
   
 ## Tests for high Standards from here: 
