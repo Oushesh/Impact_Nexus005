@@ -9,13 +9,14 @@ jobs:
     container: docker://dvcorg/cml-py3:latest
     steps:
       - uses: actions/checkout@v2
-      - name: cml_run
+      - name: perturbation_test_run
         env:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
         run: |
 
           # Run the test
           pip3 install -r Services/DVC/perturbation_test/requirements.txt
+          python3 Services/DVC/perturbation_test/make_test_set.py
           python3 Services/DVC/perturbation_test/run_perturbation_test.py
           
           # Report the diff

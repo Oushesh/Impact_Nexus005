@@ -214,6 +214,8 @@ pre-commit install
     Any changes people working with you did either on the bucket or new model
     it gets pushed and tested with the yaml.
 
+    Example: 
+
 ![]()
 
     2. Data Pipelines: (dubbed as Makefile for ML Projects along with CML(Continuous Machine Learning))
