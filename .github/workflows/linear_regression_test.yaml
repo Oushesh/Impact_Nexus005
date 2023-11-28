@@ -1,0 +1,19 @@
+name: linear_regression
+on:
+  push:
+    paths:
+      - 'Services/DVC/linear_regression-test/**'
+
+jobs:
+  run:
+    runs-on: [ubuntu-latest]
+    steps:
+      - uses: actions/checkout@v2
+      - name: regression
+        env:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+
+          # Your ML workflow goes here
+          pip3 install -r requirements.txt
+          python3 test.py

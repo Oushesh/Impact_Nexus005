@@ -1,0 +1,4 @@
+[core]
+    remote = dvc_init
+['remote "dvc_init"']
+    url = gs://dvc_models_bucket/models
