@@ -73,5 +73,5 @@ def deepcheck(request, file: UploadedFile):
         return JsonResponse({"message":f"File {filename} not in .csv format"})
 
 
-## https://github.com/edemiraydin/snowpark_ml_demo_deepchecks/blob/main/Linear%20Regression%20with%20Snowpark%20and%20DeepChecks.ipynb
-## Apache Airflow for automation
+##
+

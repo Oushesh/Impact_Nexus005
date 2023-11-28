@@ -193,12 +193,40 @@ pre-commit install
     You can autoscale the workflows on self-hosted gpu machines for lots of developers
     if they exist: https://docs.github.com/en/webhooks/webhook-events-and-payloads#workflow_job
    
-    
-## Install all dependencies of dvc (data version control, model registry)
-   auto transfer of data from bucket (dvc) to gcp and vice-versa
 
-## 
-  
+## ML OPS && CML (Continuous Machine Learning) 
+   
+   Using Github actions (.github/workflows/<test.yaml>) together with Data Version Control 
+   to provide the following advantages over other methods:
+
+   1. Data Versioning: "Git for Data"
+      dvc get downloads any data from a url pointing to s3, google bucket
+      or other cloud services and saves where you want.
+      It uses hash map like git to efficiently track and cash changes.
+      
+
+    Services/DVC contains the different workflows
+    Example of Data Versioning:
+    
+    dvc get gs://dvc_models_bucket/models.pkl -o Services/DVC/models/models.pkl
+    
+    Track: dvc add Services/DVC/models/models.pkl
+    Any changes people working with you did either on the bucket or new model
+    it gets pushed and tested with the yaml.
+
+![]()
+
+    2. Data Pipelines: (dubbed as Makefile for ML Projects along with CML(Continuous Machine Learning))
+       Usually pipelines are connected with different 
+       steps in different.py files.
+
+      * .github/workflows/
+![]()
+    ML OPS and Robustness:
+
+
+    
+    
 ## Tests for high Standards from here: 
    * https://eugeneyan.com/writing/setting-up-python-project-for-automation-and-collaboration/
 
@@ -231,6 +259,7 @@ pre-commit install
     └───wandb
         │   latest-run
         │   run-files
-```   
+    ```   
 
-
+## Changes Made: 
+   1. 

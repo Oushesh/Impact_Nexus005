@@ -3,7 +3,6 @@ on:
   push:
     paths:
       - 'Services/DVC/linear_regression-test/**'
-
 jobs:
   run:
     runs-on: [ubuntu-latest]
