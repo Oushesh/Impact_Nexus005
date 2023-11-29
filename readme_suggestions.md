@@ -12,9 +12,51 @@
 
 ![overall_pipeline](docs/MLOPS_Pipeline.png)
    
-
-
-
+    The pipeline consists of the Services. Services cater for manual processes for different stakeholders within a company:
+    1. Django service 
+    It consists of Services with the following directories
+     ```
+    Services
+    │   Airbyte (should be a different repo: airbyte github clone) 
+    │   services_app
+    │   │   api
+        └───models
+    │   api
+        └───models
+    │   api
+        └───models
+    │   api
+        └───models
+    │   api
+        └───models
+    │   services_project 
+        │   data_models
+    │   │   flows
+    │   │   helpers
+    │   │
+    │   │   data_models
+    │   │   flows
+    │   │   helpers
+    │   │
+    │   └───models
+    │   services_project    
+    │
+    └───smart_evidence
+    │   │   components
+    │   │   data_models
+    │   │   flows
+    │   │   helpers
+    │   │
+    │   └───models
+    │       │   concept_extractor.py
+    │       │   fuzz_concept_extractor.py
+    │       │   
+    │   
+    └───wandb
+        │   latest-run
+        │   run-files
+    ```   
+    
    The improvements I proposed are based on 
    * Python Programming style
    * Data Costs and Scalability
@@ -311,28 +353,9 @@ corresponds to the buckets on google bucket or any other service.
     
 
 ## Structure of the Project:
-    ```
-    Services
-    │   services_app
-    │   services_project    
-    │
-    └───smart_evidence
-    │   │   components
-    │   │   data_models
-    │   │   flows
-    │   │   helpers
-    │   │
-    │   └───models
-    │       │   concept_extractor.py
-    │       │   fuzz_concept_extractor.py
-    │       │   
-    │   
-    └───wandb
-        │   latest-run
-        │   run-files
-    ```   
+   
 
-<<<<<<< HEAD
+
         
 ## Tests for high Standards from here: 
    * https://eugeneyan.com/writing/setting-up-python-project-for-automation-and-collaboration/
@@ -340,9 +363,9 @@ corresponds to the buckets on google bucket or any other service.
 
 ## Changes Made: 
    1. 
-=======
+
 
 ## Further Improvements:
    The DVC pipeline from Data Version Control already contains
 
->>>>>>> DVC_Pipeline_Test
+
