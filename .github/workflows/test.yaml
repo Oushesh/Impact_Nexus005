@@ -2,7 +2,7 @@ name: auto-testing
 on:
   push:
     paths:
-      - 'Services/DVC/**'
+      - 'Services/DVC/test/**'
 
 jobs:
   run:
@@ -14,7 +14,6 @@ jobs:
         env:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
         run: |
-
           # Your ML workflow goes here
-          pip3 install -r Services/DVC/model_requirements.txt
-          python3 Services/DVC/test.py
+          pip3 install -r Services/DVC/test/requirements.txt
+          python3 Services/DVC/test/test.py
