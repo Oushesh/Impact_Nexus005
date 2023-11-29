@@ -212,9 +212,9 @@ pre-commit install
     
     Track: dvc add Services/DVC/models/models.pkl
     Any changes people working with you did either on the bucket or new model
-    it gets pushed and tested with the yaml.
+    it gets pushed and tested with the yaml. The test gets trrigered and pipeline is evaluated.
 
-    Example: 
+![Workflows](docs/)
 
 
 ## Endpoint Logging: 
