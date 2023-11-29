@@ -177,8 +177,6 @@ pre-commit install
 
     
    * Github actions (.github/workflows/<test.yaml>) + Data Version Control 
-   
-   
 
 
    1. Data Version Control: "Git for Data"
@@ -221,22 +219,9 @@ corresponds to the buckets on google bucket or any other service.
     │   train.py
     │   other_scripts.py
     │   requirements.txt
-    ```   
+    ```
 
-2. Data Pipelines
-   Versioning large data files and directories for data science is powerful, 
-   but often not enough. Data needs to be filtered, cleaned, and transformed 
-   before training ML models - for that purpose DVC introduces a build system 
-   to define, execute and track data pipelines — a series of data processing 
-   stages, that produce a final result. Only changes done in specific. 
-    
-   Example show with the function that converts 
-![]()
-   
->>>>>>> DVC_Pipeline_Test
-
-    
-  2. Data Pipelines: (dubbed as Makefile for ML Projects along with CML(Continuous Machine Learning))
+  2.  Data Pipelines: (dubbed as Makefile for ML Projects along with CML(Continuous Machine Learning))
      Usually pipelines are connected with different steps in different.py files.
 
       Changing anything in the train or any other script will only trigger that script. When your pipeline gets huge
@@ -245,22 +230,18 @@ corresponds to the buckets on google bucket or any other service.
 
 ![]()
     ML OPS and Robustness:
-<<<<<<< HEAD
+
     Perturbation test is used to test robustness of a given pipeline. 
 ![]()
     
-=======
-        
+
     This was missing in the old pipeline. The pipeline  
     Perturbation test is added to 
 
 
-    
-    
-## Tests for high Standards from here:
->>>>>>> DVC_Pipeline_Test
+  3. Add GPU for pipeline test:     
 
-   3. Workflows Requiring GPUs:
+    3. Workflows Requiring GPUs:
    Heavy Training requiring GPUs cannot be run on github directly. Instead spin off GPU service and attach the worker. 
    Or: use local GPU. (PS: I dont have on my mac m2 pro.)
    
@@ -297,6 +278,7 @@ corresponds to the buckets on google bucket or any other service.
         
         You can autoscale the workflows on self-hosted gpu machines for lots of developers
         if they exist: https://docs.github.com/en/webhooks/webhook-events-and-payloads#workflow_job
+
 
 
 ## Resources: 

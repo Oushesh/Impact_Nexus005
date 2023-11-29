@@ -21,3 +21,6 @@ with open('Services/DVC/perturbation_test/data/test_set.tsv', 'w') as f:
     for item in keep:
         # Remove any newlines in the body of the text to avoid confusion
         f.write("%s\t" % item.strip())
+
+
+# CML and dvc does the check
