@@ -1,12 +1,19 @@
 ## Getting Started:
-   The project given was more experimental and not ready for production.
-   Below find the diagram from the overall pipeline implementation, with highlights 
-   on how parts of the project were proposed to be readapted and how I propose to unify
-   the entire solution into services.
+
+    make run  -- spin off the django server.   
+    
+    (core to all services provided with different to previous codebase with multiple projects)
+
+    
+    
+   
+The project given was more experimental and not ready for production.
+Below find the diagram from the overall pipeline implementation, with highlights 
+on how parts of the project were proposed to be readapted and how I propose to unify
+the entire solution into services.
 
    The overall pipeline consists of services (django and Ninja API based) both for the data expert team
    (endpoints) used by the Data Engineers, Data Scientists, ML Engineers and MLOPs/DEV OPS people.
-
 
    Below find the diagram of the overall pipeline
 
@@ -36,45 +43,21 @@ It consists of Services with the following directories. In General its a django 
     │   Airbyte (should be a different repo: airbyte github clone) 
     │   services_app
     │   │   api
-            │   routers
-            └─── schemas
-        └───models
-         │   api
-        └───models
-    │   api
-        └───models
-    │   api
-        └───models
-    │   api
-        └───models
-    │   api
-        └───models
-    │   services_project 
-        │   data_models
-    │   │   flows
-    │   │   helpers
-    │   │
-    │   │   data_models
-    │   │   flows
-    │   │   helpers
-    │   │
-    │   └───models
-    │   services_project    
-    │
-    └───smart_evidence
-    │   │   components
-    │   │   data_models
-    │   │   flows
-    │   │   helpers
-    │   │
-    │   └───models
-    │       │   concept_extractor.py
-    │       │   fuzz_concept_extractor.py
-    │       │   
-    │   
-    └───wandb
-        │   latest-run
-        │   run-files
+    │   │   │   
+    │   │   └─── routers
+    │   │   └─── build_knowledgebase.py
+    │   │   │    └─── data_processor_classification_job.py
+    │   │   │    └─── incoming_data_deepcheck.py
+    │   │   │    └─── model_downloader.py
+    │   │   │    └─── parquet_conversion.py
+    │   │   └─── schemas
+    │   │        └─── annotationOUT.py
+    │   │        └─── DataOUT.py
+    │   │        └─── ImpactScreeningOUT.py
+    │   │        └─── rest_api_schema.py
+    │   services_project
+    │   │   
+    │   wandb  (service to get the visualisation on the quality of the incoming data)
    ```   
     
    The improvements I proposed are based on 
@@ -108,21 +91,15 @@ It consists of Services with the following directories. In General its a django 
     5.  
 
 ## Data Costs and Scalabitliy: 
-   I propose a pipeline 
-   CSV is a simple and common format that is used 
-   by many tools such as Excel, Google Sheets and others.
+   Data comes in different formats: pdf,csv,tsv,xslx,json,jsonl, etc..
+   I propose to convert them to apache parquet both for faster data transfer and data readability purposes leading
+   to massive cost savings as data becomes enormous.
    
-   Disadvantages:
-   * Amazon Athena and Spectrum --> pricing based on 
-     amount of data scanned per query.
-   * Google GS/Amazon S3 will charge according to the amount 
-     of data available.
-     
+   
      In perspective:
 ![Apache_Parquet_Advantages](docs/Apache_Parquet_Advantages.png)
 
-
-   The 
+   
 
 ## Data Download && Data Ingestion && Data Aggregation
    * Enhance Data Collection from different sources: Airbyte (scrape data from api endpoints) -->
@@ -137,14 +114,10 @@ It consists of Services with the following directories. In General its a django 
    * Airtable to ApacheParquet. (endpoints to classify data --> and optimise conversion on apache parquet)
    * Semantic categorisation of data 
 
-## Example of Model Retraining
-   * Dagster, Apache Airflow 
-   * Direct Acyclic Graphs
-   * Data incoming model retraining
 
 ## Data Quality Check:
-   * Tool (Data Drift)
-   * service 
+   Done with DeepCheck. Current implementation 
+
 ## Data Visualisation Tool
    * Company Stats: (Downloaded: processed, trained)
 

@@ -7,9 +7,7 @@ from pydantic import BaseConfig, BaseModel, Extra
 from Services.services_app.api.schemas.annotationOUT import SimpleConcept
 from Services.services_app.api.schemas.impact_screeningOUT import Insight
 
-
 BaseConfig.arbitrary_types_allowed = True
-
 
 class InsightsForConceptRequest(BaseModel):
     concept: str
@@ -43,7 +41,6 @@ class EUTaxonomyClassificationRequest(BaseModel):
     class Config:
         # Forbid any extra fields in the request to avoid silent failures
         extra = Extra.forbid
-
 
 class EUTaxonomyClassificationResponse(Insight):
     activities: Optional[List[SimpleConcept]] = []

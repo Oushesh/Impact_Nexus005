@@ -1,8 +1,11 @@
 KnowledgeBase/
+bash-scripts/
 KnoledgeBaseParquet/
 rest_api/
-rest_api_venv
-nlp_venv
+rest_api_venv/
+DeepChecks/
+docs/
+nlp_venv/
 postgres/postgres-330510-458530c3ac03.json
 smart_evidence
 tests
@@ -22,5 +25,5 @@ assessment-service/
 configs/
 data/
 Services/services_app/api/utils/DeepChecks_old/
-docs/
 models/
+

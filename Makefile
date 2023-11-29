@@ -34,6 +34,9 @@ opensearch:
     opensearchproject/opensearch:1.2.0
 
 
+make gcp:
+
+
 download-data:
 	bash bash-scripts/download_blink_models.sh
 
