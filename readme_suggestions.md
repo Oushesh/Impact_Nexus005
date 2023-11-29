@@ -163,39 +163,7 @@ pre-commit install
    * build spec.yml into Makefile (DONE)
    * Getting away completely from Spacy. (DONE)
 
-## GPU nvidia-docker cml aws ec2 deep learning AMI
-   Choose aws ec2 deep learning AMI Ubuntu 18.04
-   ssh into your ec2 instance from that terminal you can work into 
-   your pycharm or terminal.
-
-   run nvidia-smi
-   
-   Check all the gpus in the docker
-   docker run --gpus all dvcorg/cml-py3 nvidia-smi
-   
-   This will check if cml image of nvidia-smi is available otherwise
-   it will pull it.
-    
-   You should see your gpu on terminal
-
-   Next step is to connect GH (github-actions) with docker. (I personally
-   dont have GPU on my mac M2)
-
-   Reference: https://www.jeremyjordan.me/testing-ml/
-
-   docker run --name gpurunner -d --gpus all -e RUNNER_IDLE_TIMEOUT=1000 -e RUNNER_LABELS=cml,gpu -e RUNNER_REPO="url_to_your_github_repository" -e repo_token="your_personal_access_token"
-
-   This gpu docker cml can run in the background. This will be a self-hosted runner running on your ec2 instance or gcp.
-
-
-   The CML docker container will listen to the workflows from github or gitlab.
-    
-    You can autoscale the workflows on self-hosted gpu machines for lots of developers
-    if they exist: https://docs.github.com/en/webhooks/webhook-events-and-payloads#workflow_job
-   
-
-## ML OPS && CML (Continuous Machine Learning) 
-   
+## ML OPS && CML (Continuous Machine Learning)  
    Using Github actions (.github/workflows/<test.yaml>) together with Data Version Control 
    to provide the following advantages over other methods:
 
@@ -214,19 +182,16 @@ pre-commit install
     Any changes people working with you did either on the bucket or new model
     it gets pushed and tested with the yaml.
 
-    Example: 
+    Example: Services/DVC/test 
+    A. Train script model was changed from LinearRegression to Lasso Model.
+    B. The change triggers the test written under .github/workflows/test.yaml
+    C. dvc can also be use to track the model with the bucket in google cloud: gs://dvc_models_bucket/models/
 
+![LassotoRegression](docs/lasso_regression_test.gif)
 
-## Endpoint Logging: 
-   * All endpoints have logging features.
-
-
-
-![]()
-
-    2. Data Pipelines: (dubbed as Makefile for ML Projects along with CML(Continuous Machine Learning))
-       Usually pipelines are connected with different 
-       steps in different.py files.
+    
+  2. Data Pipelines: (dubbed as Makefile for ML Projects along with CML(Continuous Machine Learning))
+     Usually pipelines are connected with different steps in different.py files.
 
       Changing anything in the train or any other script will only trigger that script. When your pipeline gets huge
       and uses GPU for training. Only the changes in script will run the results of the users that did not change
@@ -234,14 +199,48 @@ pre-commit install
 
 ![]()
     ML OPS and Robustness:
-
-
+    Perturbation test is used to test robustness of a given pipeline. 
+![]()
     
-    
-## Tests for high Standards from here: 
-   * https://eugeneyan.com/writing/setting-up-python-project-for-automation-and-collaboration/
 
-## Write Tests for ML Here (DONE)
+   3. Workflows Requiring GPUs:
+   Heavy Training requiring GPUs cannot be run on github directly. Instead spin off GPU service and attach the worker. 
+   Or: use local GPU. (PS: I dont have on my mac m2 pro.)
+   
+   A. 
+        
+        GPU nvidia-docker cml aws ec2 deep learning AMI
+        Choose aws ec2 deep learning AMI Ubuntu 18.04
+        ssh into your ec2 instance from that terminal you can work into 
+        your pycharm or terminal.
+
+   B.    
+        
+        run nvidia-smi
+        Check all the gpus in the docker
+        docker run --gpus all dvcorg/cml-py3 nvidia-smi
+       
+        This will check if cml image of nvidia-smi is available otherwise
+        it will pull it.
+        
+        You should see your gpu on terminal
+   
+   C. 
+        
+        Next step is to connect GH (github-actions) with docker. (I personally
+        dont have GPU on my mac M2)
+
+        Reference: https://www.jeremyjordan.me/testing-ml/
+    
+       docker run --name gpurunner -d --gpus all -e RUNNER_IDLE_TIMEOUT=1000 -e RUNNER_LABELS=cml,gpu -e RUNNER_REPO="url_to_your_github_repository" -e repo_token="your_personal_access_token"
+    
+       This gpu docker cml can run in the background. This will be a self-hosted runner running on your ec2 instance or gcp.
+
+       The CML docker container will listen to the workflows from github or gitlab.
+        
+        You can autoscale the workflows on self-hosted gpu machines for lots of developers
+        if they exist: https://docs.github.com/en/webhooks/webhook-events-and-payloads#workflow_job
+
 
 ## Resources: 
     https://eugeneyan.com/writing/setting-up-python-project-for-automation-and-collaboration/
@@ -271,6 +270,11 @@ pre-commit install
         │   latest-run
         │   run-files
     ```   
+
+        
+## Tests for high Standards from here: 
+   * https://eugeneyan.com/writing/setting-up-python-project-for-automation-and-collaboration/
+
 
 ## Changes Made: 
    1. 
