@@ -228,7 +228,9 @@ pre-commit install
        Usually pipelines are connected with different 
        steps in different.py files.
 
-      * .github/workflows/
+      Changing anything in the train or any other script will only trigger that script. When your pipeline gets huge
+      and uses GPU for training. Only the changes in script will run the results of the users that did not change
+      will be retrieved and only the specific script with changes will run.
 
 ![]()
     ML OPS and Robustness:
