@@ -10,16 +10,36 @@
 
    Below find the diagram of the overall pipeline
 
-![overall_pipeline](docs/MLOPS_Pipeline.png)
+![overall_pipeline](docs/ML_OPS.png)
    
     The pipeline consists of the Services. Services cater for manual processes for different stakeholders within a company:
-    1. Django service 
-    It consists of Services with the following directories
-     ```
+    1. Django service provides endpoints for:
+        
+    
+        A: Data Optimisation (from .xlsx,csv,.tsv,.pdf, etc... to unified format conversion to parquet) 
+           Services/services_app/api/routers/parquet_conversion.py
+        
+        
+        B: Builds knowledgebase (takes data from master knowledge folder to produce a jsonl knowledge base with source folder and subfolders as metadata and 
+           This in turn can be later used with neojs for data visualisation. 
+           Services/services_app/api/routers/build_knowledgebase.py
+        
+        C: Incoming Data Check.
+           a suite of tests thats test the incoming, gets its embeddings (can be later used to semantically cluster and check for Data or label
+           drifts).
+
+
+It consists of Services with the following directories. In General its a django project.
+
+```
     Services
     │   Airbyte (should be a different repo: airbyte github clone) 
     │   services_app
     │   │   api
+            │   routers
+            └─── schemas
+        └───models
+         │   api
         └───models
     │   api
         └───models
@@ -55,7 +75,7 @@
     └───wandb
         │   latest-run
         │   run-files
-    ```   
+   ```   
     
    The improvements I proposed are based on 
    * Python Programming style
