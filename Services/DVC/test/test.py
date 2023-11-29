@@ -9,5 +9,5 @@ X_test, y = make_regression(1000,n_features = 10)
 
 # Test on the model
 y_hat = model.predict(X_test)
-print (y_hat)
+#print (y_hat)
 
