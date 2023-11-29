@@ -26,7 +26,7 @@ jobs:
           
           # Print out the failure modes
           echo "## Failure modes" >> Services/DVC/perturbation_test/reports/report.md
-          cat Services/DVC/perturbation_test/failure_modes.txt >> Services/DVC/perturbation_test/report.md
+          cat Services/DVC/perturbation_test/failure_modes.txt >> Services/DVC/perturbation_test/reports/report.md
           
           # Send it!
-          cml-send-comment Services/DVC/perturbation_test/report.md
+          cml-send-comment Services/DVC/perturbation_test/reports/report.md
