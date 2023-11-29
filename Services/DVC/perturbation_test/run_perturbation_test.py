@@ -27,9 +27,8 @@ def eval_perturb(input_a,input_b):
     acc = output_a["label"] == output_b["label"]
     return(sq_error,acc,output_b["score"])
 
-
 # Read in our test dataset
-f = open("data/test_set.tsv")
+f = open("Services/DVC/perturbation_test/data/test_set.tsv")
 test_dataset = f.read().split("\t")[:-1]
 
 # Loop over all test examples and evaluate
