@@ -10,9 +10,11 @@
 
    Below find the diagram of the overall pipeline
 
-
-![overall_pipeline]()
+![overall_pipeline](docs/MLOPS_Pipeline.png)
    
+
+
+
    The improvements I proposed are based on 
    * Python Programming style
    * Data Costs and Scalability
