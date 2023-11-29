@@ -4,12 +4,12 @@ import json
 import pandas as pd
 
 # Load model 
-#tokenizer = AutoTokenizer.from_pretrained("textattack/albert-base-v2-SST-2")
-#inference_model = AutoModelForSequenceClassification.from_pretrained("textattack/albert-base-v2-SST-2")
+tokenizer = AutoTokenizer.from_pretrained("textattack/albert-base-v2-SST-2")
+inference_model = AutoModelForSequenceClassification.from_pretrained("textattack/albert-base-v2-SST-2")
 
 # Load Different model
-tokenizer = AutoTokenizer.from_pretrained("textattack/distilbert-base-uncased-finetuned-sst-2-english")
-inference_model = AutoModelForSequenceClassification.from_pretrained("distilbert-base-uncased-finetuned-sst-2-english")
+#tokenizer = AutoTokenizer.from_pretrained("textattack/distilbert-base-uncased-finetuned-sst-2-english")
+#inference_model = AutoModelForSequenceClassification.from_pretrained("distilbert-base-uncased-finetuned-sst-2-english")
 
 
 model = pipeline("sentiment-analysis", model = inference_model,tokenizer=tokenizer)
@@ -48,10 +48,10 @@ interesting_cases.sort(key=lambda tup:tup[2], reverse=True)
 # Write out our favorite interesting cases
 to_report = interesting_cases[:5]
 df = pd.DataFrame(to_report, columns = ["Original","Perturbed","Model confidence"])
-with open("failure_modes.txt","w") as outfile:
+with open("Services/DVC/perturbation_test/failure_modes.txt","w") as outfile:
     outfile.write(df.to_markdown(index=False))
     
 # Write results to file
-with open("test_score.json", 'w') as outfile:
+with open("Services/DVC/perturbation_test/test_score.json", 'w') as outfile:
         json.dump({ "accuracy": total_acc, "mse":mse}, outfile)
 

@@ -1,7 +1,7 @@
-## My improvements is based on:
+## My improvements and how I see things:
+   In order to build and handle a robust ML Pipeline:  
    1. Python Programming Style
    2. Airbyte for Data Collection
-   3. Automatic training when new data comes in: Apache Airflow 
    4. Anomaly Detection (new module)
    5. slack notification or so once model gets trained.
    6. ETL snowflake for Data Management
@@ -30,7 +30,7 @@
 
     5.  
 
-## Scalabilty of Data: 
+## Data Costs and Scalabitliy: 
    CSV is a simple and common format that is used 
    by many tools such as Excel, Google Sheets and others.
    
@@ -163,15 +163,32 @@ pre-commit install
    * build spec.yml into Makefile (DONE)
    * Getting away completely from Spacy. (DONE)
 
+<<<<<<< HEAD
 ## ML OPS && CML (Continuous Machine Learning)  
    Using Github actions (.github/workflows/<test.yaml>) together with Data Version Control 
    to provide the following advantages over other methods:
+=======
+
+## ML OPS && CML (Continuous Machine Learning) 
+   
+   The previous pipeline dit not account for the OPS and Continuous Machine Learning. CML + DVC 
+   is one of the best framework to achieve this. It treats data and models like Git files with hash. 
+   Even only pipelines that have been changed.
+
+   Using DVC and CML allows multiple people to work in different branches simultaneously on the same part 
+   of the pipeline or different parts of the pipeline and push code. The .yaml is written such that only
+   changes in the specific folder corresponding to the tests gets triggered saving time and being more efficient.
+
+    
+   * Github actions (.github/workflows/<test.yaml>) + Data Version Control 
+   
+   
+>>>>>>> DVC_Pipeline_Test
 
    1. Data Version Control: "Git for Data"
       dvc get downloads any data from a url pointing to s3, google bucket
       or other cloud services and saves where you want.
       It uses hash map like git to efficiently track and cash changes.
-      
 
     Services/DVC contains the different workflows
     Example of Data Versioning:
@@ -180,14 +197,48 @@ pre-commit install
     
     Track: dvc add Services/DVC/models/models.pkl
     Any changes people working with you did either on the bucket or new model
-    it gets pushed and tested with the yaml.
+    it gets pushed and tested with the yaml. The test gets trrigered and pipeline is evaluated.
+    
 
+<<<<<<< HEAD
     Example: Services/DVC/test 
     A. Train script model was changed from LinearRegression to Lasso Model.
     B. The change triggers the test written under .github/workflows/test.yaml
     C. dvc can also be use to track the model with the bucket in google cloud: gs://dvc_models_bucket/models/
 
 ![LassotoRegression](docs/lasso_regression_test.gif)
+=======
+The Github workflows 
+
+![Workflows](docs/all_workflows_yaml.png)
+
+corresponds to the buckets on google bucket or any other service.
+
+![Workflows](docs/google_bucket.png)
+    
+    Every DVC Experiment is:
+    ```
+    Services/DVC/<Name of Workflow or pipeline> 
+    │   model/
+    │   data/    
+    │   test.py
+    │   train.py
+    │   other_scripts.py
+    │   requirements.txt
+    ```   
+
+
+2. Data Pipelines
+   Versioning large data files and directories for data science is powerful, 
+   but often not enough. Data needs to be filtered, cleaned, and transformed 
+   before training ML models - for that purpose DVC introduces a build system 
+   to define, execute and track data pipelines — a series of data processing 
+   stages, that produce a final result.
+    
+   Example show with the function that converts 
+![]()
+   
+>>>>>>> DVC_Pipeline_Test
 
     
   2. Data Pipelines: (dubbed as Makefile for ML Projects along with CML(Continuous Machine Learning))
@@ -199,9 +250,20 @@ pre-commit install
 
 ![]()
     ML OPS and Robustness:
+<<<<<<< HEAD
     Perturbation test is used to test robustness of a given pipeline. 
 ![]()
     
+=======
+        
+    This was missing in the old pipeline. The pipeline  
+    Perturbation test is added to 
+
+
+    
+    
+## Tests for high Standards from here:
+>>>>>>> DVC_Pipeline_Test
 
    3. Workflows Requiring GPUs:
    Heavy Training requiring GPUs cannot be run on github directly. Instead spin off GPU service and attach the worker. 
@@ -271,6 +333,7 @@ pre-commit install
         │   run-files
     ```   
 
+<<<<<<< HEAD
         
 ## Tests for high Standards from here: 
    * https://eugeneyan.com/writing/setting-up-python-project-for-automation-and-collaboration/
@@ -278,3 +341,9 @@ pre-commit install
 
 ## Changes Made: 
    1. 
+=======
+
+## Further Improvements:
+   The DVC pipeline from Data Version Control already contains
+
+>>>>>>> DVC_Pipeline_Test
