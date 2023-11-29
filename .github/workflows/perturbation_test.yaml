@@ -20,13 +20,13 @@ jobs:
           python3 Services/DVC/perturbation_test/run_perturbation_test.py
           
           # Report the diff
-          echo "## Workspace vs. Main" > Services/DVC/perturbation_test/reports/report.md
-          git fetch --prune
-          dvc metrics diff main --targets Services/DVC/perturbation_test/metrics/test_score.json --show-md >> Services/DVC/perturbation_test/reports/report.md
+          #echo "## Workspace vs. Main" > Services/DVC/perturbation_test/reports/report.md
+          #git fetch --prune
+          #dvc metrics diff main --targets Services/DVC/perturbation_test/metrics/test_score.json --show-md >> Services/DVC/perturbation_test/reports/report.md
           
           # Print out the failure modes
-          echo "## Failure modes" >> Services/DVC/perturbation_test/reports/report.md
-          cat Services/DVC/perturbation_test/failure_modes.txt >> Services/DVC/perturbation_test/reports/report.md
+          #echo "## Failure modes" >> Services/DVC/perturbation_test/reports/report.md
+          #cat Services/DVC/perturbation_test/failure_modes.txt >> Services/DVC/perturbation_test/reports/report.md
           
           # Send it!
-          cml-send-comment Services/DVC/perturbation_test/reports/report.md
+          #cml-send-comment Services/DVC/perturbation_test/reports/report.md
