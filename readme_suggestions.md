@@ -199,7 +199,7 @@ pre-commit install
    Using Github actions (.github/workflows/<test.yaml>) together with Data Version Control 
    to provide the following advantages over other methods:
 
-   1. Data Versioning: "Git for Data"
+   1. Data Version Control: "Git for Data"
       dvc get downloads any data from a url pointing to s3, google bucket
       or other cloud services and saves where you want.
       It uses hash map like git to efficiently track and cash changes.
@@ -216,6 +216,12 @@ pre-commit install
 
     Example: 
 
+
+## Endpoint Logging: 
+   * All endpoints have logging features.
+
+
+
 ![]()
 
     2. Data Pipelines: (dubbed as Makefile for ML Projects along with CML(Continuous Machine Learning))
@@ -223,6 +229,7 @@ pre-commit install
        steps in different.py files.
 
       * .github/workflows/
+
 ![]()
     ML OPS and Robustness:
 
