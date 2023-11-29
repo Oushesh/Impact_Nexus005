@@ -1,13 +1,26 @@
-## My improvements and how I see things:
-   In order to build and handle a robust ML Pipeline:  
-   1. Python Programming Style
-   2. Airbyte for Data Collection
-   4. Anomaly Detection (new module)
-   5. slack notification or so once model gets trained.
-   6. ETL snowflake for Data Management
-   7. Data Storage Management (space for bulk data)
-      --> Data Converter to Apache Parquet
-   8. Scale issues. 
+## Getting Started:
+   The project given was more experimental and not ready for production.
+   Below find the diagram from the overall pipeline implementation, with highlights 
+   on how parts of the project were proposed to be readapted and how I propose to unify
+   the entire solution into services.
+
+   The overall pipeline consists of services (django and Ninja API based) both for the data expert team
+   (endpoints) used by the Data Engineers, Data Scientists, ML Engineers and MLOPs/DEV OPS people.
+
+
+   Below find the diagram of the overall pipeline
+
+
+![overall_pipeline]()
+   
+   The improvements I proposed are based on 
+   * Python Programming style
+   * Data Costs and Scalability
+   * Data Download, Data Ingestion and Data Aggregration
+   * Incoming Data Quality Check, Data Drift 
+   * MLOPs, Data Versioning, Continuous Machine Learning (CML), CI/CD ML Suite Test
+    
+   In each case I reported why and how.
 
 ## Python Programming Style 
     1. * blake (DONE)
@@ -31,6 +44,7 @@
     5.  
 
 ## Data Costs and Scalabitliy: 
+   I propose a pipeline 
    CSV is a simple and common format that is used 
    by many tools such as Excel, Google Sheets and others.
    
@@ -43,7 +57,10 @@
      In perspective:
 ![Apache_Parquet_Advantages](docs/Apache_Parquet_Advantages.png)
 
-## Data Download (DONE) , Data Ingestion, Data Aggregation
+
+   The 
+
+## Data Download && Data Ingestion && Data Aggregation
    * Enhance Data Collection from different sources: Airbyte (scrape data from api endpoints) -->
      save onto s3 (save the data and write migrations on Django to that).
     
@@ -136,34 +153,6 @@ pre-commit install
    * This will 5-10x productivity your engineers in the team.
    * This is crucial for GPT 
 
-## TODOS:
-   * Bugs (add support for multiple pages for .xslx files in: UoA .xslx )
-   * DVC: https://dvc.org/doc/user-guide/data-management/remote-storage --> sync with GCP or aws s3.
-   * Add logging to all endpoints and save the logs directly on supabase.
-
-## DONE
-   * Data Optimisation Cost optimisation csv,json,jsonl, pandas --> apache parquet
-   * Data Sync 
-   * Embeddings Semantic knowledge of Data (ToDAY: Done)
-   * Deep Check to check for anomalies in incoming data (TOday:Done)
-   * Tests: pytest fixture and coverage of data (added pytest-coverage to see which part of the code were ran during our code execution)
-   * moved rest_api_schema under services of schema.
-   * moved assets under folder data
-   * moved language model under folder model
-   * used embeddings from openai ada --> no need for python-levenstein distance (why?)
-     * semantic difference is better with lemma, stemming 
-   * NLP consists of different jobs: 
-     * Language Modelling: (Gloves, Wordnet, ADA Embeddings, co-occurrence) (TODO: replace with openai ada)
-     * Classification: emotional analysis, named entity recognition 
-     * embeddings for 
-   * Endpoint to get DeepCheck data. (TODAY)
-   * CI/CD (TODO) 
-   * logging in supabase all endpoints + Snowflake + gsutil (todo)
-   * GPU mlops actions: cml (continuous machine learning, github actions, nividia-docker)
-   * build spec.yml into Makefile (DONE)
-   * Getting away completely from Spacy. (DONE)
-
-
 
 ## ML OPS && CML (Continuous Machine Learning) 
    
@@ -229,15 +218,18 @@ corresponds to the buckets on google bucket or any other service.
       will be retrieved and only the specific script with changes will run.
 
 ![]()
-    ML OPS and Robustness:
+    3. ML OPS and Robustness:
 
-    Perturbation test is used to test robustness of a given pipeline. 
-![]()
-    
-
+    Perturbation test is used to test robustness of a given pipeline. The inputs are perturbed
+    and the model from hugging face like most of the models used at Impact Nexus are used.
     This was missing in the old pipeline. The pipeline  
-    Perturbation test is added to 
+   
 
+![DVC_Perturbation_test](docs/dvc_perturbation_test.gif)
+    
+    Other tests are mentionned in the department of Data and Label Drift as well as Embeddings Drift
+
+   
   3. Workflows Requiring GPUs:
 
    Heavy Training requiring GPUs cannot be run on github directly. Instead spin off GPU service and attach the worker. 
@@ -276,6 +268,36 @@ corresponds to the buckets on google bucket or any other service.
         
         You can autoscale the workflows on self-hosted gpu machines for lots of developers
         if they exist: https://docs.github.com/en/webhooks/webhook-events-and-payloads#workflow_job
+
+
+## TODOS:
+   * Bugs (add support for multiple pages for .xslx files in: UoA .xslx )
+   * Add logging to all endpoints and save the logs directly on supabase.
+
+**## DONE
+   * Data Optimisation Cost optimisation csv,json,jsonl, pandas --> apache parquet
+   * Data Sync 
+   * Embeddings Semantic knowledge of Data (ToDAY: Done)
+   * Deep Check to check for anomalies in incoming data (TOday:Done)
+   * Tests: pytest fixture and coverage of data (added pytest-coverage to see which part of the code were ran during our code execution)
+   * moved rest_api_schema under services of schema.
+   * moved assets under folder data
+   * moved language model under folder model
+   * used embeddings from openai ada --> no need for python-levenstein distance (why?)
+     * semantic difference is better with lemma, stemming 
+   * NLP consists of different jobs: 
+     * Language Modelling: (Gloves, Wordnet, ADA Embeddings, co-occurrence) (TODO: replace with openai ada)
+     * Classification: emotional analysis, named entity recognition 
+     * embeddings for 
+   * Endpoint to get DeepCheck data. (TODAY)
+   * CI/CD (TODO) 
+   * logging in supabase all endpoints + Snowflake + gsutil (todo)
+   * GPU mlops actions: cml (continuous machine learning, github actions, nividia-docker)
+   * build spec.yml into Makefile (DONE)
+   * Getting away completely from Spacy. (DONE)**
+
+
+
 
 
 
