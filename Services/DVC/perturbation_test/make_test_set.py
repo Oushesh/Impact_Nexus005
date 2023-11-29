@@ -1,8 +1,11 @@
 import nltk
 import random
 
+nltk.download('punkt') #No need of spacy for english punctuation
+
 f = open("Services/DVC/perturbation_test/data/raw.txt")
 corpus = f.read()
+
 
 # Split into sentences
 sent_list = nltk.tokenize.sent_tokenize(corpus)
