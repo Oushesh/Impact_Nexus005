@@ -1,7 +1,7 @@
 import nltk
 import random
 
-f = open("data/raw.txt")
+f = open("Services/DVC/perturbation_test/data/raw.txt")
 corpus = f.read()
 
 # Split into sentences
@@ -14,7 +14,7 @@ random.seed(1)
 keep = random.sample(clean_list, 500)
 
 # Write this subset to file
-with open('data/test_set.tsv', 'w') as f:
+with open('Services/DVC/perturbation_test/data/test_set.tsv', 'w') as f:
     for item in keep:
         # Remove any newlines in the body of the text to avoid confusion
         f.write("%s\t" % item.strip())

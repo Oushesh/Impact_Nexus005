@@ -163,11 +163,7 @@ pre-commit install
    * build spec.yml into Makefile (DONE)
    * Getting away completely from Spacy. (DONE)
 
-<<<<<<< HEAD
-## ML OPS && CML (Continuous Machine Learning)  
-   Using Github actions (.github/workflows/<test.yaml>) together with Data Version Control 
-   to provide the following advantages over other methods:
-=======
+
 
 ## ML OPS && CML (Continuous Machine Learning) 
    
@@ -183,7 +179,7 @@ pre-commit install
    * Github actions (.github/workflows/<test.yaml>) + Data Version Control 
    
    
->>>>>>> DVC_Pipeline_Test
+
 
    1. Data Version Control: "Git for Data"
       dvc get downloads any data from a url pointing to s3, google bucket
@@ -200,14 +196,14 @@ pre-commit install
     it gets pushed and tested with the yaml. The test gets trrigered and pipeline is evaluated.
     
 
-<<<<<<< HEAD
+
     Example: Services/DVC/test 
     A. Train script model was changed from LinearRegression to Lasso Model.
     B. The change triggers the test written under .github/workflows/test.yaml
     C. dvc can also be use to track the model with the bucket in google cloud: gs://dvc_models_bucket/models/
 
 ![LassotoRegression](docs/lasso_regression_test.gif)
-=======
+
 The Github workflows 
 
 ![Workflows](docs/all_workflows_yaml.png)
@@ -227,13 +223,12 @@ corresponds to the buckets on google bucket or any other service.
     │   requirements.txt
     ```   
 
-
 2. Data Pipelines
    Versioning large data files and directories for data science is powerful, 
    but often not enough. Data needs to be filtered, cleaned, and transformed 
    before training ML models - for that purpose DVC introduces a build system 
    to define, execute and track data pipelines — a series of data processing 
-   stages, that produce a final result.
+   stages, that produce a final result. Only changes done in specific. 
     
    Example show with the function that converts 
 ![]()
