@@ -15,4 +15,5 @@ jobs:
         run: |
           # Your ML workflow goes here
           pip3 install -r Services/DVC/test/requirements.txt
+          python3 Services/DVC/test/train.py
           python3 Services/DVC/test/test.py
