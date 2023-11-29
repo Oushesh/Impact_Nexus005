@@ -1,5 +1,5 @@
 from sklearn.datasets import make_regression
-#from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import LinearRegression
 from sklearn.linear_model import Lasso
 import pickle
 import os
@@ -7,8 +7,8 @@ import os
 X, y = make_regression(10000,n_features = 10)
 
 # Train a model
-#reg = LinearRegression().fit(X, y.ravel())
-reg = Lasso().fit(X, y.ravel())
+reg = LinearRegression().fit(X, y.ravel())
+#reg = Lasso().fit(X, y.ravel())
 # Print out training r2
 print(reg.score(X,y.ravel() ))
 
