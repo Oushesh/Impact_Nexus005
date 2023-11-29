@@ -1,4 +1,6 @@
 [core]
-    remote = dvc_init
+    remote = dvc_pipeline
 ['remote "dvc_init"']
     url = gs://dvc_models_bucket/models
+['remote "dvc_pipeline"']
+    url = gs://general_test/models
