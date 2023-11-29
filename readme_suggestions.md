@@ -238,10 +238,8 @@ corresponds to the buckets on google bucket or any other service.
     This was missing in the old pipeline. The pipeline  
     Perturbation test is added to 
 
+  3. Workflows Requiring GPUs:
 
-  3. Add GPU for pipeline test:     
-
-    3. Workflows Requiring GPUs:
    Heavy Training requiring GPUs cannot be run on github directly. Instead spin off GPU service and attach the worker. 
    Or: use local GPU. (PS: I dont have on my mac m2 pro.)
    
