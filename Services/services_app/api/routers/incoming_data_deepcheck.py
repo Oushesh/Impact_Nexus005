@@ -61,7 +61,6 @@ class Data_Properties:
         # TODO: modify return here
         return HttpResponse(f"File {file.name} processed successfully", status=200)
 
-
 @router.post("/deepcheck")
 def deepcheck(request, file: UploadedFile):
     filename, _ = file.name.rsplit('.', 1)

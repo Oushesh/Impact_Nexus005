@@ -117,13 +117,47 @@ It consists of Services with the following directories. In General it's a django
     
    In each case I reported why and how.
 
-## Services in Action: 
-   * The previous pipeline misses a lot on data quality check, data-imbalancement, data drifts, labels-drift.
+## Services in Action:
     
-    Endpoint: Services/services_app/api/routers/incoming_data_deepcheck.py
-![DeepCheck](docs/deepcheck.gif)
+1. The previous pipeline misses a lot on data quality check, data-imbalancement, data drifts, labels-drift.
 
-![]()
+    Endpoint: Services/services_app/api/routers/incoming_data_deepcheck.py
+    
+     
+![DeepCheck](docs/DeepCheck_001.png)
+
+![DeepCheck](docs/DeepCheck_002.png)
+![DeepCheck](docs/DeepCheck_003.png)
+![DeepCheck](docs/DeepCheck_004.png)
+![DeepCheck](docs/DeepCheck_006.png)
+![DeepCheck](docs/DeepCheck_007.png)
+![DeepCheck](docs/DeepCheck_008.png)
+
+    
+    This service can be hosted on any cloud service with GPU and embeddings on new stream of data calculated
+    such that data is analysed to find anmomaly before being used to train new models or current ones.
+   
+    This service integrates WANDB (https://wandb.ai/site) and each session is logged and can be extended to save
+    as experiment on the cloud. 
+
+    For every job type: a different transformation is required and found under:
+    Target: Services/services_app/JOBS/Classification/target/ 
+    Source: Services/services_app/JOBS/Classification/source/
+
+
+    Only 2 JOBS are required: entity recognition (similar to classification) and emotional classification (special form
+    of classification). 
+
+    Spacy should not be used. Levenstein method like you are using is good if characters are misspelled but the core
+    algorithm should focus on differentiation by semantics (use semantic embeddings like OpenAI ADA model or hugging face
+    language models).
+
+
+2. Knowledgebase Service: 
+   
+    Endpoint: Services/services_app/api/routers/
+
+        
    
 ## Python Programming Style 
     1. * blake (DONE)
