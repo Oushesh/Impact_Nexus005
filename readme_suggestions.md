@@ -119,7 +119,7 @@ It consists of Services with the following directories. In General it's a django
 
 ## Services in Action: 
    * The previous pipeline misses a lot on data quality check, data-imbalancement, data drifts, labels-drift.
-
+    
     Endpoint: Services/services_app/api/routers/incoming_data_deepcheck.py
 ![DeepCheck](docs/deepcheck.gif)
 
