@@ -1,0 +1,39 @@
+{
+    "os": "macOS-14.1.1-arm64-arm-64bit",
+    "python": "3.10.9",
+    "heartbeatAt": "2023-11-30T12:54:26.072174",
+    "startedAt": "2023-11-30T12:54:23.363362",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "runserver"
+    ],
+    "state": "running",
+    "program": "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/manage.py",
+    "codePathLocal": "manage.py",
+    "codePath": "Services/manage.py",
+    "git": {
+        "remote": "https://github.com/Oushesh/Impact_Nexus005.git",
+        "commit": "8bee375054a724e7e75751569b4d9d0f1a711ad3"
+    },
+    "email": "oushesh@gmail.com",
+    "root": "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005",
+    "host": "Ousheshs-MacBook-Pro.local",
+    "username": "ousheshharadhun",
+    "executable": "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/bin/python3",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "/": {
+            "total": 228.27386474609375,
+            "used": 9.217735290527344
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

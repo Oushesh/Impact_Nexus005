@@ -121,7 +121,7 @@ It consists of Services with the following directories. In General it's a django
    * The previous pipeline misses a lot on data quality check, data-imbalancement, data drifts, labels-drift.
 
     Endpoint: Services/services_app/api/routers/incoming_data_deepcheck.py
-![]()
+![DeepCheck](docs/deepcheck.gif)
 
 ![]()
    
@@ -155,7 +155,6 @@ It consists of Services with the following directories. In General it's a django
      In perspective:
 ![Apache_Parquet_Advantages](docs/Apache_Parquet_Advantages.png)
 
-   
 
 ## Data Download && Data Ingestion && Data Aggregation
    * Enhance Data Collection from different sources: Airbyte (scrape data from api endpoints) -->
