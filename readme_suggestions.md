@@ -1,42 +1,90 @@
 ## Getting Started:
 
-    make run  -- spin off the django server.   
+Installation:
     
+    make install-dev (for development)
+
+    make install-prod (for production)
+
+    make download-data (download data from internet sources)
+
+    make install-gcp
+    (install google cloud services)
+
+
+Sync models between GCP and local:
+   
+    make sync models-local
+    make sync models-gcp
+
+Run:
+     
+    make run
+spin off the django server.
     (core to all services provided with different to previous codebase with multiple projects)
 
+    make run-docker
+(run all core services on docker)
     
-    
+    make run-docker-gpu
+
+(run all core services on docker with gpu)
+
+## Changes Made: Why?
    
-The project given was more experimental and not ready for production.
+  1. The project given was more experimental and not ready for production.
 Below find the diagram from the overall pipeline implementation, with highlights 
 on how parts of the project were proposed to be readapted and how I propose to unify
 the entire solution into services.
 
-   The overall pipeline consists of services (django and Ninja API based) both for the data expert team
-   (endpoints) used by the Data Engineers, Data Scientists, ML Engineers and MLOPs/DEV OPS people.
+  2. Designed a Service Based Architecture: django + ninja api backend. why? Fast API is good and easily adaptable to
+     django. Django has better integrations like FSM (finite state machine if needed in future.) + more library components
+
+  
+ 3. Previous Project had pipeline which was from different projects: Spacy, HeyStack and fastapi
+    
+    For production one should not use Spacy: Spacy provides language models but there are good alternatives: like NLTK with
+    stemming and lemmatization. OpenAI Ada is currently the best embedding with 1279 Vector sofar surpassing Gloves, BERT, WORD2Vec
+    etc..
+
+    For pipeline use:
+    
+    
+    CI/CD of github workflow + Data Version Control (DVC) (Data as code and git) + CML + Deep Checks ML functionality
+            testing + WANDB to visualize the results.
+    
+    
+I adopt an API first development approach: 
+    
+    Data Scientis tests on google colab or jupyter notebook --> 
+    Ninja API makes it easy to add endpoints. -->
+    Same server on django are used by developers, data scientists
+    and data stakeholders. Its just different endpoints.   -->
+    Use DVC service to efficiently test parts of pipeline modularly.
 
    Below find the diagram of the overall pipeline
 
 ![overall_pipeline](docs/ML_OPS.png)
    
-    The pipeline consists of the Services. Services cater for manual processes for different stakeholders within a company:
-    1. Django service provides endpoints for:
+The pipeline consists of the Services. Services cater for manual processes for different stakeholders within a company:
+
+1.Django service provides endpoints for:
         
     
-        A: Data Optimisation (from .xlsx,csv,.tsv,.pdf, etc... to unified format conversion to parquet) 
-           Services/services_app/api/routers/parquet_conversion.py
+    A: Data Optimisation (from .xlsx,csv,.tsv,.pdf, etc... to unified format conversion to parquet) 
+       Services/services_app/api/routers/parquet_conversion.py
         
         
-        B: Builds knowledgebase (takes data from master knowledge folder to produce a jsonl knowledge base with source folder and subfolders as metadata and 
-           This in turn can be later used with neojs for data visualisation. 
-           Services/services_app/api/routers/build_knowledgebase.py
+    B: Builds knowledgebase (takes data from master knowledge folder to produce a jsonl knowledge base with source folder and subfolders as metadata and 
+       This in turn can be later used with neojs for data visualisation. 
+       Services/services_app/api/routers/build_knowledgebase.py
         
-        C: Incoming Data Check.
-           a suite of tests thats test the incoming, gets its embeddings (can be later used to semantically cluster and check for Data or label
-           drifts).
+    C: Incoming Data Check.
+        a suite of tests thats test the incoming, gets its embeddings (can be later used to semantically cluster and check for Data or label
+        drifts).
 
 
-It consists of Services with the following directories. In General its a django project.
+It consists of Services with the following directories. In General it's a django project.
 
 ```
     Services
@@ -69,6 +117,14 @@ It consists of Services with the following directories. In General its a django 
     
    In each case I reported why and how.
 
+## Services in Action: 
+   * The previous pipeline misses a lot on data quality check, data-imbalancement, data drifts, labels-drift.
+
+    Endpoint: Services/services_app/api/routers/incoming_data_deepcheck.py
+![]()
+
+![]()
+   
 ## Python Programming Style 
     1. * blake (DONE)
        * add isort pre-commit configs.

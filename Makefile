@@ -34,7 +34,6 @@ opensearch:
     opensearchproject/opensearch:1.2.0
 
 
-make gcp:
 
 
 download-data:
@@ -79,6 +78,15 @@ aws-ecr:
 	echo Build completed on `date`
 	echo Pushing the Docker image...
 	docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:$IMAGE_TAG
+
+install-gcp:
+
+
+sync-models-local:
+	gsutil -m rsync -r gs://dvc_models_bucket models
+
+sync-models-gcp:
+	gsutil -m rsync -r models gs://dvc_models_bucket
 
 postgres:
 

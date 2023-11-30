@@ -73,5 +73,4 @@ def deepcheck(request, file: UploadedFile):
         return JsonResponse({"message":f"File {filename} not in .csv format"})
 
 
-##
 
