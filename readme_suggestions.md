@@ -144,7 +144,6 @@ It consists of Services with the following directories. In General it's a django
     Target: Services/services_app/JOBS/Classification/target/ 
     Source: Services/services_app/JOBS/Classification/source/
 
-
     Only 2 JOBS are required: entity recognition (similar to classification) and emotional classification (special form
     of classification). 
 
@@ -154,11 +153,26 @@ It consists of Services with the following directories. In General it's a django
 
 
 2. Knowledgebase Service:
-    Endpoint: Services/services_app/api/routers/
-    Input: <Path to Local Folder containing Knowledgebase>
+    Endpoint: Services/services_app/api/routers/build_knowledgebase
+    Input: <Path to Knowledgebase>
+    Output: <JSONL of the entire database as knowledgebase>
+   
+    I complment the idea of using NeoJS. Its a good decision.
+    
+3. Data Optimisation
 
-![]()
-        
+
+    Endpoint: Services/services_app/api/routers/parquet_conversion_service
+    
+       Input: <Path to Local Folder containing Knowledgebase>
+       Output: <optimised KnowledgeBaseParquet> 
+    
+       Its a service that can be easily deployed and added to data optimisation pipeline. (see cost and advantages below: Data Costs and Scalability)
+
+![KnowledgeBase](docs/BuildKnowledgeBase.gif)
+
+
+4.  
    
 ## Python Programming Style 
     1. * blake (DONE)

@@ -105,11 +105,11 @@ def process_file(request, file: UploadedFile, selected_header: str = ''):
         df['train_test_split'] = 'None'
 
     # Fill the "train_test_split" column randomly with "Train" or "Test"
-    df = fill_train_test_split(df)
+    df = Classification_Job.fill_train_test_split(df)
 
     # If a label list is provided, assign labels randomly to the "label" column
     if label_list:
-        df = assign_labels(df, label_list)
+        df = Classification_Job.assign_labels(df, label_list)
 
     # Save the modified DataFrame to a new Excel file
     output_file = io.BytesIO()
