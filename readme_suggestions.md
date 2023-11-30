@@ -30,6 +30,16 @@ spin off the django server.
 
 (run all core services on docker with gpu)
 
+
+Precommit:
+
+    make install-precommit
+Installs precommit.
+
+    make run-precommit
+runs precommit.
+
+
 ## Changes Made: Why?
    
   1. The project given was more experimental and not ready for production.
@@ -172,83 +182,52 @@ It consists of Services with the following directories. In General it's a django
 ![KnowledgeBase](docs/BuildKnowledgeBase.gif)
 
 
-4.  
+4.  Classification JOB Transformation Service
+    Endpoint: Services/services_app/routers/process_file.py
+    
+    Input: <Path to file corresponding to job>
+    Ouput: <Processed file ready for semantic analysis Job> 
+    
+    This endpoint is really dynamic: it take any file .csv or best optimised parquet and since emotional/sentiment
+    analysis can be a multivariate problem: user can select the input from the table and output label is added along
+    with train_test split. The other columns are treated as metadata and can be used to further enhance classification.
+    
+    This is JOB Transformation service.
+    The NLP Jobs required in this project are classification and language modelling. 
    
+    The raw Data can be synced with Google Bucket live and the transformed Data in a different bucket. The data transformation
+    is dependent on the JOB here defined under: "Services/services_app/JOBS/Classification/source"
+
+
+
+    Under "Services/services_app/JOBS/LanguageModelling" all the functions that compute co-coccurence matrix or simply
+    any bayesian method primitive language model can be written and served under one endpoint. The language model
+    is then saved under: Google Bucket or any S3 or Athena. My Buckets are under:
+
+    gs://jobs_impactnexus
+
+
 ## Python Programming Style 
-    1. * blake (DONE)
-       * add isort pre-commit configs.
-       * pre-commit run
-       * for all files in repo: pre-commit run -a
-       * This will allow to test for code quality once installed.
-       * pre-commit install
-
-    2. Github actions when merging branches. (configure tests)
-        
-    3. Good critics: (Django or FastAPI is good).
-       I would have put a minus if things like Flask or streamlit 
-       were to be used.
-
-    4. jupyter notebooks or google colab is good
-       use notebooks from google colab its cheap and 
-       way fast for a team to work with rather than
-       configuring gpu configs locally.
-
-    5.  
+   Pre-conmmits containing blake, isort, github CI/CD with Continuous Machine Learning
 
 ## Data Costs and Scalabitliy: 
    Data comes in different formats: pdf,csv,tsv,xslx,json,jsonl, etc..
    I propose to convert them to apache parquet both for faster data transfer and data readability purposes leading
    to massive cost savings as data becomes enormous.
-   
-   
-     In perspective:
+    
+In perspective:
 ![Apache_Parquet_Advantages](docs/Apache_Parquet_Advantages.png)
 
 
 ## Data Download && Data Ingestion && Data Aggregation
-   * Enhance Data Collection from different sources: Airbyte (scrape data from api endpoints) -->
-     save onto s3 (save the data and write migrations on Django to that).
-    
-     Example: Airbyte with Oekobaudat (Data Enhancing) --> Anomaly Detection
-
-   * Endpoints Django --> (absorb all data) --> postgresql --> show statistics 
-   * Unified Data Format (migration)
-   * Data Gets converted to apache Parquet Data Unified Format Conversion (Apache Parquet) --> Statistics
-   * Anomaly Detection --> Deep Checks
-   * Airtable to ApacheParquet. (endpoints to classify data --> and optimise conversion on apache parquet)
-   * Semantic categorisation of data 
-
-
-## Data Quality Check:
-   Done with DeepCheck. Current implementation 
+   
+   1. The Django Service has an endpoint to download data for example from "Oekobaudat Service". As a company you can  spend time
+   developing endpoints and curating data or use Airbyte (like i showed in the diagram at the beginning) to build robust Data Connectors.
+   This will save development time. Airbyte can also be used to  build Airtable or any third party service api quickly and robust.
 
 ## Data Visualisation Tool
-   * Company Stats: (Downloaded: processed, trained)
-
-## Setting up Git Hooks (DONE)
-    This repository uses pre-commit to maintain code quality.
-
-To run pre-commit checks on changed files use:
-
-pre-commit run
-To run against all files the whole repository:
-
-pre-commit run -a
-To run a specific tool against a specific file or directory (the list of available tools can be found in .pre-commit-config.yaml):
-
-pre-commit run <tool name> <file path>
-To install pre-commit as a git hook that will run automatically on commit (recommended):
-
-pre-commit install
-
-## Data Optimisation storage (DONE)
-   * convert csv and other data types to optimise for storage
-     apache parquet.
-   * if your data is hugely dependent on csv convert to apache parquet then optimise the data storage in the system. (cost of optimisation)
-   
-## Efficiency of Data Collection process 
-   * implement stream application for data collection (airbyte for extra api development to stream data
-     from different sources.)
+   * WANDB. I propose passing the entire database to a vector database like Qdrant or Pinecone or Weaviate with OpenAI Ada Embeddings
+     API to classify data.
 
 ## Data Retraining and Versioning.
    * add an endpoint for absorbing from different (sources), different 
@@ -256,45 +235,8 @@ pre-commit install
      anomaly detection: on data (TODO)
      how the pipelines are modules can be connected together (TODAY)
 
-## Deep checks: 
-   MLOPS operations and testing (DONE)
-   insights generated from data 
 
-## Data Steps:
-
-## Automatic Retraining when new data comes in:
-   * data: (will add today as well.)
-
-## Changes made:
-   * Logs should be under log folder
-
-## Assessment Service
-   * Abstracts the Folder as a Knowledge Base. (DONE)
-     #TODO: Folder selection step using Django Ninja Form select
-
-## Logs for Supabase client
-   python3 -m pip install supabase
-
-## TODO and Progress Tracking.
-   Django Project abstracting Knowledge Base from the Folder info into massive json (DONE)
-   Add Deepcheck to check incoming data
-   Aggregate Data from scraping (Airbyte example oekobaudat data here)
-   
-   Bad Comments: why have 2 application running: (unified: into 1 Django structure) rest_api
-    Rest_api 
-## MLOPS
-    * Technical risk -- poorly performing
-    * Compliance risk -- violating regulatory or corporate policies 
-
-## Why make it like the idea of services?
-   Tomorrow when the company has to change infrastructure you can use stuffs like Terraform or ansible 
-   to make the transition for different versions of the app.
-
-## Make Budget for ChatGPT or github copilot
-   * This will 5-10x productivity your engineers in the team.
-   * This is crucial for GPT 
-
-
+     
 ## ML OPS && CML (Continuous Machine Learning) 
    
    The previous pipeline dit not account for the OPS and Continuous Machine Learning. CML + DVC 

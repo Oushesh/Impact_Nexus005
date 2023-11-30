@@ -88,5 +88,15 @@ sync-models-local:
 sync-models-gcp:
 	gsutil -m rsync -r models gs://dvc_models_bucket
 
-postgres:
+
+install-precommit:
+	pre-commit install
+
+run-precommit:
+	pre-commit run
+
+
+
+
+
 
