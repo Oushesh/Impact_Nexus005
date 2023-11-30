@@ -153,10 +153,11 @@ It consists of Services with the following directories. In General it's a django
     language models).
 
 
-2. Knowledgebase Service: 
-   
+2. Knowledgebase Service:
     Endpoint: Services/services_app/api/routers/
+    Input: <Path to Local Folder containing Knowledgebase>
 
+![]()
         
    
 ## Python Programming Style 
