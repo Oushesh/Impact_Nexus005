@@ -100,3 +100,5 @@ virtualenv
 openpyxl
 wandb
 dvc
+google-cloud-logging
+google-cloud-storage

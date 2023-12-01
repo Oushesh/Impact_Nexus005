@@ -360,60 +360,28 @@ corresponds to the buckets on google bucket or any other service.
 
 ## Tests: 
    make test
+   
+   All tests written with pytest, pytest.fixtures. The tests can be extended to all endpoints and pass.
+   Logic tests can be written like the ones shown here. But also, integration test as well as data injection
+   test.
 
+![Test](docs/make_tests.gif)
    
 
    The tests are written with pytest.ini and every endpoint can tested as such. The tests written in the old repo can 
    be easily adapted. 
 
-**## DONE
-   * Data Optimisation Cost optimisation csv,json,jsonl, pandas --> apache parquet
-   * Data Sync 
-   * Embeddings Semantic knowledge of Data (ToDAY: Done)
-   * Deep Check to check for anomalies in incoming data (TOday:Done)
-   * Tests: pytest fixture and coverage of data (added pytest-coverage to see which part of the code were ran during our code execution)
-   * moved rest_api_schema under services of schema.
-   * moved assets under folder data
-   * moved language model under folder model
-   * used embeddings from openai ada --> no need for python-levenstein distance (why?)
-     * semantic difference is better with lemma, stemming 
-   * NLP consists of different jobs: 
-     * Language Modelling: (Gloves, Wordnet, ADA Embeddings, co-occurrence) (TODO: replace with openai ada)
-     * Classification: emotional analysis, named entity recognition 
-     * embeddings for 
-   * Endpoint to get DeepCheck data. (TODAY)
-   * CI/CD (TODO) 
-   * logging in supabase all endpoints + Snowflake + gsutil (todo)
-   * GPU mlops actions: cml (continuous machine learning, github actions, nividia-docker)
-   * build spec.yml into Makefile (DONE)
-   * Getting away completely from Spacy. (DONE)**
 
-
-
-
-
+## Logging System: 
+   The entire logging system is based on python module logging and the logs are synced on the cloud on supabase.
+   Each endpoint should have a logging system recording
 
 ## Resources: 
     https://eugeneyan.com/writing/setting-up-python-project-for-automation-and-collaboration/
     https://stackoverflow.com/questions/67646383/authentication-to-github-using-personal-access-token-on-macos#:~:text=3%20Answers&text=Run%20a%20git%20push%20or,it%20and%20paste%20it%20in).
     https://iterative.ai/blog/cml-self-hosted-runners-on-demand-with-gpus
     (how to self-host runners on gpus)
-    
+   https://eugeneyan.com/writing/setting-up-python-project-for-automation-and-collaboration/
 
-## Structure of the Project:
-   
-
-
-        
-## Tests for high Standards from here: 
-   * https://eugeneyan.com/writing/setting-up-python-project-for-automation-and-collaboration/
-
-
-## Changes Made: 
-   1. 
-
-
-## Further Improvements:
-   The DVC pipeline from Data Version Control already contains
 
 

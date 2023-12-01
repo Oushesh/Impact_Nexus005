@@ -1,10 +1,16 @@
 import os
+import json
+import logging
+from google.cloud import storage
 from ninja import Router
 from pathlib import Path
-import json
 
 router = Router()
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 class Build_KnowledgeBase:
     def __init__(self, **kwargs):
@@ -26,36 +32,54 @@ class Build_KnowledgeBase:
 
     @classmethod
     def read_file(cls, file_path, folder_path):
-        # Assuming you want to read the contents of .csv and .tsv files
-        # You might need to adjust this based on the actual file format
-        with open(file_path, 'r') as file:
-            # If it's a TSV file, you can split lines based on tabs, etc.
-            content = file.readlines()
-            # Iterate through each line and replace '\n' and '\t'
-            for i in range(len(content)):
-                content[i] = content[i].replace("\n", "").replace("\t", "")
+        try:
+            with open(file_path, 'r') as file:
+                content = [line.strip().replace("\t", "") for line in file]
+            logger.info(f"Successfully read {file_path} {file_path}")
+            return {
+                "folder_path": folder_path,
+                "subfolder_path": os.path.relpath(file_path, BASE_DIR),
+                "filename": os.path.basename(file_path),
+                "content": content,
+            }
 
-        # Add folder, subfolder, and filename to the data structure
-        return {
-            "folder_path": folder_path,
-            "subfolder_path": os.path.relpath(file_path, BASE_DIR),
-            "filename": os.path.basename(file_path),
-            "content": content,
-        }
+        except Exception as e:
+            logger.error(f"Error opening file {folder_path} {file_path}")
+    @classmethod
+    def upload_logs_to_gcs(local_log_path, bucket_name, remote_log_path):
+        try:
+            storage_client = storage.Client()
+            bucket = storage_client.get_bucket(bucket_name)
+
+            blob = bucket.blob(remote_log_path)
+            blob.upload_from_filename(local_log_path)
+
+            logger.info(f"Logs uploaded to GCS: gs://{bucket_name}/{remote_log_path}")
+
+        except Exception as e:
+            logger.error(f"Error uploading logs to GCS: {e}")
 
 @router.get("/build_knowledgebase")
-def build_knowledgebase(request, folder_path:str):
+def build_knowledgebase(request, folder_path: str):
     assert isinstance(folder_path, str)
 
-    # Combine the specified folder path with the base directory
     base_folder = os.path.join(BASE_DIR, folder_path)
     output_json = os.path.join(BASE_DIR, "output/knowledge.json")
 
     result = Build_KnowledgeBase.process_folder(base_folder)
 
+    # Save logs locally
+    with open(os.path.join(BASE_DIR, "output/logs.txt"), 'a') as log_file:
+        log_file.write("\n".join(log_messages))
+
+    # Upload logs to Google Cloud Storage
+    Build_KnowledgeBase.upload_logs_to_gcs(os.path.join(BASE_DIR, "output/logs.txt"), "logs_impactnexus/build_knowledgebase", "logs.txt")
+
     with open(output_json, 'w') as json_file:
         json.dump(result, json_file, indent=4)
 
     return {"data": "success"}
+
+
 
 
