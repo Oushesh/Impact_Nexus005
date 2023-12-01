@@ -9,7 +9,10 @@ router = Router()
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 # Configure logging
-logging.basicConfig(filename=os.path.join(BASE_DIR,"build_knowledgebase.log"),level=logging.INFO)
+logging.basicConfig(level=logging.INFO, filename=os.path.join(BASE_DIR,"logs/build_knowledgebase.log"), filemode='a',
+                    format='%(asctime)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
+
+
 logger = logging.getLogger(__name__)
 
 class Build_KnowledgeBase:
@@ -85,12 +88,11 @@ def build_knowledgebase(request, folder_path: str):
 
     result = Build_KnowledgeBase.process_folder(base_folder)
 
-
-    # TODO: Upload logs to Google Cloud Storage
-    #Build_KnowledgeBase.upload_logs_to_gcs(local_log_path, "logs_impactnexus/build_knowledgebase", "logs.txt")
     logging.info(f"Knowledge base built successfully. Output: {output_json}")
 
     with open(output_json, 'w') as json_file:
         json.dump(result, json_file, indent=4)
 
+        # Upload logs to Google Cloud Storage
+    Build_KnowledgeBase.upload_log_file_to_gcs(local_log_path, "logs_impactnexus/build_knowledgebase","build_knowledgebase.log")
     return {"data": "success"}

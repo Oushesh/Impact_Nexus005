@@ -1,0 +1,21 @@
+2023-12-01 12:07:52 - INFO - Successfully added split train_test
+2023-12-01 12:07:52 - INFO - Data assigned to labels
+2023-12-01 12:07:52 - INFO - Successfully transformed the data
+2023-12-01 12:30:59 - INFO - /Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/api/routers/incoming_data_deepcheck.py changed, reloading.
+2023-12-01 12:31:55 - INFO - success
+2023-12-01 12:32:25 - INFO - /Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/api/routers/model_downloader.py changed, reloading.
+2023-12-01 12:32:40 - INFO - success
+2023-12-01 12:34:33 - INFO - success
+2023-12-01 12:34:35 - INFO - success
+2023-12-01 12:36:56 - INFO - success
+2023-12-01 12:38:36 - INFO - success
+2023-12-01 12:38:37 - INFO - success
+2023-12-01 12:47:40 - INFO - File dfg_other_sectors_20220121_filled.csv processed successfully,status=200
+2023-12-01 12:47:40 - INFO - File dfg_other_sectors_20220121_filled processed successfully status=200
+2023-12-01 15:33:00 - INFO - dfg_other_sectors_20220121_filled.csv contents read
+2023-12-01 15:33:01 - INFO - dfg_other_sectors_20220121_filled.csv 
+2023-12-01 15:40:31 - INFO - File dfg_other_sectors_20220121_filled.csv processed successfully,status=200
+2023-12-01 15:40:31 - INFO - File dfg_other_sectors_20220121_filled processed successfully status=200
+2023-12-01 15:40:50 - INFO - /Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/api/routers/incoming_data_deepcheck.py changed, reloading.
+2023-12-01 15:42:38 - INFO - dfg_other_sectors_20220121_filled.csv contents read
+2023-12-01 15:42:38 - INFO - dfg_other_sectors_20220121_filled.csv 

@@ -1,26 +1,21 @@
 """
 Service converts any raw data in the form of .csv, .tsv or any excel sheet into ready for the job data.
 """
-
 import os
 from ninja import Router
 from ninja.files import UploadedFile
 import pandas as pd
-import json
-import supabase
 import logging
 import io
-from datetime import datetime
 from django.http import HttpResponse
-from django.shortcuts import render
 import random
 from pathlib import Path
 
 router = Router()
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 # Configure logging
-log_file_path = "data_processor_classification_logs.log"
-logging.basicConfig(level=logging.INFO, filename=log_file_path, filemode='a',
+logging.basicConfig(level=logging.INFO, filename=os.path.join(BASE_DIR,"logs/data_processor_classification_job.log"), filemode='a',
                     format='%(asctime)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 
 logger = logging.getLogger(__name__)
@@ -36,10 +31,12 @@ class Classification_Job:
     def __init__(self,**kwargs):
         self.kwargs = kwargs
 
+    #TODO: in reality we need a real data here.
     @classmethod
     def fill_train_test_split(cls,df):
         # Fill the "train_test_split" column randomly with "Train" or "Test"
         df['train_test_split'] = df.apply(lambda row: random.choice(['Train', 'Test']), axis=1)
+        logging.info (f"Successfully added split train_test")
         return df
 
 
@@ -47,14 +44,13 @@ class Classification_Job:
     def assign_labels(cls,df, label_list):
         # Assign labels randomly to the "label" column based on the given list of labels
         df['label'] = random.choices(label_list, k=len(df))
+        logging.info (f"Data assigned to labels")
         return df
 
 @router.post("/process_file")
 def process_file(request, file: UploadedFile, selected_header: str = ''):
     # Get the filename without extension
-
     BASE_DIR = Path(__file__).resolve().parent.parent.parent
-
     filename, _ = file.name.rsplit('.', 1)
 
     input_path = os.path.join(BASE_DIR, "Classification/source/")
@@ -71,6 +67,7 @@ def process_file(request, file: UploadedFile, selected_header: str = ''):
         delimiter = '\t' if file.name.endswith('.tsv') else ','
         df = pd.read_csv(io.StringIO(file.file.read().decode('utf-8')), delimiter=delimiter)
     else:
+        logging.error(f"Unsupported file format. Please upload a CSV, TSV, or Excel file.status=400")
         return HttpResponse("Unsupported file format. Please upload a CSV, TSV, or Excel file.", status=400)
 
     # Fill in empty rows with "None"
@@ -88,6 +85,7 @@ def process_file(request, file: UploadedFile, selected_header: str = ''):
 
     # Check if the selected header exists
     if selected_header not in headers_list:
+        logging.error (f"Selected header '{selected_header}' not found in the file.status=400")
         return HttpResponse(f"Selected header '{selected_header}' not found in the file.", status=400)
 
     # Rename the selected header to "text" and move it to the first column
@@ -114,7 +112,6 @@ def process_file(request, file: UploadedFile, selected_header: str = ''):
     # Save the modified DataFrame to a new Excel file
     output_file = io.BytesIO()
 
-    #TODO: save to the desired folder output:
     df.to_csv(output_file,index=False)
     df.to_csv()
     output_file.seek(0)
@@ -123,7 +120,7 @@ def process_file(request, file: UploadedFile, selected_header: str = ''):
     response = HttpResponse(output_file.read(), content_type='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
     response['Content-Disposition'] = f'attachment; filename={filename}_filled.csv'
 
+    logging.info(f"Successfully transformed the data")
     return response
 
 
-# TODO: Add the option to measure Data Drift: before that add a way to import knowledge graph here.
