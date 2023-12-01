@@ -352,10 +352,19 @@ corresponds to the buckets on google bucket or any other service.
         You can autoscale the workflows on self-hosted gpu machines for lots of developers
         if they exist: https://docs.github.com/en/webhooks/webhook-events-and-payloads#workflow_job
 
+## Data Version Control (DVC)
+   
+    Services/DVC
+    
+    
 
-## TODOS:
-   * Bugs (add support for multiple pages for .xslx files in: UoA .xslx )
-   * Add logging to all endpoints and save the logs directly on supabase.
+## Tests: 
+   make test
+
+   
+
+   The tests are written with pytest.ini and every endpoint can tested as such. The tests written in the old repo can 
+   be easily adapted. 
 
 **## DONE
    * Data Optimisation Cost optimisation csv,json,jsonl, pandas --> apache parquet
