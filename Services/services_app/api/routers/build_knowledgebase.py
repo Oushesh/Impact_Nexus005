@@ -30,6 +30,8 @@ class Build_KnowledgeBase:
             elif os.path.isfile(item_path) and item.endswith(('.csv', '.tsv')):
                 # Append log messages from read_file
                 result[item], file_log_messages = Build_KnowledgeBase.read_file(item_path, folder_path)
+                result = Build_KnowledgeBase.read_file(item_path, folder_path)
+
                 log_messages.extend(file_log_messages)
 
         return result
