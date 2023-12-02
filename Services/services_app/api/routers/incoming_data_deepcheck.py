@@ -14,6 +14,7 @@ from deepchecks.nlp import TextData
 from deepchecks.nlp.checks import TextPropertyOutliers
 from django.http import JsonResponse, HttpResponse
 from pathlib import Path
+from google.cloud import storage
 
 # Configure logging
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
@@ -69,17 +70,44 @@ class Data_Properties:
 
         return HttpResponse(f"File {file.name} processed successfully", status=200)
 
+    @classmethod
+    def upload_logs_to_gcs(cls, local_log_path, bucket_name, remote_log_path):
+        """
+
+        :param local_log_path: path of the log file locally
+        :param bucket_name: google cloud bucket name
+        :param remote_log_path: path of the file when uploaded.
+        :return: None
+        """
+        try:
+            storage_client = storage.Client()
+            bucket = storage_client.get_bucket(bucket_name)
+
+            blob = bucket.blob(remote_log_path)
+            blob.upload_from_filename(local_log_path)
+
+            logging.info(f"Logs uploaded to GCS: gs://{bucket_name}/{remote_log_path}")
+
+        except Exception as e:
+            logging.error(f"Error uploading logs to GCS: {e}")
+
+
 @router.post("/deepcheck")
 def deepcheck(request, file: UploadedFile):
     filename, _ = file.name.rsplit('.', 1)
+
+    local_log_path = os.path.join(BASE_DIR, "logs/incoming_data_deepcheck.log")
+
 
     if file.name.endswith(".csv"):
         Data_Properties.compute(file)
 
         logging.info(f"File {filename} processed successfully status=200")
+        Data_Properties.upload_logs_to_gcs(local_log_path,"logs_impactnexus","incoming_data_deepcheck/incoming_data_deepcheck.log")
         return JsonResponse({"message": f"File {filename} processed successfully"}, status=200)
     else:
         logging.error(f"File {filename} not in .csv format")
+        Data_Properties.upload_logs_to_gcs(local_log_path,"logs_impactnexus","incoming_data_deepcheck/incoming_data_deepcheck.log")
         return JsonResponse({"message":f"File {filename} not in .csv format"})
 
 

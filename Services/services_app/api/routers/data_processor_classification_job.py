@@ -10,6 +10,8 @@ import io
 from django.http import HttpResponse
 import random
 from pathlib import Path
+from google.cloud import storage
+
 
 router = Router()
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
@@ -47,10 +49,34 @@ class Classification_Job:
         logging.info (f"Data assigned to labels")
         return df
 
+    @classmethod
+    def upload_logs_to_gcs(cls,local_log_path,bucket_name,remote_log_path):
+        """
+
+        :param local_log_path:
+        :param bucket_name:
+        :param remote_log_path:
+        :return:
+        """
+        try:
+            storgae_client = storage.Client()
+            bucket = storgae_client.get_bucket(bucket_name)
+
+            blob = bucket.blob(remote_log_path)
+            blob.upload_from_filename(local_log_path)
+
+            logging.info(f"Logs uploaded to GCS: gs://{bucket_name}/{remote_log_path}")
+        except Exception as e:
+            logging.error(f"Error uploading logs to GCS: {e}")
+
+
+
 @router.post("/process_file")
 def process_file(request, file: UploadedFile, selected_header: str = ''):
     # Get the filename without extension
     BASE_DIR = Path(__file__).resolve().parent.parent.parent
+    local_log_path = os.path.join(BASE_DIR,"logs/data_processor_classification_job.log")
+
     filename, _ = file.name.rsplit('.', 1)
 
     input_path = os.path.join(BASE_DIR, "Classification/source/")
@@ -121,6 +147,9 @@ def process_file(request, file: UploadedFile, selected_header: str = ''):
     response['Content-Disposition'] = f'attachment; filename={filename}_filled.csv'
 
     logging.info(f"Successfully transformed the data")
+
+    # TODo: upload the conversion job to
+    Classification_Job.upload_logs_to_gcs(local_log_path,"logs_impactnexus","data_processor_classification_job/data_processor_classification_job.log")
     return response
 
 

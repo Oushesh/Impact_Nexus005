@@ -13,12 +13,13 @@ import supabase
 import logging
 from dotenv import load_dotenv
 from datetime import datetime
+from google.cloud import storage
 
 router = Router()
 
 # Configure logging
-log_file_path = 'conversion_logs.log'
-logging.basicConfig(level=logging.INFO, filename=log_file_path, filemode='a',
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+logging.basicConfig(level=logging.INFO, filename="logs/", filemode='a',
                     format='%(asctime)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 
 logger = logging.getLogger(__name__)
@@ -188,13 +189,37 @@ class Parquet_Optimization():
         # Upsert data into the Supabase table
         supabase_project.table('logs').upsert(log_df).execute()
 
+    @classmethod
+    def upload_logs_to_gcs(cls, local_log_path, bucket_name, remote_log_path):
+        """
+        :param local_log_path: path of the log file locally
+        :param bucket_name: google cloud bucket name
+        :param remote_log_path: path of the file when uploaded.
+        :return: None
+        """
+        try:
+            storage_client = storage.Client()
+            bucket = storage_client.get_bucket(bucket_name)
+
+            blob = bucket.blob(remote_log_path)
+            blob.upload_from_filename(local_log_path)
+
+            logging.info(f"Logs uploaded to GCS: gs://{bucket_name}/{remote_log_path}")
+
+        except Exception as e:
+            logging.error(f"Error uploading logs to GCS: {e}")
+
 @router.get("/parquet_conversion_service")
 def parquet_conversion_service(request, url_type:str,input_base_folder:str,output_base_folder:str):
     # TODO: make a way there is drop down for user to select the url_type
     assert url_type in ["local","s3"]
+    assert isinstance(input_base_folder,str)
+    assert isinstance(output_base_folder,str)
+    assert isinstance(url_type,str)
 
     BASE_DIR = Path(__file__).resolve().parent.parent.parent
     input_base_folder = os.path.join(BASE_DIR,"KnowledgeBase")  # Replace with your input folder
+    local_log_path = os.path.join(BASE_DIR,"logs/parquet_conversion.log")
 
     #print ("input_folder",input_base_folder)
     output_base_folder = os.path.join(BASE_DIR,"KnowledgeBaseParquet")
@@ -207,6 +232,7 @@ def parquet_conversion_service(request, url_type:str,input_base_folder:str,outpu
     #print (input_file_paths)
 
     Parquet_Optimization.convert_to_parquet(input_base_folder,input_file_paths,output_base_folder)
+    Parquet_Optimization.upload_logs_to_gcs(local_log_path,"logs_impactnexus","parquet_conversion/parquet_conversion.log")
     return {"data":"success"}
 
 
