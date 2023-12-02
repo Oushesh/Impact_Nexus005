@@ -9,18 +9,21 @@ from ninja.files import UploadedFile
 
 import pandas as pd
 import logging
-import io
+import io,os
 from deepchecks.nlp import TextData
 from deepchecks.nlp.checks import TextPropertyOutliers
 from django.http import JsonResponse, HttpResponse
+from pathlib import Path
+from google.cloud import storage
 
 # Configure logging
-log_file_path = "deepcheck_incoming_data.log"
-logging.basicConfig(level=logging.INFO, filename=log_file_path, filemode='a',
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+print (BASE_DIR)
+# Configure logging
+logging.basicConfig(level=logging.INFO, filename=os.path.join(BASE_DIR,"logs/incoming_data_deepcheck.log"), filemode='a',
                     format='%(asctime)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 
 logger = logging.getLogger(__name__)
-
 
 router = Router()
 
@@ -32,15 +35,20 @@ class Data_Properties:
     def compute(cls, file):
         # Access the file content using file.read()
         file_content = file.read()
-
+        logging.info(f"{file} contents read")
         # Use pandas to read CSV data from the file content
-        data = pd.read_csv(io.StringIO(file_content.decode('utf-8')))
+        try:
+            data = pd.read_csv(io.StringIO(file_content.decode('utf-8')))
+            logging.info(f"{file} ")
+        except Exception as error:
+            logging.error(error)
 
         try:
             text_data = TextData(data["text"])
         except Exception as error:
             # Handle the exception here
             print(f"Error: {error}")
+            logging.error(error)
 
         # TODO: Define a schema for the incoming data
         text_data.calculate_builtin_properties()
@@ -58,17 +66,48 @@ class Data_Properties:
         result.save_as_html(file=html_filename)
         result.to_wandb()
 
-        # TODO: modify return here
+        logging.info(f"File {file.name} processed successfully,status=200")
+
         return HttpResponse(f"File {file.name} processed successfully", status=200)
+
+    @classmethod
+    def upload_logs_to_gcs(cls, local_log_path, bucket_name, remote_log_path):
+        """
+
+        :param local_log_path: path of the log file locally
+        :param bucket_name: google cloud bucket name
+        :param remote_log_path: path of the file when uploaded.
+        :return: None
+        """
+        try:
+            storage_client = storage.Client()
+            bucket = storage_client.get_bucket(bucket_name)
+
+            blob = bucket.blob(remote_log_path)
+            blob.upload_from_filename(local_log_path)
+
+            logging.info(f"Logs uploaded to GCS: gs://{bucket_name}/{remote_log_path}")
+
+        except Exception as e:
+            logging.error(f"Error uploading logs to GCS: {e}")
+
 
 @router.post("/deepcheck")
 def deepcheck(request, file: UploadedFile):
     filename, _ = file.name.rsplit('.', 1)
 
+    local_log_path = os.path.join(BASE_DIR, "logs/incoming_data_deepcheck.log")
+
+
     if file.name.endswith(".csv"):
         Data_Properties.compute(file)
+
+        logging.info(f"File {filename} processed successfully status=200")
+        Data_Properties.upload_logs_to_gcs(local_log_path,"logs_impactnexus","incoming_data_deepcheck/incoming_data_deepcheck.log")
         return JsonResponse({"message": f"File {filename} processed successfully"}, status=200)
     else:
+        logging.error(f"File {filename} not in .csv format")
+        Data_Properties.upload_logs_to_gcs(local_log_path,"logs_impactnexus","incoming_data_deepcheck/incoming_data_deepcheck.log")
         return JsonResponse({"message":f"File {filename} not in .csv format"})
 
 
