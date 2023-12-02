@@ -4641,3 +4641,14 @@ AttributeError: type object 'Build_KnowledgeBase' has no attribute 'upload_log_f
 2023-12-01 17:18:06 - INFO - ['Processing folder: /Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/Knowledgebase/assets/keywords_raw/Banlists/Policy']
 2023-12-01 17:18:06 - INFO - Knowledge base built successfully. Output: /Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/output/knowledge.json
 2023-12-01 17:18:11 - INFO - Logs uploaded to GCS: gs://logs_impactnexus/build_knowledgebase/build_knowledgebase.log
+2023-12-02 16:39:53 - INFO - /Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/api/routers/model_downloader.py changed, reloading.
+2023-12-02 16:40:07 - INFO - /Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/api/routers/model_downloader.py changed, reloading.
+2023-12-02 16:40:26 - INFO - /Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/api/routers/model_downloader.py changed, reloading.
+2023-12-02 16:43:10 - INFO - /Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/api/routers/model_downloader.py changed, reloading.
+2023-12-02 16:46:41 - INFO - success
+2023-12-02 16:46:47 - ERROR - Error uploading logs to GCS: 404 GET https://storage.googleapis.com/storage/v1/b/log_impactnexus?projection=noAcl&prettyPrint=false: The specified bucket does not exist.
+2023-12-02 16:50:01 - INFO - /Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/api/routers/model_downloader.py changed, reloading.
+2023-12-02 16:50:16 - INFO - success
+2023-12-02 16:50:20 - ERROR - Error uploading logs to GCS: 404 GET https://storage.googleapis.com/storage/v1/b/log_impactnexus?projection=noAcl&prettyPrint=false: The specified bucket does not exist.
+2023-12-02 16:52:08 - INFO - success
+2023-12-02 16:52:12 - ERROR - Error uploading logs to GCS: 404 GET https://storage.googleapis.com/storage/v1/b/log_impactnexus?projection=noAcl&prettyPrint=false: The specified bucket does not exist.
