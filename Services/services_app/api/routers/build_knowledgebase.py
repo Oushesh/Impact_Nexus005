@@ -32,11 +32,7 @@ class Build_KnowledgeBase:
                 result[item] = Build_KnowledgeBase.process_folder(item_path)
             elif os.path.isfile(item_path) and item.endswith(('.csv', '.tsv')):
                 # Append log messages from read_file
-                result[item], file_log_messages = Build_KnowledgeBase.read_file(item_path, folder_path)
                 result = Build_KnowledgeBase.read_file(item_path, folder_path)
-
-                log_messages.extend(file_log_messages)
-
         return result
 
     @classmethod
@@ -64,6 +60,13 @@ class Build_KnowledgeBase:
 
     @classmethod
     def upload_logs_to_gcs(cls, local_log_path, bucket_name, remote_log_path):
+        """
+
+        :param local_log_path: path of the log file locally
+        :param bucket_name: google cloud bucket name
+        :param remote_log_path: path of the file when uploaded.
+        :return: None
+        """
         try:
             storage_client = storage.Client()
             bucket = storage_client.get_bucket(bucket_name)
@@ -82,7 +85,7 @@ def build_knowledgebase(request, folder_path: str):
 
     base_folder = os.path.join(BASE_DIR, folder_path)
     output_json = os.path.join(BASE_DIR, "output/knowledge.json")
-    local_log_path = os.path.join(BASE_DIR, "output/logs.txt")
+    local_log_path = os.path.join(BASE_DIR, "logs/build_knowledgebase.log")
 
     logging.info(f"Building knowledge base from {base_folder}")
 
@@ -94,5 +97,5 @@ def build_knowledgebase(request, folder_path: str):
         json.dump(result, json_file, indent=4)
 
         # Upload logs to Google Cloud Storage
-    Build_KnowledgeBase.upload_log_file_to_gcs(local_log_path, "logs_impactnexus/build_knowledgebase","build_knowledgebase.log")
+    Build_KnowledgeBase.upload_logs_to_gcs(local_log_path, "logs_impactnexus","build_knowledgebase/build_knowledgebase.log")
     return {"data": "success"}
