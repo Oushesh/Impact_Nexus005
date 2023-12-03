@@ -355,6 +355,8 @@ corresponds to the buckets on google bucket or any other service.
 ## Data Version Control (DVC)
    
     Services/DVC
+
+    * Data Version Control retraining without chaning all parts of the pipeline.
     
     
 
@@ -375,6 +377,8 @@ corresponds to the buckets on google bucket or any other service.
 ## Logging System: 
    The entire logging system is based on python module logging and the logs are synced on the cloud on supabase.
    Each endpoint should have a logging system recording
+
+![]()
 
 ## Resources: 
     https://eugeneyan.com/writing/setting-up-python-project-for-automation-and-collaboration/
