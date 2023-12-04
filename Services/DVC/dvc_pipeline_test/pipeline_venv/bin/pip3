@@ -1,4 +1,4 @@
-#!/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/DVC/dvc_pipeline_test/dvc_pipeline_test/bin/python3
+#!/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/DVC/dvc_pipeline_test/pipeline_venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
