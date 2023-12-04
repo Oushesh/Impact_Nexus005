@@ -355,7 +355,6 @@ corresponds to the buckets on google bucket or any other service.
 ## Data Version Control (DVC)
    
     Services/DVC
-
     * Data Version Control retraining without chaning all parts of the pipeline.
 
 ![]()    
