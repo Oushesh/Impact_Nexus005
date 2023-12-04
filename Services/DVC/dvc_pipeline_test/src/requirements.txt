@@ -1,6 +1,7 @@
-dvclive>=3.0
+dvclive
 pandas
 pyaml
-scikit-learn>=1.3
+scikit-learn
 scipy
 matplotlib
+pyyaml
