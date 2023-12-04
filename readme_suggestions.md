@@ -357,7 +357,8 @@ corresponds to the buckets on google bucket or any other service.
     Services/DVC
 
     * Data Version Control retraining without chaning all parts of the pipeline.
-    
+
+![]()    
     
 
 ## Tests: 
