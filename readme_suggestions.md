@@ -427,6 +427,8 @@ corresponds to the buckets on google bucket or any other service.
    schema and pagination. Airbyte has it all and it's faster to 
    develop this way.
 
+![Airbyte_Connector](docs/airbyte_connector.gif)
+
 ## Further Development: 
 
 ## Resources: 
