@@ -235,7 +235,6 @@ In perspective:
      anomaly detection: on data (TODO)
      how the pipelines are modules can be connected together (TODAY)
 
-
      
 ## ML OPS && CML (Continuous Machine Learning) 
    
@@ -248,7 +247,7 @@ In perspective:
    changes in the specific folder corresponding to the tests gets triggered saving time and being more efficient.
 
     
-   * Github actions (.github/workflows/<test.yaml>) + Data Version Control 
+   * Github actions (.github/workflows/<test.yaml>) + Data Version Control  
 
 
    1. Data Version Control: "Git for Data"
