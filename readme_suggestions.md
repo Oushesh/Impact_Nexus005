@@ -352,13 +352,23 @@ corresponds to the buckets on google bucket or any other service.
         You can autoscale the workflows on self-hosted gpu machines for lots of developers
         if they exist: https://docs.github.com/en/webhooks/webhook-events-and-payloads#workflow_job
 
-## Data Version Control (DVC)
-   
+## Data Version Control (DVC) 
     Services/DVC
+    
+    One of the most powerful updates to the previous pipeline I provide is the use of dvc which as shown in the gif
+    has the power to exectute only those steps of the code which are changed. As the pipeine grows more and more complex
+    only parts that are changed are retrained leading to faster and safer development.
     * Data Version Control retraining without chaning all parts of the pipeline.
 
-![]()    
+    You can also visualize the Directy Acycli Graph of the pipline using
+    dvc dag
+
+    While there are other options like Apache Airflow, DVC and CML is preferred since it provides: 
     
+    Versioning of Data, Continuous ML, CI/CD
+
+
+![DVC_Reprogrammable_Code](docs/dvc_repro.gif)    
 
 ## Tests: 
    make test
