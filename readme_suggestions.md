@@ -370,11 +370,20 @@ corresponds to the buckets on google bucket or any other service.
 ![DVC_Reprogrammable_Code](docs/dvc_repro.gif)    
 
 ## Tests: 
-   make test
+
+    make test
    
    All tests written with pytest, pytest.fixtures. The tests can be extended to all endpoints and pass.
    Logic tests can be written like the ones shown here. But also, integration test as well as data injection
    test.
+    
+   Below you see the test for the parquet conversion service endpoint 
+   under Services/api/routers/parquet_conversion functionality.
+
+   All the endpoints will have a different test script here under the folder tests
+   triggered by the make file. This allows for quick testing using just make test
+   command.
+
 
 ![Test](docs/make_tests.gif)
    
@@ -385,9 +394,40 @@ corresponds to the buckets on google bucket or any other service.
 
 ## Logging System: 
    The entire logging system is based on python module logging and the logs are synced on the cloud on supabase.
-   Each endpoint should have a logging system recording
+   Each endpoint should have a logging system recording. 
 
-![]()
+   The system has better debuggability with different levels of logging ranging from:
+   * info
+   * error
+   * warning
+   * critical warning
+
+   The logs have timestamps and chronologically in order for reference.
+
+   When the project becomes really large as extension I propose to change
+   the naming of the file and add <_underscore_date_and_time> as well as uploading to
+   postgresql or supabase on gloud service. SQL are fast to query and read.
+    
+   For further development: I would design a cron job which would periodically sync
+   all the log files on the cloud (gcp) and delete old ones (local.) I dont prefer
+   a direct writing on the cloud since it will hinder speed of execution of the 
+   process in general. 
+   Now the logs are as .logs and synced with local at:
+    
+    gs://logs_impactnexus
+
+![Logging System](docs/logging_system.png)
+![Logging GCP](docs/logs_gcp.png)
+
+## Airbyte: 
+  
+   Why airbyte and no standard development of endpoint? Well for building endpoints that connect
+   a source data source to another, airbyte provides no 
+   code tool and avoid replication of same process like auth, json payload
+   schema and pagination. Airbyte has it all and it's faster to 
+   develop this way.
+
+## Further Development: 
 
 ## Resources: 
     https://eugeneyan.com/writing/setting-up-python-project-for-automation-and-collaboration/
