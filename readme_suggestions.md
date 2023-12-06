@@ -443,6 +443,12 @@ corresponds to the buckets on google bucket or any other service.
     (Check my first diagram on the services)
 ![Airbyte_Connector](docs/airbyte_connector.gif)
 
+
+## Haystack 
+   Personally I welcome the idea of using Haystack. As I am consulting
+   various companies using LLM: 
+
+
 ## Further Development: 
 
 ## Resources: 
