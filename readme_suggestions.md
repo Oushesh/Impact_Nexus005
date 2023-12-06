@@ -218,7 +218,6 @@ It consists of Services with the following directories. In General it's a django
 In perspective:
 ![Apache_Parquet_Advantages](docs/Apache_Parquet_Advantages.png)
 
-
 ## Data Download && Data Ingestion && Data Aggregation
    
    1. The Django Service has an endpoint to download data for example from "Oekobaudat Service". As a company you can  spend time
@@ -226,14 +225,21 @@ In perspective:
    This will save development time. Airbyte can also be used to  build Airtable or any third party service api quickly and robust.
 
 ## Data Visualisation Tool
-   * WANDB. I propose passing the entire database to a vector database like Qdrant or Pinecone or Weaviate with OpenAI Ada Embeddings
+   1. WANDB + Deep Checks.
+     https://wandb.ai/concular/deepchecks?workspace=user-oushesh
+     https://deepchecks.com/
+
+     
+Those 2 tools provide a framework to build a test suite and get embeddings from incoming data to visualize
+properties such as label and data drfit and other checks for data 
+
+   2. The old pipeline does not account for any service to  I propose passing the entire database to a
+     vector database like Qdrant or Pinecone or Weaviate with OpenAI Ada Embeddings to get a semantic 
+     graph of the data
      API to classify data.
 
 ## Data Retraining and Versioning.
-   * add an endpoint for absorbing from different (sources), different 
-     automatic trigger process of training if new data are coming.
-     anomaly detection: on data (TODO)
-     how the pipelines are modules can be connected together (TODAY)
+   Data Version Control (DVC) and check the next part of the instruction
 
      
 ## ML OPS && CML (Continuous Machine Learning) 
@@ -421,12 +427,20 @@ corresponds to the buckets on google bucket or any other service.
 
 ## Airbyte: 
   
-   Why airbyte and no standard development of endpoint? Well for building endpoints that connect
-   a source data source to another, airbyte provides no 
-   code tool and avoid replication of same process like auth, json payload
-   schema and pagination. Airbyte has it all and it's faster to 
-   develop this way.
+   1. Why airbyte and no standard development of endpoint if only data connectors are needed? 
+   Well for building endpoints that connect a source data source to another destination 
+   (example Google query or aws s3 to postgres sql). 
 
+   Engineers save lots of time avoid repetitive tasks like Schema definition, pagination,
+   payload, auth, etc..
+
+   Example of oekobautdat (a really important dataset for ESG metrics) set data downloader
+   as shown by Airbyte Connector.
+   
+   2. The second big advantage of Airbyte is that it has built-in Data built- tools (DBT) which
+      is a fantastic innovation treating data (sql or table data) as modular components and reused.
+
+    (Check my first diagram on the services)
 ![Airbyte_Connector](docs/airbyte_connector.gif)
 
 ## Further Development: 
