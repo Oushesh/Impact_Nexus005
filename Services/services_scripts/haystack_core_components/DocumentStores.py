@@ -8,7 +8,7 @@ class DocumentStore:
     def load_DocumentStore(self,doc_store:str):
         if doc_store == "InMemory":
             from haystack.document_stores import InMemoryDocumentStore
-            return InMemoryDocumentStore()
+            return InMemoryDocumentStore(use_bm25=True, embedding_dim=384)
 
         elif doc_store == "ElasticSearch":
             from haystack.document_stores import ElasticsearchDocumentStore

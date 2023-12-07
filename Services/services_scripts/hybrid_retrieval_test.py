@@ -114,7 +114,25 @@ class HybridRetrieval_Pipeline:
             split_overlap=preprocessing_configs["split_overlap"],
             split_respect_sentence_boundary=preprocessing_configs["split_respect_sentence_boundary"],
         )
+        return preprocessor
 
+    @classmethod
+    def build_retriever(cls,retriever_type:str,document_store):
+        assert isinstance(retriever_type,str)
+        assert retriever_type in ["dense_retriever","sparse_retriever"]
+
+        if retriever_type == "dense_retriever":
+            dense_retriever = EmbeddingRetriever(
+                document_store=document_store,
+                embedding_model="sentence-transformers/all-MiniLM-L6-v2",
+                use_gpu=False,
+                scale_score=False,
+            )
+            return dense_retriever
+        elif retriever_type == "sparse_retriever":
+            return BM25Retriever(document_store=document_store)
+        else:
+            raise ValueError("Unknown retriever type")
         return preprocessor
 
 
@@ -143,9 +161,15 @@ if __name__ == "__main__":
             "split_respect_sentence_boundary":True,
     }
 
-
     preprocessor = HybridRetrieval_Pipeline.build_preprocessor(preprocessing_configs)
     docs_to_index = HybridRetrieval_Pipeline.preprocess(preprocessor,documents_transformed)
+
+    document_store.delete_documents()
+    document_store.write_documents(docs_to_index)
+    #retriever = dense_retriever
+
+    document_store.update_embeddings(retriever=HybridRetrieval_Pipeline.build_retriever("dense_retriever",document_store))
+
 
 #TODO: write about testing this with DVC then endpoint then production
 #Ref: https://docs.haystack.deepset.ai/docs/document_store
