@@ -4,6 +4,8 @@ from haystack.nodes import EmbeddingRetriever, BM25Retriever
 from haystack.schema import Document
 from typing import List, Optional,Dict
 
+from haystack_core_components.DocumentStores import DocumentStore
+
 """
 dataset = load_dataset("ywchoi/pubmed_abstract_3", split="test")
 
@@ -56,23 +58,32 @@ class HybridRetrieval_Pipeline:
     def __init__(self,**kwargs):
         self.kwargs = kwargs
 
+    @classmethod
+    def configure_DocumentStore(cls,document_store:str):
+        assert isinstance(document_store,str)
+        assert document_store in ["InMemory","Elasticsearch","FAISS","Milvus","OpenSearch","Pinecone","Qdrant","Weaviate"]
+        return DocumentStore.load_DocumentStore(document_store)
 
     @classmethod
-    def get_data(cls,url:str,type="test",location="local"):
+    def get_data(cls,url:str,split="test",location="local"):
         assert location in ["local","s3","gs"]
+        assert split in ["train","test","validation"]
+
         if location == "local":
-            dataset = load_dataset(url,type)
+            dataset = load_dataset(url,split="test")
+
         elif location == "s3":
             dataset = "None"
             pass
-            #TODo: add the method to read in data here from boto3
+            #TODO: add the method to read in data here from boto3
+
         elif location == "gs":
             dataset  = "None"
             pass
             #TODO: add the method to sync data from google cloud bucket like
             #TODO: we did for the endpoints.
-        return dataset
 
+        return dataset
 
     @classmethod
     def transform_data(cls,dataset,schema:Dict):
@@ -86,14 +97,38 @@ class HybridRetrieval_Pipeline:
             )
         return documents
 
+    @classmethod
+    def preprocess(cls,preprocessor,documents):
+        return preprocessor.process(documents)
+
+
+    @classmethod
+    def build_preprocessor(cls,preprocessing_configs):
+        pass
+            
 
 if __name__ == "__main__":
     url = "ywchoi/pubmed_abstract_3"
-    documents = HybridRetrieval_Pipeline.get_data(url)
-    schema = {"title","text"."pmid"}
+    dataset = HybridRetrieval_Pipeline.get_data(url)
+    print (dataset)
+    schema = {"title","text","pmid"}
     #TODO: test the schema
-    documents_transformed = HybridRetrieval_Pipeline.transform_data(documents)
+    documents_transformed = HybridRetrieval_Pipeline.transform_data(dataset,schema)
+
+    document_store = HybridRetrieval_Pipeline.configure_DocumentStore("InMemory")
+
+    preprocessor = PreProcessor(
+        clean_empty_lines=True,
+        clean_whitespace=True,
+        clean_header_footer=True,
+        split_by="word",
+        split_length=512,
+        split_overlap=32,
+        split_respect_sentence_boundary=True,
+    )
+
+    docs_to_index = preprocessor.process(documents)
 
 #TODO: write about testing this with DVC then endpoint then production
-
+#Ref: https://docs.haystack.deepset.ai/docs/document_store
 

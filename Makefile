@@ -89,8 +89,21 @@ install-precommit:
 run-precommit:
 	pre-commit run
 
+install-elasticseach:
+	docker pull docker.elastic.co/elasticsearch/elasticsearch:7.9.2
+	docker run -d -p 9200:9200 -e "discovery.type=single-node" elasticsearch:7.9.2
+
+install-milvus:
+	pip install -e "git+https://github.com/deepset-ai/haystack-extras.git#egg=milvus_documentstore&subdirectory=stores/milvus-documentstore"
+
+install-opensearch:
+	docker pull opensearchproject/opensearch:1.0.1
+	docker run -p 9200:9200 -p 9600:9600 -e "discovery.type=single-node" opensearchproject/opensearch:1.0.1
+
+install-qdrant:
+	pip install qdrant-haystack
 
 
-
-
+install-weaviate:
+	docker run -d -p 8080:8080 --env AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED='true' --env PERSISTENCE_DATA_PATH='/var/lib/weaviate' semitechnologies/weaviate:1.17.2
 
