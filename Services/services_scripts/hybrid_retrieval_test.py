@@ -3,6 +3,7 @@ from haystack.document_stores import InMemoryDocumentStore
 from haystack.nodes import EmbeddingRetriever, BM25Retriever
 from haystack.schema import Document
 from typing import List, Optional,Dict
+from haystack.nodes import PreProcessor
 
 from haystack_core_components.DocumentStores import DocumentStore
 
@@ -52,7 +53,7 @@ document_store.update_embeddings(retriever=dense_retriever)
 
 """
 
-## TODO:  Rewrite this pipeline as class with the hybrid_retrieval
+## TODO:  Rewrite this pipeline as a class with the hybrid_retrieval
 
 class HybridRetrieval_Pipeline:
     def __init__(self,**kwargs):
@@ -104,8 +105,23 @@ class HybridRetrieval_Pipeline:
 
     @classmethod
     def build_preprocessor(cls,preprocessing_configs):
-        pass
-            
+        preprocessor = PreProcessor(
+            clean_empty_lines=preprocessing_configs["clean_empty_lines"],
+            clean_whitespace=preprocessing_configs["clean_whitespace"],
+            clean_header_footer=preprocessing_configs["clean_header_footer"],
+            split_by=preprocessing_configs["split_by"],
+            split_length=preprocessing_configs["split_length"],
+            split_overlap=preprocessing_configs["split_overlap"],
+            split_respect_sentence_boundary=preprocessing_configs["split_respect_sentence_boundary"],
+        )
+
+        return preprocessor
+
+
+class Pipeline:
+    def __init__(self,**kwargs):
+        self.kwargs = kwargs
+
 
 if __name__ == "__main__":
     url = "ywchoi/pubmed_abstract_3"
@@ -117,17 +133,19 @@ if __name__ == "__main__":
 
     document_store = HybridRetrieval_Pipeline.configure_DocumentStore("InMemory")
 
-    preprocessor = PreProcessor(
-        clean_empty_lines=True,
-        clean_whitespace=True,
-        clean_header_footer=True,
-        split_by="word",
-        split_length=512,
-        split_overlap=32,
-        split_respect_sentence_boundary=True,
-    )
+    preprocessing_configs = {
+            "clean_empty_lines":True,
+            "clean_whitespace":True,
+            "clean_header_footer":True,
+            "split_by":"word",
+            "split_length":512,
+            "split_overlap":32,
+            "split_respect_sentence_boundary":True,
+    }
 
-    docs_to_index = preprocessor.process(documents)
+
+    preprocessor = HybridRetrieval_Pipeline.build_preprocessor(preprocessing_configs)
+    docs_to_index = HybridRetrieval_Pipeline.preprocess(preprocessor,documents_transformed)
 
 #TODO: write about testing this with DVC then endpoint then production
 #Ref: https://docs.haystack.deepset.ai/docs/document_store
