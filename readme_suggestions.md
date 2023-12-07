@@ -454,14 +454,16 @@ corresponds to the buckets on google bucket or any other service.
       B:  LLM forms a big part in NLP and in the near future it will brought to
           Impact Nexus as well.
       
-      C:  
+      C:  Haystack is good for building RAG and Semantic Vector retrieval pipeline.
+
+![](docs/finetuning.gif)
+![](docs/)
 
   # TODO : For haystack LLM pipeline: https://haystack.deepset.ai/tutorials/02_finetune_a_model_on_your_data
     TODO: https://haystack.deepset.ai/tutorials/11_pipelines
     TODo: https://haystack.deepset.ai/tutorials/02_finetune_a_model_on_your_data
 
     TODo: This should make me win the interview.
-
 
 ## Further Development: 
 

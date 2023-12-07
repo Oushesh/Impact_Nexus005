@@ -102,3 +102,4 @@ wandb
 dvc
 google-cloud-logging
 google-cloud-storage
+elasticsearch-haystack
