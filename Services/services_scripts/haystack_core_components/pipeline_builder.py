@@ -1,19 +1,15 @@
 from haystack.pipelines import Pipeline
-from haystack.nodes import Crawler, Preprocessor, BM25Retriever, FARMReader
-from haystack_core_components.DocumentStores import DocumentStores
+from typing import List
 
-class Pipeline:
-    def __init__(self,**kwargs):
-        self.pipeline_object = Pipeline(**kwargs)
 
-    @classmethod
-    def build_pipeline(cls,component,component_name:str):
-        assert isinstance(component_name,str)
-        component_input_name = component_name + "_input"
-        assert isinstance(component_input_name,str)
-        self.pipeline_object.add_node(component=component, name=component_name,input=[component_input_name])
+class BuildPipeline:
+    def __init__(self):
+        self.pipeline = Pipeline()
 
-    @classmethod
-    def run_pipeline(cls,pipeline_object):
-        pipeline_object.run()
+    def add_node(self, component, name, inputs):
+        self.pipeline.add_node(component=component, name=name, inputs=inputs)
+
+    def run_pipeline(self):
+        self.pipeline.run()
+
 
