@@ -1,7 +1,6 @@
 class DocumentStore:
     def __init__(self,doc_store:str):
-        assert doc_store in ["InMemory","ElasticSearch","Milvus","OpenSearch",
-                             "Pinecone","Qdrant","SQL","Weaviate","FAISS"]
+        assert doc_store in ["InMemory","ElasticSearch","Milvus","OpenSearch","Pinecone","Qdrant","SQL","Weaviate","FAISS"]
         self.doc_store = doc_store
 
     @classmethod
@@ -9,7 +8,6 @@ class DocumentStore:
         if doc_store == "InMemory":
             from haystack.document_stores import InMemoryDocumentStore
             return InMemoryDocumentStore(use_bm25=True, embedding_dim=384)
-
         elif doc_store == "ElasticSearch":
             from haystack.document_stores import ElasticsearchDocumentStore
             return ElasticsearchDocumentStore()

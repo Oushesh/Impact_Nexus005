@@ -82,8 +82,7 @@ class HybridRetrieval_Pipeline:
             dataset  = "None"
             pass
             #TODO: add the method to sync data from google cloud bucket like
-            #TODO: we did for the endpoints.
-
+            #TODO: we did for the endpoints
         return dataset
 
     @classmethod
