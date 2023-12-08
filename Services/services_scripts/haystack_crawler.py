@@ -1,4 +1,3 @@
-from haystack.pipelines import Pipeline
 from haystack.nodes import Crawler,BM25Retriever, FARMReader
 from haystack.nodes import PreProcessor
 from haystack import BaseComponent
