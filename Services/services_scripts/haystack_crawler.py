@@ -27,7 +27,6 @@ class Crawler_Pipeline(BaseComponent):
 
     @classmethod
     def build_crawler(cls,urls:List[str],crawler_depth:int,output_dir:str):
-
         assert isinstance(crawler_depth,int)
         assert isinstance(output_dir,str)
         os.makedirs(output_dir, exist_ok=True)

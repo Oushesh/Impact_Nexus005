@@ -12,7 +12,6 @@ from typing import List
 from services_app.haystack_core_components.DocumentStores import DocumentStore
 from services_app.haystack_core_components.pipeline_builder import BuildPipeline
 
-
 router = Router()
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
@@ -63,5 +62,36 @@ class HaystackCrawler(BaseComponent):
 #TODO: convert the cralwer into an endpoint here.
 
 @router.get("/crawler")
-def haystack_crawler(request):
+def haystack_crawler(request,url:str):
+    #Example: https://haystack.deepset.ai
+    assert isinstance(url,str)
+
+    preprocessing_configs = {
+        "clean_empty_lines": True,
+        "clean_whitespace": True,
+        "clean_header_footer": False,
+        "split_by": "word",
+        "split_length": 500,
+        "split_respect_sentence_boundary": True
+    }
+    pipeline = HaystackCrawler()
+    preprocessor = pipeline.build_preprocessor(preprocessing_configs=preprocessing_configs)
+
+    urls = [url]
+    crawler_depth = 1
+    output_dir = os.path.join(BASE_DIR,"crawled_files")
+
+    crawler = HaystackCrawler.build_crawler(urls, crawler_depth=crawler_depth, output_dir=output_dir)
+
+    indexing_pipeline = BuildPipeline()
+    # Add nodes to build the pipeline
+
+    indexing_pipeline.add_node(component=crawler, name="crawler", inputs=['File'])
+    indexing_pipeline.add_node(component=preprocessor, name="preprocessor", inputs=['crawler'])
+    document_store = HaystackCrawler.configure_DocumentStore("InMemory")
+
+    indexing_pipeline.add_node(component=document_store, name="document_store", inputs=['preprocessor'])
+
+    indexing_pipeline.run_pipeline()
+
     return {"data":"success"}

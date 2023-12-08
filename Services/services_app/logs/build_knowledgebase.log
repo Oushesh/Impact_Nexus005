@@ -4659,3 +4659,55 @@ AttributeError: type object 'Build_KnowledgeBase' has no attribute 'upload_log_f
 2023-12-08 14:30:29 - INFO - Successfully loaded faiss.
 2023-12-08 14:36:54 - INFO - Loading faiss.
 2023-12-08 14:36:54 - INFO - Successfully loaded faiss.
+2023-12-08 14:48:36 - INFO - Loading faiss.
+2023-12-08 14:48:36 - INFO - Successfully loaded faiss.
+2023-12-08 14:48:46 - INFO - /Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/api/routers/haystack_crawler.py changed, reloading.
+2023-12-08 14:48:59 - INFO - Loading faiss.
+2023-12-08 14:48:59 - INFO - Successfully loaded faiss.
+2023-12-08 14:49:16 - INFO - /Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/api/routers/haystack_crawler.py changed, reloading.
+2023-12-08 14:49:30 - INFO - Loading faiss.
+2023-12-08 14:49:30 - INFO - Successfully loaded faiss.
+2023-12-08 14:49:43 - INFO - /Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/api/routers/haystack_crawler.py changed, reloading.
+2023-12-08 14:49:57 - INFO - Loading faiss.
+2023-12-08 14:49:57 - INFO - Successfully loaded faiss.
+2023-12-08 14:52:43 - INFO - /Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/api/routers/haystack_crawler.py changed, reloading.
+2023-12-08 14:52:59 - INFO - Loading faiss.
+2023-12-08 14:52:59 - INFO - Successfully loaded faiss.
+2023-12-08 14:53:25 - INFO - /Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/api/routers/haystack_crawler.py changed, reloading.
+2023-12-08 14:53:38 - INFO - Loading faiss.
+2023-12-08 14:53:38 - INFO - Successfully loaded faiss.
+2023-12-08 14:53:57 - INFO - /Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/api/routers/haystack_crawler.py changed, reloading.
+2023-12-08 14:54:11 - INFO - Loading faiss.
+2023-12-08 14:54:11 - INFO - Successfully loaded faiss.
+2023-12-08 14:56:49 - INFO - /Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/api/routers/haystack_crawler.py changed, reloading.
+2023-12-08 14:57:02 - INFO - Loading faiss.
+2023-12-08 14:57:02 - INFO - Successfully loaded faiss.
+2023-12-08 14:57:21 - INFO - /Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/api/routers/haystack_crawler.py changed, reloading.
+2023-12-08 14:57:35 - INFO - Loading faiss.
+2023-12-08 14:57:35 - INFO - Successfully loaded faiss.
+2023-12-08 14:57:51 - INFO - /Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/api/routers/haystack_crawler.py changed, reloading.
+2023-12-08 14:58:05 - INFO - Loading faiss.
+2023-12-08 14:58:05 - INFO - Successfully loaded faiss.
+2023-12-08 14:58:13 - INFO - /Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/api/routers/haystack_crawler.py changed, reloading.
+2023-12-08 14:58:26 - INFO - Loading faiss.
+2023-12-08 14:58:26 - INFO - Successfully loaded faiss.
+2023-12-08 15:02:09 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-08 15:02:09 - INFO - Scraping contents from 'https://haystack.deepset.ai'
+2023-12-08 15:02:17 - INFO - Scraping contents from 'https://haystack.deepset.ai/advent-of-haystack'
+2023-12-08 15:02:19 - INFO - Scraping contents from 'https://haystack.deepset.ai/overview/roadmap'
+2023-12-08 15:02:21 - INFO - Scraping contents from 'https://haystack.deepset.ai/overview/use-cases'
+2023-12-08 15:02:23 - INFO - Scraping contents from 'https://haystack.deepset.ai/overview/demo'
+2023-12-08 15:02:25 - INFO - Scraping contents from 'https://haystack.deepset.ai/integrations'
+2023-12-08 15:02:28 - INFO - Scraping contents from 'https://haystack.deepset.ai/blog'
+2023-12-08 15:02:30 - INFO - Scraping contents from 'https://haystack.deepset.ai/#'
+2023-12-08 15:02:32 - INFO - Scraping contents from 'https://haystack.deepset.ai/overview/quick-start'
+2023-12-08 15:02:34 - INFO - Scraping contents from 'https://haystack.deepset.ai/community'
+2023-12-08 15:02:36 - INFO - Scraping contents from 'https://haystack.deepset.ai/'
+2023-12-08 15:02:37 - INFO - Scraping contents from 'https://haystack.deepset.ai/tutorials'
+2023-12-08 15:02:39 - INFO - Scraping contents from 'https://haystack.deepset.ai/benchmarks'
+2023-12-08 15:02:41 - INFO - Scraping contents from 'https://haystack.deepset.ai/overview/intro'
+2023-12-08 15:02:43 - INFO - Scraping contents from 'https://haystack.deepset.ai/nlp-resources'
+2023-12-08 15:02:45 - INFO - Duplicate Documents: Document with id '55b86d4f9aa0f9e6b50ba460d09ea2cf' already exists in index 'document'
+2023-12-08 15:02:45 - INFO - Duplicate Documents: Document with id '629288f2fa6af896fadc53d2d6dd29b9' already exists in index 'document'
+2023-12-08 15:02:45 - INFO - Duplicate Documents: Document with id '55b86d4f9aa0f9e6b50ba460d09ea2cf' already exists in index 'document'
+2023-12-08 15:02:45 - INFO - Duplicate Documents: Document with id '629288f2fa6af896fadc53d2d6dd29b9' already exists in index 'document'
