@@ -1,7 +1,6 @@
 from haystack.pipelines import Pipeline
 from typing import List
 
-
 class BuildPipeline:
     def __init__(self):
         self.pipeline = Pipeline()

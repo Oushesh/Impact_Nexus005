@@ -7,54 +7,6 @@ from haystack.nodes import PreProcessor
 
 from haystack_core_components.DocumentStores import DocumentStore
 
-"""
-dataset = load_dataset("ywchoi/pubmed_abstract_3", split="test")
-
-document_store = InMemoryDocumentStore(use_bm25=True, embedding_dim=384)
-
-
-
-documents = []
-for doc in dataset:
-    documents.append(
-        Document(
-            content=doc["title"] + " " + doc["text"],
-            meta={"title": doc["title"], "abstract": doc["text"], "pmid": doc["pmid"]},
-        )
-    )
-
-
-from haystack.nodes import PreProcessor
-
-preprocessor = PreProcessor(
-    clean_empty_lines=True,
-    clean_whitespace=True,
-    clean_header_footer=True,
-    split_by="word",
-    split_length=512,
-    split_overlap=32,
-    split_respect_sentence_boundary=True,
-)
-
-docs_to_index = preprocessor.process(documents)
-
-
-sparse_retriever = BM25Retriever(document_store=document_store)
-dense_retriever = EmbeddingRetriever(
-    document_store=document_store,
-    embedding_model="sentence-transformers/all-MiniLM-L6-v2",
-    use_gpu=False,
-    scale_score=False,
-)
-
-document_store.delete_documents()
-document_store.write_documents(docs_to_index)
-document_store.update_embeddings(retriever=dense_retriever)
-
-"""
-
-## TODO:  Rewrite this pipeline as a class with the hybrid_retrieval
-
 class HybridRetrieval_Pipeline:
     def __init__(self,**kwargs):
         self.kwargs = kwargs
@@ -135,11 +87,6 @@ class HybridRetrieval_Pipeline:
         return preprocessor
 
 
-class Pipeline:
-    def __init__(self,**kwargs):
-        self.kwargs = kwargs
-
-
 if __name__ == "__main__":
     url = "ywchoi/pubmed_abstract_3"
     dataset = HybridRetrieval_Pipeline.get_data(url)
@@ -165,10 +112,8 @@ if __name__ == "__main__":
 
     document_store.delete_documents()
     document_store.write_documents(docs_to_index)
-    #retriever = dense_retriever
 
     document_store.update_embeddings(retriever=HybridRetrieval_Pipeline.build_retriever("dense_retriever",document_store))
 
-#TODO: write about testing this with DVC then endpoint then production
 #Ref: https://docs.haystack.deepset.ai/docs/document_store
 
