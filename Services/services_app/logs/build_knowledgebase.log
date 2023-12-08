@@ -4657,3 +4657,5 @@ AttributeError: type object 'Build_KnowledgeBase' has no attribute 'upload_log_f
 2023-12-08 14:30:16 - INFO - /Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/api/routers/haystack_crawler.py changed, reloading.
 2023-12-08 14:30:29 - INFO - Loading faiss.
 2023-12-08 14:30:29 - INFO - Successfully loaded faiss.
+2023-12-08 14:36:54 - INFO - Loading faiss.
+2023-12-08 14:36:54 - INFO - Successfully loaded faiss.
