@@ -169,7 +169,6 @@ if __name__ == "__main__":
 
     document_store.update_embeddings(retriever=HybridRetrieval_Pipeline.build_retriever("dense_retriever",document_store))
 
-
 #TODO: write about testing this with DVC then endpoint then production
 #Ref: https://docs.haystack.deepset.ai/docs/document_store
 
