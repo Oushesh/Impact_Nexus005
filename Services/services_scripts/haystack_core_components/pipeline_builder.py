@@ -8,7 +8,7 @@ class BuildPipeline:
     def add_node(self, component, name, inputs):
         self.pipeline.add_node(component=component, name=name, inputs=inputs)
 
-    def run_pipeline(self):
-        self.pipeline.run()
+    def run_pipeline(self,query):
+        self.pipeline.run(query=query)
 
 

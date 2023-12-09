@@ -74,3 +74,35 @@ if __name__ == "__main__":
 
 
     #Step2: as a step 2: I add a query_pipeline.
+
+    #
+    # Step 2: Use the data to answer questions.
+    #
+
+    # NOTE: You can run this code as many times as you like.
+
+    # Let's create a query pipeline. It will contain:
+    #  1. A Retriever that gets the relevant documents from the DocumentStore.
+    #  2. A Reader that locates the answers inside the documents.
+    retriever = BM25Retriever(document_store=document_store)
+    reader = FARMReader(model_name_or_path="deepset/roberta-base-squad2-distilled")
+
+    query_pipeline = BuildPipeline()
+    query_pipeline.add_node(component=retriever, name="retriever", inputs=['Query'])
+    query_pipeline.add_node(component=reader,name="reader", inputs=['retriever'])
+
+
+    query_pipeline.run_pipeline(query="What can I use haystack for?")
+    """
+    query_pipeline = Pipeline()
+    query_pipeline.add_node(component=retriever, name="retriever", inputs=["Query"])
+    query_pipeline.add_node(component=reader, name="reader", inputs=["retriever"])
+
+    results = query_pipeline.run(query="What can I use Haystack for?")
+
+    print("\nQuestion: ", results["query"])
+    print("\nAnswers:")
+    for answer in results["answers"]:
+        print("- ", answer.answer)
+    print("\n\n")
+    """
