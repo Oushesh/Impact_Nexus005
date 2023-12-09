@@ -94,4 +94,19 @@ def haystack_crawler(request,url:str):
 
     indexing_pipeline.run_pipeline()
 
+    #Step2: The retrieval pipeline.
+    retriever = BM25Retriever(document_store=document_store)
+    reader = FARMReader(model_name_or_path="deepset/roberta-base-squad2-distilled")
+
+    query_pipeline = BuildPipeline()
+    query_pipeline.add_node(component=retriever,name="retriever",inputs=['Query'])
+    query_pipeline.add_node(component=reader,name="reader",inputs=['retriever'])
+
+    results = query_pipeline.run_pipeline(query="What can I use haystack for?")
+    print("\nQuestion: ", results["query"])
+    print("\nAnswers:")
+    for answer in results["answers"]:
+        print("- ", answer.answer)
+    print("\n\n")
+
     return {"data":"success"}

@@ -12,6 +12,7 @@ run-smart-evidence:
 	docker-compose-smart-evidence
 
 run:
+	 export PYTORCH_ENABLE_MPS_FALLBACK=1
 	cd Services && python3 manage.py runserver
 
 run-server:
