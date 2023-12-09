@@ -9961,3 +9961,8 @@ NameError: name 'supabase_project' is not defined
 2023-12-09 07:49:06 - INFO - Converted tsv file: /Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/KnowledgeBase/assets/keywords_raw/Impact/ESG/Governance/IMPACT.tsv to Parquet: /Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/KnowledgeBaseParquet/assets/keywords_raw/Impact/ESG/Governance/impact.parquet
 2023-12-09 07:49:06 - INFO - Converted tsv file: /Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/KnowledgeBase/assets/keywords_raw/Banlists/Controversial/BANLIST.tsv to Parquet: /Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/KnowledgeBaseParquet/assets/keywords_raw/Banlists/Controversial/banlist.parquet
 2023-12-09 07:49:10 - INFO - Logs uploaded to GCS: gs://logs_impactnexus/parquet_conversion/parquet_conversion.log
+2023-12-09 19:45:21 - INFO - Loading faiss.
+2023-12-09 19:45:21 - INFO - Successfully loaded faiss.
+2023-12-09 19:46:56 - WARNING - Not Found: /
+2023-12-09 19:46:56 - WARNING - Not Found: /
+2023-12-09 19:46:56 - WARNING - Not Found: /favicon.ico
