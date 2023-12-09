@@ -11,7 +11,7 @@ from django.http import HttpResponse
 import random
 from pathlib import Path
 from google.cloud import storage
-
+from services_app.api.utils.utils import upload_logs_to_gcs
 
 router = Router()
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
@@ -48,28 +48,6 @@ class Classification_Job:
         df['label'] = random.choices(label_list, k=len(df))
         logging.info (f"Data assigned to labels")
         return df
-
-    @classmethod
-    def upload_logs_to_gcs(cls,local_log_path,bucket_name,remote_log_path):
-        """
-
-        :param local_log_path:
-        :param bucket_name:
-        :param remote_log_path:
-        :return:
-        """
-        try:
-            storgae_client = storage.Client()
-            bucket = storgae_client.get_bucket(bucket_name)
-
-            blob = bucket.blob(remote_log_path)
-            blob.upload_from_filename(local_log_path)
-
-            logging.info(f"Logs uploaded to GCS: gs://{bucket_name}/{remote_log_path}")
-        except Exception as e:
-            logging.error(f"Error uploading logs to GCS: {e}")
-
-
 
 @router.post("/process_file")
 def process_file(request, file: UploadedFile, selected_header: str = ''):
@@ -149,7 +127,9 @@ def process_file(request, file: UploadedFile, selected_header: str = ''):
     logging.info(f"Successfully transformed the data")
 
     # TODo: upload the conversion job to
-    Classification_Job.upload_logs_to_gcs(local_log_path,"logs_impactnexus","data_processor_classification_job/data_processor_classification_job.log")
+    #Classification_Job.upload_logs_to_gcs(local_log_path,"logs_impactnexus","data_processor_classification_job/data_processor_classification_job.log")
+    upload_logs_to_gcs(logging,local_log_path, "logs_impactnexus",
+                       "data_processor_classification_job/data_processor_classification_job.log")
     return response
 
 

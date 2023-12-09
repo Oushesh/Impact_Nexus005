@@ -9,10 +9,13 @@ from haystack.nodes import Crawler, BM25Retriever,FARMReader
 from haystack.nodes import PreProcessor
 from haystack import BaseComponent
 from typing import List
+from services_app.api.utils.utils import upload_logs_to_gcs
 from services_app.haystack_core_components.DocumentStores import DocumentStore
 from services_app.haystack_core_components.pipeline_builder import BuildPipeline
 
+
 router = Router()
+
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 # Configure logging
@@ -65,6 +68,7 @@ class HaystackCrawler(BaseComponent):
 def haystack_crawler(request,url:str):
     #Example: https://haystack.deepset.ai
     assert isinstance(url,str)
+    local_log_path = os.path.join(BASE_DIR,"logs/haystack_crawler.log")
 
     preprocessing_configs = {
         "clean_empty_lines": True,
@@ -103,10 +107,13 @@ def haystack_crawler(request,url:str):
     query_pipeline.add_node(component=reader,name="reader",inputs=['retriever'])
 
     results = query_pipeline.run_pipeline(query="What can I use haystack for?")
-    print("\nQuestion: ", results["query"])
-    print("\nAnswers:")
-    for answer in results["answers"]:
-        print("- ", answer.answer)
-    print("\n\n")
 
-    return {"data":"success"}
+
+    upload_logs_to_gcs(logging,local_log_path,"logs_impact_nexus", "haystack_crawler/haystack_crawler.log")
+    try:
+        results.get("query")
+        results.get("answers")
+        return {"data":results.get("answers")}
+    except:
+        logging.error(f"No answers and results found")
+        return {"data":"No answers and results found"}

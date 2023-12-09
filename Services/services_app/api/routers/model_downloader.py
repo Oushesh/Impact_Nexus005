@@ -9,6 +9,7 @@ from django.http import JsonResponse
 import logging
 from pathlib import Path
 from google.cloud import storage
+from services_app.api.utils.utils import upload_logs_to_gcs
 
 router = Router()
 
@@ -28,7 +29,6 @@ logging.basicConfig(level=logging.INFO, filename=os.path.join(BASE_DIR,"logs/mod
                     format='%(asctime)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 
 logger = logging.getLogger(__name__)
-
 
 class Model_Downloader:
     def __init__(self,**kwargs):
@@ -52,28 +52,6 @@ class Model_Downloader:
             logging.info(f"{model_file} downloaded successfully.")
         return None
 
-    @classmethod
-    def upload_logs_to_gcs(cls,local_log_path,bucket_name,remote_log_path):
-        """
-        :param local_log_path: path of the log file locally
-        :param bucket_name: google cloud bucket name
-        :param remote_log_path: path of the file when uploaded
-        :return: None
-        """
-        try:
-            storage_client = storage.Client()
-            bucket = storage_client.get_bucket(bucket_name)
-
-            blob = bucket.blob(remote_log_path)
-
-            blob.upload_from_filename(local_log_path)
-
-            logging.info(f"Logs uploaded to GCS: gs://{bucket_name}/{remote_log_path}")
-
-        except Exception as e:
-            logging.error(f"Error uploading logs to GCS: {e}")
-        return None
-
 @router.get("/model_downloader")
 def model_downloader(request,model_name:str):
     assert isinstance(model_name,str)
@@ -83,9 +61,11 @@ def model_downloader(request,model_name:str):
     if model_name not in MODELS:
         logging.error("error: Invalid model name, status_code=400")
 
-        Model_Downloader.upload_logs_to_gcs(local_log_path,"log_impactnexus","model_downloader/model_downloader.log")
+        #Model_Downloader.upload_logs_to_gcs(local_log_path,"log_impactnexus","model_downloader/model_downloader.log")
+        upload_logs_to_gcs(logging,local_log_path, "log_impactnexus", "model_downloader/model_downloader.log")
         return JsonResponse(content={"error": "Invalid model name"}, status_code=400)
 
     logging.info("success")
-    Model_Downloader.upload_logs_to_gcs(local_log_path,"log_impactnexus","model_downloader/model_downloader.log")
+    #Model_Downloader.upload_logs_to_gcs(local_log_path,"log_impactnexus","model_downloader/model_downloader.log")
+    upload_logs_to_gcs(logging,local_log_path, "log_impactnexus", "model_downloader/model_downloader.log")
     return {"data":"success"}

@@ -4,6 +4,8 @@ import logging
 from google.cloud import storage
 from ninja import Router
 from pathlib import Path
+from services_app.api.utils.utils import upload_logs_to_gcs
+
 
 router = Router()
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
@@ -58,27 +60,6 @@ class Build_KnowledgeBase:
             logging.error(error_message)
 
 
-    @classmethod
-    def upload_logs_to_gcs(cls, local_log_path, bucket_name, remote_log_path):
-        """
-
-        :param local_log_path: path of the log file locally
-        :param bucket_name: google cloud bucket name
-        :param remote_log_path: path of the file when uploaded.
-        :return: None
-        """
-        try:
-            storage_client = storage.Client()
-            bucket = storage_client.get_bucket(bucket_name)
-
-            blob = bucket.blob(remote_log_path)
-            blob.upload_from_filename(local_log_path)
-
-            logging.info(f"Logs uploaded to GCS: gs://{bucket_name}/{remote_log_path}")
-
-        except Exception as e:
-            logging.error(f"Error uploading logs to GCS: {e}")
-
 @router.get("/build_knowledgebase")
 def build_knowledgebase(request, folder_path: str):
     assert isinstance(folder_path, str)
@@ -96,6 +77,5 @@ def build_knowledgebase(request, folder_path: str):
     with open(output_json, 'w') as json_file:
         json.dump(result, json_file, indent=4)
 
-        # Upload logs to Google Cloud Storage
-    Build_KnowledgeBase.upload_logs_to_gcs(local_log_path, "logs_impactnexus","build_knowledgebase/build_knowledgebase.log")
+    upload_logs_to_gcs(logging,local_log_path, "logs_impactnexus","build_knowledgebase/build_knowledgebase.log")
     return {"data": "success"}
