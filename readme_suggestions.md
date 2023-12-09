@@ -456,17 +456,22 @@ corresponds to the buckets on google bucket or any other service.
       C:  Haystack is good for building RAG and Semantic Vector retrieval pipeline.
       D:  Custom Components can be added easily. Haystack_core_components (Services/services_app/haystack_core_components)
           contains pipeline builder and other classes to abstract DocumentStore. Using those components I show how pipeline
-          can be easily tested as endpoints. I focus on modular  code easily moving from prototype to endpoints under services.
-          For production one should move away from InMemory.
+          can be easily tested as endpoints. I focus on modular code easily moving from prototype to endpoints under services.
+          For production one should move away from InMemory.  (InMemoryDocumentStore()) --> instead use ElasticSearch or any cloud service.
+
+   3. Since the Pipeline development in Haystack is focussed on nodes (similar to tensorflow or keras code flow): 
+      it's easy to write each one in a different script and build a DAG (Direct Acyclic Graph) in DVC and CML. (see above)
+      Pipeline is easily tested using Data Version Control.
+
+
 
 ![](docs/finetuning.gif)
 ![](docs/)
 
   # TODO : For haystack LLM pipeline: https://haystack.deepset.ai/tutorials/02_finetune_a_model_on_your_data
     TODO: https://haystack.deepset.ai/tutorials/11_pipelines
-    TODo: https://haystack.deepset.ai/tutorials/02_finetune_a_model_on_your_data
-
-    TODo: This should make me win the interview.
+    TODO: https://haystack.deepset.ai/tutorials/02_finetune_a_model_on_your_data
+    TODO: This should make me win the interview.
 
 ## Further Development: 
 

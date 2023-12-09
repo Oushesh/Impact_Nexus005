@@ -9966,3 +9966,294 @@ NameError: name 'supabase_project' is not defined
 2023-12-09 19:46:56 - WARNING - Not Found: /
 2023-12-09 19:46:56 - WARNING - Not Found: /
 2023-12-09 19:46:56 - WARNING - Not Found: /favicon.ico
+2023-12-09 20:03:14 - INFO - Loading faiss.
+2023-12-09 20:03:15 - INFO - Successfully loaded faiss.
+2023-12-09 20:03:24 - WARNING - Not Found: /
+2023-12-09 20:03:24 - WARNING - Not Found: /
+2023-12-09 20:06:26 - INFO - Loading faiss.
+2023-12-09 20:06:26 - INFO - Successfully loaded faiss.
+2023-12-09 20:06:47 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-09 20:06:47 - INFO - Scraping contents from 'https://haystack.deepset.ai'
+2023-12-09 20:06:53 - INFO - Scraping contents from 'https://haystack.deepset.ai/overview/roadmap'
+2023-12-09 20:06:55 - INFO - Scraping contents from 'https://haystack.deepset.ai/community'
+2023-12-09 20:06:57 - INFO - Scraping contents from 'https://haystack.deepset.ai/overview/demo'
+2023-12-09 20:06:59 - INFO - Scraping contents from 'https://haystack.deepset.ai/overview/quick-start'
+2023-12-09 20:07:01 - INFO - Scraping contents from 'https://haystack.deepset.ai/tutorials'
+2023-12-09 20:07:02 - INFO - Scraping contents from 'https://haystack.deepset.ai/benchmarks'
+2023-12-09 20:07:04 - INFO - Scraping contents from 'https://haystack.deepset.ai/advent-of-haystack'
+2023-12-09 20:07:06 - INFO - Scraping contents from 'https://haystack.deepset.ai/#'
+2023-12-09 20:07:07 - INFO - Scraping contents from 'https://haystack.deepset.ai/'
+2023-12-09 20:07:09 - INFO - Scraping contents from 'https://haystack.deepset.ai/blog'
+2023-12-09 20:07:11 - INFO - Scraping contents from 'https://haystack.deepset.ai/nlp-resources'
+2023-12-09 20:07:13 - INFO - Scraping contents from 'https://haystack.deepset.ai/overview/intro'
+2023-12-09 20:07:14 - INFO - Scraping contents from 'https://haystack.deepset.ai/integrations'
+2023-12-09 20:07:16 - INFO - Scraping contents from 'https://haystack.deepset.ai/overview/use-cases'
+2023-12-09 20:07:18 - INFO - Duplicate Documents: Document with id '55b86d4f9aa0f9e6b50ba460d09ea2cf' already exists in index 'document'
+2023-12-09 20:07:18 - INFO - Duplicate Documents: Document with id '629288f2fa6af896fadc53d2d6dd29b9' already exists in index 'document'
+2023-12-09 20:07:18 - INFO - Duplicate Documents: Document with id '55b86d4f9aa0f9e6b50ba460d09ea2cf' already exists in index 'document'
+2023-12-09 20:07:18 - INFO - Duplicate Documents: Document with id '629288f2fa6af896fadc53d2d6dd29b9' already exists in index 'document'
+2023-12-09 20:07:18 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-09 20:07:18 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-09 20:07:19 - INFO -  * LOADING MODEL: 'deepset/roberta-base-squad2-distilled' (Roberta)
+2023-12-09 20:07:22 - INFO - Auto-detected model language: english
+2023-12-09 20:07:22 - INFO - Loaded 'deepset/roberta-base-squad2-distilled' (Roberta model) from model hub.
+2023-12-09 20:07:25 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-09 20:07:28 - ERROR - Exception while running node 'reader': The operator 'aten::tril_indices' is not currently implemented for the MPS device. If you want this op to be added in priority during the prototype phase of this feature, please comment on https://github.com/pytorch/pytorch/issues/77764. As a temporary fix, you can set the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` to use the CPU as a fallback for this op. WARNING: this will be slower than running natively on MPS.
+Enable debug logging to see the data that was passed when the pipeline failed.
+Traceback (most recent call last):
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/pipelines/base.py", line 567, in run
+    node_output, stream_id = self._run_node(node_id, node_input)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/pipelines/base.py", line 469, in _run_node
+    return self.graph.nodes[node_id]["component"]._dispatch_run(**node_input)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/nodes/base.py", line 201, in _dispatch_run
+    return self._dispatch_run_general(self.run, **kwargs)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/nodes/base.py", line 245, in _dispatch_run_general
+    output, stream = run_method(**run_inputs, **run_params)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/nodes/reader/base.py", line 106, in run
+    results = predict(query=query, documents=documents, top_k=top_k)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/nodes/reader/base.py", line 241, in wrapper
+    ret = fn(*args, **kwargs)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/nodes/reader/farm.py", line 931, in predict
+    cur_predictions = self.inferencer.inference_from_objects(
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/modeling/infer.py", line 518, in inference_from_objects
+    return self.inference_from_dicts(
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/modeling/infer.py", line 482, in inference_from_dicts
+    return Inferencer.inference_from_dicts(
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/modeling/infer.py", line 315, in inference_from_dicts
+    predictions: Any = self._inference_without_multiprocessing(dicts, return_json, aggregate_preds)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/modeling/infer.py", line 337, in _inference_without_multiprocessing
+    preds_all = self._get_predictions_and_aggregate(dataset, tensor_names, baskets)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/modeling/infer.py", line 417, in _get_predictions_and_aggregate
+    preds = self.model.logits_to_preds(logits, **batch)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/modeling/model/adaptive_model.py", line 73, in logits_to_preds
+    preds = head.logits_to_preds(logits=logits_for_head, **kwargs)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/modeling/model/prediction_head.py", line 467, in logits_to_preds
+    indices = torch.tril_indices(max_seq_len, max_seq_len, offset=-1, device=start_end_matrix.device)
+NotImplementedError: The operator 'aten::tril_indices' is not currently implemented for the MPS device. If you want this op to be added in priority during the prototype phase of this feature, please comment on https://github.com/pytorch/pytorch/issues/77764. As a temporary fix, you can set the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` to use the CPU as a fallback for this op. WARNING: this will be slower than running natively on MPS.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/ninja/operation.py", line 104, in run
+    result = self.view_func(request, **values)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/api/routers/haystack_crawler.py", line 109, in haystack_crawler
+    results = query_pipeline.run_pipeline(query="What can I use haystack for?")
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/haystack_core_components/pipeline_builder.py", line 12, in run_pipeline
+    self.pipeline.run(query=query)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/pipelines/base.py", line 574, in run
+    raise Exception(
+Exception: Exception while running node 'reader': The operator 'aten::tril_indices' is not currently implemented for the MPS device. If you want this op to be added in priority during the prototype phase of this feature, please comment on https://github.com/pytorch/pytorch/issues/77764. As a temporary fix, you can set the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` to use the CPU as a fallback for this op. WARNING: this will be slower than running natively on MPS.
+Enable debug logging to see the data that was passed when the pipeline failed.
+2023-12-09 20:07:28 - ERROR - Internal Server Error: /api/crawler/crawler
+2023-12-09 20:09:02 - INFO - Loading faiss.
+2023-12-09 20:09:02 - INFO - Successfully loaded faiss.
+2023-12-09 20:09:53 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-09 20:09:53 - INFO - Scraping contents from 'https://haystack.deepset.ai'
+2023-12-09 20:09:58 - INFO - Scraping contents from 'https://haystack.deepset.ai/blog'
+2023-12-09 20:10:00 - INFO - Scraping contents from 'https://haystack.deepset.ai/nlp-resources'
+2023-12-09 20:10:02 - INFO - Scraping contents from 'https://haystack.deepset.ai/overview/roadmap'
+2023-12-09 20:10:04 - INFO - Scraping contents from 'https://haystack.deepset.ai/overview/demo'
+2023-12-09 20:10:06 - INFO - Scraping contents from 'https://haystack.deepset.ai/community'
+2023-12-09 20:10:08 - INFO - Scraping contents from 'https://haystack.deepset.ai/advent-of-haystack'
+2023-12-09 20:10:09 - INFO - Scraping contents from 'https://haystack.deepset.ai/tutorials'
+2023-12-09 20:10:11 - INFO - Scraping contents from 'https://haystack.deepset.ai/overview/use-cases'
+2023-12-09 20:10:13 - INFO - Scraping contents from 'https://haystack.deepset.ai/overview/intro'
+2023-12-09 20:10:14 - INFO - Scraping contents from 'https://haystack.deepset.ai/'
+2023-12-09 20:10:16 - INFO - Scraping contents from 'https://haystack.deepset.ai/integrations'
+2023-12-09 20:10:18 - INFO - Scraping contents from 'https://haystack.deepset.ai/benchmarks'
+2023-12-09 20:10:20 - INFO - Scraping contents from 'https://haystack.deepset.ai/#'
+2023-12-09 20:10:21 - INFO - Scraping contents from 'https://haystack.deepset.ai/overview/quick-start'
+2023-12-09 20:10:23 - INFO - Duplicate Documents: Document with id '55b86d4f9aa0f9e6b50ba460d09ea2cf' already exists in index 'document'
+2023-12-09 20:10:23 - INFO - Duplicate Documents: Document with id '629288f2fa6af896fadc53d2d6dd29b9' already exists in index 'document'
+2023-12-09 20:10:23 - INFO - Duplicate Documents: Document with id '55b86d4f9aa0f9e6b50ba460d09ea2cf' already exists in index 'document'
+2023-12-09 20:10:23 - INFO - Duplicate Documents: Document with id '629288f2fa6af896fadc53d2d6dd29b9' already exists in index 'document'
+2023-12-09 20:10:23 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-09 20:10:23 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-09 20:10:24 - INFO -  * LOADING MODEL: 'deepset/roberta-base-squad2-distilled' (Roberta)
+2023-12-09 20:10:26 - INFO - Auto-detected model language: english
+2023-12-09 20:10:26 - INFO - Loaded 'deepset/roberta-base-squad2-distilled' (Roberta model) from model hub.
+2023-12-09 20:10:29 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-09 20:10:31 - ERROR - Exception while running node 'reader': The operator 'aten::tril_indices' is not currently implemented for the MPS device. If you want this op to be added in priority during the prototype phase of this feature, please comment on https://github.com/pytorch/pytorch/issues/77764. As a temporary fix, you can set the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` to use the CPU as a fallback for this op. WARNING: this will be slower than running natively on MPS.
+Enable debug logging to see the data that was passed when the pipeline failed.
+Traceback (most recent call last):
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/pipelines/base.py", line 567, in run
+    node_output, stream_id = self._run_node(node_id, node_input)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/pipelines/base.py", line 469, in _run_node
+    return self.graph.nodes[node_id]["component"]._dispatch_run(**node_input)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/nodes/base.py", line 201, in _dispatch_run
+    return self._dispatch_run_general(self.run, **kwargs)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/nodes/base.py", line 245, in _dispatch_run_general
+    output, stream = run_method(**run_inputs, **run_params)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/nodes/reader/base.py", line 106, in run
+    results = predict(query=query, documents=documents, top_k=top_k)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/nodes/reader/base.py", line 241, in wrapper
+    ret = fn(*args, **kwargs)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/nodes/reader/farm.py", line 931, in predict
+    cur_predictions = self.inferencer.inference_from_objects(
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/modeling/infer.py", line 518, in inference_from_objects
+    return self.inference_from_dicts(
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/modeling/infer.py", line 482, in inference_from_dicts
+    return Inferencer.inference_from_dicts(
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/modeling/infer.py", line 315, in inference_from_dicts
+    predictions: Any = self._inference_without_multiprocessing(dicts, return_json, aggregate_preds)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/modeling/infer.py", line 337, in _inference_without_multiprocessing
+    preds_all = self._get_predictions_and_aggregate(dataset, tensor_names, baskets)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/modeling/infer.py", line 417, in _get_predictions_and_aggregate
+    preds = self.model.logits_to_preds(logits, **batch)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/modeling/model/adaptive_model.py", line 73, in logits_to_preds
+    preds = head.logits_to_preds(logits=logits_for_head, **kwargs)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/modeling/model/prediction_head.py", line 467, in logits_to_preds
+    indices = torch.tril_indices(max_seq_len, max_seq_len, offset=-1, device=start_end_matrix.device)
+NotImplementedError: The operator 'aten::tril_indices' is not currently implemented for the MPS device. If you want this op to be added in priority during the prototype phase of this feature, please comment on https://github.com/pytorch/pytorch/issues/77764. As a temporary fix, you can set the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` to use the CPU as a fallback for this op. WARNING: this will be slower than running natively on MPS.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/ninja/operation.py", line 104, in run
+    result = self.view_func(request, **values)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/api/routers/haystack_crawler.py", line 109, in haystack_crawler
+    results = query_pipeline.run_pipeline(query="What can I use haystack for?")
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/haystack_core_components/pipeline_builder.py", line 12, in run_pipeline
+    self.pipeline.run(query=query)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/pipelines/base.py", line 574, in run
+    raise Exception(
+Exception: Exception while running node 'reader': The operator 'aten::tril_indices' is not currently implemented for the MPS device. If you want this op to be added in priority during the prototype phase of this feature, please comment on https://github.com/pytorch/pytorch/issues/77764. As a temporary fix, you can set the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` to use the CPU as a fallback for this op. WARNING: this will be slower than running natively on MPS.
+Enable debug logging to see the data that was passed when the pipeline failed.
+2023-12-09 20:10:31 - ERROR - Internal Server Error: /api/crawler/crawler
+2023-12-09 20:10:45 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-09 20:10:45 - INFO - Scraping contents from 'https://haystack.deepset.ai'
+2023-12-09 20:10:50 - INFO - Scraping contents from 'https://haystack.deepset.ai/blog'
+2023-12-09 20:10:52 - INFO - Scraping contents from 'https://haystack.deepset.ai/nlp-resources'
+2023-12-09 20:10:55 - INFO - Scraping contents from 'https://haystack.deepset.ai/overview/roadmap'
+2023-12-09 20:10:56 - INFO - Scraping contents from 'https://haystack.deepset.ai/overview/demo'
+2023-12-09 20:10:58 - INFO - Scraping contents from 'https://haystack.deepset.ai/community'
+2023-12-09 20:11:00 - INFO - Scraping contents from 'https://haystack.deepset.ai/advent-of-haystack'
+2023-12-09 20:11:02 - INFO - Scraping contents from 'https://haystack.deepset.ai/tutorials'
+2023-12-09 20:11:03 - INFO - Scraping contents from 'https://haystack.deepset.ai/overview/use-cases'
+2023-12-09 20:11:05 - INFO - Scraping contents from 'https://haystack.deepset.ai/overview/intro'
+2023-12-09 20:11:07 - INFO - Scraping contents from 'https://haystack.deepset.ai/'
+2023-12-09 20:11:08 - INFO - Scraping contents from 'https://haystack.deepset.ai/integrations'
+2023-12-09 20:11:10 - INFO - Scraping contents from 'https://haystack.deepset.ai/benchmarks'
+2023-12-09 20:11:12 - INFO - Scraping contents from 'https://haystack.deepset.ai/#'
+2023-12-09 20:11:13 - INFO - Scraping contents from 'https://haystack.deepset.ai/overview/quick-start'
+2023-12-09 20:11:15 - INFO - Duplicate Documents: Document with id '55b86d4f9aa0f9e6b50ba460d09ea2cf' already exists in index 'document'
+2023-12-09 20:11:15 - INFO - Duplicate Documents: Document with id '629288f2fa6af896fadc53d2d6dd29b9' already exists in index 'document'
+2023-12-09 20:11:15 - INFO - Duplicate Documents: Document with id '55b86d4f9aa0f9e6b50ba460d09ea2cf' already exists in index 'document'
+2023-12-09 20:11:15 - INFO - Duplicate Documents: Document with id '629288f2fa6af896fadc53d2d6dd29b9' already exists in index 'document'
+2023-12-09 20:11:15 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-09 20:11:15 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-09 20:11:16 - INFO -  * LOADING MODEL: 'deepset/roberta-base-squad2-distilled' (Roberta)
+2023-12-09 20:11:18 - INFO - Auto-detected model language: english
+2023-12-09 20:11:18 - INFO - Loaded 'deepset/roberta-base-squad2-distilled' (Roberta model) from model hub.
+2023-12-09 20:11:21 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-09 20:11:22 - ERROR - Exception while running node 'reader': The operator 'aten::tril_indices' is not currently implemented for the MPS device. If you want this op to be added in priority during the prototype phase of this feature, please comment on https://github.com/pytorch/pytorch/issues/77764. As a temporary fix, you can set the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` to use the CPU as a fallback for this op. WARNING: this will be slower than running natively on MPS.
+Enable debug logging to see the data that was passed when the pipeline failed.
+Traceback (most recent call last):
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/pipelines/base.py", line 567, in run
+    node_output, stream_id = self._run_node(node_id, node_input)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/pipelines/base.py", line 469, in _run_node
+    return self.graph.nodes[node_id]["component"]._dispatch_run(**node_input)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/nodes/base.py", line 201, in _dispatch_run
+    return self._dispatch_run_general(self.run, **kwargs)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/nodes/base.py", line 245, in _dispatch_run_general
+    output, stream = run_method(**run_inputs, **run_params)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/nodes/reader/base.py", line 106, in run
+    results = predict(query=query, documents=documents, top_k=top_k)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/nodes/reader/base.py", line 241, in wrapper
+    ret = fn(*args, **kwargs)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/nodes/reader/farm.py", line 931, in predict
+    cur_predictions = self.inferencer.inference_from_objects(
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/modeling/infer.py", line 518, in inference_from_objects
+    return self.inference_from_dicts(
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/modeling/infer.py", line 482, in inference_from_dicts
+    return Inferencer.inference_from_dicts(
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/modeling/infer.py", line 315, in inference_from_dicts
+    predictions: Any = self._inference_without_multiprocessing(dicts, return_json, aggregate_preds)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/modeling/infer.py", line 337, in _inference_without_multiprocessing
+    preds_all = self._get_predictions_and_aggregate(dataset, tensor_names, baskets)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/modeling/infer.py", line 417, in _get_predictions_and_aggregate
+    preds = self.model.logits_to_preds(logits, **batch)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/modeling/model/adaptive_model.py", line 73, in logits_to_preds
+    preds = head.logits_to_preds(logits=logits_for_head, **kwargs)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/modeling/model/prediction_head.py", line 467, in logits_to_preds
+    indices = torch.tril_indices(max_seq_len, max_seq_len, offset=-1, device=start_end_matrix.device)
+NotImplementedError: The operator 'aten::tril_indices' is not currently implemented for the MPS device. If you want this op to be added in priority during the prototype phase of this feature, please comment on https://github.com/pytorch/pytorch/issues/77764. As a temporary fix, you can set the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` to use the CPU as a fallback for this op. WARNING: this will be slower than running natively on MPS.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/ninja/operation.py", line 104, in run
+    result = self.view_func(request, **values)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/api/routers/haystack_crawler.py", line 109, in haystack_crawler
+    results = query_pipeline.run_pipeline(query="What can I use haystack for?")
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/haystack_core_components/pipeline_builder.py", line 12, in run_pipeline
+    self.pipeline.run(query=query)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/haystack/pipelines/base.py", line 574, in run
+    raise Exception(
+Exception: Exception while running node 'reader': The operator 'aten::tril_indices' is not currently implemented for the MPS device. If you want this op to be added in priority during the prototype phase of this feature, please comment on https://github.com/pytorch/pytorch/issues/77764. As a temporary fix, you can set the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` to use the CPU as a fallback for this op. WARNING: this will be slower than running natively on MPS.
+Enable debug logging to see the data that was passed when the pipeline failed.
+2023-12-09 20:11:22 - ERROR - Internal Server Error: /api/crawler/crawler
+2023-12-09 20:28:16 - INFO - Loading faiss.
+2023-12-09 20:28:16 - INFO - Successfully loaded faiss.
+2023-12-09 20:28:25 - WARNING - Not Found: /
+2023-12-09 20:28:25 - WARNING - Not Found: /
+2023-12-09 20:28:44 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-09 20:28:44 - INFO - Scraping contents from 'https://haystack.deepset.ai'
+2023-12-09 20:28:50 - INFO - Scraping contents from 'https://haystack.deepset.ai/blog'
+2023-12-09 20:28:52 - INFO - Scraping contents from 'https://haystack.deepset.ai/'
+2023-12-09 20:28:54 - INFO - Scraping contents from 'https://haystack.deepset.ai/overview/intro'
+2023-12-09 20:28:56 - INFO - Scraping contents from 'https://haystack.deepset.ai/overview/demo'
+2023-12-09 20:28:57 - INFO - Scraping contents from 'https://haystack.deepset.ai/benchmarks'
+2023-12-09 20:28:59 - INFO - Scraping contents from 'https://haystack.deepset.ai/overview/roadmap'
+2023-12-09 20:29:01 - INFO - Scraping contents from 'https://haystack.deepset.ai/advent-of-haystack'
+2023-12-09 20:29:02 - INFO - Scraping contents from 'https://haystack.deepset.ai/#'
+2023-12-09 20:29:04 - INFO - Scraping contents from 'https://haystack.deepset.ai/community'
+2023-12-09 20:29:06 - INFO - Scraping contents from 'https://haystack.deepset.ai/nlp-resources'
+2023-12-09 20:29:07 - INFO - Scraping contents from 'https://haystack.deepset.ai/overview/quick-start'
+2023-12-09 20:29:09 - INFO - Scraping contents from 'https://haystack.deepset.ai/overview/use-cases'
+2023-12-09 20:29:11 - INFO - Scraping contents from 'https://haystack.deepset.ai/tutorials'
+2023-12-09 20:29:12 - INFO - Scraping contents from 'https://haystack.deepset.ai/integrations'
+2023-12-09 20:29:14 - INFO - Duplicate Documents: Document with id '55b86d4f9aa0f9e6b50ba460d09ea2cf' already exists in index 'document'
+2023-12-09 20:29:14 - INFO - Duplicate Documents: Document with id '629288f2fa6af896fadc53d2d6dd29b9' already exists in index 'document'
+2023-12-09 20:29:14 - INFO - Duplicate Documents: Document with id '55b86d4f9aa0f9e6b50ba460d09ea2cf' already exists in index 'document'
+2023-12-09 20:29:14 - INFO - Duplicate Documents: Document with id '629288f2fa6af896fadc53d2d6dd29b9' already exists in index 'document'
+2023-12-09 20:29:14 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-09 20:29:14 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-09 20:29:15 - INFO -  * LOADING MODEL: 'deepset/roberta-base-squad2-distilled' (Roberta)
+2023-12-09 20:29:18 - INFO - Auto-detected model language: english
+2023-12-09 20:29:18 - INFO - Loaded 'deepset/roberta-base-squad2-distilled' (Roberta model) from model hub.
+2023-12-09 20:29:21 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-09 20:29:37 - ERROR - Error uploading logs to GCS: 404 GET https://storage.googleapis.com/storage/v1/b/logs_impact_nexus?projection=noAcl&prettyPrint=false: The specified bucket does not exist.
+2023-12-09 20:29:37 - ERROR - No answers and results found
+2023-12-09 20:35:24 - INFO - Loading faiss.
+2023-12-09 20:35:24 - INFO - Successfully loaded faiss.
+2023-12-09 20:35:31 - WARNING - Not Found: /
+2023-12-09 20:35:31 - WARNING - Not Found: /
+2023-12-09 20:35:47 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-09 20:35:47 - INFO - Scraping contents from 'https://haystack.deepset.ai'
+2023-12-09 20:35:53 - INFO - Scraping contents from 'https://haystack.deepset.ai/blog'
+2023-12-09 20:35:55 - INFO - Scraping contents from 'https://haystack.deepset.ai/tutorials'
+2023-12-09 20:35:57 - INFO - Scraping contents from 'https://haystack.deepset.ai/'
+2023-12-09 20:35:59 - INFO - Scraping contents from 'https://haystack.deepset.ai/#'
+2023-12-09 20:35:59 - INFO - Scraping contents from 'https://haystack.deepset.ai/overview/quick-start'
+2023-12-09 20:36:01 - INFO - Scraping contents from 'https://haystack.deepset.ai/advent-of-haystack'
+2023-12-09 20:36:03 - INFO - Scraping contents from 'https://haystack.deepset.ai/nlp-resources'
+2023-12-09 20:36:04 - INFO - Scraping contents from 'https://haystack.deepset.ai/overview/intro'
+2023-12-09 20:36:06 - INFO - Scraping contents from 'https://haystack.deepset.ai/integrations'
+2023-12-09 20:36:08 - INFO - Scraping contents from 'https://haystack.deepset.ai/benchmarks'
+2023-12-09 20:36:10 - INFO - Scraping contents from 'https://haystack.deepset.ai/overview/demo'
+2023-12-09 20:36:13 - INFO - Scraping contents from 'https://haystack.deepset.ai/overview/roadmap'
+2023-12-09 20:36:15 - INFO - Scraping contents from 'https://haystack.deepset.ai/community'
+2023-12-09 20:36:17 - INFO - Scraping contents from 'https://haystack.deepset.ai/overview/use-cases'
+2023-12-09 20:36:19 - INFO - Duplicate Documents: Document with id '55b86d4f9aa0f9e6b50ba460d09ea2cf' already exists in index 'document'
+2023-12-09 20:36:19 - INFO - Duplicate Documents: Document with id '629288f2fa6af896fadc53d2d6dd29b9' already exists in index 'document'
+2023-12-09 20:36:19 - INFO - Duplicate Documents: Document with id '55b86d4f9aa0f9e6b50ba460d09ea2cf' already exists in index 'document'
+2023-12-09 20:36:19 - INFO - Duplicate Documents: Document with id '629288f2fa6af896fadc53d2d6dd29b9' already exists in index 'document'
+2023-12-09 20:36:19 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-09 20:36:19 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-09 20:36:20 - INFO -  * LOADING MODEL: 'deepset/roberta-base-squad2-distilled' (Roberta)
+2023-12-09 20:36:22 - INFO - Auto-detected model language: english
+2023-12-09 20:36:23 - INFO - Loaded 'deepset/roberta-base-squad2-distilled' (Roberta model) from model hub.
+2023-12-09 20:36:26 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-09 20:36:47 - ERROR - Error uploading logs to GCS: 404 GET https://storage.googleapis.com/storage/v1/b/logs_impact_nexus?projection=noAcl&prettyPrint=false: The specified bucket does not exist.
+2023-12-09 20:36:47 - ERROR - No answers and results found
