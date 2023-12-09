@@ -62,7 +62,6 @@ if __name__ == "__main__":
 
     crawler = Crawler_Pipeline.build_crawler(urls, crawler_depth=crawler_depth,output_dir=output_dir)
 
-
     indexing_pipeline = BuildPipeline()
     # Add nodes to build the pipeline
     indexing_pipeline.add_node(component=crawler, name="crawler", inputs=['File'])
@@ -72,3 +71,6 @@ if __name__ == "__main__":
     indexing_pipeline.add_node(component=document_store, name="document_store", inputs=['preprocessor'])
 
     indexing_pipeline.run_pipeline()
+
+
+    #Step2: as a step 2: I add a query_pipeline.
