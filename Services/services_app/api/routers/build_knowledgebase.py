@@ -1,7 +1,6 @@
 import os
 import json
 import logging
-from google.cloud import storage
 from ninja import Router
 from pathlib import Path
 from services_app.api.utils.utils import upload_logs_to_gcs

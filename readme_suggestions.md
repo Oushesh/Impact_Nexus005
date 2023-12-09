@@ -437,16 +437,15 @@ corresponds to the buckets on google bucket or any other service.
    Example of oekobautdat (a really important dataset for ESG metrics) set data downloader
    as shown by Airbyte Connector.
    
-   2. The second big advantage of Airbyte is that it has built-in Data built- tools (DBT) which
+   2. The second big advantage of Airbyte is that it has built-in Data built-tools (DBT) which
       is a fantastic innovation treating data (sql or table data) as modular components and reused.
 
     (Check my first diagram on the services)
 ![Airbyte_Connector](docs/airbyte_connector.gif)
 
-
 ## Haystack 
    1. Personally I welcome the idea of using Haystack. As I am consulting
-   various companies using LLM: 
+   various companies using LLM these days 
 
    2. I don't see any technical debt coming in the future with Haystack.
       A: It integrates well with the best new Vector Databases 
@@ -455,6 +454,10 @@ corresponds to the buckets on google bucket or any other service.
           Impact Nexus as well.
       
       C:  Haystack is good for building RAG and Semantic Vector retrieval pipeline.
+      D:  Custom Components can be added easily. Haystack_core_components (Services/services_app/haystack_core_components)
+          contains pipeline builder and other classes to abstract DocumentStore. Using those components I show how pipeline
+          can be easily tested as endpoints. I focus on modular  code easily moving from prototype to endpoints under services.
+          For production one should move away from InMemory.
 
 ![](docs/finetuning.gif)
 ![](docs/)
