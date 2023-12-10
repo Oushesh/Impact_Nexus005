@@ -463,10 +463,7 @@ corresponds to the buckets on google bucket or any other service.
       it's easy to write each one in a different script and build a DAG (Direct Acyclic Graph) in DVC and CML. (see above)
       Pipeline is easily tested using Data Version Control.
 
-
-
-![](docs/finetuning.gif)
-![](docs/)
+![](docs/haystack_cralwer.gif)
 
   # TODO : For haystack LLM pipeline: https://haystack.deepset.ai/tutorials/02_finetune_a_model_on_your_data
     TODO: https://haystack.deepset.ai/tutorials/11_pipelines
