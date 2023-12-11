@@ -559,8 +559,6 @@ Below you see when the parameter in the script of the pipeline is changed. The t
 
     .github/workflows/perturbation_test.yaml 
 
-
-
 ## Further Development: 
    * Terraform for multiple application deployment and application life cycle. 
    * Cron jobs to sync data daily multiple times and extend our pipeline for data check. I would personally avoid real time incoming data check.

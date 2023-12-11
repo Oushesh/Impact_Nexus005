@@ -103,3 +103,4 @@ dvc
 google-cloud-logging
 google-cloud-storage
 elasticsearch-haystack
+requests_toolbelt==0.1.0
