@@ -514,6 +514,9 @@ Below you see when the parameter in the script of the pipeline is changed. The t
    6. makefile to ease running commands around like testing and server running
    7. Provides a comprehensive on how to do fast Development from jupyternotebooks to directly test pipeline changes using DVC and CML and build new endpoints
       to test new services which are already robust.
+   8. Owing to use of DVC I can easily test big time consuming pipelines where only changes in 1 script  are rerun
+      after "dvc repro". I provide a vision for Data Versioning, Model Versioning  as well as Model Registry
+      (DVC integrates online services where models are saved: here gcp). 
 
 ## Further Development: 
    * Terraform for multiple application deployment and application life cycle. 
