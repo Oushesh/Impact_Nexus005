@@ -218,7 +218,7 @@ In perspective:
 
 ## Data Download && Data Ingestion && Data Aggregation
    
-   1. The Django Service has an endpoint to download data for example from "Oekobaudat Service". As a company you can  spend time
+   1. The Django Service has an endpoint to donload data for example from "Oekobaudat Service". As a company you can  spend time
    developing endpoints and curating data or use Airbyte (like i showed in the diagram at the beginning) to build robust Data Connectors.
    This will save development time. Airbyte can also be used to  build Airtable or any third party service api quickly and robust.
 
@@ -227,11 +227,33 @@ In perspective:
      https://wandb.ai/concular/deepchecks?workspace=user-oushesh
      https://deepchecks.com/
 
-![wandb_DeepChecks](docs/)
+    Below see endpoint (Services/services_app/routers/deepcheck) proviing insights 
+    on a processed data for a classification job.
+
+    Raw Data: Services/services_app/JOBS/Classification/source
+    Processed Data: Services/services_app/JOBS/target/..*.csv
+    (the endpoint used for this: Services/services_app/api/routers/data_processor_classification_job.py)
+![wandb_DeepChecks_001](docs/DeepChecks_001.gif)
+![wandb_DeepChecks_002](docs/DeepChecks_002.gif)
+![wandb_DeepChecks_003](docs/DeepChecks_003.gif)
 
 Those 2 tools provide a framework to build a test suite and get embeddings from incoming data to visualize
 properties such as label and data drift and other checks for data.  
 
+Pipeline can be extended to accommodate more test suites with the Framework of DeepChecks.
+Raw Data is transformed to task specific job. 
+
+Pipeline Example here:
+
+![Data_incoming_check_pipeline](docs/DeepCheck_Embedding_Service.png)
+
+    This endpoint can be served as a lambda function on AWS or any online platform. It
+    would sync upon new incoming data and perform the transformation for the job as 
+    well as run the Embeddings to check for Data Drift, label drift, new words, percentage of 
+    new characters thus check if new Data domain is shifted too much even before training starts.
+    It promotes better decision making and transparency after models have been pushed to production.
+    (understand decision making).
+  
    2. The old pipeline does not account for any service to  I propose passing the entire database to a
      vector database like Qdrant or Pinecone or Weaviate with OpenAI Ada Embeddings to get a semantic 
      graph of the data
@@ -368,9 +390,10 @@ Every github workflows corresponds to the bucket names on google bucket or any o
     You can also visualize the Directy Acycli Graph of the pipline using
     dvc dag
 
-    While there are other options like Apache Airflow, DVC and CML is preferred since it provides: 
-    
+    While there are other options like Apache Airflow, DVC and CML is preferred since it provides:
     Versioning of Data, Continuous ML, CI/CD
+
+Below you see when the parameter in the script of the pipeline is changed. The tests are rerun.
 
 
 ![DVC_Reprogrammable_Code](docs/dvc_repro.gif)    
@@ -475,14 +498,33 @@ Every github workflows corresponds to the bucket names on google bucket or any o
     TODO: https://haystack.deepset.ai/tutorials/02_finetune_a_model_on_your_data
     TODO: This should make me win the interview.
 
-## Further Development: 
+## Summary:
+   1. My pipeline uses Django as service which integrates all the needed tools for decision making. 
+      FastAPI is good but lacks good libraries like Finite State Machine if needed among others.
+   by the Domain Expert people (people knowing how to calculate LCA, ESG etc..). It gives them
+   tool to visuallise data.
 
-## Resources: 
-    https://eugeneyan.com/writing/setting-up-python-project-for-automation-and-collaboration/
-    https://stackoverflow.com/questions/67646383/authentication-to-github-using-personal-access-token-on-macos#:~:text=3%20Answers&text=Run%20a%20git%20push%20or,it%20and%20paste%20it%20in).
+   2. My tool proposes Data optimisation from multiple formats from multiple sources to Apache Parquet Format
+      to save labour and computer cost
+   3. My tool integrates Airbyte thus saving development on data connectors and avoid writing endpoints to transform
+      data from already established 3rd parties like Airtable, s3, athena or posgresql.
+   4. My tools integrates Data Quality Check and Drifts using DeepCheck and more task specific tools can be added easily
+      and called to the endpoint. Every session is automatically saved on WANDB (https://wandb.ai/) and dynamic plots accessed
+   5. My tools integrates DeepCheck and its data transformation (specific for task: like Emotion/Tag Classification)
+   6. makefile to ease running commands around like testing and server running
+   7. Provides a comprehensive on how to do fast Development from jupyternotebooks to directly test pipeline changes using DVC and CML and build new endpoints
+      to test new services which are already robust.
+
+## Further Development: 
+   * Terraform for multiple application deployment and application life cycle. 
+   * Cron jobs to sync data daily multiple times and extend our pipeline for data check. I would personally avoid real time incoming data check.
+   * add a deploy.sh and a new .github/workflows to deploy new endpoints automatically should tests have been passed and new models trained.
+     (Combine DVC,CML with deploy.sh bash file)
+
+## Resources:
     https://iterative.ai/blog/cml-self-hosted-runners-on-demand-with-gpus
     (how to self-host runners on gpus)
-   https://eugeneyan.com/writing/setting-up-python-project-for-automation-and-collaboration/
+  
 
 
 

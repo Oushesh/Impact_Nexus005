@@ -10297,3 +10297,31 @@ Enable debug logging to see the data that was passed when the pipeline failed.
 2023-12-10 17:08:13 - INFO - Using devices: MPS - Number of GPUs: 1
 2023-12-10 17:08:19 - ERROR - Error uploading logs to GCS: 404 GET https://storage.googleapis.com/storage/v1/b/logs_impact_nexus?projection=noAcl&prettyPrint=false: The specified bucket does not exist.
 2023-12-10 17:08:19 - ERROR - No answers and results found
+2023-12-11 06:20:46 - INFO - Loading faiss.
+2023-12-11 06:20:46 - INFO - Successfully loaded faiss.
+2023-12-11 06:22:50 - INFO - dfg_other_sectors_20220121_filled.csv contents read
+2023-12-11 06:22:50 - INFO - dfg_other_sectors_20220121_filled.csv 
+2023-12-11 06:32:03 - INFO - File dfg_other_sectors_20220121_filled.csv processed successfully,status=200
+2023-12-11 06:32:03 - INFO - File dfg_other_sectors_20220121_filled processed successfully status=200
+2023-12-11 06:32:03 - ERROR - upload_logs_to_gcs() missing 1 required positional argument: 'remote_log_path': Did you fail to use functools.wraps() in a decorator?
+Traceback (most recent call last):
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/ninja/operation.py", line 104, in run
+    result = self.view_func(request, **values)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/api/routers/incoming_data_deepcheck.py", line 85, in deepcheck
+    upload_logs_to_gcs(local_log_path, "logs_impactnexus", "incoming_data_deepcheck/incoming_data_deepcheck.log")
+TypeError: upload_logs_to_gcs() missing 1 required positional argument: 'remote_log_path': Did you fail to use functools.wraps() in a decorator?
+2023-12-11 06:32:03 - ERROR - Internal Server Error: /api/deepcheck/deepcheck
+2023-12-11 07:02:57 - INFO - Loading faiss.
+2023-12-11 07:02:57 - INFO - Successfully loaded faiss.
+2023-12-11 07:03:21 - INFO - dfg_other_sectors_20220121_filled.csv contents read
+2023-12-11 07:03:22 - INFO - dfg_other_sectors_20220121_filled.csv 
+2023-12-11 07:12:28 - INFO - File dfg_other_sectors_20220121_filled.csv processed successfully,status=200
+2023-12-11 07:12:28 - INFO - File dfg_other_sectors_20220121_filled processed successfully status=200
+2023-12-11 07:12:28 - ERROR - upload_logs_to_gcs() missing 1 required positional argument: 'remote_log_path': Did you fail to use functools.wraps() in a decorator?
+Traceback (most recent call last):
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/ninja/operation.py", line 104, in run
+    result = self.view_func(request, **values)
+  File "/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/Impact_Nexus005/Services/services_app/api/routers/incoming_data_deepcheck.py", line 85, in deepcheck
+    upload_logs_to_gcs(local_log_path, "logs_impactnexus", "incoming_data_deepcheck/incoming_data_deepcheck.log")
+TypeError: upload_logs_to_gcs() missing 1 required positional argument: 'remote_log_path': Did you fail to use functools.wraps() in a decorator?
+2023-12-11 07:12:28 - ERROR - Internal Server Error: /api/deepcheck/deepcheck

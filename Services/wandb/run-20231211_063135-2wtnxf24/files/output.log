@@ -1,0 +1,5 @@
+/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py:3007: ResourceWarning:
+unclosed <ssl.SSLSocket fd=17, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.92', 56328), raddr=('35.186.228.49', 443)>
+[34m[1mwandb[39m[22m: [33mWARNING[39m Serializing object of type str that is 396094 bytes
+/Users/ousheshharadhun/Documents/Workspace/Impact_Nexus_AI/smart-evidence-oushesh-main/nlp_venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py:3007: ResourceWarning:
+unclosed <ssl.SSLSocket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.92', 56330), raddr=('35.186.228.49', 443)>
