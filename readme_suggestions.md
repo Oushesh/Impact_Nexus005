@@ -218,7 +218,7 @@ In perspective:
 
 ## Data Download && Data Ingestion && Data Aggregation
    
-   1. The Django Service has an endpoint to donload data for example from "Oekobaudat Service". As a company you can  spend time
+   1. The Django Service has an endpoint to download data for example from "Oekobaudat Service". As a company you can  spend time
    developing endpoints and curating data or use Airbyte (like i showed in the diagram at the beginning) to build robust Data Connectors.
    This will save development time. Airbyte can also be used to  build Airtable or any third party service api quickly and robust.
 
@@ -254,7 +254,8 @@ Pipeline Example here:
     It promotes better decision making and transparency after models have been pushed to production.
     (understand decision making).
   
-   2. The old pipeline does not account for any service to  I propose passing the entire database to a
+   2. The old pipeline does not account for any service to get semantcs of incoming data: 
+      I propose passing the entire database to a
      vector database like Qdrant or Pinecone or Weaviate with OpenAI Ada Embeddings to get a semantic 
      graph of the data
      API to classify data.
@@ -265,8 +266,10 @@ Pipeline Example here:
 ## ML OPS && CML (Continuous Machine Learning) 
    
    The previous pipeline dit not account for the OPS and Continuous Machine Learning. CML + DVC 
-   is one of the best framework to achieve this. It treats data and models like Git files with hash. 
-   Upon retesting an old pipeline: Even only pipelines that have been changed.
+   is one of the best framework to achieve this. DVC treats data and models like Git files with hash. 
+   Upon retesting an old pipeline: even only pipelines that have been changed, only scripts
+   that were changed or models whether local or online that were changed will be used for testing.
+
 
    Using DVC and CML allows multiple people to work in different branches simultaneously on the same part 
    of the pipeline or different parts of the pipeline and push code. The .yaml is written such that only
@@ -275,9 +278,10 @@ Pipeline Example here:
    * Github actions (.github/workflows/<test.yaml>) + Data Version Control  
 
    1. Data Version Control: "Git for Data"
-      dvc get downloads any data from a url pointing to s3, google bucket
-      or other cloud services and saves where you want.
-      It uses hash map like git to efficiently track and cash changes.
+   dvc get 
+   2. downloads any data from a url pointing to s3, google bucket
+            or other cloud services and saves where you want.
+            It uses hash map like git to efficiently track and cash changes.
 
     Services/DVC contains the different workflows
     Example of Data Versioning:
