@@ -132,10 +132,8 @@ It consists of Services with the following directories. In General it's a django
 1. The previous pipeline misses a lot on data quality check, data-imbalancement, data drifts, labels-drift.
 
     Endpoint: Services/services_app/api/routers/incoming_data_deepcheck.py
-    
-     
-![DeepCheck](docs/DeepCheck_001.png)
 
+![DeepCheck](docs/DeepCheck_001.png)
 ![DeepCheck](docs/DeepCheck_002.png)
 ![DeepCheck](docs/DeepCheck_003.png)
 ![DeepCheck](docs/DeepCheck_004.png)
@@ -229,9 +227,10 @@ In perspective:
      https://wandb.ai/concular/deepchecks?workspace=user-oushesh
      https://deepchecks.com/
 
-     
+![wandb_DeepChecks](docs/)
+
 Those 2 tools provide a framework to build a test suite and get embeddings from incoming data to visualize
-properties such as label and data drfit and other checks for data 
+properties such as label and data drift and other checks for data.  
 
    2. The old pipeline does not account for any service to  I propose passing the entire database to a
      vector database like Qdrant or Pinecone or Weaviate with OpenAI Ada Embeddings to get a semantic 
@@ -245,14 +244,13 @@ properties such as label and data drfit and other checks for data
    
    The previous pipeline dit not account for the OPS and Continuous Machine Learning. CML + DVC 
    is one of the best framework to achieve this. It treats data and models like Git files with hash. 
-   Even only pipelines that have been changed.
+   Upon retesting an old pipeline: Even only pipelines that have been changed.
 
    Using DVC and CML allows multiple people to work in different branches simultaneously on the same part 
    of the pipeline or different parts of the pipeline and push code. The .yaml is written such that only
    changes in the specific folder corresponding to the tests gets triggered saving time and being more efficient.
 
    * Github actions (.github/workflows/<test.yaml>) + Data Version Control  
-
 
    1. Data Version Control: "Git for Data"
       dvc get downloads any data from a url pointing to s3, google bucket
@@ -267,21 +265,25 @@ properties such as label and data drfit and other checks for data
     Track: dvc add Services/DVC/models/models.pkl
     Any changes people working with you did either on the bucket or new model
     it gets pushed and tested with the yaml. The test gets trrigered and pipeline is evaluated.
-    
-
 
     Example: Services/DVC/test 
     A. Train script model was changed from LinearRegression to Lasso Model.
     B. The change triggers the test written under .github/workflows/test.yaml
     C. dvc can also be use to track the model with the bucket in google cloud: gs://dvc_models_bucket/models/
+    
+
+2. DVC can compress GBs of data in bytes of metadata where the data sits on the cloud: s3, GCP. gdrive 
+   or anything else.
+
+3.  
 
 ![LassotoRegression](docs/lasso_regression_test.gif)
 
-The Github workflows 
+Every github workflows corresponds to the bucket names on google bucket or any other service.
 
 ![Workflows](docs/all_workflows_yaml.png)
 
-corresponds to the buckets on google bucket or any other service.
+
 
 ![Workflows](docs/google_bucket.png)
     
@@ -296,7 +298,7 @@ corresponds to the buckets on google bucket or any other service.
     │   requirements.txt
     ```
 
-  2.  Data Pipelines: (dubbed as Makefile for ML Projects along with CML(Continuous Machine Learning))
+4. Data Pipelines: (dubbed as Makefile for ML Projects along with CML(Continuous Machine Learning))
      Usually pipelines are connected with different steps in different.py files.
 
       Changing anything in the train or any other script will only trigger that script. When your pipeline gets huge
@@ -389,6 +391,7 @@ corresponds to the buckets on google bucket or any other service.
    command.
 
 
+    More tests can be added using this structure.
 ![Test](docs/make_tests.gif)
    
 
