@@ -240,8 +240,7 @@ properties such as label and data drfit and other checks for data
 
 ## Data Retraining and Versioning.
    Data Version Control (DVC) and check the next part of the instruction
-
-     
+ 
 ## ML OPS && CML (Continuous Machine Learning) 
    
    The previous pipeline dit not account for the OPS and Continuous Machine Learning. CML + DVC 
@@ -252,7 +251,6 @@ properties such as label and data drfit and other checks for data
    of the pipeline or different parts of the pipeline and push code. The .yaml is written such that only
    changes in the specific folder corresponding to the tests gets triggered saving time and being more efficient.
 
-    
    * Github actions (.github/workflows/<test.yaml>) + Data Version Control  
 
 
@@ -463,7 +461,11 @@ corresponds to the buckets on google bucket or any other service.
       it's easy to write each one in a different script and build a DAG (Direct Acyclic Graph) in DVC and CML. (see above)
       Pipeline is easily tested using Data Version Control.
 
-![](docs/haystack_cralwer.gif)
+      All endpoints have data synced on Google Cloud as well as their logs.
+   
+   4. NLP 
+
+![](docs/Haystack_crawler_002.gif)
 
   # TODO : For haystack LLM pipeline: https://haystack.deepset.ai/tutorials/02_finetune_a_model_on_your_data
     TODO: https://haystack.deepset.ai/tutorials/11_pipelines

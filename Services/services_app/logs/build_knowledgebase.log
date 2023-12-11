@@ -10257,3 +10257,43 @@ Enable debug logging to see the data that was passed when the pipeline failed.
 2023-12-09 20:36:26 - INFO - Using devices: MPS - Number of GPUs: 1
 2023-12-09 20:36:47 - ERROR - Error uploading logs to GCS: 404 GET https://storage.googleapis.com/storage/v1/b/logs_impact_nexus?projection=noAcl&prettyPrint=false: The specified bucket does not exist.
 2023-12-09 20:36:47 - ERROR - No answers and results found
+2023-12-10 17:00:05 - INFO - Loading faiss.
+2023-12-10 17:00:05 - INFO - Successfully loaded faiss.
+2023-12-10 17:00:16 - WARNING - Not Found: /
+2023-12-10 17:00:16 - WARNING - Not Found: /
+2023-12-10 17:00:38 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-10 17:00:38 - INFO - Scraping contents from 'https://haystack.ai/'
+2023-12-10 17:00:48 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-10 17:00:48 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-10 17:00:50 - INFO -  * LOADING MODEL: 'deepset/roberta-base-squad2-distilled' (Roberta)
+2023-12-10 17:00:52 - INFO - Auto-detected model language: english
+2023-12-10 17:00:52 - INFO - Loaded 'deepset/roberta-base-squad2-distilled' (Roberta model) from model hub.
+2023-12-10 17:00:56 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-10 17:01:04 - ERROR - Error uploading logs to GCS: 404 GET https://storage.googleapis.com/storage/v1/b/logs_impact_nexus?projection=noAcl&prettyPrint=false: The specified bucket does not exist.
+2023-12-10 17:01:04 - ERROR - No answers and results found
+2023-12-10 17:03:38 - INFO - Loading faiss.
+2023-12-10 17:03:38 - INFO - Successfully loaded faiss.
+2023-12-10 17:03:54 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-10 17:03:54 - INFO - Scraping contents from 'https://haystack.ai/'
+2023-12-10 17:04:03 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-10 17:04:03 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-10 17:04:04 - INFO -  * LOADING MODEL: 'deepset/roberta-base-squad2-distilled' (Roberta)
+2023-12-10 17:04:07 - INFO - Auto-detected model language: english
+2023-12-10 17:04:07 - INFO - Loaded 'deepset/roberta-base-squad2-distilled' (Roberta model) from model hub.
+2023-12-10 17:04:10 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-10 17:04:15 - ERROR - Error uploading logs to GCS: 404 GET https://storage.googleapis.com/storage/v1/b/logs_impact_nexus?projection=noAcl&prettyPrint=false: The specified bucket does not exist.
+2023-12-10 17:04:15 - ERROR - No answers and results found
+2023-12-10 17:07:41 - INFO - Loading faiss.
+2023-12-10 17:07:41 - INFO - Successfully loaded faiss.
+2023-12-10 17:07:45 - WARNING - Not Found: /
+2023-12-10 17:07:45 - WARNING - Not Found: /
+2023-12-10 17:07:57 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-10 17:07:57 - INFO - Scraping contents from 'https://haystack.ai/'
+2023-12-10 17:08:07 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-10 17:08:07 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-10 17:08:08 - INFO -  * LOADING MODEL: 'deepset/roberta-base-squad2-distilled' (Roberta)
+2023-12-10 17:08:11 - INFO - Auto-detected model language: english
+2023-12-10 17:08:11 - INFO - Loaded 'deepset/roberta-base-squad2-distilled' (Roberta model) from model hub.
+2023-12-10 17:08:13 - INFO - Using devices: MPS - Number of GPUs: 1
+2023-12-10 17:08:19 - ERROR - Error uploading logs to GCS: 404 GET https://storage.googleapis.com/storage/v1/b/logs_impact_nexus?projection=noAcl&prettyPrint=false: The specified bucket does not exist.
+2023-12-10 17:08:19 - ERROR - No answers and results found
