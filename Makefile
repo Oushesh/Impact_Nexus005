@@ -40,17 +40,21 @@ models:
 	aws sync models
 
 install-dev:
-	python3 -m venv dev_venv && \
-    	. dev_venv/bin/activate && \
-    	python3 -m pip install -r requirements/dev.txt
+	python3.10 -m venv dev_venv && \
+    . dev_venv/bin/activate && \
+    python3.10 -m pip install -r requirements/dev.txt && \
+    pip3 install farm-haystack && \
+    pip3 install "farm-haystack[crawler]"
+
+
 
 install-common:
-	python3 -m venv common_venv && \
+	python3.10 -m venv common_venv && \
       . common_venv/bin/activate && \
-      python3 -m pip install -r requirements/common.txt
+      python3.10 -m pip install -r requirements/common.txt
 
 install-prod:
-	python3 -m venv prod_venv && \
+	python3.10 -m venv prod_venv && \
         . prod_venv/bin/activate && \
         python3 -m pip install -r requirements/prod.txt
 
