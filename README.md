@@ -271,7 +271,7 @@ Pipeline Example here:
  
 ## ML OPS && CML (Continuous Machine Learning) 
    
-   The previous pipeline dit not account for the OPS and Continuous Machine Learning. CML + DVC 
+   The previous pipeline did not account for the OPS and Continuous Machine Learning. CML + DVC 
    is one of the best framework to achieve this. DVC treats data and models like Git files with hash. 
    Upon retesting an old pipeline: even only pipelines that have been changed, only scripts
    that were changed or models whether local or online that were changed will be used for testing.
@@ -284,32 +284,40 @@ Pipeline Example here:
    * Github actions (.github/workflows/<test.yaml>) + Data Version Control  
 
    1. Data Version Control: "Git for Data"
-   dvc get 
+        
+    dvc get 
    2. downloads any data from a url pointing to s3, google bucket
             or other cloud services and saves where you want.
             It uses hash map like git to efficiently track and cash changes.
 
     Services/DVC contains the different workflows
-    Example of Data Versioning:
+Example of Data Versioning:
     
     dvc get gs://dvc_models_bucket/models.pkl -o Services/DVC/models/models.pkl
     
-    Track: dvc add Services/DVC/models/models.pkl
-    Any changes people working with you did either on the bucket or new model
-    it gets pushed and tested with the yaml. The test gets trrigered and pipeline is evaluated.
+Track: 
+    
+    dvc add Services/DVC/models/models.pkl
+    
+Any changes people working with you did either on the bucket or new model 
+it gets pushed and tested with the yaml. The test gets triggered and pipeline is evaluated.
 
-    Example: Services/DVC/test 
-    A. Train script model was changed from LinearRegression to Lasso Model.
-    B. The change triggers the test written under .github/workflows/test.yaml
-    C. dvc can also be use to track the model with the bucket in google cloud: gs://dvc_models_bucket/models/
+Example: Services/DVC/test 
+   
+     A. Train script model was changed from LinearRegression to Lasso Model.
+     B. The change triggers the test written under 
+        .github/workflows/test.yaml
+     C. dvc can also be use to track the model with the bucket in google cloud: 
+        gs://dvc_models_bucket/models/
+
+Example below the Regression model was changed and test is triggered:
+
+    Services/DVC/linear_regression_test
     
 
-2. DVC can compress GBs of data in bytes of metadata where the data sits on the cloud: s3, GCP. gdrive 
-   or anything else.
-
-3.  
-
 ![LassotoRegression](docs/lasso_regression_test.gif)
+2. Advantage of DVC: it can compress GBs of data in bytes of metadata where the data sits on the cloud: s3, GCP. gdrive 
+   or anything else.
 
 Every github workflows corresponds to the bucket names on google bucket or any other service.
 
@@ -319,7 +327,8 @@ Every github workflows corresponds to the bucket names on google bucket or any o
 
 ![Workflows](docs/google_bucket.png)
     
-    Every DVC Experiment is:
+Every DVC Experiment is:
+    
     ```
     Services/DVC/<Name of Workflow or pipeline> 
     │   model/
@@ -337,20 +346,26 @@ Every github workflows corresponds to the bucket names on google bucket or any o
       and uses GPU for training. Only the changes in script will run the results of the users that did not change
       will be retrieved and only the specific script with changes will run.
 
-![]()
-    3. ML OPS and Robustness:
 
-    Perturbation test is used to test robustness of a given pipeline. The inputs are perturbed
-    and the model from hugging face like most of the models used at Impact Nexus are used.
-    This was missing in the old pipeline. The pipeline  
+5. ML OPS and Robustness:
+
+Perturbation test is used to test robustness of a given pipeline. The inputs are perturbed
+and the model from hugging face like most of the models used at Impact Nexus are used.
+This was missing in the old pipeline. The pipeline  
    
+    Workflow: .github/perturbation_test.yaml 
+    
+Triggers: when there are changes in the  Services/DVC/pertubation_test/
+whether data or model or parameters of training. 
+See .gif below
 
 ![DVC_Perturbation_test](docs/dvc_perturbation_test.gif)
     
-    Other tests are mentionned in the department of Data and Label Drift as well as Embeddings Drift
+Other tests are mentionned in the department of Data and Label Drift as well as Embeddings Drift
 
-   
-  3. Workflows Requiring GPUs:
+
+
+6. Workflows Requiring GPUs:
 
    Heavy Training requiring GPUs cannot be run on github directly. Instead spin off GPU service and attach the worker. 
    Or: use local GPU. (PS: I dont have on my mac m2 pro.)
@@ -391,20 +406,22 @@ Every github workflows corresponds to the bucket names on google bucket or any o
 
 ## Data Version Control (DVC) 
     Services/DVC
-    
-    One of the most powerful updates to the previous pipeline I provide is the use of dvc which as shown in the gif
-    has the power to exectute only those steps of the code which are changed. As the pipeine grows more and more complex
-    only parts that are changed are retrained leading to faster and safer development.
-    * Data Version Control retraining without chaning all parts of the pipeline.
 
-    You can also visualize the Directy Acycli Graph of the pipline using
+One of the most powerful updates to the previous pipeline I provide is the use of dvc which as shown in the gif
+has the power to exectute only those steps of the code which are changed. As the pipeline grows more and more complex
+only parts that are changed are retrained leading to faster and safer development.
+
+Data Version Control allows retraining without chaning all parts of the pipeline.
+You can also visualize the Direct Acycic Graph of the pipline using
+    
     dvc dag
 
-    While there are other options like Apache Airflow, DVC and CML is preferred since it provides:
-    Versioning of Data, Continuous ML, CI/CD
+While there are other options like Apache Airflow, DVC and CML is preferred since it provides:
+Versioning of Data, Continuous ML, CI/CD
 
 Below you see when the parameter in the script of the pipeline is changed. The tests are rerun.
 
+    dvc repro
 
 ![DVC_Reprogrammable_Code](docs/dvc_repro.gif)    
 
@@ -424,7 +441,8 @@ Below you see when the parameter in the script of the pipeline is changed. The t
    command.
 
 
-    More tests can be added using this structure.
+More tests can be added using this structure.
+
 ![Test](docs/make_tests.gif)
    
 
@@ -499,14 +517,24 @@ Below you see when the parameter in the script of the pipeline is changed. The t
 
       All endpoints have data synced on Google Cloud as well as their logs.
    
-   4. NLP 
+   4. Its also easy to finetune the models available from huggingface and the ones in pytorch
+      https://haystack.deepset.ai/tutorials/02_finetune_a_model_on_your_data
 
-![](docs/Haystack_crawler_002.gif)
+Below see an example of a crawler. 
+    
+    make run
+    api/crawler/crawler
+    url: https://remyx.ai
 
-  # TODO : For haystack LLM pipeline: https://haystack.deepset.ai/tutorials/02_finetune_a_model_on_your_data
-    TODO: https://haystack.deepset.ai/tutorials/11_pipelines
-    TODO: https://haystack.deepset.ai/tutorials/02_finetune_a_model_on_your_data
-    TODO: This should make me win the interview.
+You will see the crawling process in the terminal and a sample retrieval pipeline. 
+
+    This pipeline  calls Haystack_components @ Services/services_app/haystack_core_components --> pipeline_builder.py and
+    DocumentStores.py
+
+The pipeline scrapes the data and performs a query.
+
+![crawler_example](docs/Haystack_crawler_002.gif)
+
 
 ## Summary:
    1. My pipeline uses Django as service which integrates all the needed tools for decision making. 
@@ -558,6 +586,8 @@ Below you see when the parameter in the script of the pipeline is changed. The t
    12. I added a sample perturbation_test using DVC, to accommodate for future robustness of models when data is corrupted.
 
     .github/workflows/perturbation_test.yaml 
+
+
 
 ## Further Development: 
    * Terraform for multiple application deployment and application life cycle. 
