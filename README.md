@@ -1,5 +1,6 @@
 ## Getting Started:
-
+    Every installation is based on makefile. however you can also see the make file
+    and run the commands separately.
 Installation:
     
     make install-dev (for development)
@@ -11,11 +12,14 @@ Installation:
     make install-gcp
     (install google cloud services)
 
-
 Sync models between GCP and local:
    
-    make sync models-local
-    make sync models-gcp
+    make sync-models-local
+    make sync-models-gcp
+
+Sync logs:
+    
+    make sync-logs
 
 Run:
      
@@ -30,7 +34,6 @@ spin off the django server.
 
 (run all core services on docker with gpu)
 
-
 Precommit:
 
     make install-precommit
@@ -38,7 +41,6 @@ Installs precommit.
 
     make run-precommit
 runs precommit.
-
 
 ## Changes Made: Why?
    
