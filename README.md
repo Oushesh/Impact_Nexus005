@@ -138,9 +138,17 @@ It consists of Services with the following directories. In General it's a django
 ## Services in Action:
     
 1. The previous pipeline misses a lot on data quality check, data-imbalancement, data drifts, labels-drift.
-
+    DeepCheck is really good framework that integrates lots of checks. 
+    
+    
     Endpoint: Services/services_app/api/routers/incoming_data_deepcheck.py
+    Choose data <postprocessed_data>: Services/services_app/JOBS/classification/target/dfg..*.csv   
 
+This service will compute all important properties of the input data ready for a JOB: classification.
+Remember: data is always processed for a given job. Example here: 
+
+    add train_test_split + polarity (class for classification) --> job classification, entity recognition, etc...
+    
 ![DeepCheck](docs/DeepCheck_001.png)
 ![DeepCheck](docs/DeepCheck_002.png)
 ![DeepCheck](docs/DeepCheck_003.png)
@@ -169,44 +177,83 @@ It consists of Services with the following directories. In General it's a django
 
 
 2. Knowledgebase Service:
-    Endpoint: Services/services_app/api/routers/build_knowledgebase
-    Input: <Path to Knowledgebase>
-    Output: <JSONL of the entire database as knowledgebase>
+    
+    
+    make run
+
+
+Endpoint: 
+    
+    Services/services_app/api/routers/build_knowledgebase
    
-    I complment the idea of using NeoJS. Its a good decision.
+Input: 
+
+    <Path to Knowledgebase> e.g. enter "Knowledgebase"
+
+Output: 
+
+    <JSONL of the entire database as knowledgebase>
+
+I complment the idea of using NeoJS. Its a good decision.
     
 3. Data Optimisation
 
 
-    Endpoint: Services/services_app/api/routers/parquet_conversion_service
+Endpoint: 
+        
+    Services/services_app/api/routers/parquet_conversion_service
     
-       Input: <Path to Local Folder containing Knowledgebase>
-       Output: <optimised KnowledgeBaseParquet> 
+Input: 
+    
+    <Path to Local Folder containing Knowledgebase> e.g. Knowledgebase
+       
+
+Output: <optimised KnowledgeBaseParquet> 
     
        Its a service that can be easily deployed and added to data optimisation pipeline. (see cost and advantages below: Data Costs and Scalability)
 
 ![KnowledgeBase](docs/BuildKnowledgeBase.gif)
 
+It go through the subfolders of the data maintaining the integrity of the folder strucuture,
+read every file in:
+    
+    json,xml, csv, tsv,xlsx,txt
+
+format and fill any empty rows, check for NaN values and produce apache parquet files  in the 
+same folder structure as the input. This can in turn be synced to a cloud bucket. eg. GCP Bucket or s3.
 
 4.  Classification JOB Transformation Service
-    Endpoint: Services/services_app/routers/process_file.py
     
-    Input: <Path to file corresponding to job>
-    Ouput: <Processed file ready for semantic analysis Job> 
+Endpoint: 
+
+    Services/services_app/routers/process_file.py
     
-    This endpoint is really dynamic: it take any file .csv or best optimised parquet and since emotional/sentiment
+Input: 
+    
+    <Path to file corresponding to job>
+    
+Ouput: 
+
+    <Processed file ready for semantic analysis Job> 
+    
+This endpoint is really dynamic: it take any file .csv or best optimised parquet and since emotional/sentiment
     analysis can be a multivariate problem: user can select the input from the table and output label is added along
     with train_test split. The other columns are treated as metadata and can be used to further enhance classification.
     
-    This is JOB Transformation service.
+This is JOB Transformation service.
     The NLP Jobs required in this project are classification and language modelling. 
    
-    The raw Data can be synced with Google Bucket live and the transformed Data in a different bucket. The data transformation
-    is dependent on the JOB here defined under: "Services/services_app/JOBS/Classification/source"
+The raw Data can be synced with Google Bucket live and the transformed Data in a different bucket. The data transformation
+    is dependent on the JOB here defined under: 
+
+    "Services/services_app/JOBS/Classification/source"
 
 
+Under:
+    
+    "Services/services_app/JOBS/LanguageModelling" 
 
-    Under "Services/services_app/JOBS/LanguageModelling" all the functions that compute co-coccurence matrix or simply
+all the functions that compute co-coccurence matrix or simply
     any bayesian method primitive language model can be written and served under one endpoint. The language model
     is then saved under: Google Bucket or any S3 or Athena. My Buckets are under:
 
@@ -235,12 +282,21 @@ In perspective:
      https://wandb.ai/concular/deepchecks?workspace=user-oushesh
      https://deepchecks.com/
 
-    Below see endpoint (Services/services_app/routers/deepcheck) proviing insights 
+   Below see endpoint (Services/services_app/routers/deepcheck) proviing insights 
     on a processed data for a classification job.
 
-    Raw Data: Services/services_app/JOBS/Classification/source
-    Processed Data: Services/services_app/JOBS/target/..*.csv
-    (the endpoint used for this: Services/services_app/api/routers/data_processor_classification_job.py)
+Raw Data: 
+    
+    Services/services_app/JOBS/Classification/source
+
+Processed Data: 
+
+    Services/services_app/JOBS/target/..*.csv
+    
+Endpoint: 
+    
+    Services/services_app/api/routers/data_processor_classification_job.py)
+
 ![wandb_DeepChecks_001](docs/DeepChecks_001.gif)
 ![wandb_DeepChecks_002](docs/DeepChecks_002.gif)
 ![wandb_DeepChecks_003](docs/DeepChecks_003.gif)
@@ -255,7 +311,7 @@ Pipeline Example here:
 
 ![Data_incoming_check_pipeline](docs/DeepCheck_Embedding_Service.png)
 
-    This endpoint can be served as a lambda function on AWS or any online platform. It
+This endpoint can be served as a lambda function on AWS or any online platform. It
     would sync upon new incoming data and perform the transformation for the job as 
     well as run the Embeddings to check for Data Drift, label drift, new words, percentage of 
     new characters thus check if new Data domain is shifted too much even before training starts.
