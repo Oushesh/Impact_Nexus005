@@ -99,11 +99,8 @@ wandb
 dvc
 google-cloud-logging
 google-cloud-storage
-elastic search-haystack
 requests_toolbelt==0.1.0
 textblob==0.17.1
 seqeval==1.2.2
-umap
-map-learn
 haystack==0.42
 scikit-learn
